@@ -1,0 +1,89 @@
+# Project information
+site_name: Landesstatistiken
+site_description: 'Landesstatistiken'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.ls.stueber.de'
+
+# Copyright
+copyright: © 2019 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'Auf GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.ls.de'
+
+# Theming
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: de
+    direction:
+    feature:
+        tabs: false
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+
+# Plugins    
+plugins:
+    - search
+    - img2fig
+    
+# Extensions    
+markdown_extensions:
+    - admonition
+  
+# Navigation  
+nav:
+- Überblick:
+  - Einführung: index.md
+  - Das Statistikkonzept: statistikkonzept.md
+  - Das MAGELLAN Data Warehouse: das-datawarehouse.md
+  - Schlüsselverzeichnisse: schluesselverzeichnisse.md
+  - Datenprüfung: datenpruefung.md
+  - Legende der Statistikfeldtabellen: legende-statistikfelder.md
+- Bayern:
+  - WinLD und AS: bayern/winld.md
+  - BBS Statistik: bayern/bbs.md
+- Berlin:
+  - ABS und BBS: berlin/abs+bbs.md
+- Brandenburg:
+  - ABS und BBS: brandenburg/abs+bbs.md
+- Mecklenburg-Vorpommern:
+  - SIP: mecklenburg-vorpommern/sip.md
+- Niedersachsen:
+  - ABS: niedersachsen/abs.md
+  - BBS: niedersachsen/bbs.md
+- Nordrhein-Westfalen:
+  - ABS und BBS: nordrhein-westfalen/abs+bbs.md
+  - Schüler- und Klassendaten (SIM.TXT): nordrhein-westfalen/schuelerdaten.md
+  - Lehrerdaten (LEHRER.TXT): nordrhein-westfalen/lehrerdaten.md
+  - Abiturdaten (ABI.TXT): nordrhein-westfalen/abiturdaten.md
+  - Stundenplandaten (EXTERN.DAT): nordrhein-westfalen/stundenplandaten.md
+  - Aktuelle Version: nordrhein-westfalen/changelog.md
+  - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
+- Rheinland-Pfalz:
+  - ABS und BBS: rheinland-pfalz/abs+bbs.md
+  - Schüler- und Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md
+  - Lehrerdaten: rheinland-pfalz/lehrerdaten.md
+  - Aktuelle Version: rheinland-pfalz/changelog.md
+- Saarland:
+  - ABS und BBS: saarland/abs+bbs.md
+- Sachsen:
+  - BBS: sachsen/sachsen.md
+- Schleswig-Holstein:
+  - ABS und BBS: schleswig-holstein/abs+bbs.md
+  - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
+  - Aktuelle Version: schleswig-holstein/changelog.md

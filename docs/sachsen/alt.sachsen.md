@@ -10,7 +10,7 @@ Die Schnittstelle zum Erstellen der Datei wird erst mit Version 7 zur Verfügung
 
 ## Notwendige Schritte
 
-1. Schritt:  [Schlüsselverzeichnisse importieren](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse.html) 
+1. Schritt:  [Schlüsselverzeichnisse importieren](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse/) 
 2. Schritt: Statistisch relevante Daten in MAGELLAN eingeben
 3. Schritt: Statistikdaten erstellen
 
@@ -19,7 +19,7 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 ## Statistikschlüssel aktualisieren
 
 Das Statistikamt gibt jährlich aktualisierte Schlüssel für die Landesstatistik heraus. Mit der Ausgabe 6.5.20 von MAGELLAN wurde ein neuer Satz Importdateien für Schlüsselverzeichnisse hinterlegt, die Sie bitte nach MAGELLAN importieren.
-Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse.html).
+Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse/).
 
 
 
@@ -143,7 +143,7 @@ Beschreibung| `MAGELLAN > Schüler > Daten 2 > Ndh`<br/> Wenn Migrationshintergr
 **Statistikfeld**| **... > saxsvs-bbs > schueler > migration > an_migr_dat** 
 Beschreibung| `MAGELLAN > Schüler > Statistik > MerkmalU2`
 **Statistikfeld**| **... > saxsvs-bbs > schueler > migration > an_migr_daz** 
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Maßnahme/Bedarf` <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen, eine davon muss den Wert DAZ-3 haben. <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Maßnahme/Bedarf` <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen, eine davon muss den Wert DAZ-3 haben. <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > al_kennziffer** 
 Beschreibung| `MAGELLAN > Klassen > Daten > Schulform [BS_Schulformen]`<br/>`MAGELLAN > Schüler > Ausbildung > Bildungsgang [BS_Bildungsgaenge]`
 **Statistikfeld**| **... > saxsvs-bbs > schueler > al_schulart** 
@@ -157,21 +157,21 @@ Beschreibung| `MAGELLAN > Schüler > Zugang / Abgang > Voraus. Ende`
 **Statistikfeld**| **... > saxsvs-bbs > schueler > al_laufb_kl** 
 Beschreibung| `MAGELLAN > Schüler > Auswahl > Klasse`
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderungen > af_int > schluessel** 
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Maßnahme/Bedarf [BS_SopaedFoerderungen]`<br/> <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Maßnahme/Bedarf [BS_SopaedFoerderungen]`<br/> <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderungen > af_int > extern_id** 
-Beschreibung| `Wert (S1060) wird von MAGELLAN automatisch eingetragen.`<br/> <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `Wert (S1060) wird von MAGELLAN automatisch eingetragen.`<br/> <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderung > af_int_von**
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Von`<br/> <br/>  Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Von`<br/> <br/>  Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderung > af_int_bis**
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Bis`<br/> <br/>  Mehrere Einträge ab Magellan 7:<br/> Liste der Förderungen<br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Bis`<br/> <br/>  Mehrere Einträge ab Magellan 7:<br/> Liste der Förderungen<br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderung > af_int_rs_std**
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Stunden 1`<br/> <br/>  Mehrere Einträge ab Magellan 7: Liste der Förderungen<br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Stunden 1`<br/> <br/>  Mehrere Einträge ab Magellan 7: Liste der Förderungen<br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderung > af_int_fs_std**
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Stunden 2`<br/> <br/>  Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Stunden 2`<br/> <br/>  Mehrere Einträge ab Magellan 7: Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderung > af_int_foerdersw > schluessel**
-Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/> <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen<br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/> <br/> Mehrere Einträge ab Magellan 7: Liste der Förderungen<br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > foerderung > af_int_foerdersw > extern_id**
-Beschreibung| `Wert (S1075) wird von MAGELLAN automatisch eingetragen.`<br/> <br/>  Mehrere Einträge ab Magellan 7:Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen.html#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+Beschreibung| `Wert (S1075) wird von MAGELLAN automatisch eingetragen.`<br/> <br/>  Mehrere Einträge ab Magellan 7:Liste der Förderungen <br/>Bitte lesen Sie den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.ls.stueber.de/sachsen/sachsen/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 
 
 ## Statistikdaten erstellen

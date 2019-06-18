@@ -9,7 +9,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen in 
 
 Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 
-Aktuelle Änderungen zur Statistik 2018/2019 sehen Sie [**hier!**](https://doc.ls.stueber.de/rheinland-pfalz/changelog.html)
+Aktuelle Änderungen zur Statistik 2018/2019 sehen Sie [**hier!**](https://doc.ls.stueber.de/rheinland-pfalz/changelog/)
 
 
 ## Einführung
@@ -47,11 +47,11 @@ Lesen Sie folgende Punkte aufmerksam durch. Punkte, die nur für Gymnasien\/Gesa
 ## Notwendige Schritte
 
 
-1. Schritt:[Schlüsselverzeichnisse importieren, PLZs aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse.html). Bitte beachten Sie den Abschnitt "Besonderheiten 2018/2019" am Ende der Beschreibung!
+1. Schritt:[Schlüsselverzeichnisse importieren, PLZs aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/). Bitte beachten Sie den Abschnitt "Besonderheiten 2018/2019" am Ende der Beschreibung!
 2. Schritt: Statistisch relevante Daten in daVinci bzw. Magellan eingeben
 3. Schritt: Kurswahlen von daVinci nach Magellan übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
 4. Schritt: Statistikdaten aus daVinci exportieren
-5. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung.html)
+5. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 6. Schritt: Statistikdaten erstellen.    
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
@@ -59,11 +59,11 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 ## Statistikschlüssel aktualisieren
 
 Das Statistikamt gibt jährlich aktualisierte Schlüssel für die Landesstatistik heraus. Die aktuellen Schlüssel des Statistikamtes finden Sie auf der gemeinsamen Veröffentlichungsplattform von Schulaufsicht und amtlicher Statistik \(www.egsch.bildung-rp.de\).
-Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse.html).
+Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse/).
 
 > #### warning::Wichtig!
 >
-> In diesem Jahr müssen bitte zusätzlich  die Postleitzahlen neu eingelesen werden. Im Anschluss müssen die Gemeinden synchronisiert werden, eine Anleitung finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse.html)!
+> In diesem Jahr müssen bitte zusätzlich  die Postleitzahlen neu eingelesen werden. Im Anschluss müssen die Gemeinden synchronisiert werden, eine Anleitung finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse/)!
 
 
 ## Stundenplandaten
@@ -458,7 +458,7 @@ Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der
 4.	Klicken Sie auf ```OK```. Es erscheint ein Dialogfenster mit Fortschrittsanzeige, warten Sie bis die Aktion beendet wurde, um die Dialogfenster zu schließen.
 
 Danach können die Schlüsselverzeichnisse auf dem üblichen Wege aktualisiert werden. 
-[Bitte schauen Sie hier.](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse.html)
+[Bitte schauen Sie hier.](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse/)
 
 
 **Einzelne Schüler von der Statistik ausschließen** 
@@ -473,7 +473,7 @@ Sie können den Schlüssel auch manuell anlegen, wechseln Sie dazu zm Punkt Verz
 
 
 **Neue Berufskennzahlen**
-Durch die Umstellung der Berufskennzahlen in ein neues System, müssen alle bestehenden Berufsschlüssel in MAGELLAN ausgetauscht werden. Dies sollten Sie vor dem Import der neuen Schlüsselverzeichnisse gemacht haben. Bitte lesen Sie dazu den Abschnitt [Berufskennziffern austauschen](https://doc.ls.stueber.de/rlp/rheinland-pfalz_-_abs_und_bbs.html#berufskennziffern-austauschen).
+Durch die Umstellung der Berufskennzahlen in ein neues System, müssen alle bestehenden Berufsschlüssel in MAGELLAN ausgetauscht werden. Dies sollten Sie vor dem Import der neuen Schlüsselverzeichnisse gemacht haben. Bitte lesen Sie dazu den Abschnitt [Berufskennziffern austauschen](https://doc.ls.stueber.de/rlp/rheinland-pfalz_-_abs_und_bbs/#berufskennziffern-austauschen).
 
 **Kreisgebietsreform**
 Ab diesem Jahr gibt es einen gesonderten Postleitzahlen-Import für Rheinland-Pfalz im MAGELLAN-Administrator unter Datenimport > Postleitzahlen importieren. Importieren Sie die aktuellen Postleitzahlen und anschließend das Gemeindeverzeichnis über die Auswahl Ihres Bundeslandes. Damit erhalten Sie die aktuellen Umschlüsselungen der Verbands-gemeinden durch die Kreisgebietsreform.

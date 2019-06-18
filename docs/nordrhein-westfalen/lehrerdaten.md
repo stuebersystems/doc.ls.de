@@ -1,6 +1,6 @@
 # Lehrerdaten der LEHRER.TXT
 
-[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs.html#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
 
 MAGELLAN benötigt zur Erzeugung der LEHRER.TXT Stundendaten aus DAVINCI 6.
 

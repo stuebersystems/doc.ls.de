@@ -1,7 +1,7 @@
 # Abiturdaten der ABI.TXT
 
 
-[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs+bbs.html#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs.html#voraussetzungen-für-alle-statistikdaten)
 
 
 | Art           | Inhalt                                   |

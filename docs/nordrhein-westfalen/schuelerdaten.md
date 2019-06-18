@@ -1,6 +1,6 @@
 # Schüler- und Klassendaten der SIM.TXT 
 
-[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs+bbs.html#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs.html#voraussetzungen-für-alle-statistikdaten)
 
 
 
@@ -82,7 +82,7 @@
 | Datenfeld     | -                                        |
 | Beschreibung  | Wird nicht erfasst, da es z.zt. nicht von der ASDPC-Schnittstelle statistisch ausgewertet wird<br/>Quelle: [Schnittstellenbeschreibung ASDPC](https://schulverwaltungsprogramme.msb.nrw.de/zbwschul.pdf) |
 | **Statistikfeld** | **Betriebsort**                              |
-| Datenfeld     | Der Betriebsort ist nicht 1:1 die Ausgabe des Eintrages im Feld `Ort` des Betriebes. Es wird unterschieden zwischen der Schulform, den Ländern Belgien, den Niederlanden, Luxemburg oder dem weiteren Ausland. Innerhalb von Deutschland wird differenziert zwischen NRW und weiteren Bundesländern. Daher müssen zum Auswerten die nachfolgenden Felder korrekt gefüllt sein.<br/> MAGELLAN:<br>[Mandant > Daten2 > Schulformen (BK oder SB, jeweils als erstes in der Liste der Mandantenschulformen)](https://doc.ls.stueber.de/nordrhein-westfalen/abs+bbs.html#voraussetzungen-für-alle-statistikdaten)<br/>Betriebe > Daten 1 > Ort<br>Betriebe > Daten 1 > Land (D,L,B,NL oder abweichende Länderkürzel)<br>Betriebe > Daten 1 > Gemeinde (nur fürs Inland zu füllen)<br/>Schüler > Ausbildung > Ausbildungsbetrieb <br/>[eine aktuelle Ausbildung wird anhand der Von-Bis-Daten der Ausbildung und dem Zeitraum-Von-Bis-Daten identifiziert] |
+| Datenfeld     | Der Betriebsort ist nicht 1:1 die Ausgabe des Eintrages im Feld `Ort` des Betriebes. Es wird unterschieden zwischen der Schulform, den Ländern Belgien, den Niederlanden, Luxemburg oder dem weiteren Ausland. Innerhalb von Deutschland wird differenziert zwischen NRW und weiteren Bundesländern. Daher müssen zum Auswerten die nachfolgenden Felder korrekt gefüllt sein.<br/> MAGELLAN:<br>[Mandant > Daten2 > Schulformen (BK oder SB, jeweils als erstes in der Liste der Mandantenschulformen)](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs.html#voraussetzungen-für-alle-statistikdaten)<br/>Betriebe > Daten 1 > Ort<br>Betriebe > Daten 1 > Land (D,L,B,NL oder abweichende Länderkürzel)<br>Betriebe > Daten 1 > Gemeinde (nur fürs Inland zu füllen)<br/>Schüler > Ausbildung > Ausbildungsbetrieb <br/>[eine aktuelle Ausbildung wird anhand der Von-Bis-Daten der Ausbildung und dem Zeitraum-Von-Bis-Daten identifiziert] |
 | Beschreibung  | Nur für BBS:<br/>Tragen Sie zu jedem Betrieb die vollständige Adresse ein.<br/>Wählen Sie für den Schüler einen Ausbildungsbetrieb aus. |
 | **Statistikfeld** | **LSSchulform**                              |
 | Datenfeld     | MAGELLAN:<br/>Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schule<br/>Zugang/Abgang > Bereits besuchte Schulen > Schulform[Schulformen]<br/>Schüler > Zugang/Abgang > Herkunftsschule |

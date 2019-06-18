@@ -58,16 +58,16 @@ nav:
   - WinLD und AS: bayern/winld.md
   - BBS Statistik: bayern/bbs.md
 - Berlin:
-  - ABS und BBS: berlin/abs+bbs.md
+  - ABS und BBS: berlin/abs-bbs.md
 - Brandenburg:
-  - ABS und BBS: brandenburg/abs+bbs.md
+  - ABS und BBS: brandenburg/abs-bbs.md
 - Mecklenburg-Vorpommern:
   - SIP: mecklenburg-vorpommern/sip.md
 - Niedersachsen:
   - ABS: niedersachsen/abs.md
   - BBS: niedersachsen/bbs.md
 - Nordrhein-Westfalen:
-  - ABS und BBS: nordrhein-westfalen/abs+bbs.md
+  - ABS und BBS: nordrhein-westfalen/abs-bbs.md
   - Schüler- und Klassendaten (SIM.TXT): nordrhein-westfalen/schuelerdaten.md
   - Lehrerdaten (LEHRER.TXT): nordrhein-westfalen/lehrerdaten.md
   - Abiturdaten (ABI.TXT): nordrhein-westfalen/abiturdaten.md
@@ -75,15 +75,15 @@ nav:
   - Aktuelle Version: nordrhein-westfalen/changelog.md
   - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
 - Rheinland-Pfalz:
-  - ABS und BBS: rheinland-pfalz/abs+bbs.md
+  - ABS und BBS: rheinland-pfalz/abs-bbs.md
   - Schüler- und Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md
   - Lehrerdaten: rheinland-pfalz/lehrerdaten.md
   - Aktuelle Version: rheinland-pfalz/changelog.md
 - Saarland:
-  - ABS und BBS: saarland/abs+bbs.md
+  - ABS und BBS: saarland/abs-bbs.md
 - Sachsen:
   - BBS: sachsen/sachsen.md
 - Schleswig-Holstein:
-  - ABS und BBS: schleswig-holstein/abs+bbs.md
+  - ABS und BBS: schleswig-holstein/abs-bbs.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
   - Aktuelle Version: schleswig-holstein/changelog.md

@@ -1,6 +1,6 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/l9mooqqcuc2sw12a?svg=true)](https://ci.appveyor.com/project/stueber/doc-ls-de)
+[![Build status](https://ci.appveyor.com/api/projects/status/qbn7g4dk3qotwdyu?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-de)
 
-# Landesstatistiken
+# MAGELLAN 7 Datenstruktur
 
 Dies ist die deutsche Dokumentation zu den von [MAGELLAN](https://magellan.stueber.de) und [DAVINCI](https://davinci.stueber.de) unterstützten Landesstatistiken. Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
 

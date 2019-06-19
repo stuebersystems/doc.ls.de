@@ -1,7 +1,7 @@
 
 # Niedersachsen - BBS
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ## Grundsätzlich
 
@@ -36,7 +36,7 @@ Die grundlegende Vorgehensweise zum Erstellen der Statistik ist die folgende:
 ##Statistikschlüssel aktualisieren
 
 
-Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](../magellan/schluessel-importieren.md).
+Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](https://doc.ls.stueber.de/schluesselverzeichnisse/).
 
 ## Stundenplandaten
 
@@ -45,7 +45,7 @@ Die Stundenplandaten werden ausschließlich von DAVINCI erzeugt. Dazu exportiert
 
 Die folgenden Angaben müssen in DAVINCI gemäß den offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel. 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Angabe gemäß Statistik	|Angabe in DAVINCI
 --|--
@@ -91,7 +91,7 @@ Die erzeugte Statistikdatei STD.TXT muss nach BBS-Planung importiert werden. Daz
 
 Die folgenden Angaben müssen bei Klassen in MAGELLAN gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Schülerdatei SIL.TXT erzeugt werden kann.
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Angabe gemäß Statistik	|Angabe in MAGELLAN|Anmerkung
 --|--|--
@@ -129,7 +129,7 @@ Organisation|	Ansicht > Klassen > Daten1 > Organisation
 
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Die folgenden Angaben müssen bei Schülern in MAGELLAN gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Abgängerdatei ABL.TXT erzeugt werden kann.
 
@@ -162,7 +162,7 @@ Diese Angaben beziehen sich auf das aktuelle Schulhalbjahr (1. HJ. 2002/2003).
 ###Angaben in MAGELLAN
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Die folgenden Angaben müssen bei Lehrern in MAGELLAN gemacht werden, damit die Lehrerdatei LV.TXT erzeugt werden kann.
 
@@ -193,7 +193,7 @@ Funktionsstelle|Ansicht > Lehrer > Merkmale > MerkmalA2
 ###Angaben in DAVINCI
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Die folgenden Angaben müssen bei der Lehrer-Soll-Berechnung pro Lehrer in DAVINCI gemacht werden, damit die Lehrerdatei LV.TXT erzeugt werden kann.
 

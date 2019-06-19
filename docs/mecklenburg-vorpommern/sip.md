@@ -13,7 +13,7 @@ Für Sie als Schule bedeutet dies: Sie müssen die folgende XML-Datei über das 
 xxxxx_[DATUM].xml 
 Hierbei steht xxxxx für Ihre Schulnummer und [DATUM] für das aktuelle Datum.
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ### Notwendige Schritte
 
@@ -22,7 +22,7 @@ Hierbei steht xxxxx für Ihre Schulnummer und [DATUM] für das aktuelle Datum.
 2. Schritt: Statistisch relevante Daten in daVinci bzw. Magellan eingeben
 3. Schritt: Kurswahlen von daVinci nach Magellan übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
 4. Schritt: Statistikdaten aus daVinci exportieren
-5. Schritt: [Datenprüfung](../datenpruefung.md)
+5. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 6. Schritt: Statistikdaten erstellen.    
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
@@ -68,7 +68,7 @@ Sie müssen nun die Meldungen in MAGELLAN bearbeiten und dann erneut eine Datenp
 
 ## Fremdsprachen
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSpracheArtID aus kombinierten Einträgen aus den Feldern Schüler|Daten3|Fremdsprachen|Status und Zusatz berechnet. Nachfolgend finden Sie die Übersicht der möglichen Eintragungen:
@@ -159,7 +159,7 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
 ## Besonderheiten Statistik
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 ### Besonderheiten Statistik 2014/2015
@@ -249,7 +249,7 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
 ## Schuldaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 <table class="table">
@@ -644,7 +644,7 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
 ## Schülerdaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 <table class="table">
@@ -1289,7 +1289,7 @@ Schule > Schueler > SchuelerUe >   GueltigBis</th>
 ## Lehrerdaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 <table class="table">
 <caption></caption>
@@ -1594,7 +1594,7 @@ Schule > Lehrer > StundenAbgabe >  GueltigBis</th>
 # Nicht-Schülerdaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 <table class="table">

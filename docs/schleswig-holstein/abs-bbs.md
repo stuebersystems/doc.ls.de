@@ -29,7 +29,7 @@ Notwendige Schritte:
 3. Schritt: Kurswahlen (nur für Gymnasien/Gesamtschulen mit Oberstufe) 
 4. Schritt: Lehrer (Soll-Ist-Berechnung) von DAVINCI nach MAGELLAN übertragen 
 5. Schritt: Statistikdaten aus DAVINCI exportieren
-6. Schritt: [Datenprüfung](../datenpruefung.md)
+6. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 7. Schritt: Statistikdaten erstellen
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
@@ -87,7 +87,7 @@ So exportieren Sie Daten aus DAVINCI:
 
 ## Besonderheiten
 
-Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ### Zur Statistik 2016/2017
 
@@ -98,7 +98,7 @@ Zur aktuellen Statistik existieren derzeit keine Besonderheiten.
 
 ### Schuldaten
 
-Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 <table class="table">
   <thead>
@@ -228,7 +228,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistik
 ### Schülerdaten und Klassendaten
 
 
-Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 <table class="table">
   <thead>

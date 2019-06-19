@@ -1,6 +1,6 @@
 ## Besonderheiten Archiv
 
-Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ## Zur Statistik 2016/2017
 

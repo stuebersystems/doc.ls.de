@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen im 
 
 > Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 
-> Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+> Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ## Einführung
 

@@ -1,18 +1,14 @@
-#  WinLD und ASV
+# WinLD und ASV
 
 
 DAVINCI kann die Daten für die bayerische Landesstatistik exportieren.
 
-
-## So gehen Sie vor: 
+## So gehen Sie vor:
 
 
 1. Importieren Sie ``Plan > Importieren und Exportieren > Statistikdaten importieren`` und dann mit ``Bayern ASV importieren`` oder mit ``Bayern WinLD importieren`` die entsprechenden Vorgabedaten.
 2. Erstellen Sie in DAVINCI den Stundenplan.
 3. Exportieren Sie mit ``Plan > Importieren und Exportieren > Statistikdaten exportieren`` und dann mit ``Statistik Bayern (ASV) exportieren`` oder mit ``Statistik Bayern (WINLD) exportieren`` die entsprechenden Daten.
-
-
-
 
 
 ## Beispiel für exportierte WinLD-Datei:

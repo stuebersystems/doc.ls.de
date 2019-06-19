@@ -14,7 +14,7 @@ So exportieren Sie in DAVINCI 6 die Statistikdaten zur Erzeugung der LEHRER.TXT 
 6. In der Maske bei der Auswahl geben Sie im unteren Eingabefeld den Pfad zur exportierten DAVINCI Exportdatei an, diese wird von MAGELLAN dann eingelesen und für die LEHRER.TXT ausgewertet.
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 | Statistikfeld in  der Statistikdatei   | Datenfeld in  MAGELLAN/DAVINCI           | Beschreibung                             |

@@ -34,7 +34,7 @@ Eine DAVINCI Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, d
 
 1.	Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md) 
 2.	Schritt: Dateneingabe
-3.	Schritt: [Datenprüfung](../datenpruefung.md)
+3.	Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 4.	Schritt: Statistikdateien erstellen
 
 Diese Schritte werden nachfolgend ausführlich erklärt.

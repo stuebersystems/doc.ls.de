@@ -1,6 +1,6 @@
 # Niedersachsen - ABS
 
-> Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+> Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ## Grundsätzliches
 
@@ -20,9 +20,9 @@ Die erzeugten Dateien können dann in das Statistikprogramm izn-Stabil importier
 ##Notwendige Schritte
 
 
-1.	Schritt: [Statistikschlüssel aktualisieren](../magellan/schluessel-importieren.md) 
+1.	Schritt: [Statistikschlüssel aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/) 
 2.	Schritt: Dateneingabe
-3.	Schritt: [Datenprüfung](../datenpruefung.md)
+3.	Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 4.	Schritt: Statistikdateien erstellen
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
@@ -31,7 +31,7 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 ##Statistikschlüssel aktualisieren
 
 
-Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](../magellan/schluessel-importieren.md).
+Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](https://doc.ls.stueber.de/schluesselverzeichnisse/).
 
 
 
@@ -134,7 +134,7 @@ Wenn Sie nur eine Lizenz von MAGELLAN besitzen, dürfen Sie nur die Datei KLIMP.
 ##Allgemeine Daten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 Datenfeld in MAGELLAN/DAVINCI 	|Beschreibung	|tatistikdatei|	Typ
@@ -144,7 +144,7 @@ MAGELLAN:Mandanten > Daten 1 > Schulnummer|	Geben Sie hier Ihre 5-stellige Schul
 ## Schüler- und Klassendaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Datenfeld in    MAGELLAN/DAVINCI|Beschreibung|Statistikdatei|Typ
 --|--|--|--
@@ -174,7 +174,7 @@ DAVINCI-Stundenplan Veranstaltungsliste|Die Anzahl der Lerngruppen und deren jew
 ## Lehrerdaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+>Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Datenfeld in   MAGELLAN/DAVINCI|Beschreibung|Statistikdatei|Typ
 --|--|--|--

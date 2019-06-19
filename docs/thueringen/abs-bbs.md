@@ -90,7 +90,7 @@ Die Schlüssel und Bezeichnungen für die Bildungsgänge und Fachrichtungen wurd
 # Schüler und Klassendaten
 
 
-Die Legende zu den nachstehenden Tabellen finden Sie [HIER](../legende-statistikfelder.md).
+Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 <table class="table">
 <caption></caption>

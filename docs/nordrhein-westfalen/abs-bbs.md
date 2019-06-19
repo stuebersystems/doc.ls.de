@@ -1,13 +1,9 @@
 # Nordrhein-Westfalen - ABS und BBS
 
-
 Das Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen fordert mehrmals im Jahr eine statistische Erhebung von den Schulen.
 Mit dem Landesstatistik-Modul können Sie die benötigten Statistikdaten direkt aus MAGELLAN und DAVINCI in die Dateien für den Datenaustausch mit dem Programm ASDPC des Schulministeriums exportieren.
 
-
-
-# Einführung
-
+## Einführung
 
 Der Export kann jederzeit für das aktuelle Halbjahr auf Basis der Daten in MAGELLAN in elektronischer Form vorgenommen werden. Die Statistikdaten werden wie gefordert im Dateiformat aus MAGELLAN erzeugt.
 Für Sie als Schule bedeutet dies: Sie müssen die folgenden Textdateien je nach Schulart in das entsprechende Statistikprogramm importieren: 
@@ -21,21 +17,23 @@ EXTERN.DAT|nur DAVINCI-Daten aus dem Export für „ASDPC/EXTERN.DAT“|[EXTERN.
 
 Hierbei steht xxxxx für Ihre Schulnummer und YYYYMMDD für das Erstellungsdatum der Datei.
 
->Sie müssen die xxxxx_SIM_YYYYMMDD.TXT für den Import in ASDPC vorher in SIM.TXT umbenennen, da sonst ASDPC die Datei nicht annimmt.
+!! info "Hinweis"
+
+    Sie müssen die xxxxx_SIM_YYYYMMDD.TXT für den Import in ASDPC vorher in SIM.TXT umbenennen, da sonst ASDPC die Datei nicht annimmt.
 
 Die Datei SIM.TXT wertet Daten aus dem aktuellen Halbjahr (1. Halbjahr 2018/2019), sowie dem gesamten vorangehenden Schuljahr (1. und 2. Halbjahr 2017/2018) aus. Die Schnittstelle kann sowohl für die Haupterhebung im Herbst wie auch für die Halbjahreserhebung genutzt werden. Im Unterschied zur Haupterhebung ist für die Halbjahreserhebung nur die Datei SIM.TXT zu erzeugen.
 
-## DAVINCI-LIZENZ?
+## DAVINCI-LIZENZ ?
 
 Eine DAVINCI Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, da diese Stundenplandaten enthalten. Jede Datei kann einzeln erzeugt werden, somit benötigen Sie z.B. kein DAVINCI wenn Sie lediglich die SIM.TXT oder die ABI.TXT erzeugen möchten.
 
 ## Notwendige Schritte
 
 
-1.	Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md) 
-2.	Schritt: Dateneingabe
-3.	Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
-4.	Schritt: Statistikdateien erstellen
+1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md) 
+2. Schritt: Dateneingabe
+3. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
+4. Schritt: Statistikdateien erstellen
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
@@ -43,13 +41,9 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 
 Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](../schluesselverzeichnisse.md).
 
-
-
-# Voraussetzungen für alle Statistikdaten
-
+## Voraussetzungen für alle Statistikdaten
 
 Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden.
-
 
 
 | Statistikfeld in der Statistikdatei | Datenfeld in MAGELLAN/DAVINCI            | Beschreibung                             |
@@ -58,9 +52,9 @@ Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen
 | Pruefstatus (ABI.TXT)               | MAGELLAN:<br/>`Schüler > Abschluss > Abschluss 1 > Abschlussart` | Für Berufskollegs: <br/>Es werden nur Schüler in der ABI.TXT berücksichtigt, die das Abitur bestanden haben und dementsprechend, das Statistikfeld Pruefstatus auf Wert 1 gesetzt haben. Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` |
 
 
-# Besonderheiten
+## Besonderheiten
 
-#### Verzeichnis Abgangsarten (BBS) / Abschlüsse Extern (BBS) / Abschlüsse Intern (BBS)
+### Verzeichnis Abgangsarten (BBS) / Abschlüsse Extern (BBS) / Abschlüsse Intern (BBS)
 
 
 
@@ -75,15 +69,7 @@ Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen
 | **5F**        | Berufs- und Mittl. Abschluss (FOS-Reife ohne Qualifikationsv./Berechtigung zum Besuch der gymn. OS)<br/>Zuvor: Berufsabschluss und Mittlerer Schulabschluss, FOS-Reife o. Qualifikationsvermerk(nur Hiberniakolleg) | Textänderung |
 | **5G**        | Berufs- und Mittl. Abschluss (FOS-Reife mit Qualifikationsv./Berechtigung zum Besuch der gymn. OS)<br/>Zuvor: Berufs- und Mittlerer Abschluss (Fachoberschulreife mit Qualifikationsvermerk) | Textänderung |
 
-
-
-
-
-
-#### Verzeichnis Schulformen (Herkunft) (ABS)
-
-
-
+### Verzeichnis Schulformen (Herkunft) (ABS)
 
 | Schlüssel | Bezeichnung                              | Änderung     |
 |-----------|------------------------------------------|--------------|
@@ -114,12 +100,10 @@ Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen
 | **E13**       | Fachschule (3-jährig, Teilzeit)<br/>Zuvor: BW 3j.; TZ (FS) | Textänderung |
 
 
+## 2015/2016
 
+### 00_Staatsangehoerigkeiten
 
-
-#### 2015/2016
-
-#### 00_Staatsangehoerigkeiten
 Bitte ändern Sie folgende Schlüssel manuell um, da das Statistikamt die Bedeutung der Schlüssel für dieses Jahr verändert hat.
 
 
@@ -127,21 +111,20 @@ Bitte ändern Sie folgende Schlüssel manuell um, da das Statistikamt die Bedeut
 |--------|-----------|--------------|
 | 465    | 465       | taiwanesisch |
 
+### Förderschwerpunkt2
 
-
-#### Förderschwerpunkt2
 Der 2. Förderschwerpunkt wurde in der Vergangenheit mangels passender Felder im Feld „Behinderung“ abgefragt. Dies ändert sich dieses Jahr. Sie müssen den 2. Förderschwerpunkt im neuen Feld „Schwerpunkt 2“ eintragen. 
 
 Wenn Sie bereits eingetragenen Werte im Feld „Behinderung“ haben, führen Sie bitte im MAGELLAN-Administrator den Punkt  ```„Datenbankpflege > Datenbank überprüfen >  NRW: Förderschwerpunkte umkopieren“``` aus. Dieser kopiert den Wert aus „Behinderung“ nach „Schwerpunkt 2“ und entfernt den Wert dann aus „Behinderung“.
 
 Achten Sie bitte darauf, dass dieser Vorgang erst nach dem Import der Schlüsselverzeichnisse durchgeführt werden darf.
 
-#### 2014/2015
+## 2014/2015
 
 
 Die Abiturstatistik enthielt noch einige Ungereimtheiten die korrigiert wurden. Es müssen für dieses Jahr entweder das zusätzliche Schlüsselverzeichnis „Abschlussarten“ importiert werden, oder die drei Werte werden manuell in MAGELLAN nachgetragen. Die fehlenden Schlüssel lauten wie folgt:
 
-##### 00_Abschlussarten
+### 00_Abschlussarten
 
 
 | Kürzel     | Schlüssel | Bezeichnung                 |
@@ -149,8 +132,3 @@ Die Abiturstatistik enthielt noch einige Ungereimtheiten die korrigiert wurden. 
 | ABI        | 1         | Abitur bestanden            |
 | Kein ABI   | 2         | Abitur nicht bestanden      |
 | Keine Zul. | 3         | Nicht zum Abitur zugelassen |
-
-
-
-
-

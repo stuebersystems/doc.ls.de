@@ -14,13 +14,13 @@ Um den MAGELLAN-DWH Explorer zu starten, gehen Sie wie folgt vor:
 
 * Alternativ können Sie den `MAGELLAN-Data Warehouse-Explorer` auch direkt aus MAGELLAN starten. Gehen Sie dazu in MAGELLAN auf `Ansicht > Data Warehouse` und wählen Sie dann die Option `MAGELLAN-DWH Explorer starten`.
 
-![In MAGELLAN können Sie hier den MagellanDWHExplorer starten](images/DWH1.png)
+![In MAGELLAN können Sie hier den MagellanDWHExplorer starten](/assets/images/DWH1.png)
 
 ### Datenbestand betrachten
 
 Nach dem Start des MAGELLAN-DWH Explorers, können Sie den Datenbestand des MAGELLAN-Data Warehouses betrachten. Gehen Sie dazu auf `Ansicht > Archivierte Daten`. Alle Daten im MAGELLAN-Data Warehouse sind mit einem Zeitstempel versehen, der aus einem Anfangs- und Enddatum besteht. Dadurch können die im MAGELLAN-Data Warehouse archivierten Daten eindeutig den Zeiträumen in MAGELLAN zugeordnet werden. Um den Datenbestand zu betrachten, müssen Sie auf der Registerkarte `Auswahl` immer einen Mandanten und einen aktuellen Zeitpunkt auswählen, zu dem Sie die archivierten Daten betrachten möchten.
 
-![ Wählen Sie hier einen Mandanten und einen Zeitpunkt aus.](images/DWH2.png)
+![ Wählen Sie hier einen Mandanten und einen Zeitpunkt aus.](/assets/images/DWH2.png)
 
 ### Datenbestand auswerten
 

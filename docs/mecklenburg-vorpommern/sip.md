@@ -13,7 +13,10 @@ Für Sie als Schule bedeutet dies: Sie müssen die folgende XML-Datei über das 
 xxxxx_[DATUM].xml 
 Hierbei steht xxxxx für Ihre Schulnummer und [DATUM] für das aktuelle Datum.
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+
+!!! info "Hinweis"
+
+  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ### Notwendige Schritte
 
@@ -27,16 +30,15 @@ Hierbei steht xxxxx für Ihre Schulnummer und [DATUM] für das aktuelle Datum.
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
-# Statistikschlüssel aktualisieren
+## Statistikschlüssel aktualisieren
 
 Das Statistikamt gibt jährlich aktualisierte Schlüssel für die Landesstatistik heraus. Die aktuellen Schlüssel des Statistikamtes finden Sie auf der gemeinsamen Veröffentlichungsplattform von Schulaufsicht und amtlicher Statistik \(www.egsch.bildung-rp.de\).
 Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](../schluesselverzeichnisse.md).
 
-
-
 ## Statistisch relevante Daten eingeben
 
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang, in einer tabellarischen Übersicht. 
+
 ## Statistikdaten erstellen
 
 Die Erstellung der Statistikdateien werden zuerst alle erforderlichen Daten aus Magellan ausgelesen, dann wird eine Datenprüfung vorgenommen und danach die Daten in die XML-Datei gespeichert. 
@@ -44,6 +46,7 @@ Die Erstellung der Statistikdateien werden zuerst alle erforderlichen Daten aus 
 >Das Einlesen der Daten aus Magellan erfolgt bei jeder Art der Erstellung ohne Berücksichtigung der zu erstellenden Statistikdatei.
 
 Diese Prüfung ist eine Plausibilitätsprüfung, die beim Erstellen des Exports die zu exportierenden Werte mit den erwarteten Werten der SIP-Statistikschlüssel vergleicht und Ihnen Rückmeldung in Form von Hinweisen gibt, wenn ein Exportwert nicht mit einem Wert im Bereich der erwarteten Schlüssel passt.
+
 ## Datenprüfung und Export starten
 
 
@@ -56,19 +59,27 @@ Diese Prüfung ist eine Plausibilitätsprüfung, die beim Erstellen des Exports 
 6.	Auf der nächsten Seite erhalten Sie noch einmal eine Übersicht zum Datenexport. Klicken Sie auf ```Weiter```.
 7.	Klicken Sie auf ```Start```, um die Datenprüfung und Export der Daten zu starten.
  
->Sie können nur bedingt Daten aus der Vergangenheit für SIP exportieren, aus diesem Grunde werden Ihnen nur das aktuelle Schuljahr und das vorangegangene Schuljahr zur Auswahl gestellt.
+
+!!! info "Hinweis"
+
+  Sie können nur bedingt Daten aus der Vergangenheit für SIP exportieren, aus diesem Grunde werden Ihnen nur das aktuelle Schuljahr und das vorangegangene Schuljahr zur Auswahl gestellt.
 
 ## Ergebnis der Datenprüfung auswerten 
 
 Die Ergebnisse der Datenprüfung werden unter Hinweise aufgelistet. Sind dort keine Hinweise enthalten, sind die Daten für die Abgabe an das Statistikamt korrekt eingegeben. Die Hinweise werden unterschieden nach Art der Datei, dem betroffenen Datensatz, Kontroll-Nr der Plausibilität und dem eigentlichen Meldungstext. Sie können die Hinweise gruppieren und/oder Filtern und über die Schaltfläche ```Export nach Excel``` nach Excel exportieren.
 Sie müssen nun die Meldungen in MAGELLAN bearbeiten und dann erneut eine Datenprüfung durchführen.
 
->Viele in der Prüfung abgefragte Werte werden nicht in den Statistikdateien ausgegeben, dienen aber als Voraussetzung für die Plausibilitätsprüfungen. Beispiel: Zur Prüfung von  korrekten Fremdsprachen bei allgemeinbildenden Schulen muss die Schulart angegeben sein. Wurde diese nicht oder fehlerhaft angegeben, gibt die Prüfung eine Fehlermeldung aufgrund dieser Bedingung aus.
 
+!!! info "Hinweis"
+
+  Viele in der Prüfung abgefragte Werte werden nicht in den Statistikdateien ausgegeben, dienen aber als Voraussetzung für die Plausibilitätsprüfungen. Beispiel: Zur Prüfung von  korrekten Fremdsprachen bei allgemeinbildenden Schulen muss die Schulart angegeben sein. Wurde diese nicht oder fehlerhaft angegeben, gibt die Prüfung eine Fehlermeldung aufgrund dieser Bedingung aus.
 
 ## Fremdsprachen
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+
+!!! info "Hinweis"
+
+  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSpracheArtID aus kombinierten Einträgen aus den Feldern Schüler|Daten3|Fremdsprachen|Status und Zusatz berechnet. Nachfolgend finden Sie die Übersicht der möglichen Eintragungen:
@@ -155,15 +166,14 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
   </tbody>
 </table>
 
-
 ## Besonderheiten Statistik
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+!!! info "Hinweis"
 
+  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ### Besonderheiten Statistik 2014/2015
-
 
 ## Kopfdaten der Statistikdatei
 
@@ -249,7 +259,10 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
 ## Schuldaten
 
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+
+!!! info "Hinweis"
+
+  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 <table class="table">
@@ -1590,11 +1603,12 @@ Schule > Lehrer > StundenAbgabe >  GueltigBis</th>
 </tbody>
 </table>
 
+## Nicht-Schülerdaten
 
-# Nicht-Schülerdaten
 
+!!! info "Hinweis"
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 <table class="table">

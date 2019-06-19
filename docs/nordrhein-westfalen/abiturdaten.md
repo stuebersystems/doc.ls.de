@@ -1,8 +1,6 @@
 # Abiturdaten der ABI.TXT
 
-
 [Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
-
 
 | Art           | Inhalt                                   |
 |---------------|------------------------------------------|
@@ -51,4 +49,3 @@
 |**Statistikfeld**| **Pruefstatus**                              |
 | Datenfeld     | MAGELLAN:<br/>Schüler > Laufbahn > Allgemein > Versetzungsart[Versetzungsarten]<br/>Schüler > Laufbahn > Abschluss > Abschluss 1 > Abschlussart[Abschlussarten]<br/>Abitur > Prüfung > Status |
 | Beschreibung  | Der Prüfstatus gibt an, ob ein Schüler das Abitur bestanden hat, bzw. zugelassen wurde oder vorher freiwillig zurückgetreten ist. <br/>  Der freiwillige Rücktritt wird als Versetzungsart angegeben. Die anderen Werte werden entweder über den Status des Abiturmoduls ermittelt, <br/>  wobei der Status „Gesamtqualifikation nicht erreicht“ als „Nicht zum Abitur zugelassen“ interpretiert wird. <br/>  Wenn Sie das Abiturmodul nicht einsetzen, können Sie die Werte über die Abschlussart des 1. Abschlusses angeben. |
-

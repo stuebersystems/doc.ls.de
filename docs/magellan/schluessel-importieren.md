@@ -22,4 +22,7 @@ Alle Schlüssel können als gültig (blaue Raute) oder ungültig (graue Raute) m
 
 ## Nachkontrolle der Verzeichnisse
 
-> Bitte beachten Sie: Entscheidend für die Statistik ist der Wert in der Spalte Schlüssel in Ihren Verzeichnissen. Ist diese Spalte bei einem Schlüsseldatensatz nicht gefüllt, kann kein statistischer Wert ausgelesen werden. Bitte kontrollieren Sie die Verzeichnisse und ergänzen gegeben falls den Wert in der Spalte Schlüssel.
+
+!!! info "Hinweis"
+
+    Bitte beachten Sie: Entscheidend für die Statistik ist der Wert in der Spalte Schlüssel in Ihren Verzeichnissen. Ist diese Spalte bei einem Schlüsseldatensatz nicht gefüllt, kann kein statistischer Wert ausgelesen werden. Bitte kontrollieren Sie die Verzeichnisse und ergänzen gegeben falls den Wert in der Spalte Schlüssel.

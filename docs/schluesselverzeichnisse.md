@@ -1,10 +1,10 @@
 # Schlüsselverzeichnisse
 
-
 Die für die jeweiligen Landesstatistiken oder für die Arbeit in DAVINCI und MAGELLAN notwendigen Schlüssel werden als Dateien mit der Endung .KEYS per Serviceupdate von STÜBER SYSTEMS zur Verfügung gestellt. 
 
-> #### danger::Wichtig
-> Stellen Sie bitte vor dem Import der Schlüsselverzeichnisse sicher, dass die aktuellsten Versionen von MAGELLAN oder DAVINCI auf dem Server und den Arbeitsplatzrechnern installiert sind.
+!!! warning "Wichtig"
+
+    Stellen Sie bitte vor dem Import der Schlüsselverzeichnisse sicher, dass die aktuellsten Versionen von MAGELLAN oder DAVINCI auf dem Server und den Arbeitsplatzrechnern installiert sind.
 
 ## DAVINCI-Import
 
@@ -14,7 +14,7 @@ Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinte
 2. Rufen Sie per Doppelklick das zu füllende Schlüsselverzeichnis auf, im Beispiel haben wir die "Lehrer-Soll-Änderungsgründe" gewählt.
 3. Wählen Sie `Importieren`, verweisen Sie auf die entsprechende Importdatei und bestätigen den Dialog.
 
-![Import der mitgelieferten DAVINCI-Schlüssel](images/davinci.schluessel-importieren.png)
+![Import der mitgelieferten DAVINCI-Schlüssel](/assets/images/davinci.schluessel-importieren.png)
 
 ## MAGELLAN-Import
 
@@ -25,7 +25,7 @@ Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinte
 1. Öffnen Sie das Modul MAGELLAN- Administrator und wählen die Ansicht `Datenimporte > Schlüsselverzeichnisse` importieren.
 2. Wählen Sie Ihr Bundesland, Ihrer Schulart und Ihren Mandanten aus und importieren einen ausgewählten oder alle mitgelieferten Kataloge.
 
-![Import der mitgelieferten MAGELLAN-Schlüssel](images/magellan.schluessel-importieren.png)
+![Import der mitgelieferten MAGELLAN-Schlüssel](/assets/images/magellan.schluessel-importieren.png)
 
 ### Postleitzahlverzeichnisse aktualisieren
 
@@ -45,17 +45,17 @@ Prüfen Sie bitte, ob in Ihrem Schulnetzwerk mindestens die 6.5.23 eingesetzt wi
 Öffnen Sie anschließend bitte im MAGELLAN Administrator den Punkt `Datenimporte > Postleitzahlverzeichnis importieren`. 
 Wählen Sie im Assistenten für `für folgendes Land` den Wert `Deutschland` aus und für `importiere folgenden Katalog` bitte `alle Kataloge`. Starten Sie den Assistenten über die Schaltfläche `Fertigstellen`.
 
-![Importieren des Postleitzahlverzeichnisses](images/RLP_PLZ_importieren.png)
+![Importieren des Postleitzahlverzeichnisses](/assets/images/RLP_PLZ_importieren.png)
 
 #### Gemeinden synchronisieren
 
 Wenn das Einlesen der Postleitzahlen abgeschlossen ist, müssen die neuen Einträge im Verzeichnis mit den bestehenden Werten der Schüler, Lehrer, Schulen und Betriebe abgeglichen werden. Dabei wird die Postleitzahl und der Ort des jeweiligen Datensatzes (je Schüler, Lehrer usw.) mit den Inhalten des Postleitzahlverzeichnisses verglichen und falls eine Übereinstimmung vorliegt mit der Gemeindekennziffer ergänzt.
 
-![Synchronisieren der Gemeinden](images/RLP_Gemeinden_sync.png)
+![Synchronisieren der Gemeinden](/assets/images/RLP_Gemeinden_sync.png)
 
 #### Vollständigkeit der Gemeindekennziffern für Schüler überprüfen
 
-Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Postleitzahlverzeichnis keine Übereinstimmung festgestellt werden, bekommt der Schüler keine Gemeindekennziffer zugewiesen. In der Regel genügt die Korrektur des Schülerortes oder der Schüler-PLZ und ein erneuter Durchlauf des `Gemeinden synchronisierens`. Damit Sie einen Überblick haben, für welchen Schüler die Zuweisung nicht gelungen ist, finden Sie in `MAGELLAN > Mandanden > Mandant markieren > Drucken ` den Prüfbericht "Mandant (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Rufen Sie pro Halbjahr diesen Bericht auf, es werden nur Schüler gezeigt, denen keine Gemeindekennziffer zugeordnet werden konnte.
+Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Postleitzahlverzeichnis keine Übereinstimmung festgestellt werden, bekommt der Schüler keine Gemeindekennziffer zugewiesen. In der Regel genügt die Korrektur des Schülerortes oder der Schüler-PLZ und ein erneuter Durchlauf des `Gemeinden synchronisierens`. Damit Sie einen Überblick haben, für welchen Schüler die Zuweisung nicht gelungen ist, finden Sie in `MAGELLAN > Mandanden > Mandant markieren > Drucken` den Prüfbericht "Mandant (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Rufen Sie pro Halbjahr diesen Bericht auf, es werden nur Schüler gezeigt, denen keine Gemeindekennziffer zugeordnet werden konnte.
 
 ## Übersicht der MAGELLAN-Schlüsselverzeichnisse
 
@@ -666,16 +666,11 @@ In der nachfolgend aufgelisteten Tabelle zur Statistik haben die Spalten folgend
 | Import         | Nein                                     |
 | Beschreibung   | -                                        |
 
-
-
-
-   
 ## Verzeichnisse mit Vorgaben
 
 Einige Schlüsselverzeichnisse enthalten vorgegebene Schlüssel, die eventuell beim Erstellen der Statistik in die entsprechenden Schlüssel des Statistikamtes umgesetzt werden müssen. Da nicht jedes Schlüsselverzeichnis in jedem Bundesland statistisch relevant ist, enthalten viele Schlüsselverzeichnisse allgemeine nicht statistisch relevante Schlüssel, die für die Schulen für die tägliche Arbeit und Verwaltung ihrer Daten von Wichtigkeit sind. Diese Datensätze werden dann ohne das Feld „Schlüssel“ eingetragen.
 
 Folgende Schlüsselverzeichnisse enthalten Vorgaben:
-
 
 | Schlüsselverzeichnis | Bedeutung                                |
 |----------------------|------------------------------------------|
@@ -683,7 +678,3 @@ Folgende Schlüsselverzeichnisse enthalten Vorgaben:
 | 00_Fachstati         | enthält die Fachstatus zum Austausch mit DAVINCI |
 | 00_Noten             | enthält die in Deutschland übliche Noten- und Punktgebung |
 | 00_Unterrichtsarten  | enthält die typischen Unterrichtsarten   |
-
-
-
-

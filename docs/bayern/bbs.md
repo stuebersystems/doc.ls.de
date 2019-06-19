@@ -6,11 +6,11 @@
 
 Mit daVinci bzw. Magellan können die folgenden für die Statistik relevanten Daten erzeugt werden
 
-| Daten | Voraussetzung |
-| :--- | :--- |
-| Lehrerdaten | daVinci-Lizenz |
+| Daten                    | Voraussetzung                |
+| :----------------------- | :--------------------------- |
+| Lehrerdaten              | daVinci-Lizenz               |
 | Schüler- \/Abgängerdaten | Magellan- und daVinci-Lizenz |
-| Klassendaten | Magellan und daVinci-Lizenz |
+| Klassendaten             | Magellan und daVinci-Lizenz  |
 
 
 
@@ -39,50 +39,50 @@ Bevor Sie die Daten von daVinci ins Datawarehouse übertragen, sollten Sie kontr
 ## Aktive Schüler 
 
 
-| Ansicht | Feld | Eingabe |
-| :--- | :--- | :--- |
-| Ansicht Mandant | Schulnummer | Geben Sie hier \(falls noch nicht geschehen\) Ihre 4-stellige Schulnummer bzw. Dienststellennummer ein, mit der alle Dateien signiert werden. |
-| Ansicht Klassen | Statistikkürzel | Geben Sie hier das Klassenkürzel ein, so wie es in der Statistik erscheinen soll. Sie können bestimmte Klassen von der Statistik ausnehmen, indem Sie unter Statistikkürzel nichts eintragen. |
-| Ansicht Klassen | Schulart | Geben Sie hier die Schulart ein. Grundlage hierfür ist das Schlüsselverzeichnis Schularten. Hinweis: Zurzeit werden nur Klassen mit dem Schulart 31 \(=Berufsschule\) unterstützt. |
-| Ansicht Klassen| Unterrichtsart | Geben Sie hier die Unterrichtsform ein. Grundlage hierfür ist das Schlüsselverzeichnis Organisationen. |
-| Ansicht Klassen| Beruf | Geben Sie hier die Fachklassennummer für die Klasse ein. Grundlage hierfür ist das Schlüsselverzeichnis Berufe. |
-| Ansicht Klassen| Jahrgang | Geben Sie hier die Jahrgangsstufe der Klasse ein. Hinweis: Der Jahrgang ist pro Zeitraum der Klasse anzugeben. |
-| Ansicht Klassen| Merkmal A1 | Geben Sie hier die Klassenart der Klasse ein. Grundlage hierfür ist das Schlüsselverzeichnis Klassenmerkmale \(Bereich A1\). |
-| Ansicht Klassen| Merkmal B1 | Geben Sie hier die laufende Nummer der Außenstelle der Klasse an. |
-| Ansicht Klassen| Merkmal B2 | Geben Sie hier den Regionalschlüssel der Klasse an. |
-| Ansicht Klassen| Merkmal B3 | Geben Sie hier die Zahl der Unterrichtswochen im Schuljahr bei Blockunterricht an. |
-| Ansicht Klassen| Merkmal B4: | Geben Sie hier die Zahl der Blöcke im Schuljahr bei Blockunterricht an. |
-| Ansicht Schüler | Triviale Angaben | Darunter fallen Geschlecht und Geburtsdatum. |
-| Ansicht Schüler | Staatsangehörigkeit 1 | Geben Sie hier die Nationalität ein. Grundlage hierfür ist das Schlüsselverzeichnis „Staatsangehörigkeiten“. |
-| Ansicht Schüler | Konfession | Geben Sie hier die Religionszugehörigkeit der Schülers ein. Grundlage hierfür ist das Schlüsselverzeichnis „Konfessionen“. |
-| Ansicht Schüler | Merkmal A1 | Geben Sie hier die im Vorjahr besuchte Schulart ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale \(Bereich A1\)“. |
-| Ansicht Schüler | Höchster Abschluss ABS | \(Vorbildung\) Geben Sie hier den höchsten erreichten Abschluss ein. Grundlage hierfür ist das Schlüsselverzeichnis „Abschlüsse \(Extern\)“. |
-| Ansicht Schüler | Merkmal A2 |\(Vorbildung\) Geben Sie hier die vor dem höchsten Abschluss besuchte Schulart ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A2\). |
-| Ansicht Schüler | Rel.-Teilnahme | Geben Sie hier die Teilnahme am Religionsunterricht an. Grundlage hierfür ist das Schlüsselverzeichnis „Religion \(Teilnahmen\)“. |
-| Ansicht Schüler | Merkmal A3 | Geben Sie hier die Unterbringung ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A3\). |
-| Ansicht Schüler | Merkmal A4  |Geben Sie hier das Gastschulverhältnis ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A4\). |
-| Ansicht Schüler | Beruf | Geben Sie hier die Berufsnummer ein. Grundlage hierfür ist das Schlüsselverzeichnis „Berufe“. |
-| Ansicht Schüler | Fremdsprachen | Geben Sie hier die Fremdsprachen des Schülers an. Sie können bis zu vier Fremdsprachen zuweisen. Grundlage für die Fächerauswahl ist das Schlüsselverzeichnis Fächer, wobei jedem eingetragenen Fach für eine Fremdsprache die Kategorie „Fremdsprache“ im Schlüsselverzeichnis zugeordnet werden muss. |
+| Ansicht         | Feld                   | Eingabe                                                                                                                                                                                                                                                                                                 |
+| :-------------- | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ansicht Mandant | Schulnummer            | Geben Sie hier \(falls noch nicht geschehen\) Ihre 4-stellige Schulnummer bzw. Dienststellennummer ein, mit der alle Dateien signiert werden.                                                                                                                                                           |
+| Ansicht Klassen | Statistikkürzel        | Geben Sie hier das Klassenkürzel ein, so wie es in der Statistik erscheinen soll. Sie können bestimmte Klassen von der Statistik ausnehmen, indem Sie unter Statistikkürzel nichts eintragen.                                                                                                           |
+| Ansicht Klassen | Schulart               | Geben Sie hier die Schulart ein. Grundlage hierfür ist das Schlüsselverzeichnis Schularten. Hinweis: Zurzeit werden nur Klassen mit dem Schulart 31 \(=Berufsschule\) unterstützt.                                                                                                                      |
+| Ansicht Klassen | Unterrichtsart         | Geben Sie hier die Unterrichtsform ein. Grundlage hierfür ist das Schlüsselverzeichnis Organisationen.                                                                                                                                                                                                  |
+| Ansicht Klassen | Beruf                  | Geben Sie hier die Fachklassennummer für die Klasse ein. Grundlage hierfür ist das Schlüsselverzeichnis Berufe.                                                                                                                                                                                         |
+| Ansicht Klassen | Jahrgang               | Geben Sie hier die Jahrgangsstufe der Klasse ein. Hinweis: Der Jahrgang ist pro Zeitraum der Klasse anzugeben.                                                                                                                                                                                          |
+| Ansicht Klassen | Merkmal A1             | Geben Sie hier die Klassenart der Klasse ein. Grundlage hierfür ist das Schlüsselverzeichnis Klassenmerkmale \(Bereich A1\).                                                                                                                                                                            |
+| Ansicht Klassen | Merkmal B1             | Geben Sie hier die laufende Nummer der Außenstelle der Klasse an.                                                                                                                                                                                                                                       |
+| Ansicht Klassen | Merkmal B2             | Geben Sie hier den Regionalschlüssel der Klasse an.                                                                                                                                                                                                                                                     |
+| Ansicht Klassen | Merkmal B3             | Geben Sie hier die Zahl der Unterrichtswochen im Schuljahr bei Blockunterricht an.                                                                                                                                                                                                                      |
+| Ansicht Klassen | Merkmal B4:            | Geben Sie hier die Zahl der Blöcke im Schuljahr bei Blockunterricht an.                                                                                                                                                                                                                                 |
+| Ansicht Schüler | Triviale Angaben       | Darunter fallen Geschlecht und Geburtsdatum.                                                                                                                                                                                                                                                            |
+| Ansicht Schüler | Staatsangehörigkeit 1  | Geben Sie hier die Nationalität ein. Grundlage hierfür ist das Schlüsselverzeichnis „Staatsangehörigkeiten“.                                                                                                                                                                                            |
+| Ansicht Schüler | Konfession             | Geben Sie hier die Religionszugehörigkeit der Schülers ein. Grundlage hierfür ist das Schlüsselverzeichnis „Konfessionen“.                                                                                                                                                                              |
+| Ansicht Schüler | Merkmal A1             | Geben Sie hier die im Vorjahr besuchte Schulart ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale \(Bereich A1\)“.                                                                                                                                                                   |
+| Ansicht Schüler | Höchster Abschluss ABS | \(Vorbildung\) Geben Sie hier den höchsten erreichten Abschluss ein. Grundlage hierfür ist das Schlüsselverzeichnis „Abschlüsse \(Extern\)“.                                                                                                                                                            |
+| Ansicht Schüler | Merkmal A2             | \(Vorbildung\) Geben Sie hier die vor dem höchsten Abschluss besuchte Schulart ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A2\).                                                                                                                                    |
+| Ansicht Schüler | Rel.-Teilnahme         | Geben Sie hier die Teilnahme am Religionsunterricht an. Grundlage hierfür ist das Schlüsselverzeichnis „Religion \(Teilnahmen\)“.                                                                                                                                                                       |
+| Ansicht Schüler | Merkmal A3             | Geben Sie hier die Unterbringung ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A3\).                                                                                                                                                                                  |
+| Ansicht Schüler | Merkmal A4             | Geben Sie hier das Gastschulverhältnis ein. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A4\).                                                                                                                                                                            |
+| Ansicht Schüler | Beruf                  | Geben Sie hier die Berufsnummer ein. Grundlage hierfür ist das Schlüsselverzeichnis „Berufe“.                                                                                                                                                                                                           |
+| Ansicht Schüler | Fremdsprachen          | Geben Sie hier die Fremdsprachen des Schülers an. Sie können bis zu vier Fremdsprachen zuweisen. Grundlage für die Fächerauswahl ist das Schlüsselverzeichnis Fächer, wobei jedem eingetragenen Fach für eine Fremdsprache die Kategorie „Fremdsprache“ im Schlüsselverzeichnis zugeordnet werden muss. |
 
 # Abgänger/Absolventen 
 
 
-Die folgenden Angaben müssen zusätzlich bei den Entlassenen \(Abgänger\/Absolventen\) eingetragen werden. Da sich diese Angaben auf das vergangene Schuljahr beziehen, müssen Sie darauf achten, dass Sie den richtigen Zeitraum \(1. bzw. 2. Schulhalbjahr 2003\/2004\) einstellen.
+Die folgenden Angaben müssen zusätzlich bei den Entlassenen(Abgänger\/Absolventen\) eingetragen werden. Da sich diese Angaben auf das vergangene Schuljahr beziehen, müssen Sie darauf achten, dass Sie den richtigen Zeitraum (1. bzw. 2. Schulhalbjahr 2003\/2004) einstellen.
 
-| Ansicht | Feld | Eingabe |
-| :--- | :--- | :--- |
-| Ansicht Schüler | Abgang am | Geben Sie hier an, wann der Schüler abgegangen ist. |
-| Ansicht Schüler| Abgangsart | Geben Sie hier an, aus welcher Jahrgangsstufe die Übertritte\/Abgänge erfolgen. Grundlage hierfür ist das Schlüsselverzeichnis „Abgangsarten \(Schüler\)“. |
-| Ansicht Schüler| Merkmal A5 | Geben Sie hier die Zeitform des an der Schule zuletzt besuchten Unterrichts an. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A5\). |
-| Ansicht Schüler| Abschluss 1 | Geben Sie hier den durch den Besuch der Schule erreichten berufsbildenden Abschluss an. Grundlage hierfür ist das Schlüsselverzeichnis „Abschlüsse \(Intern\)“. |
-| Ansicht Schüler| Abschluss 2 | Geben Sie hier den durch den Besuch der Schule erreichten allgemeinbildenden Abschluss an. Grundlage hierfür ist das Schlüsselverzeichnis „Abschlüsse \(Intern\)“. |
+| Ansicht         | Feld        | Eingabe                                                                                                                                                            |
+| :-------------- | :---------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ansicht Schüler | Abgang am   | Geben Sie hier an, wann der Schüler abgegangen ist.                                                                                                                |
+| Ansicht Schüler | Abgangsart  | Geben Sie hier an, aus welcher Jahrgangsstufe die Übertritte\/Abgänge erfolgen. Grundlage hierfür ist das Schlüsselverzeichnis „Abgangsarten \(Schüler\)“.         |
+| Ansicht Schüler | Merkmal A5  | Geben Sie hier die Zeitform des an der Schule zuletzt besuchten Unterrichts an. Grundlage hierfür ist das Schlüsselverzeichnis „Schülermerkmale“ \(Bereich A5\).   |
+| Ansicht Schüler | Abschluss 1 | Geben Sie hier den durch den Besuch der Schule erreichten berufsbildenden Abschluss an. Grundlage hierfür ist das Schlüsselverzeichnis „Abschlüsse \(Intern\)“.    |
+| Ansicht Schüler | Abschluss 2 | Geben Sie hier den durch den Besuch der Schule erreichten allgemeinbildenden Abschluss an. Grundlage hierfür ist das Schlüsselverzeichnis „Abschlüsse \(Intern\)“. |
 
 # Nicht-Schülerprüfung 
 Die folgenden Angaben müssen zusätzlich bei den Teilnehmern der Nichtschülerprüfung eingetragen werden. Da sich diese Angaben auf das vergangene Schuljahr beziehen, müssen Sie darauf achten, dass Sie den richtigen Zeitraum (1. bzw. 2. Schulhalbjahr 2003/2004) einstellen.
 
-Ansicht | Feld | Eingabe 
- --- | --- | --- 
-Schüler| Aufnahmeprüfung | Geben Sie hier den erworbenen Abschluss der Nicht Schülerprüfung an. Grundlage hierfür ist das Schlüsselverzeichnis „Aufnahmeprüfungen“. 
+| Ansicht | Feld            | Eingabe                                                                                                                                  |
+| ------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Schüler | Aufnahmeprüfung | Geben Sie hier den erworbenen Abschluss der Nicht Schülerprüfung an. Grundlage hierfür ist das Schlüsselverzeichnis „Aufnahmeprüfungen“. |
 
 ## Veranstaltungsliste in DAVINCI 
 
@@ -100,7 +100,7 @@ Sie können alle Daten direkt aus Magellan heraus in das Magellan-Datawarehouse 
 9.    Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum  aus.
 10.    Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das Magellan Datawarehouse übertragen.
 
-Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktuellen Zeitraum \(1. Halbjahr 2004\/2005\) als auch aus den beiden vorangegangenen Zeiträumen \(1. und 2. Halbjahr 2003\/2004\) zu übertragen.
+Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktuellen Zeitraum (1. Halbjahr 2004\/2005) als auch aus den beiden vorangegangenen Zeiträumen (1. und 2. Halbjahr 2003\/2004) zu übertragen.
 
 ## Übertrag aus DAVINCI 
 Über die Archivierungsfunktion in daVinci-Stundenplan werden die Daten der aktuellen daVinci-Plandatei in das Magellan Datawarehouse übertragen.

@@ -1,10 +1,8 @@
 # Für Lehrerdaten (nur BBS)
 
+!!! warning "Wichtig"
 
-> #### warning::Wichtig!
->
-> Lehrer, die nach dem letzten Statistiktermin an Ihre Schule wechselten und vor dem aktuellen Statistiktermin Ihre Schule verlassen haben, werden statistisch nicht an Ihrer Schule ausgewertet, sollen also nicht in Ihrer LehrerNeuanlage.xml erscheinen. Sie werden statistisch an der Herkunftschule als Abgang und an der neuen Schule als Zugang geführt.
-
+    Lehrer, die nach dem letzten Statistiktermin an Ihre Schule wechselten und vor dem aktuellen Statistiktermin Ihre Schule verlassen haben, werden statistisch nicht an Ihrer Schule ausgewertet, sollen also nicht in Ihrer LehrerNeuanlage.xml erscheinen. Sie werden statistisch an der Herkunftschule als Abgang und an der neuen Schule als Zugang geführt.
 
 | Feld              | Eingabe                                  |
 |-------------------|------------------------------------------|
@@ -113,4 +111,3 @@
 | **Statistikfeld** | Unterricht > Stunden                     |
 | Eingabe           | DAVINCI:Stundenplan > Berechneter Wert   |
 | Beschreibung      | Die Unterrichtsstunden (pro Fach) ergeben sich aus dem Stundenplan bzw. der Veranstaltungsliste des Lehrers.<br/><br/>Wichtige Anmerkung:<br/>Wenn der Lehrer geblockt ist, müssen die Lehrerstunden über den Lehrerfaktor verteilt werden. <br/>Die Absprachen lauten, wie im folgenden Beispiel:<br/><br/>Lehrer L1 ist zeitgleich in 7C, 8A, 9B geblockt. Es müssen für das Lehrer-Ist im D6 – Datensatz (DAVINCI Export) die Lehrerfaktoren wie folgt gesetzt werden:<br/><br/>L1 7C Lehrerfaktor = 1 ( da „7C“ die alphabetisch erste Klasse ist )<br/>L1 8A Lehrerfaktor = 0 (Nebenklasse)<br/>L1 9B Lehrerfaktor = 0 (Nebenklasse) |
-

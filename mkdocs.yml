@@ -52,10 +52,10 @@ nav:
   - Data Warehouse: das-datawarehouse.md
   - Schlüsselverzeichnisse: schluesselverzeichnisse.md
   - Datenprüfung: datenpruefung.md
+  - DAVINCI Daten exportieren: dav.statistikdaten-exportieren.md
   - Legende: legende-statistikfelder.md
 - Bayern:
   - WinLD/AS: bayern/winld.md
-  - BBS: bayern/bbs.md
 - Berlin:
   - ABS/BBS: berlin/abs-bbs.md
 - Brandenburg:
@@ -89,3 +89,5 @@ nav:
   - ABS/BBS: schleswig-holstein/abs-bbs.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
   - Aktuelle Version: schleswig-holstein/changelog.md
+- Thüringen:
+  - ABS/BBS: thueringen/abs-bbs.md

@@ -15,5 +15,3 @@ So exportieren Sie Daten aus DAVINCI:
 5. Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an.
 
 Klicken Sie auf ```OK```. Die Daten werden jetzt in die angegebene Datei exportiert.
-
-

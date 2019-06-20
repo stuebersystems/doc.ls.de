@@ -3,13 +3,15 @@
 In der nachfolgend aufgelisteten Tabelle zur Statistik erhalten Sie eine Übersicht der geforderten Daten und Ihrer Zuordnung in MAGELLAN, mit entsprechenden Beschreibungen.
 
 ## Statistikfeld in der Statistikdatei:
- 
+
 In der erzeugten CSV-Statistikdatei sind die Daten in einer bestimmten Struktur abgelegt. Den Inhalt der CSV-Datei können Sie mit Microsoft Excel ansehen. Über den hier angegeben Pfad zum entsprechenden Statistikfeld, können Sie eine abgespeicherte Statistikinformation gezielt in der CSV-Datei finden.
 
-> #### info::Hinweis
-> Sie wollen überprüfen, ob in der CSV-Datei die Schulnummer korrekt enthalten ist? In der Spalte Statistikfeld finden Sie dazu den Wert 01 – Schul-Nr. Beim Öffnen der CSV-Datei finden Sie die Information dann aufgrund der Listenbeschrei-bung, als erstes Feld.
+!!! info "Hinweis"
 
-**Überschrift der Statistikdatei **:
+    Sie wollen überprüfen, ob in der CSV-Datei die Schulnummer korrekt enthalten ist? In der Spalte Statistikfeld finden Sie dazu den Wert 01 – Schul-Nr. Beim Öffnen der CSV-Datei finden Sie die Information dann aufgrund der Listenbeschrei-bung, als erstes Feld.
+
+**Überschrift der Statistikdatei**:
+
 Ein zusätzliches „*“ in der in der Überschrift der Statistikdatei, zeigt Ihnen an, ob in diesem Jahr eine Änderung für diese Statistikdatei stattgefunden hat.
 
 <table class="table">
@@ -66,5 +68,3 @@ Ein zusätzliches „*“ in der in der Überschrift der Statistikdatei, zeigt I
     </tr>
   </tbody>
 </table>
-
-

@@ -1,4 +1,4 @@
-## Besonderheiten Archiv
+# Besonderheiten Archiv
 
 Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
@@ -32,7 +32,7 @@ Folgende Schlüssel wurden ersetzt und müssen, wenn bereits zugeordnet, von Ihn
 
 ### Verzeichnis Abgangsarten (Lehrer) (ABS/BBS)
 
-<table class="table" >
+<table class="table">
 <thead> 
   <tr> 
     <th>Schlüssel</th> 
@@ -107,12 +107,15 @@ Folgende Schlüssel wurden ersetzt und müssen, wenn bereits zugeordnet, von Ihn
 </tbody>
 </table>
 
-
 ### Verzeichnis Fächer (ABS/BBS) korrigieren 
 
 Das Statistikamt hält für die Statistik zwei Kataloge "Fächer" und "Kurse" bereit. In MAGELLAN werden   "Fächer" plus Eigenschaften verwaltet werden, es gibt also kein Verzeichnis der Kurse, da ein Fach mit Eigenschaften wie einer Unterrichtsart, einem Fachstatus, einer Kursnummer usw zum Kurs wird.
 
-> Beide Kataloge werden über das **Verzeichnis Fächer** vereint. Zur Zusammenlegung und Differenzierung der Schlüssel, die als Fächer und Kurse genutzt werden, erhalten die Schlüssel beim Import im Feld "Kürzel" und "Schlüssel" ein "F" oder "K" und in der Bezeichnung den Zusatz "(Fach)" oder "(Kurs)".
+
+
+!!! info "Hinweis"
+
+  Beide Kataloge werden über das **Verzeichnis Fächer** vereint. Zur Zusammenlegung und Differenzierung der Schlüssel, die als Fächer und Kurse genutzt werden, erhalten die Schlüssel beim Import im Feld "Kürzel" und "Schlüssel" ein "F" oder "K" und in der Bezeichnung den Zusatz "(Fach)" oder "(Kurs)".
 
 Bei Schlüssel die in beiden Katalogen existieren, wird kein Zusatz angehangen.
 
@@ -761,21 +764,24 @@ Die für die Statistik abgefragten Schlüsselwerte können zu Teil nicht genutzt
 
 Die nachfolgende Tabelle zeigt Ihnen welche MAGELLAN-Eintragungen erkannt und in entsprechende Werte für die Statistikwerte gewandelt werden.
 
->Ist die Unterrichtsart leer, nicht der Fachstatus WahlPF oder Freiw gewählt, oder entspricht keinem der nachfolgenden Werte, wird generell der Wert P für Pflichtfach ausgegeben. Es ist kein gesonderter Eintrag für die Unterrichtsart Pflicht notwendig. 
 
->Es wird in den Verzeichnissen Unterrichtsarten und Fachstatus immer der Wert der Spalte Schlüssel berücksichtigt.
 
-Bedeutung	                        |Feld	       |Schlüssel	 |Ausgabe für die Statistikdatei
+!!! info "Hinweis"
+
+  Ist die Unterrichtsart leer, nicht der Fachstatus WahlPF oder Freiw gewählt, oder entspricht keinem der nachfolgenden Werte, wird generell der Wert P für Pflichtfach ausgegeben. Es ist kein gesonderter Eintrag für die Unterrichtsart Pflicht notwendig.
+  Es wird in den Verzeichnissen Unterrichtsarten und Fachstatus immer der Wert der Spalte Schlüssel berücksichtigt.
+
+Bedeutung                         |Feld        |Schlüssel  |Ausgabe für die Statistikdatei
 ------------------------------------|--------------|-------------|------------------------------
-Pflicht	                         	|Unterrichtsart|P oder leer  |P
+Pflicht                           |Unterrichtsart|P oder leer  |P
 Förderunterricht                    |Unterrichtsart|FOE          |U
 Freiwilliger Unterricht (AGs)       |Unterrichtsart|AG           |F
 Profilgebend                        |Unterrichtsart|P-KURS       |G
-Kernfach	                        |Unterrichtsart|KF oder E    |K
+Kernfach                         |Unterrichtsart|KF oder E    |K
 Zusatzunterricht Mittlerer Abschluss|Unterrichtsart|Z oder ZUSATZ|Z
-Wahlpflichtangebot	                |Unterrichtsart|WPU1…WPU4    |W
-Wahlpflichtangebot	                |Fachstatus	   |WahlPF       |W
-Freiwilliger Unterricht (AGs)       |Fachstatus	   |Freiw	     |F
+Wahlpflichtangebot                 |Unterrichtsart|WPU1…WPU4    |W
+Wahlpflichtangebot                 |Fachstatus    |WahlPF       |W
+Freiwilliger Unterricht (AGs)       |Fachstatus    |Freiw      |F
 
 
 ### Zur Statistik 2014/2015
@@ -784,30 +790,30 @@ In einigen Schlüsselverzeichnissen hat es Änderung gegeben, die ggf. die Bedeu
 
 #### Bildungsgänge
 
-Kuerzel	|Schluessel	|Alte Bezeichnung	|Neue Bezeichnung
+Kuerzel |Schluessel |Alte Bezeichnung |Neue Bezeichnung
 --|--|--|--
-901	|901	|BS – Zusatzunterricht Hauptschulabschluss	|BS - Zusatzunterricht Erster allgemeinbildender Schulabschluss
+901 |901 |BS – Zusatzunterricht Hauptschulabschluss |BS - Zusatzunterricht Erster allgemeinbildender Schulabschluss
 
 #### Klassenstufen
 
-Kuerzel|	Schluessel	|Alte Bezeichnung	|Neue Bezeichnung
+Kuerzel| Schluessel |Alte Bezeichnung |Neue Bezeichnung
 --|--|--|--
-Q3	|Q3	|Qualifikationsphase 3 (14. Jahrgangsstufe)	|Qualifikationsphase 3 (ehemals 13. Jgst.)
-Q5	|Q5	|-	|Qualifikationsphase 5 (14. Jahrgangsstufe)
+Q3 |Q3 |Qualifikationsphase 3 (14. Jahrgangsstufe) |Qualifikationsphase 3 (ehemals 13. Jgst.)
+Q5 |Q5 |- |Qualifikationsphase 5 (14. Jahrgangsstufe)
 
 #### Schularten, Schulformen
 
-Kuerzel	|Schluessel	|Alte Bezeichnung	|Neue Bezeichnung
+Kuerzel |Schluessel |Alte Bezeichnung |Neue Bezeichnung
 --|--|--|--
-120	|120	|Gemeinschaftsschule	|Gemeinschaftsschule mit Oberstufe
-115|	115	|-	|Gemeinschaftsschule ohne Oberstufe
+120 |120 |Gemeinschaftsschule |Gemeinschaftsschule mit Oberstufe
+115| 115 |- |Gemeinschaftsschule ohne Oberstufe
 
 #### Herkunft (Schulformen)
 
-Kuerzel	|Schluessel	|Alte Bezeichnung	|Neue Bezeichnung
+Kuerzel |Schluessel |Alte Bezeichnung |Neue Bezeichnung
 --|--|--|--
-17	|17	|Zugang aus einer Gemeinschaftsschule	|Zugang aus einer Gemeinschaftsschule mit Oberstufe
-15	|15	|-	|Zugang aus einer Gemeinschaftsschule ohne Oberstufe
+17 |17 |Zugang aus einer Gemeinschaftsschule |Zugang aus einer Gemeinschaftsschule mit Oberstufe
+15 |15 |- |Zugang aus einer Gemeinschaftsschule ohne Oberstufe
 
 #### Weggefallene Felder, die nicht mehr erfragt werden.
 
@@ -825,10 +831,10 @@ Die bereits unter ```Schüler > Laufbahn > Empfehlung ```eingetragen Werte könn
 
 Dazu gehen Sie wie folgt vor:
 
-1.	Starten die den MAGELLAN-Administrator.
-2.	Wählen Sie „Datenbankpflege“.
-3.	Klicken Sie bei „Datenbank prüfen“ auf die Schaltfläche „Start“.
-4.	Wählen Sie „Empfehlungen umkopieren“ und klicken Sie dann auf OK.
+1. Starten die den MAGELLAN-Administrator.
+2. Wählen Sie „Datenbankpflege“.
+3. Klicken Sie bei „Datenbank prüfen“ auf die Schaltfläche „Start“.
+4. Wählen Sie „Empfehlungen umkopieren“ und klicken Sie dann auf OK.
 
 ### Zur Statistik 2011/2012
 

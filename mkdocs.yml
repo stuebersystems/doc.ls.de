@@ -48,8 +48,7 @@ markdown_extensions:
 # Navigation  
 nav:
 - Überblick:
-  - Einführung: index.md
-  - Das Statistikkonzept: statistikkonzept.md
+  - Das Statistikkonzept: index.md
   - Das MAGELLAN Data Warehouse: das-datawarehouse.md
   - Schlüsselverzeichnisse: schluesselverzeichnisse.md
   - Datenprüfung: datenpruefung.md

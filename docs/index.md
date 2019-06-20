@@ -30,10 +30,9 @@ Grundlage für die elektronische Erfassung der Landesstatistikdaten sind Dateien
 
 Um Fehler bei der Statistik zu vermeiden, müssen Sie sich unbedingt an diese Spezifikationen halten. So dürfen in der Regel Klassen-, Lehrer- und Fachkürzel oft eine bestimmte Maximallänge an Buchstaben nicht überschreiten.
 
-Zwecks Vermeidung von Eingabefehlern werden in MAGELLAN und DAVINCI bereits bundeslandspezifische Schlüssel mitgeliefert. Diese Schlüssel können Sie in den jeweiligen Programmen importieren. Sie sollten  die vorliegende Dokumentation und die offiziellen Dokumentationen zur Landesstatistik sorgfältig beachten, um unnötigen Aufwand zu vermeiden. 
+Zwecks Vermeidung von Eingabefehlern werden in MAGELLAN und DAVINCI bereits bundeslandspezifische Schlüssel mitgeliefert. Diese Schlüssel können Sie in den jeweiligen Programmen importieren. Sie sollten  die vorliegende Dokumentation und die offiziellen Dokumentationen zur Landesstatistik sorgfältig beachten, um unnötigen Aufwand zu vermeiden.
 
 Lesen Sie das für Ihre Schule zutreffende Kapitel in diesem Dokument sehr genau. Beachten Sie außerdem sorgfältig die Spezifikationen Ihres Kultusministeriums bzw. Ihres Statistikamts.
-
 
 !!! info "Hinweis"
 

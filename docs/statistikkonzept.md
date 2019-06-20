@@ -23,7 +23,7 @@ Bei der Arbeit mit MAGELLAN sollten Sie im Hinblick auf die Statistik auf Folgen
 
 Grundlage vieler Eingabemasken in MAGELLAN sind Schlüsselverzeichnisse, welche die Eingabe auf eine Liste vordefinierter Werte einschränken. Wenn Sie also z.B. bei einem Schüler die Konfession eingeben möchten, so können Sie nur eine Konfession aus dem Schlüsselverzeichnis Konfessionen auswählen. Alle Schlüsselverzeichnisse in MAGELLAN sind frei editierbar und bestehen in der Regel aus den Feldern `Kürzel`, `Schlüssel`, `Bezeichnung`, `GueltigVon` und `GueltigBis`. Während `Kürzel` und `Beschreibung` frei wählbar sind, ist der `Schlüssel` durch das Amt vorgegeben und sollte nicht geändert werden. Damit Sie nun nicht alle Schlüsselverzeichnisse füllen müssen, liefern wir die benötigten Schlüsselverzeichnisse bereits mit. Diese werden durch die Installation von MAGELLAN in einem separaten Ordner abgelegt. Mit Hilfe des MAGELLAN-Administrator können Sie die Schlüsselverzeichnisse Ihres Bundeslandes bzw. Ihrer Schulart jederzeit in die bestehende MAGELLAN-Datenbank einspielen. Wurden mit einem Update neue Schlüssel zur Verfügung gestellt, werden Ihre Schlüsselverzeichnisse nicht automatisch hinzugefügt. Mit Hilfe des MAGELLAN-Administrator müssen Sie die neuen Schlüssel importieren.
 
-### Zeiträume 
+### Zeiträume
 
 Schüler- und Klassendaten werden in MAGELLAN zeitraumbezogen gespeichert. Achten Sie daher bei der Definition Ihrer Zeiträume in MAGELLAN darauf, dass diese sich im Anfangs- oder Enddatum nicht überschneiden. Außerdem müssen Sie sich im Klaren darüber sein, dass in der Regel Daten sowohl aus dem aktuellen Zeitraum (also 1. Halbjahr Schuljahr 2013/2014) als auch aus den beiden vorangegangenen Zeiträumen (also 1. und 2. Halb-jahr 2012/2013) benötigt werden.
 
@@ -58,8 +58,9 @@ Diese Schlüsselverzeichnisse müssen in MAGELLAN und DAVINCI übereinstimmen. S
 
 Nachdem Sie die kontrolliert haben, dass die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, wie im DAVINCI Handbuch im Kapitel „Datenaustausch mit anderen Programmen“  unter „Datenaustausch mit MAGELLAN“, „Daten nach MAGELLAN übergeben“ beschrieben.
 
-> #### danger::Wichtig
-> Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
+!!! warning "Wichtig"
+
+Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
 
 ## Daten prüfen
 
@@ -72,10 +73,10 @@ Nachdem Sie die kontrolliert haben, dass die IDs in beiden Programmen übereinst
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1.	Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
-2.	Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3.	Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht. 
-4.	Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
+3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht. 
+4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
 
 ### Daten als Berufsbildende Schule in DAVINCI prüfen
 
@@ -89,25 +90,25 @@ Einige Daten für die Statistik errechnen sich unmittelbar aus den Unterrichtsan
 
 #### Lehrer-Soll-Berechnung
 
-Wert                               | Erläuterung
----------------------------------- | ----
-Fachpraxiserhöhung                 | Errechnet sich aufgrund der Aufsummierung der Einträge in der Spalte Differenz der Stundentafel der Klasse.
-Soll-Änderung eines Fachs          | Errechnet sich aufgrund des Einträge in der Spalte Differenz der Stundentafel der Klasse für das entsprechende Fach.
-Soll-Änderungsgrund für die Klasse | Entspricht dem Eintrag in der Spalte Bemerkung in der Stundentafel der Klasse. Es darf maximal einen Eintrag in der Spalte Bemerkung der Stundentafel der Klasse geben und der Eintrag darf maximal 100 Zeichen lang sein.
+| Wert                               | Erläuterung                                                                                                                                                                                                                |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fachpraxiserhöhung                 | Errechnet sich aufgrund der Aufsummierung der Einträge in der Spalte Differenz der Stundentafel der Klasse.                                                                                                                |
+| Soll-Änderung eines Fachs          | Errechnet sich aufgrund des Einträge in der Spalte Differenz der Stundentafel der Klasse für das entsprechende Fach.                                                                                                       |
+| Soll-Änderungsgrund für die Klasse | Entspricht dem Eintrag in der Spalte Bemerkung in der Stundentafel der Klasse. Es darf maximal einen Eintrag in der Spalte Bemerkung der Stundentafel der Klasse geben und der Eintrag darf maximal 100 Zeichen lang sein. |
 
 ## Statistikdaten aus DAVINCI exportieren
 
 Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
 
-> #### info::Hinweis
-> Ob Sie für Ihr Bundesland DAVINCI-Daten benötigen, lesen Sie bitte in den jeweiligen Abschnitten zur Statistik in Ihrem Bundesland in diesem Dokument.
+!!! info "Hinweis"
+
+Ob Sie für Ihr Bundesland DAVINCI-Daten benötigen, lesen Sie bitte in den jeweiligen Abschnitten zur Statistik in Ihrem Bundesland in diesem Dokument.
 
 So exportieren Sie Daten aus DAVINCI:
 
-1.	Starten Sie DAVINCI.
-2.	Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
-3.	Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie aur ```Weiter```.
-4.	Wählen Sie Ihr Bundesland aus  und klicken Sie auf ```Weiter```.
-5.	Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an.
-
-Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert.
+1. Starten Sie DAVINCI.
+2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
+3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie auf ```Weiter```.
+4. Wählen Sie Ihr Bundesland aus  und klicken Sie auf ```Weiter```.
+5. Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an.
+6. Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert.

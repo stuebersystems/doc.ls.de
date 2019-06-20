@@ -49,24 +49,24 @@ markdown_extensions:
 nav:
 - Überblick:
   - Das Statistikkonzept: index.md
-  - Das MAGELLAN Data Warehouse: das-datawarehouse.md
+  - Data Warehouse: das-datawarehouse.md
   - Schlüsselverzeichnisse: schluesselverzeichnisse.md
   - Datenprüfung: datenpruefung.md
-  - Legende der Statistikfeldtabellen: legende-statistikfelder.md
+  - Legende: legende-statistikfelder.md
 - Bayern:
-  - WinLD und AS: bayern/winld.md
-  - BBS Statistik: bayern/bbs.md
+  - WinLD/AS: bayern/winld.md
+  - BBS: bayern/bbs.md
 - Berlin:
-  - ABS und BBS: berlin/abs-bbs.md
+  - ABS/BBS: berlin/abs-bbs.md
 - Brandenburg:
-  - ABS und BBS: brandenburg/abs-bbs.md
+  - ABS/BBS: brandenburg/abs-bbs.md
 - Mecklenburg-Vorpommern:
   - SIP: mecklenburg-vorpommern/sip.md
 - Niedersachsen:
   - ABS: niedersachsen/abs.md
   - BBS: niedersachsen/bbs.md
 - Nordrhein-Westfalen:
-  - ABS und BBS: nordrhein-westfalen/abs-bbs.md
+  - ABS/BBS: nordrhein-westfalen/abs-bbs.md
   - SIM.TXT: nordrhein-westfalen/schuelerdaten.md
   - LEHRER.TXT: nordrhein-westfalen/lehrerdaten.md
   - ABI.TXT: nordrhein-westfalen/abiturdaten.md
@@ -74,15 +74,15 @@ nav:
   - Aktuelle Version: nordrhein-westfalen/changelog.md
   - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
 - Rheinland-Pfalz:
-  - ABS und BBS: rheinland-pfalz/abs-bbs.md
-  - Schüler- und Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md
+  - ABS/BBS: rheinland-pfalz/abs-bbs.md
+  - Schüler-/Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md
   - Lehrerdaten: rheinland-pfalz/lehrerdaten.md
   - Aktuelle Version: rheinland-pfalz/changelog.md
 - Saarland:
-  - ABS und BBS: saarland/abs-bbs.md
+  - ABS/BBS: saarland/abs-bbs.md
 - Sachsen:
   - BBS: sachsen/sachsen.md
 - Schleswig-Holstein:
-  - ABS und BBS: schleswig-holstein/abs-bbs.md
+  - ABS/BBS: schleswig-holstein/abs-bbs.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
   - Aktuelle Version: schleswig-holstein/changelog.md

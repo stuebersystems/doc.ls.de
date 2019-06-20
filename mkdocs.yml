@@ -81,7 +81,10 @@ nav:
 - Saarland:
   - ABS/BBS: saarland/abs-bbs.md
 - Sachsen:
-  - BBS: sachsen/sachsen.md
+  - Übersicht: sachsen/sachsen.md
+  - 1. Schlüsselpflege: sachsen/schluessel.md
+  - 2. Datenpflege: sachsen/datenpflege.md
+  - 3. XML-Datei erzeugen: sachsen/xml.erzeugen.md  
 - Schleswig-Holstein:
   - ABS/BBS: schleswig-holstein/abs-bbs.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md

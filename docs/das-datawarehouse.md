@@ -2,7 +2,8 @@
 
 !!! warning "Wichtig"
 
-     Nur für die Statistik im Bundesland Niedersachsen wird das MAGELLAN-Data Warehouse benötigt, alle anderen Statistiken werden direkt aus MAGELLAN erzeugt.
+     MAGELLAN 6: Nur für die Statistik im Bundesland Niedersachsen wird das Data Warehouse benötigt, alle anderen Statistiken werden direkt aus MAGELLAN erzeugt.
+     MAGELLAN 7: Für alle Regionen, für die Statistikschnittstellen angeboten werden, wird die Statistik ohne den Umweg über das Data Warehouse direkt aus MAGELLAN erzeugt.
 
 ## MAGELLAN-DWH Explorer
 

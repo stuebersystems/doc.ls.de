@@ -4,13 +4,13 @@
 
 ## Grundsätzlich
 
-Mit daVinci bzw. Magellan können die folgenden für die Statistik relevanten Daten erzeugt werden
+Mit daVinci bzw. MAGELLAN können die folgenden für die Statistik relevanten Daten erzeugt werden
 
 | Daten     | Voraussetzung    |
 | :----------------------- | :--------------------------- |
 | Lehrerdaten     | daVinci-Lizenz      |
 | Schüler- \/Abgängerdaten | Magellan- und daVinci-Lizenz |
-| Klassendaten    | Magellan und daVinci-Lizenz  |
+| Klassendaten    | MAGELLAN und daVinci-Lizenz  |
 
 
 
@@ -21,8 +21,8 @@ Nachfolgend finden Sie eine Beschreibung für die Erzeugung der Schüler-\/Abgä
 
 Die grundlegende Vorgehensweise zum Erstellen der Statistik ist die folgende:
 1. Überprüfen Sie in Magellan, ob Sie alle Daten richtig eingetragen haben bzw. tragen Sie noch fehlende Angaben nach. Dies gilt sowohl für den aktuellen Zeitraum \(1. Halbjahr 2004\/2005\) als auch für die vorangegangenen Zeiträume seit der Vorjahresstatistik \(1. und 2. Halbjahr 2003\/2004\).
-2. Überprüfen Sie in daVinci, ob Lehrer, Klassen und Fächer mit Magellan abgeglichen worden sind. 
-3. Übertragen Sie in Magellan die Daten des aktuellen Zeitraums \(1. Halbjahr 2004\/2005\) und der vorangegangenen Zeiträume \(1. und 2. Halbjahr 2003\/2004\) in das Magellan-Datawarehouse.
+2. Überprüfen Sie in daVinci, ob Lehrer, Klassen und Fächer mit MAGELLAN abgeglichen worden sind. 
+3. Übertragen Sie in MAGELLAN die Daten des aktuellen Zeitraums \(1. Halbjahr 2004\/2005\) und der vorangegangenen Zeiträume \(1. und 2. Halbjahr 2003\/2004\) in das Magellan-Datawarehouse.
 4. Starten Sie den Magellan-DWH-Explorer und erstellen Sie dort mit Hilfe des Statistikassistenten für Bayern die geforderten Dateien.
 5. Sie können sich den Inhalt der Dateien mit Hilfe eines Texteditors anzeigen lassen.
 
@@ -30,11 +30,11 @@ Die grundlegende Vorgehensweise zum Erstellen der Statistik ist die folgende:
 
 ### Datenüberprüfung in Magellan
 
-Bevor Sie die Daten von Magellan ins Datawarehouse übertragen, sollten Sie kontrollieren, ob alle geforderten Daten in Magellan richtig eingetragen sind.
+Bevor Sie die Daten von MAGELLAN ins Datawarehouse übertragen, sollten Sie kontrollieren, ob alle geforderten Daten in MAGELLAN richtig eingetragen sind.
 
 ### Datenüberprüfung in daVinci
 
-Bevor Sie die Daten von daVinci ins Datawarehouse übertragen, sollten Sie kontrollieren, ob alle geforderten Daten in daVinci richtig eingetragen sind. Außerdem müssen die Stammdaten mit Magellan abgeglichen worden sein, damit später im Datawarehouse die Lehrer, Klassen und Fächer zueinander passen.
+Bevor Sie die Daten von daVinci ins Datawarehouse übertragen, sollten Sie kontrollieren, ob alle geforderten Daten in daVinci richtig eingetragen sind. Außerdem müssen die Stammdaten mit MAGELLAN abgeglichen worden sein, damit später im Datawarehouse die Lehrer, Klassen und Fächer zueinander passen.
 
 ## Aktive Schüler
 
@@ -93,35 +93,35 @@ Einige Daten für die Statistik errechnen sich unmittelbar aus den Unterrichtsan
 
 ## Übertrag aus MAGELLAN 
 
-Sie können alle Daten direkt aus Magellan heraus in das Magellan-Datawarehouse übertragen.
-6. Wählen Sie in Magellan die Ansicht Datawarehouse aus.
+Sie können alle Daten direkt aus MAGELLAN heraus in das Magellan-Datawarehouse übertragen.
+6. Wählen Sie in MAGELLAN die Ansicht Datawarehouse aus.
 7. Klicken Sie dort unterhalb von Extras auf Starten.
-8. Der Importassistent für das Magellan-Datawarehouse wird gestartet. Sie müssen sich jetzt erneut bei Magellan mit Ihrer Kennung und Ihrem Kennwort anmelden.
+8. Der Importassistent für das Magellan-Datawarehouse wird gestartet. Sie müssen sich jetzt erneut bei MAGELLAN mit Ihrer Kennung und Ihrem Kennwort anmelden.
 9. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum  aus.
-10. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das Magellan Datawarehouse übertragen.
+10. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
 Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktuellen Zeitraum (1. Halbjahr 2004\/2005) als auch aus den beiden vorangegangenen Zeiträumen (1. und 2. Halbjahr 2003\/2004) zu übertragen.
 
 ## Übertrag aus DAVINCI 
-Über die Archivierungsfunktion in daVinci-Stundenplan werden die Daten der aktuellen daVinci-Plandatei in das Magellan Datawarehouse übertragen.
+Über die Archivierungsfunktion in daVinci-Stundenplan werden die Daten der aktuellen daVinci-Plandatei in das MAGELLAN Datawarehouse übertragen.
 1. Starten Sie daVinci-Stundenplan mit Ihrer Plandatei.
 2. Wählen Sie Extras und dann Archivieren.
-3. Bestätigen Sie die Sicherheitsabfrage. Die Daten werden jetzt in eine Schuldatentransferdatei exportiert, anschließend wird der Importassistent für das Magellan-Datawarehouse gestartet. Sie müssen sich jetzt bei Magellan mit Ihrer Kennung und Ihrem Kennwort anmelden.
+3. Bestätigen Sie die Sicherheitsabfrage. Die Daten werden jetzt in eine Schuldatentransferdatei exportiert, anschließend wird der Importassistent für das Magellan-Datawarehouse gestartet. Sie müssen sich jetzt bei MAGELLAN mit Ihrer Kennung und Ihrem Kennwort anmelden.
 4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und Zeitraum aus. Für die Statistik wäre dies der Zeitraum ab 01.08.2004.
-5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das Magellan Datawarehouse übertragen.
+5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
 ## Datenüberprüfung 
 
 
-Mit Hilfe des Magellan DWH Explorer können Sie sich den Inhalt des Magellan Datawarehouse anzeigen lassen. Gehen Sie dabei wie folgt vor:
-1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf Magellan DWH Explorer.
+Mit Hilfe des MAGELLAN DWH Explorer können Sie sich den Inhalt des MAGELLAN Datawarehouse anzeigen lassen. Gehen Sie dabei wie folgt vor:
+1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf MAGELLAN DWH Explorer.
 2. Wählen Sie die Ansicht Datenbestand aus.
 3. Wählen Sie den passenden Mandanten aus und tragen Sie einen passenden Zeitpunkt ein. Möchten Sie die Abgänger aus dem alten Schuljahr betrachten, so tragen Sie als Zeitpunkt beispielsweise den letzten Schultag ein. Möchten Sie die aktuellen Schuldaten betrachten, tragen Sie das heutige Datum ein. Sie können nun durch Wechseln der Registerkarten die eingetragenen Klassen, Schüler, Lehrer usw. betrachten.
 
 ## Statistikerstellung 
 
-Mit Hilfe des Magellan DWH Explorer können Sie auf das Magellan Datawarehouse zugreifen und die geforderten Statistikdateien erstellen. Gehen Sie dabei wie folgt vor:
-1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf Magellan DWH Explorer.
+Mit Hilfe des MAGELLAN DWH Explorer können Sie auf das MAGELLAN Datawarehouse zugreifen und die geforderten Statistikdateien erstellen. Gehen Sie dabei wie folgt vor:
+1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf MAGELLAN DWH Explorer.
 2. Wählen Sie die Ansicht Auswertungen aus.
 3. Wählen Sie unter Landesstatistik die Option Statistikformat für Bayern BBS aus und klicken Sie auf Starten.
 4. Folgen Sie nun den Anweisungen des Assistenten. Sie müssen dabei den Mandanten auswählen, das Erhebungszeitpunkt, den Abgängerzeitraum der Abgänger\/Absolventen\/Nichtschüler angeben sowie den Ordner wählen, in dem die Dateien erzeugt werden soll.

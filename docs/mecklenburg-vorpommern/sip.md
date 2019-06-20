@@ -1,10 +1,10 @@
 # Mecklenburg-Vorpommern - SIP
 
-Das Schulberichtssystem (SBS) wurde durch das Schulinformations- und Planungssystem M-V (SIP) am 03.01.2013 abgelöst. Somit erfolgt für allgemein bildende und berufliche Schulen die Datenerhebung in einem System. STÜBER SYSTEMS bietet Ihnen die Möglichkeit, Daten für die SIP-Schnittstelle mit Magellan zu exportieren. 
+Das Schulberichtssystem (SBS) wurde durch das Schulinformations- und Planungssystem M-V (SIP) am 03.01.2013 abgelöst. Somit erfolgt für allgemein bildende und berufliche Schulen die Datenerhebung in einem System. STÜBER SYSTEMS bietet Ihnen die Möglichkeit, Daten für die SIP-Schnittstelle mit MAGELLAN zu exportieren. 
 
 ## Einführung
 
-Das Kultusministerium fordert die elektronische Erfassung im XML-Dateiformat. Die Schuldaten können in diesem Format aus Magellan heraus erzeugt werden. Das XML-Dateiformat ist eine Auszeichnungssprache zur Darstellung hierarchisch strukturierter Daten in Form von Textdateien.
+Das Kultusministerium fordert die elektronische Erfassung im XML-Dateiformat. Die Schuldaten können in diesem Format aus MAGELLAN heraus erzeugt werden. Das XML-Dateiformat ist eine Auszeichnungssprache zur Darstellung hierarchisch strukturierter Daten in Form von Textdateien.
 
 Durch die Hierarchie können explizit Daten für Allgemeinbildende und Berufsbildende Schulen getrennt werden und es ist somit nicht erforderlich unterschiedliche Dateien für die jeweiligen Schulformen zu erzeugen. 
 
@@ -22,8 +22,8 @@ Hierbei steht xxxxx für Ihre Schulnummer und [DATUM] für das aktuelle Datum.
 
 
 1. Schritt:[Schlüsselverzeichnisse importieren](../schluesselverzeichnisse.md) 
-2. Schritt: Statistisch relevante Daten in daVinci bzw. Magellan eingeben
-3. Schritt: Kurswahlen von daVinci nach Magellan übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
+2. Schritt: Statistisch relevante Daten in daVinci bzw. MAGELLAN eingeben
+3. Schritt: Kurswahlen von daVinci nach MAGELLAN übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
 4. Schritt: Statistikdaten aus daVinci exportieren
 5. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 6. Schritt: Statistikdaten erstellen.    
@@ -41,9 +41,9 @@ Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdat
 
 ## Statistikdaten erstellen
 
-Die Erstellung der Statistikdateien werden zuerst alle erforderlichen Daten aus Magellan ausgelesen, dann wird eine Datenprüfung vorgenommen und danach die Daten in die XML-Datei gespeichert. 
+Die Erstellung der Statistikdateien werden zuerst alle erforderlichen Daten aus MAGELLAN ausgelesen, dann wird eine Datenprüfung vorgenommen und danach die Daten in die XML-Datei gespeichert. 
 
->Das Einlesen der Daten aus Magellan erfolgt bei jeder Art der Erstellung ohne Berücksichtigung der zu erstellenden Statistikdatei.
+>Das Einlesen der Daten aus MAGELLAN erfolgt bei jeder Art der Erstellung ohne Berücksichtigung der zu erstellenden Statistikdatei.
 
 Diese Prüfung ist eine Plausibilitätsprüfung, die beim Erstellen des Exports die zu exportierenden Werte mit den erwarteten Werten der SIP-Statistikschlüssel vergleicht und Ihnen Rückmeldung in Form von Hinweisen gibt, wenn ein Exportwert nicht mit einem Wert im Bereich der erwarteten Schlüssel passt.
 
@@ -88,7 +88,7 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
 <caption></caption>
 <thead>
 <tr>
-<th style="background-color:#CEE3F6;">Status in Magellan </th>
+<th style="background-color:#CEE3F6;">Status in MAGELLAN </th>
 <th style="background-color:#CEE3F6;">Zusatz in Magellan</th>
 <th style="background-color:#CEE3F6;">Berechneter Wert für die SIP-Übergabe</th>
     </tr>
@@ -210,7 +210,7 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
     </tr>
   <tr style="background-color:#FFFFFF;">
     <td>Beschreibung</td>
-    <td>Das Erhebungsjahr wird automatisch beim Erstellen der Statistikdateien mit eingetragen und muss nicht in Magellan eingegeben werden.</td>
+    <td>Das Erhebungsjahr wird automatisch beim Erstellen der Statistikdateien mit eingetragen und muss nicht in MAGELLAN eingegeben werden.</td>
     </td>
   </tr>
   <tr style="background-color:#CEE3F6;">
@@ -1055,7 +1055,7 @@ In der Übergabe der Daten für die SIP-Schnittstelle wird das Feld FremdSprache
     </tr>
   <tr style="background-color:#FFFFFF;">
     <td>Beschreibung</td>
-    <td>Die Reihenfolge der Fremdsprache ergibt sich durch die Eingabe in Magellan und wird berechnet ausgespielt.</td>
+    <td>Die Reihenfolge der Fremdsprache ergibt sich durch die Eingabe in MAGELLAN und wird berechnet ausgespielt.</td>
     </td>
   </tr>
   <tr style="background-color:#CEE3F6;">
@@ -1266,7 +1266,7 @@ Schule > Schueler > SchuelerUe >   GueltigBis</th>
     </tr>
   <tr style="background-color:#FFFFFF;">
     <td>Beschreibung</td>
-    <td>  Tragen Sie das Abschlussdatum zum höchsten beruflichen Abschluss des Schülers ein.   Derzeit wird das Datumsfeld in Magellan nicht angezeigt.	 </td>
+    <td>  Tragen Sie das Abschlussdatum zum höchsten beruflichen Abschluss des Schülers ein.   Derzeit wird das Datumsfeld in MAGELLAN nicht angezeigt.	 </td>
     </td>
   </tr>
   <tr style="background-color:#CEE3F6;">

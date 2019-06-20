@@ -1,6 +1,6 @@
 # Schlüssel nach MAGELLAN importieren
 
-Um die Schlüssel in Magellan zu verwenden, müssen sie vorab importiert werden. Bitte gehen Sie dazu folgendermaßen vor:
+Um die Schlüssel in MAGELLAN zu verwenden, müssen sie vorab importiert werden. Bitte gehen Sie dazu folgendermaßen vor:
 
 1. Starten Sie den Magellan-Administrator.
 2. Wechseln Sie in die Ansicht ```Datenimporte```.

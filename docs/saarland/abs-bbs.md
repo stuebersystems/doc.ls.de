@@ -9,7 +9,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen im 
 
 ## Einführung
 
-Das statistische Landesamt fordert die elektronische Landesstatistik im CSV Dateiformat. Die statistischen Daten können in diesem Format aus Magellan heraus erzeugt werden.
+Das statistische Landesamt fordert die elektronische Landesstatistik im CSV Dateiformat. Die statistischen Daten können in diesem Format aus MAGELLAN heraus erzeugt werden.
 Für Sie als Schule bedeutet dies: Sie müssen die folgenden CSV-Dateien an das Statistikamt im Saarland verschicken (Schulbogen und Klassenbogen) und auf Basis der erzuegten CSV-Dateien für die Abiturstatistik und Religionsstatistik die entsprechenden Statistikbögen ausfüllen.
 
 | Statistiktyp       | Dateiname   | Inhalt

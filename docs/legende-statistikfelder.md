@@ -52,7 +52,7 @@ Ein zusätzliches „*“ in der in der Überschrift der Statistikdatei, zeigt I
 <tr>
     <td align=left style="background-color:#F0F8FF;">   Spalte Datenfeld </td>
     <td align=left style="background-color:#F0F8FF;">  -  </td>
-    <td align=left style="background-color:#F0F8FF;">  Hier finden Sie die Angabe, wo Sie das entsprechend zu füllende Datenfeld in Magellan finden. Bei Feldern die sich auf allen Berlinern Sondermasken befinden wird die Ansicht als Masken betitelt, um die Masken nicht einzeln aufzuzählen.  </td>
+    <td align=left style="background-color:#F0F8FF;">  Hier finden Sie die Angabe, wo Sie das entsprechend zu füllende Datenfeld in MAGELLAN finden. Bei Feldern die sich auf allen Berlinern Sondermasken befinden wird die Ansicht als Masken betitelt, um die Masken nicht einzeln aufzuzählen.  </td>
     </tr>
     <tr>
     <td align=left style="background-color:#FFFFFF;">  Beschreibung  </td>

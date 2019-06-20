@@ -12,7 +12,7 @@ Aktuelle Änderungen zur Statistik 2018/2019 sehen Sie [**hier!**](https://doc.l
 
 ## Einführung
 
-Das statistische Landesamt fordert die elektronische Landesstatistik im XML Dateiformat. Die statistischen Daten können in diesem Format aus Magellan heraus erzeugt werden.
+Das statistische Landesamt fordert die elektronische Landesstatistik im XML Dateiformat. Die statistischen Daten können in diesem Format aus MAGELLAN heraus erzeugt werden.
 Für Sie als Schule bedeutet dies: Sie müssen die folgenden XML-Dateien je nach Schulart an das Statistikamt in Bad Ems verschicken:
 
 | Schulart | Dateiname      |
@@ -45,8 +45,8 @@ Lesen Sie folgende Punkte aufmerksam durch. Punkte, die nur für Gymnasien\/Gesa
 
 
 1. Schritt:[Schlüsselverzeichnisse importieren, PLZs aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/). Bitte beachten Sie den Abschnitt "Besonderheiten 2018/2019" am Ende der Beschreibung!
-2. Schritt: Statistisch relevante Daten in daVinci bzw. Magellan eingeben
-3. Schritt: Kurswahlen von daVinci nach Magellan übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
+2. Schritt: Statistisch relevante Daten in daVinci bzw. MAGELLAN eingeben
+3. Schritt: Kurswahlen von daVinci nach MAGELLAN übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
 4. Schritt: Statistikdaten aus daVinci exportieren
 5. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 6. Schritt: Statistikdaten erstellen.
@@ -82,14 +82,14 @@ Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von daVinci vorn
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 <<<<<<< HEAD
 
-1. Öffnen Sie Magellan und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
 1. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
 2. Öffnen Sie daVinci und wechseln Sie in die entsprechende Ansicht. 
 3. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der daVinci Ansicht und korrigieren Sie ggf. in daVinci.
 =======
 >>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
-1. Öffnen Sie Magellan und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
 3. Öffnen Sie daVinci und wechseln Sie in die entsprechende Ansicht. 
 4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der daVinci Ansicht und korrigieren Sie ggf. in daVinci.
@@ -112,21 +112,21 @@ Einige Daten für die Statistik errechnen sich unmittelbar aus den Unterrichtsan
 | Soll-Änderung eines Fachs          | Errechnet sich aufgrund des Einträge in der Spalte Differenz der Stundentafel der Klasse für das entsprechende Fach. |
 | Soll-Änderungsgrund für die Klasse | Die Änderungsgründe sind ab der Statistik 2014/15 veranstaltungs- und nicht mehr klassenbasiert einzutragen. Wählen Sie dazu in der Veranstaltungskategorie (Veranstaltungsliste > Rechtsklick auf die Veranstaltung > Veranstaltung bearbeiten > Kategorie) den entsprechenden Schlüssel aus. Die Schlüssel (aus der Datei „25_RLP_Veranstaltungskategorien.keys“) können Sie unter Extras > Schlüsselverzeichnisse > Veranstaltungskategorien > Import in Ihre Plandatei importieren. |
 
-### Kurswahldaten und Lehrerdaten von daVinci nach Magellan übertragen
+### Kurswahldaten und Lehrerdaten von daVinci nach MAGELLAN übertragen
 
-Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, wie im daVinci Handbuch im Kapitel „Spezielles“  unter „Datenaustausch mit Magellan“, „Daten nach Magellan übergeben“ beschrieben.
+Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, wie im daVinci Handbuch im Kapitel „Spezielles“  unter „Datenaustausch mit Magellan“, „Daten nach MAGELLAN übergeben“ beschrieben.
 
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie, dass Sie nur mit Kopien der daVinci Datei und Magellan Datenbank arbeiten!
+    Bitte beachten Sie, dass Sie nur mit Kopien der daVinci Datei und MAGELLAN Datenbank arbeiten!
 
 ### Statistikdaten aus daVinci exportieren
 
 
 !!! warning "Wichtig"
 
-    Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus daVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in Magellan verwendet.
+    Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus daVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
     Ist Ihre Schule kein Gymnasium/keine Gesamtschule mit Oberstufe bzw. Berufsbildende Schule, so benötigen Sie keine daVinci-Daten für die Statistik.
 
 Exportieren der statistisch relevanten Daten aus DAVINCI
@@ -201,7 +201,7 @@ In allen anderen Situationen wird die 2.Fremdsprache (und Folgesprachen!) nicht 
 
 Wie Sie wissen, müssen je nach Statistikdatei unterschiedliche Datenmengen ausgespielt werden. In den Neuzugangsdateien beispielsweise nur Neuzugänge, in den Bewegungsdaten Abgänger und in der BBS aber auch Schüler, die den Bildungsgang beenden aber in der Schule verbleiben.
 
-Dieser Abschnitt vermittelt Ihnen welche Werte in Magellan abgefragt werden, damit die Daten in den entsprechenden Statistikdateien berücksichtigt werden.
+Dieser Abschnitt vermittelt Ihnen welche Werte in MAGELLAN abgefragt werden, damit die Daten in den entsprechenden Statistikdateien berücksichtigt werden.
 
 | Operator | Bedeutung   |
 |----------|-------------|
@@ -423,7 +423,7 @@ Schulen Sie diese Schüer aus und vergeben unter `Schüler > Laufbahn > Abschlus
 
 Nur, wenn Sie noch nicht die neue Systematik der Berufskennziffern nutzen, sollten Sie diesen Abschnitt berücksichtigen!
 
-Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der Berufskennziffern, die aktuell enthaltenen Berufskennziffern in Magellan ausgetauscht werden, bevor die neuen Statistikschlüssel auf dem üblichen Wege aktualisiert werden können.
+Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der Berufskennziffern, die aktuell enthaltenen Berufskennziffern in MAGELLAN ausgetauscht werden, bevor die neuen Statistikschlüssel auf dem üblichen Wege aktualisiert werden können.
 
 <<<<<<< HEAD
 1. Öffnen Sie Magellan-Administrator und wechseln Sie in die Ansicht ```Datenbankpflege```. 
@@ -527,9 +527,9 @@ In MAGELLAN ist unter  "Klassen > Daten > Beruf" bei einer Klasse der Berufsschu
 
 Anpassung der Schlüsseltabellen an das Statistische Landesamt:
 
-Das StaLa verwendet zum Teil andere Bezeichnungen für Schlüsseltabellen (auch mit anderen Bedeutungen),  als es in Magellan der Fall war. 
+Das StaLa verwendet zum Teil andere Bezeichnungen für Schlüsseltabellen (auch mit anderen Bedeutungen),  als es in MAGELLAN der Fall war. 
 
-Wenn das StaLa von Schularten sprach, war in Magellan von Schulformen die Rede. In Magellan befanden sich im Verzeichnis Schularten statistische Daten für die LehrerNeuanlage. Wir haben dies jetzt an das StaLa angepasst, damit es in Zukunft nicht mehr zu Verwirrungen kommt. 
+Wenn das StaLa von Schularten sprach, war in MAGELLAN von Schulformen die Rede. In MAGELLAN befanden sich im Verzeichnis Schularten statistische Daten für die LehrerNeuanlage. Wir haben dies jetzt an das StaLa angepasst, damit es in Zukunft nicht mehr zu Verwirrungen kommt. 
 
 Dies bedeutet für Sie:
 

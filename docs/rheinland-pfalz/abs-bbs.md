@@ -4,9 +4,10 @@ test
 
 Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen in Rheinland-Pfalz die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Statistikamt in Bad Ems im Schuljahr 2018/2019.
 
-> #### danger::Achtung!
->
-> Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 6.5.23!
+
+!!! warning "Wichtig"
+
+    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 6.5.23!
 
 
 Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.

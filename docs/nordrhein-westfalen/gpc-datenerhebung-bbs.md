@@ -1,6 +1,7 @@
 # GPC (Gesundheitsstatistik per PC)
 
 ## Allgemein
+
 Mit dem IT-Programm GPC (Gesundheitsstatistik per PC) kann die Zahl der statistikrelevanten Krankentage aller Lehrkräfte mit einem Dienst- oder Arbeitsverhältnis zum Land NRW elektronisch erfasst werden und in den jährlichen Bericht der Landesregierung über den Krankenstand in der Landesverwaltung NRW für den Landtag NRW einfließen.
 
 ## Statistikexport NRW GPC – Krankheitsstatistik mit DAVINCI

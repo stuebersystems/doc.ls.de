@@ -80,6 +80,14 @@ Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von daVinci vorn
 ### Abgleich der IDs zwischen MAGELLAN und DAVINCI
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
+<<<<<<< HEAD
+
+1. Öffnen Sie Magellan und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+1. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
+2. Öffnen Sie daVinci und wechseln Sie in die entsprechende Ansicht. 
+3. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der daVinci Ansicht und korrigieren Sie ggf. in daVinci.
+=======
+>>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
 1. Öffnen Sie Magellan und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
@@ -123,11 +131,18 @@ Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Pro
 
 Exportieren der statistisch relevanten Daten aus DAVINCI
 So exportieren Sie Daten aus daVinci:
+<<<<<<< HEAD
+1. Starten Sie daVinci.
+1. Klicken Sie dort im Menü Extras auf Exportieren.
+2. Wählen Sie unter Typ Rheinland-Pfalz und geben Sie die Exportdatei an.
+3. Klicken Sie auf OK. Die Daten werden jetzt in die angegebene Datei exportiert.
+=======
 
 1. Starten Sie daVinci.
 2. Klicken Sie dort im Menü Extras auf Exportieren.
 3. Wählen Sie unter Typ Rheinland-Pfalz und geben Sie die Exportdatei an.
 4. Klicken Sie auf OK. Die Daten werden jetzt in die angegebene Datei exportiert.
+>>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
 ### Aufgestockte Grundkurse
 
@@ -138,9 +153,15 @@ Wie Sie aufgestockte Grundkurse in DAVINCI eintragen können, beschreiben wir [*
 So exportieren Sie Daten aus DAVINCI:
 
 1. Starten Sie DAVINCI.
+<<<<<<< HEAD
+2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
+3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie auf  ```Weiter```.
+4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf ```Weiter```.
+=======
 2. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
 3. Wählen Sie unter Export den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
 4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
+>>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 5. Geben Sie den Dateipfad und einen passenden Dateinamen ()Beispiel: mien.export.txtei zum Export der Statistikdaten an.
 
 Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert. Auf diese Datei verweisen Sie später aus dem Statistikassistenten von MAGELLAN.
@@ -214,6 +235,14 @@ Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn folgende
 | Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus. |
 | Schüler > Zugang/Abgang > Abgang > **ZugangAm** | Erhebungsdatum (ZugangAm <= Erhebungsdatum UND AbgangAm >= Erhebungsdatum) ODER AbgangAm = Leer |
 | Schüler > Zugang/Abgang > Abgang > **AbgangAm** | Erhebungsdatum (ZugangAm <= Erhebungsdatum UND AbgangAm >= Erhebungsdatum) ODER AbgangAm = Leer |
+<<<<<<< HEAD
+
+
+
+**BBS**
+
+=======
+>>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
 #### BBS
 
@@ -396,10 +425,17 @@ Nur, wenn Sie noch nicht die neue Systematik der Berufskennziffern nutzen, sollt
 
 Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der Berufskennziffern, die aktuell enthaltenen Berufskennziffern in Magellan ausgetauscht werden, bevor die neuen Statistikschlüssel auf dem üblichen Wege aktualisiert werden können.
 
+<<<<<<< HEAD
+1. Öffnen Sie Magellan-Administrator und wechseln Sie in die Ansicht ```Datenbankpflege```. 
+2. Klicken Sie auf ```Starten``` im ```Datenbank überprüfen```.
+3. Im Dialogfenster wählen Sie als Datenbank Magellan-Datenbank und als Aktion ```RLP-Berufskennziffern austauschen``` aus.
+4. Klicken Sie auf ```OK```. Es erscheint ein Dialogfenster mit Fortschrittsanzeige, warten Sie bis die Aktion beendet wurde, um die Dialogfenster zu schließen.
+=======
 1. Öffnen Sie Magellan-Administrator und wechseln Sie in die Ansicht `Datenbankpflege`.
 2. Klicken Sie auf `Starten` im `Datenbank überprüfen`.
 3. Im Dialogfenster wählen Sie als Datenbank Magellan-Datenbank und als Aktion `RLP-Berufskennziffern austauschen` aus.
 4. Klicken Sie auf `OK`. Es erscheint ein Dialogfenster mit Fortschrittsanzeige, warten Sie bis die Aktion beendet wurde, um die Dialogfenster zu schließen.
+>>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
 Danach können die Schlüsselverzeichnisse auf dem üblichen Wege aktualisiert werden.
 [Bitte schauen Sie hier.](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse/)

@@ -86,8 +86,6 @@ So exportieren Sie in DAVINCI 6 die Datei EXTERN.DAT :
 | **Produktname** | 20-stellig   | Pos.25-44 | Produktname   |
 | **Produktversion** | 20-stellig   | Pos.45-64 | Produktversion der verwendeten Schulverwaltungssoftware |
 
-
-
 ### Aufbau für Berufsbildende Schulen
 
 

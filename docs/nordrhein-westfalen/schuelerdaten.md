@@ -1,8 +1,6 @@
-# Schüler- und Klassendaten der SIM.TXT 
+# Schüler- und Klassendaten der SIM.TXT
 
 [Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
-
-
 
 | Art           | Inhalt                                   |
 |---------------|------------------------------------------|
@@ -216,6 +214,3 @@
 | **Statistikfeld** | **Internat**                                 |
 | Datenfeld     | MAGELLAN:Schüler > Daten 4 > Betreuung > Einrichtung |
 | Beschreibung  | Wenn der Schüler einen Internatsplatz besetzt, wählen Sie bitte Internat aus der Auswahlliste aus. |
-
-
-

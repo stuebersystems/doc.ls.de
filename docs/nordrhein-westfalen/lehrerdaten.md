@@ -6,15 +6,16 @@ MAGELLAN benötigt zur Erzeugung der LEHRER.TXT Stundendaten aus DAVINCI 6.
 
 So exportieren Sie in DAVINCI 6 die Statistikdaten zur Erzeugung der LEHRER.TXT in MAGELLAN.
 
-1. Klicken Sie auf ```Plan > Importieren und Exportieren```.
-2. Wählen Sie im Dialogfenster Import/Export-Assistent die Option ```Statistikdaten exportieren``` und klicken Sie dann auf ```Weiter```.
-3. Wählen Sie die Option``` Allgemeines Statistikformat``` exportieren und klicken Sie dann auf ```Weiter```.
+1. Klicken Sie auf `Plan > Importieren und Exportieren`.
+2. Wählen Sie im Dialogfenster Import/Export-Assistent die Option `Statistikdaten exportieren` und klicken Sie dann auf `Weiter`.
+3. Wählen Sie die Option `Allgemeines Statistikformat` exportieren und klicken Sie dann auf `Weiter`.
 4. Geben Sie den Namen der Exportdatei an, z.B. DAVINCI_export.txt
-5. Klicken Sie auf ```OK```. Die Datei mit den Stunden-Datensätzen wird erzeugt.
+5. Klicken Sie auf `OK`. Die Datei mit den Stunden-Datensätzen wird erzeugt.
 6. In der Maske bei der Auswahl geben Sie im unteren Eingabefeld den Pfad zur exportierten DAVINCI Exportdatei an, diese wird von MAGELLAN dann eingelesen und für die LEHRER.TXT ausgewertet.
 
+!!! info "Hinweis"
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 
 | Statistikfeld in  der Statistikdatei   | Datenfeld in  MAGELLAN/DAVINCI           | Beschreibung                             |

@@ -1,7 +1,5 @@
 # Für Schüler und Klassendaten (ABS und BBS)
 
-
-
 | Titel             | Inhalt                                   |
 |-------------------|------------------------------------------|
 | **Statistikfeld** | Pruefungen > AufnahmePruefung > **KlassenStufe** |
@@ -346,4 +344,3 @@
 | Datenfeld         | MAGELLAN:<br/>Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss<br/>[Abschlüsse (Extern)] |
 | Beschreibung      | Geben Sie hier den höchsten erreichten berufsbezogenen Abschluss, der ohne den Erwerb eines weiteren allgemeinen Abschlusses erreicht wurde, z.B. Lehrabschluss. |
 | Statistikdatei    | BBSNeuanlage                             |
-

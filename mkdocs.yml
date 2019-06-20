@@ -48,7 +48,7 @@ markdown_extensions:
 # Navigation  
 nav:
 - Überblick:
-  - Das Statistikkonzept: index.md
+  - Statistikkonzept: index.md
   - Data Warehouse: das-datawarehouse.md
   - Schlüsselverzeichnisse: schluesselverzeichnisse.md
   - Datenprüfung: datenpruefung.md

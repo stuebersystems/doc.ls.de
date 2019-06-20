@@ -37,7 +37,7 @@ Lesen Sie das für Ihre Schule zutreffende Kapitel in diesem Dokument sehr genau
 !!! info "Hinweis"
 
  Überprüfen Sie in MAGELLAN und DAVINCI, ob Ihre Schlüsselverzeichnisse korrekt sind. Korrigieren Sie sie evtl. gemäß der Vorgaben des Statistikamts bzw. des Kultusministeriums, indem Sie die in MAGELLAN mitgelieferten Schlüssel neu importieren oder indem Sie die Schlüsselverzeichnisse entsprechend editieren. 
- 
+
     STÜBER SYSTEMS liefert die von den Ämtern zur Verfügung gestellten Schlüssel mit. STÜBER SYSTEMS übernimmt allerdings keine Gewähr für die Richtigkeit der Schlüssel.
 
 ## Das Statistikkonzept

@@ -18,7 +18,9 @@ XXX_DATOS_JJJJMMTT.TXT| Beinhaltet alle Angaben zu den Kursen in der Oberstufe<b
 XXX_DATLE_JJJJMMTT.TXT| Beinhaltet alle Daten der Lehrer im aktuellen Schuljahr<br> an allgemeinbildenden und berufsbildenden Schulen.
 
 
-> Dabei steht das <XXX> für die Schulnummer der Schule und <JJJJMMTT> für das Erstellungsdatum z.B. 20140826. Ist beispielsweise die Lehrerdatei am 29.08.2015 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20140829.TXT. 
+ !!! info "Hinweis"
+
+ Dabei steht das <XXX> für die Schulnummer der Schule und <JJJJMMTT> für das Erstellungsdatum z.B. 20140826. Ist beispielsweise die Lehrerdatei am 29.08.2015 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20140829.TXT. 
 
 Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 
@@ -38,7 +40,9 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang, in einer tabellarischen Übersicht.
 
->Statistikkürzel: Voraussetzung für das Ausspielen der Daten in das Statistikformat ist die Angabe des Feldes ```Klassen > Daten 1| > Statistikkürzel```. Das Feld kann beliebig eingetragen werden und sollte eindeutig benannt sein. Üblicherweise wird hier einfach das Klassenkürzel wiederholt. Schüler, für deren Klasse kein Statistikkürzel eingetragen ist, werden statistisch nicht berücksichtigt.
+!!! warning "Wichtig"
+
+Statistikkürzel: Voraussetzung für das Ausspielen der Daten in das Statistikformat ist die Angabe des Feldes ```Klassen > Daten 1| > Statistikkürzel```. Das Feld kann beliebig eingetragen werden und sollte eindeutig benannt sein. Üblicherweise wird hier einfach das Klassenkürzel wiederholt. Schüler, für deren Klasse kein Statistikkürzel eingetragen ist, werden statistisch nicht berücksichtigt.
 
 Statistikfeld|Datenfeld in MAGELLAN/DAVINCI|Beschreibung
 --|--|--
@@ -57,11 +61,11 @@ Wo|Was
 --|--
 Stammdaten > Klassen|Bitte erfassen Sie in der Spalte ID für alle Oberstufen Klassen die MAGELLAN-ID.
 Stammdaten > Fächer|Für alle Fächer muss in der Spalte „Schlüssel“ der vom Statistikamt vorgeschriebene Schlüssel erfasst werden, z.B. „014“ für das Fach Deutsch.
-Veranstaltungsübersicht > Klassen|Achten Sie darauf alle Leistungs- und Grundkurse eingetragen zu haben. 
+Veranstaltungsübersicht > Klassen|Achten Sie darauf alle Leistungs- und Grundkurse eingetragen zu haben.
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht „Schüler“, „Klassen“ oder „Lehrer“. Die Fächerliste finden unter „Verzeichnisse“, „Fächer“. 
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht „Schüler“, „Klassen“ oder „Lehrer“. Die Fächerliste finden unter „Verzeichnisse“, „Fächer“.
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
 3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht. 
 4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.

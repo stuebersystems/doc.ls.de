@@ -126,7 +126,7 @@ wenn diese dadurch eine andere Bedeutung bekäme.
 
 **Lösung**
 
-Wir haben im Administrator dazu eine Korrektur integriert. Bitte führen Sie folgende Schritte nacheinander aus. 
+Wir haben im Administrator dazu eine Korrektur integriert. Bitte führen Sie folgende Schritte nacheinander aus.
 
 1. Stellen Sie sicher, dass die aktuelle Version (mindestens die 6.0.179) auf Ihrem Server und auf Ihrem Client installiert sind, nur dann stehen Ihnen die aktuellen Kataloge und die Korrekturfunktion zur Verfügung.
 2. Importieren Sie die Schlüsselkataloge über ```MAGELLAN ADMINISTRATOR > Datenimporte > Schlüsselverzeichnisse importieren > Schleswig-Holstein und "allgemeinbildende Schule"```.
@@ -144,7 +144,7 @@ Beispiel:
 In diesem Jahr ist es so, dass sowohl für Fächer als auch für Kurse der gleiche Schlüssel mit unterschiedlichen Bedeutungen verwendet wurde,
 
 Beispiel:
-  Schlüssel: "040", 
+  Schlüssel: "040",
   Bezeichnung im Fach: "Orchester/Chor"
   Bezeichnung im Kurs: "Religion"
 

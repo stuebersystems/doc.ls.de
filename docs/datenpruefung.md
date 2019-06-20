@@ -12,9 +12,9 @@ Zum Prüfen der Statistikdateien gehen Sie bitte wie folgt vor:
 6. Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf `Weiter`.
 7. Starten Sie die Datenprüfung.
 
-## Ergebnis der Datenprüfung auswerten 
+## Ergebnis der Datenprüfung auswerten
 
-Die Ergebnisse der Datenprüfung werden unter Hinweise aufgelistet. Sind dort keine Hinweise enthalten, sind die Daten für die Abgabe an das Statistikamt korrekt eingegeben oder es werden keine statistisch relevanten Daten erkannt (eventuell fehlt die Eingabe des Statistikkürzels der Klasse?). 
+Die Ergebnisse der Datenprüfung werden unter Hinweise aufgelistet. Sind dort keine Hinweise enthalten, sind die Daten für die Abgabe an das Statistikamt korrekt eingegeben oder es werden keine statistisch relevanten Daten erkannt (eventuell fehlt die Eingabe des Statistikkürzels der Klasse?).
 
 !!! info "Hinweis"
 
@@ -25,4 +25,3 @@ Sie müssen nun die Meldungen in MAGELLAN bzw. DAVINCI bearbeiten und dann erneu
 !!! info "Hinweis"
 
 > Viele in der Prüfung abgefragte Werte werden nicht in den Statistikdateien ausgegeben, dienen aber als Voraussetzung für die Plausibilitätsprüfungen. Beispiel: Zur Prüfung von korrekten Fremdsprachen bei Allgemeinbildenden Schulen muss die Schulart angegeben sein. Wurde diese nicht oder fehlerhaft angegeben, gibt die Prüfung eine Fehlermeldung aufgrund dieser Bedingung aus.
-

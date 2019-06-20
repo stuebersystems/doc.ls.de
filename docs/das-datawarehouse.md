@@ -1,8 +1,8 @@
-# Das MAGELLAN-Data Warehouse
+# MAGELLAN-Data Warehouse
 
-> #### primary::Bitte beachten
->
-> Nur für die Statistik im Bundesland Niedersachsen wird das MAGELLAN-Data Warehouse benötigt, alle anderen Statistiken werden direkt aus MAGELLAN erzeugt.
+!!! warning "Wichtig"
+
+     Nur für die Statistik im Bundesland Niedersachsen wird das MAGELLAN-Data Warehouse benötigt, alle anderen Statistiken werden direkt aus MAGELLAN erzeugt.
 
 ## MAGELLAN-DWH Explorer
 

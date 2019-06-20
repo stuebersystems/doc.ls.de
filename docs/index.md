@@ -1,4 +1,4 @@
-# Einführung
+# Einführung und Statistikkonzept
 
 Dies ist die elektronische Dokumentation zu den von [MAGELLAN](https://magellan.stueber.de) und [DAVINCI](https://davinci.stueber.de) unterstützten Landesstatistiken.
 
@@ -36,11 +36,11 @@ Lesen Sie das für Ihre Schule zutreffende Kapitel in diesem Dokument sehr genau
 
 !!! info "Hinweis"
 
-	Überprüfen Sie in MAGELLAN und DAVINCI, ob Ihre Schlüsselverzeichnisse korrekt sind. Korrigieren Sie sie evtl. gemäß der Vorgaben des Statistikamts bzw. des Kultusministeriums, indem Sie die in MAGELLAN mitgelieferten Schlüssel neu importieren oder indem Sie die Schlüsselverzeichnisse entsprechend editieren. 
+ Überprüfen Sie in MAGELLAN und DAVINCI, ob Ihre Schlüsselverzeichnisse korrekt sind. Korrigieren Sie sie evtl. gemäß der Vorgaben des Statistikamts bzw. des Kultusministeriums, indem Sie die in MAGELLAN mitgelieferten Schlüssel neu importieren oder indem Sie die Schlüsselverzeichnisse entsprechend editieren. 
  
     STÜBER SYSTEMS liefert die von den Ämtern zur Verfügung gestellten Schlüssel mit. STÜBER SYSTEMS übernimmt allerdings keine Gewähr für die Richtigkeit der Schlüssel.
 
-# Das Statistikkonzept
+## Das Statistikkonzept
 
 Die Statistikdateien werden direkt aus MAGELLAN heraus mit Hilfe eines Statistikassistenten erstellt. Werden Stundenplanwerte für die Statistik erwartet, greift der Assistent zusätzlich auf eine aus DAVINCI heraus exportierbare TXT-Datei zu. Dieses Verfahren gilt für die Bundesländer:
 
@@ -100,8 +100,9 @@ Diese Schlüsselverzeichnisse müssen in MAGELLAN und DAVINCI übereinstimmen. S
 
 Nachdem Sie die kontrolliert haben, dass die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, wie im DAVINCI Handbuch im Kapitel „Datenaustausch mit anderen Programmen“  unter „Datenaustausch mit MAGELLAN“, „Daten nach MAGELLAN übergeben“ beschrieben.
 
-> #### danger::Wichtig
-> Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
+!!! info "Hinweis"
+
+    Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
 
 ## Daten prüfen
 
@@ -114,10 +115,10 @@ Nachdem Sie die kontrolliert haben, dass die IDs in beiden Programmen übereinst
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1.	Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
-2.	Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3.	Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht. 
-4.	Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
+3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht. 
+4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
 
 ### Daten als Berufsbildende Schule in DAVINCI prüfen
 
@@ -141,15 +142,14 @@ Soll-Änderungsgrund für die Klasse | Entspricht dem Eintrag in der Spalte Beme
 
 Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
 
-> #### info::Hinweis
-> Ob Sie für Ihr Bundesland DAVINCI-Daten benötigen, lesen Sie bitte in den jeweiligen Abschnitten zur Statistik in Ihrem Bundesland in diesem Dokument.
+!!! info "Hinweis"
+
+    Ob Sie für Ihr Bundesland DAVINCI-Daten benötigen, lesen Sie bitte in den jeweiligen Abschnitten zur Statistik in Ihrem Bundesland in diesem Dokument.
 
 So exportieren Sie Daten aus DAVINCI:
 
-1.	Starten Sie DAVINCI.
-2.	Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
-3.	Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie aur ```Weiter```.
-4.	Wählen Sie Ihr Bundesland aus  und klicken Sie auf ```Weiter```.
-5.	Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an.
-
-Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert.
+1. Starten Sie DAVINCI.
+2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
+3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie aur ```Weiter```.
+4. Wählen Sie Ihr Bundesland aus  und klicken Sie auf ```Weiter```.
+5. Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an. Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert.

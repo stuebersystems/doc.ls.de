@@ -67,10 +67,10 @@ nav:
   - BBS: niedersachsen/bbs.md
 - Nordrhein-Westfalen:
   - ABS und BBS: nordrhein-westfalen/abs-bbs.md
-  - Schüler- und Klassendaten (SIM.TXT): nordrhein-westfalen/schuelerdaten.md
-  - Lehrerdaten (LEHRER.TXT): nordrhein-westfalen/lehrerdaten.md
-  - Abiturdaten (ABI.TXT): nordrhein-westfalen/abiturdaten.md
-  - Stundenplandaten (EXTERN.DAT): nordrhein-westfalen/stundenplandaten.md
+  - SIM.TXT: nordrhein-westfalen/schuelerdaten.md
+  - LEHRER.TXT: nordrhein-westfalen/lehrerdaten.md
+  - ABI.TXT: nordrhein-westfalen/abiturdaten.md
+  - EXTERN.DAT: nordrhein-westfalen/stundenplandaten.md
   - Aktuelle Version: nordrhein-westfalen/changelog.md
   - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
 - Rheinland-Pfalz:

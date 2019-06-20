@@ -2,9 +2,11 @@
 
 Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen im Saarland die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Statistikamt im Schuljahr 2017/2018 und die Erzeugung der Eingabedaten für die Abiturstatistik (teilweise) und der Religionsstatistik.
 
-> Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 
-> Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+!!! info "Hinweis"
+
+    Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
+    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 ## Einführung
 
@@ -41,9 +43,9 @@ Für Sie als Schule bedeutet dies: Sie müssen die folgenden CSV-Dateien an das 
 
 ## Notwendige Schritte
 
-1. Schritt: Statistikschlüssel aktualisieren 
+1. Schritt: Statistikschlüssel aktualisieren
 2. Schritt: Statistisch relevante Daten in MAGELLAN eingeben
-3. Schritt: Statistikdaten erstellen.    
+3. Schritt: Statistikdaten erstellen.
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
@@ -56,14 +58,11 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 |3.| Wählen Sie `Saarland`, Ihrer Schulart und Ihren Mandanten aus und importieren einen ausgewählten oder alle mitgelieferten Kataloge.|
 
 
+!!! warning "Wichtig"
 
-> #### danger::Achtung!
->
-> Sie haben bereits Schlüsselzeilen in Ihrer Datenbank verwendet, für die Sie eigene Werte in der Spalte `Schlüssel` eingetragen haben. 
-> Durch diese eigenen Werte haben wir nicht die Möglichkeit beim Import der neuen Schlüssel diese mit Ihren Schlüsseln abzugleichen. 
-> Es muss mindestens beim ersten Statistikdurchlauf (ab dem nächsten Jahr können dann Schlüssel erkannt werden) ein manuelle Nacharbeit erfolgen. Bitte lesen Sie dazu den nächsten Abschnitt!
-
-
+    Sie haben bereits Schlüsselzeilen in Ihrer Datenbank verwendet, für die Sie eigene Werte in der Spalte `Schlüssel` eingetragen haben.
+    Durch diese eigenen Werte haben wir nicht die Möglichkeit beim Import der neuen Schlüssel diese mit Ihren Schlüsseln abzugleichen.
+    Es muss mindestens beim ersten Statistikdurchlauf (ab dem nächsten Jahr können dann Schlüssel erkannt werden) ein manuelle Nacharbeit erfolgen. Bitte lesen Sie dazu den nächsten Abschnitt!
 
 ### Manuelle Anpassung der Schlüsselverzeichnisse in MAGELLAN 6
 
@@ -76,7 +75,6 @@ Beim Import der Schlüssel gibt es einen Ablauf, der gewähren soll, dass die Wa
 |1.|Alle noch nie verwendeten Schlüsselzeilen werden gelöscht.<br/>Übrig bleiben nur die Zeilen, die Sie bereits einmal verwendet haben.<br/>Diese Zeilen können jetzt für die Statistik richtig oder auch verkehrt sein.
 |2.|Alle übrigen Zeilen werden mit einer grauen Raute als inaktive Schlüssel gekennzeichnet.<br/><br/> Zur Erklärung: Jedes Verzeichnis hat die Spalten `von` und `bis`. In diesen Spalten kann man ein Datum eintragen, das wird bei der Anzeige mit dem ausgewählten Zeitraum in MAGELLAN verglichen und der Schlüssel wird demnach mit einer grauen oder einer blauen Raute in der Programmoberfläche gezeigt. Schlüssel mit einer grauen Raute werden zusätzlich ans Ende der Liste sortiert.
 |3.|Als nächstes wird ein Schlüssel aus dem Importkatalog anhand seines Schlüsselwerts (Inhalt der Spalte `Schlüssel`) mit den im Verzeichnis noch enthaltenen Schlüsseln verglichen. Werden Zeilen erkannt (gleicher Schlüsselwert), wird der Schlüssel (oder werden die Schlüssel, es dürfen auch mehrere Zeilen existieren) wieder aktiviert, das heißt der oder die Schlüsselzeilen werden als aktive Schlüssel mit einer blauen Raute dargestellt.<br/>Ist keine Zeile mit dem verglichenen Schlüssel im Verzeichnis vorhanden, wird die Schlüsselzeile im Verzeichnis mit angelegt - ist aber bislang nirgendwo im Programm mit einem Datensatz verbunden.|
-
 
 ### Ihre Schlüsselwerte an Vorgaben des Ministeriums anpassen
 
@@ -112,60 +110,55 @@ BS_Berufe.keys|`Verzeichnisse > Berufe`
 
 ## Statistisch relevante Daten in MAGELLAN eingeben
 
-
-
 In den nachfolgenden Abschnitten wird pro Statistiktyp beschrieben, welche Daten in MAGELLAN wichtig sind, damit die entsprechenden CSV-Dateien gefüllt werden können.
 
-> #### primary::Hinweis
->
-> Einige Eintragungen werden wiederholt erwähnt, da sie für mehrere Auswertungen Voraussetzungen sind.
+!!! warning "Wichtig"
+
+    Einige Eintragungen werden wiederholt erwähnt, da sie für mehrere Auswertungen Voraussetzungen sind.
 
 
 ### Klassenbogen
 
 Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
 ------------------------------------------------|-------------------------------------------------------
-Klassen > Daten > **Statistikkürzel**	        |Es werden alle Schüler berücksichtigt, bei deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. 
-Klassen > Zeiträume > **Fachtafel**	            |Der Klasse muss im aktuellen Zeitraum der Statistikerhebung eine Fachtafel zugeordnet sein. Dies ist nur für Fachtafeln der Klassenstufen 11-13 notwendig. Legen Sie die entsprechenden Fachtafeln unter `Verzeichnisse > Fachtafeln` an und weisen sie unter `Klassen > Zeiträume > Fachtafel` zu.
-Klassen > Zeiträume > **Jahrgang**	            |Geben Sie hier den Jahrgang der Klasse an.
+Klassen > Daten > **Statistikkürzel** |Es werden alle Schüler berücksichtigt, bei deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. 
+Klassen > Zeiträume > **Fachtafel** |Der Klasse muss im aktuellen Zeitraum der Statistikerhebung eine Fachtafel zugeordnet sein. Dies ist nur für Fachtafeln der Klassenstufen 11-13 notwendig. Legen Sie die entsprechenden Fachtafeln unter `Verzeichnisse > Fachtafeln` an und weisen sie unter `Klassen > Zeiträume > Fachtafel` zu.
+Klassen > Zeiträume > **Jahrgang** |Geben Sie hier den Jahrgang der Klasse an.
 Verzeichnisse > Fachtafeln > Details > **Fach**, **Unterrichtsart**, **KursNr**, **Lehrer**, **Ist-Stunden**|Hier ist die Fachtafel der Klasse definiert. Hier müssen alle Kurse der Klasse, definiert durch Fach + Unterrichtsart + KursNr definiert werden mit zugehörigem Lehrer und der Ist-Stundenzahl. Die Ist-Stunden und Lehrer-Angabe ist nur für Klassen der Klassenstufen 11-13 notwendig.
-Schüler >  Zeugnis > Fächer > **Fach**, **Unterrichtsart**, ** Fachstatus**, **KursNr**, **Lehrer**	| Jeder Schüler:<br/>Pro Schüler wird hier hier im aktuellen Erhebungszeitraum die Zugehörigkeit zu einer Lerngruppe aus Fach + Unterrichtsart + KursNr und dem unterrichtenden Lehrer definiert. <br/>Nur Oberstufe:<br/>Das Feld `Fachstatus` ist nur bei Fremdsprachen zu füllen, wenn die Fremdsprache freiwillig ist. Dies ist nur für Schüler der Klassenstufen 11-13 notwendig.
-Schüler >  Daten 1 > ** Geschlecht**, **Geboren am**, **Konfession**, **Gemeinde**, **Stadtbezirk**| Pro Schüler wird das Geschlecht, die Konfession und das Geburtsdatum eingetragen. Zusätzliche muss die Gemeindekennziffer im Feld `Gemeinde` und der zugehörige Gemeindeteil unter `Stadtbezirk` eingetragen werden.
-Schüler >  Daten 2 > ** Staatsangehörigkeit 1**, **Verkehrssprache**| Pro Schüler wird die `Staatsangehörigkeit` und bei Bedarf die `Verkehrssprache` eingetragen.
+Schüler >  Zeugnis > Fächer > **Fach**, **Unterrichtsart**, **Fachstatus**, **KursNr**, **Lehrer** | Jeder Schüler:<br/>Pro Schüler wird hier hier im aktuellen Erhebungszeitraum die Zugehörigkeit zu einer Lerngruppe aus Fach + Unterrichtsart + KursNr und dem unterrichtenden Lehrer definiert. <br/>Nur Oberstufe:<br/>Das Feld `Fachstatus` ist nur bei Fremdsprachen zu füllen, wenn die Fremdsprache freiwillig ist. Dies ist nur für Schüler der Klassenstufen 11-13 notwendig.
+Schüler >  Daten 1 > **Geschlecht**, **Geboren am**, **Konfession**, **Gemeinde**, **Stadtbezirk**| Pro Schüler wird das Geschlecht, die Konfession und das Geburtsdatum eingetragen. Zusätzliche muss die Gemeindekennziffer im Feld `Gemeinde` und der zugehörige Gemeindeteil unter `Stadtbezirk` eingetragen werden.
+Schüler >  Daten 2 > **Staatsangehörigkeit 1**, **Verkehrssprache**| Pro Schüler wird die `Staatsangehörigkeit` und bei Bedarf die `Verkehrssprache` eingetragen.
 Schüler >  Daten 3 > **Fremdsprache 1-3**| Pro Schüler sind hier die `Fremdsprachen` einzutragen. Hierfür können Sie auch die Sammelzuweisung unter `Schüler > Bearbeiten  > Sammelzuweisung` nutzen.
-Schüler > Laufbahn > Allgemein > ** Versetzungsart **|Hier ist für Schüler des vorherigen Schuljahres anzugeben, ob diese freiwillig zurückgetreten sind.<br/>Hierfür können Sie auch die Sammelzuweisung unter `Schüler > Bearbeiten  > Sammelzuweisung` nutzen.
-Schüler > Zugang/Abgang > ** Voraus. Ende**|Hier ist das Feld auszufüllen, wenn der Schüler innerhalb des aktuellen Schuljahres voraussichtlichen entlassen wird.
+Schüler > Laufbahn > Allgemein > **Versetzungsart** |Hier ist für Schüler des vorherigen Schuljahres anzugeben, ob diese freiwillig zurückgetreten sind.<br/>Hierfür können Sie auch die Sammelzuweisung unter `Schüler > Bearbeiten  > Sammelzuweisung` nutzen.
+Schüler > Zugang/Abgang > **Voraus. Ende**|Hier ist das Feld auszufüllen, wenn der Schüler innerhalb des aktuellen Schuljahres voraussichtlichen entlassen wird.
 Schüler > Laufbahn > Allgemein > **Wiederholer**| Geben Sie hier im aktuellen Erfassungzeitraum an, ob der Schüler ein Wiederholer ist
-Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunft > ** Schulform**. | Geben Sie hier die `Schulform` der Schule an, von der der Schüler gekommen ist. 
-
+Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunft > **Schulform**. | Geben Sie hier die `Schulform` der Schule an, von der der Schüler gekommen ist. 
 
 ### Schulbogen
 
 Voraussetzung für die Auswertungsteile für das Abitur ist, dass die auszuwertenden Schüler im aktuellen Erhebungszeitraum in der Ansicht `Abitur` vorhanden sind.
 
-
-
 Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
 ------------------------------------------------|-------------------------------------------------------
-Klassen > Daten > **Statistikkürzel**	        |Es werden alle Schüler berücksichtigt, bei deren Klasse ein `Statistikkürzel` eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. 
-Klassen > Zeiträume > **Jahrgang**	            |Geben Sie hier den `Jahrgang` der Klasse an.
-Schüler >  Daten 1 > ** Geschlecht**, **Geboren am**, **Konfession**| Pro Schüler wird das `Geschlecht`, das `Geburtsdatum` und die `Konfession` eingetragen. 
-Schüler >  Laufbahn > Abschluss > ** Abschluss 1**| Im vorherigen Schuljahr sind hier die evtl. Abschlüsse der Schüler einzutragen
-Schüler >  Daten 2 > ** Staatsangehörigkeit 1**| Pro Schüler wird hier die `Staatsangehörigkeit` eingetragen.
-Abitur > Qualifikation > **Status**, **Abitur angemeldet**|Pro Schüler kann unter `Status` ausgewiesen, dass er die ``Zulassung 12 erreicht`` bzw. das Abitur bestanden hat. Zusätzlich kann ausgewählt werden, ob er sich zum Abitur angemeldet hat.    
-Abitur > Prüfung > ** Prüfungsstatus** | Geben Sie hier den `Prüfungsstatus` an.   
-      
+Klassen > Daten > **Statistikkürzel** |Es werden alle Schüler berücksichtigt, bei deren Klasse ein `Statistikkürzel` eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein.
+Klassen > Zeiträume > **Jahrgang** |Geben Sie hier den `Jahrgang` der Klasse an.
+Schüler >  Daten 1 > **Geschlecht**, **Geboren am**, **Konfession**| Pro Schüler wird das `Geschlecht`, das `Geburtsdatum` und die `Konfession` eingetragen. 
+Schüler >  Laufbahn > Abschluss > **Abschluss 1**| Im vorherigen Schuljahr sind hier die evtl. Abschlüsse der Schüler einzutragen
+Schüler >  Daten 2 > **Staatsangehörigkeit 1**| Pro Schüler wird hier die `Staatsangehörigkeit` eingetragen.
+Abitur > Qualifikation > **Status**, **Abitur angemeldet**|Pro Schüler kann unter `Status` ausgewiesen, dass er die ``Zulassung 12 erreicht`` bzw. das Abitur bestanden hat. Zusätzlich kann ausgewählt werden, ob er sich zum Abitur angemeldet hat.
+Abitur > Prüfung > **Prüfungsstatus** | Geben Sie hier den `Prüfungsstatus` an.
+
 ### Religionsstatistik
 
 Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
 ------------------------------------------------|-------------------------------------------------------
-Klassen > Daten > **Statistikkürzel**	        |Es werden alle Schüler berücksichtigt, bei deren Klasse ein `Statistikkürzel` eingetragen wurde. Das `Statistikkürzel` sollte gleich dem Klassenkürzel sein. 
-Klassen > Zeiträume > **Fachtafel**	            |Der Klasse muss im aktuellen Zeitraum der Statistikerhebung eine `Fachtafel` zugeordnet sein. 
+Klassen > Daten > **Statistikkürzel** |Es werden alle Schüler berücksichtigt, bei deren Klasse ein `Statistikkürzel` eingetragen wurde. Das `Statistikkürzel` sollte gleich dem Klassenkürzel sein. 
+Klassen > Zeiträume > **Fachtafel** |Der Klasse muss im aktuellen Zeitraum der Statistikerhebung eine `Fachtafel` zugeordnet sein. 
 Verzeichnisse > Fachtafeln > Details > **Fach**, **Unterrichtsart**, **KursNr**, **Lehrer**, **Ist-Stunden**|Hier ist die `Fachtafel` der Klasse definiert. Hier müssen alle Kurse der Klasse, definiert durch Fach + Unterrichstart + KursNr definiert werden mit zugehörigem Lehrer und der Ist-Stundenzahl. Dabei muss das Fach der katholische Religionsunterricht, der evangelische Religionsunterricht oder Ethik sein.
 Schüler >  Daten 1 > **Konfession**, **Rel.-Teilnahme**| Pro Schüler wird die Konfession und die Religionsteilnahme eingetragen.
-Schüler >  Zeugnis > Fächer > **Fach**, **Unterrichtsart**, **KursNr**, **Lehrer**	| Pro Schüler wird hier im aktuellen Erhebungszeitraum die Zugehörigkeit zu einer Lerngruppe aus Fach + Unterrichtsart + KursNr und dem unterrichtenden Lehrer definiert. Dabei muss das Fach der katholische Religionsunterricht, der evangelische Religionsunterricht oder Ethik sein.  
+Schüler >  Zeugnis > Fächer > **Fach**, **Unterrichtsart**, **KursNr**, **Lehrer** | Pro Schüler wird hier im aktuellen Erhebungszeitraum die Zugehörigkeit zu einer Lerngruppe aus Fach + Unterrichtsart + KursNr und dem unterrichtenden Lehrer definiert. Dabei muss das Fach der katholische Religionsunterricht, der evangelische Religionsunterricht oder Ethik sein.  
 Lehrer > Daten > **Vorname**, **Nachname**|Hier muss jeder Lehrer definiert werden, der in den Fächern der Schüler bzw. der Fachtafel der Klasse dem Religions- bzw. Ethikunterricht zugeordent ist.
- 
+
 ### Abiturstatistik
 
 Voraussetzung für die Abiturstatistik ist, dass die auszuwertenden Schüler im aktuellen Erhebungszeitraum in der Ansicht `Abitur` vorhanden sind.
@@ -179,10 +172,10 @@ Abitur > Prüfung > **Durchschnitt** | Hier muss die Abiturnote eingetragen werd
 
 ## Statistikdaten erstellen
 
-
 Zum Erstellen der Statistikdateien gehen Sie wie folgt vor:
-1.	Starten Sie MAGELLAN.
-2.	Klicken Sie im Menü `Extras` auf `Statistik`.
-3.	Wählen Sie als Bundesland ``Saarland``. Klicken Sie dann auf `Weiter`.
-4.	Markieren Sie die Dateien, welche Sie erstellen möchten. Unter Statistikzeiträume auswählen müssen Sie den Erhebungszeitpunkt (Beispiel 02.11.2018), den aktuellen Zeitraum (1. Halbjahr 2018/2019) und die Zeiträume des Vorjahres (2. Halbjahr 2017/2018 und 1. Halbjahr 2017/2018) einstellen. 
-5.	Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf `Weiter`. Klicken Sie auf `Start`, um die Erstellung der Statistikdateien zu starten.
+
+1. Starten Sie MAGELLAN.
+2. Klicken Sie im Menü `Extras` auf `Statistik`.
+3. Wählen Sie als Bundesland ``Saarland``. Klicken Sie dann auf `Weiter`.
+4. Markieren Sie die Dateien, welche Sie erstellen möchten. Unter Statistikzeiträume auswählen müssen Sie den Erhebungszeitpunkt (Beispiel 02.11.2018), den aktuellen Zeitraum (1. Halbjahr 2018/2019) und die Zeiträume des Vorjahres (2. Halbjahr 2017/2018 und 1. Halbjahr 2017/2018) einstellen.
+5. Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf `Weiter`. Klicken Sie auf `Start`, um die Erstellung der Statistikdateien zu starten.

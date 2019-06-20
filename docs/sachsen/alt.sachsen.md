@@ -3,10 +3,9 @@
 Dieses Kapitel beschreibt für Berufsbildenden Schulen in Sachsen die benötigten Schritte zum Erstellen einer Datei, die in SaxSVS eingelesen werden kann.
 Die Schnittstelle zum Erstellen der Datei wird erst mit Version 7 zur Verfügung stehen, aber die notwendigen Daten (Schlüsselverzeichnisimporte, Eingaben in MAGELLAN 6) können bereits in der laufenden Version vorbereitend vorgenommen werden. In Version 7 werden weitere statistikrelevante Felder zur Verfügung stehen.
 
-> #### danger::Achtung!
->
-> Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 7! In Version 6 können aber auch ohne die Statistiklizenz Daten als Vorbereitung eingepflegt werden.
+!!! info "Hinweis"
 
+	Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 7! In Version 6 können aber auch ohne die Statistiklizenz Daten als Vorbereitung eingepflegt werden.
 
 ## Notwendige Schritte
 

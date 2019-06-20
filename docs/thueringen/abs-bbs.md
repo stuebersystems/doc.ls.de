@@ -2,17 +2,20 @@
 
 Dieses Kapitel beschreibt für Berufsbildenden Schulen in Thüringen die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Kultusministerium in Thüringen im Schuljahr 2007/2008.
 
->Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
+
+
+!!! info "Hinweis"
+
+  Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 Berufsbildende Schulen benötigen für die Landesstatistik jeweils das Stundenplanmodul von DAVINCI zur Vervollständigung der Statistikdaten.
 
-#Einführung
+## Einführung
 
-
-Die Statistik Thüringen wird seit dem Schuljahr 2007/2008 unterstützt. Grundlage des Statistikmoduls für Thüringen ist das Austauschformat, das in das Erfassungsprogramm des Kultusministeriums eingelesen wird. 
+Die Statistik Thüringen wird seit dem Schuljahr 2007/2008 unterstützt. Grundlage des Statistikmoduls für Thüringen ist das Austauschformat, das in das Erfassungsprogramm des Kultusministeriums eingelesen wird.
 Das Austauschformat ist eine mit Semikolon getrennte ASCII-Textdatei, die jeden Datensatz in einer Zeile hält. Diese Daten lassen sich z.B. nach dem Erstellen mit einem Texteditor betrachten.
 Für Sie als Schule bedeutet dies: Sie müssen die folgende Textdatei erstellen und in das Erfassungsprogramm einlesen:
 
-•	SB_xxxxx.svs
+• SB_xxxxx.svs
 
 Hierbei steht xxxxx für Ihre Schulnummer.
 Die Datei erhält die Dateiendung .SVS, kann aber mit einem Texteditor problemlos eingelesen werden. 
@@ -21,55 +24,58 @@ Die Datei enthält einige Klassendaten, größtenteils aber Schülerdaten aus de
 
 Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 
-##Notwendige Schritte
+## Notwendige Schritte
+
 1. Schritt: [Statistikschlüssel bereinigen und aktualisieren](../schluesselverzeichnisse.md)
 2. Schritt: Statistisch relevante Daten in DAVINCI bzw. MAGELLAN eingeben
 3. Schritt: Kurswahlen von DAVINCI nach MAGELLAN übertragen (nur für Berufsbildende Gymnasien mit Oberstufe)
 4. Schritt: Statistikdaten in das MAGELLAN-Datawarehouse übertragen
 5. Schritt: Statistikdaten im MAGELLAN DWH-Explorer erstellen
 
-
 ## Eingaben in DAVINCI
 
-
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
+
 1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht „Schüler“, „Klassen“ oder „Lehrer“. Die Fächerliste finden Sie unter „Verzeichnisse“, „Fächer“. 
-2.	Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3.	Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht der Stammdaten.
-4.	Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
+2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
+3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht der Stammdaten.
+4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
 
-
-###Veranstaltungsliste
+### Veranstaltungsliste
 
 Einige Daten für die Statistik errechnen sich unmittelbar aus den Unterrichtsangaben in der Veranstaltungsliste. Für jede Veranstaltung sollten daher der Lehrer, die Klasse, das Fach und die Unterrichtsstunden eingetragen sein.
-###Kurswahldaten und Lehrerdaten von DAVINCI nach MAGELLAN übertragen
 
+### Kurswahldaten und Lehrerdaten von DAVINCI nach MAGELLAN übertragen
 
 Die Kurswahldaten (für Schulen mit Oberstufe) und die Lehrerdaten mit der Soll-Berechnung aus DAVINCI (für die Sollberechnung) müssen für die Statistik nach MAGELLAN übertragen werden. Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten übernehmen, wie im DAVINCI Handbuch im Kapitel „Spezielles“  unter „Datenaustausch mit MAGELLAN“, „Daten nach MAGELLAN übergeben“ beschrieben.
 
->Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
+!!! info "Hinweis"
 
+  Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
 
-# Übertrag ins Datawarehouse
+## Übertrag ins Datawarehouse
 
 So übertragen Sie Daten in das Datawarehouse:
-1.	Wählen Sie in MAGELLAN die Ansicht ```Datawarehouse``` aus.
-2.	Klicken Sie dort unterhalb von ```Extras``` auf ```Starten```.
-3.	Der Importassistent für das MAGELLAN-Datawarehouse wird gestartet.  Sie müssen sich jetzt erneut an der MAGELLAN Datenbank mit der Administrator- Kennung und Kennwort anmelden.
-4.	Klicken Sie auf ```Weiter``` und wählen Sie den passenden Mandanten und  Zeitraum  aus.
-5.	Klicken Sie auf ```Weiter``` und dann auf ```Starten```. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
->Wenn Sie mit Halbjahren arbeiten, müssen Sie diesen Vorgang nur einmal ausführen, um die Daten aus dem aktuellen Zeitraum (1. Halbjahr) zu übertragen.
+1. Wählen Sie in MAGELLAN die Ansicht ```Datawarehouse``` aus.
+2. Klicken Sie dort unterhalb von ```Extras``` auf ```Starten```.
+3. Der Importassistent für das MAGELLAN-Datawarehouse wird gestartet.  Sie müssen sich jetzt erneut an der MAGELLAN Datenbank mit der Administrator- Kennung und Kennwort anmelden.
+4. Klicken Sie auf ```Weiter``` und wählen Sie den passenden Mandanten und  Zeitraum  aus.
+5. Klicken Sie auf ```Weiter``` und dann auf ```Starten```. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
-#Statistikdaten im MAGELLAN-DWH-Explorer erstellen
+!!! info "Hinweis"
 
+  Wenn Sie mit Halbjahren arbeiten, müssen Sie diesen Vorgang nur einmal ausführen, um die Daten aus dem aktuellen Zeitraum (1. Halbjahr) zu übertragen.
+
+## Statistikdaten im MAGELLAN-DWH-Explorer erstellen
 
 Jetzt kann die Statistik mittels des MAGELLAN DWH Explorer erstellt werden. Gehen Sie dabei wie folgt vor:
-1.	Klicken Sie auf ```Start```, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf MAGELLAN 5/6 DWH Explorer.
-2.	Wählen Sie die Ansicht ```Auswertungen``` aus.
-3.	Wählen Sie unter Landesstatistik die Option ```Statistikformat für Thüringen``` aus und klicken Sie auf ```Starten```.
-4.	Folgen Sie nun den Anweisungen des Assistenten und klicken Sie auf ```Weiter```, um auf die nächste Karte zu kommen. 
-5.	Klicken Sie auf ```Weiter``` und folgen Sie den Anweisungen der nächsten Karte.
+
+1. Klicken Sie auf ```Start```, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf MAGELLAN 5/6 DWH Explorer.
+2. Wählen Sie die Ansicht ```Auswertungen``` aus.
+3. Wählen Sie unter Landesstatistik die Option ```Statistikformat für Thüringen``` aus und klicken Sie auf ```Starten```.
+4. Folgen Sie nun den Anweisungen des Assistenten und klicken Sie auf ```Weiter```, um auf die nächste Karte zu kommen. 
+5. Klicken Sie auf ```Weiter``` und folgen Sie den Anweisungen der nächsten Karte.
 **Erhebungszeitraum**
 Der „Erhebungszeitraum“ ist der Zeitraum in dem der Stichtag liegt. Dieser ist für die Statistik 2007 bei Verwendung von Halbjahren der 01.08.2007 bis zum 31.01.2008.
 **Erstellungsdatum**
@@ -78,17 +84,15 @@ Tragen Sie das aktuelle Datum ein.
 Tragen Sie den vom Kultusministerium festgelegten Stichtag für die Statistik ein.
 **Exportordner**
 Tragen Sie das Verzeichnis ein, in dem die fertigen Statistikdateien abgelegt werden sollen.
-6.	Klicken Sie auf ```Weiter``` und Sie erhalten eine letzte Übersicht der zu erstellenden Statistikdateien. Durch einen weiteren Klick auf ```Fertigstellen``` werden die Statistikdateien im Exportordner angelegt.
+6. Klicken Sie auf ```Weiter``` und Sie erhalten eine letzte Übersicht der zu erstellenden Statistikdateien. Durch einen weiteren Klick auf ```Fertigstellen``` werden die Statistikdateien im Exportordner angelegt.
 
+## Besonderheiten
 
-# Besonderheiten
+### Bildungsgänge und Fachrichtungen
 
-##Bildungsgänge und Fachrichtungen
 Die Schlüssel und Bezeichnungen für die Bildungsgänge und Fachrichtungen wurden miteinander kombiniert. Die Schlüssel werden im Statistikskript automatisch berechnet. Wenn keine Fachrichtung vorhanden war, wurde automatisch die Bezeichnung des Bildungsganges verwendet, ansonsten die Bezeichnung der Fachrichtung.
 
-
-# Schüler und Klassendaten
-
+### Schüler und Klassendaten
 
 Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
@@ -115,12 +119,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
    <tr>
     <td>Statistikdatei</td>
-    <td>  sa	 </td>
+    <td>  sa  </td>
     </td>
   </tr>
     <tr>
     <td>Typ</td>
-    <td>  P	 </td>
+    <td>  P  </td>
     </td>
   </tr>
   <tr>
@@ -138,12 +142,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
@@ -152,7 +156,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Mandanten > Daten 1 > Schulnummer	</td>
+    <td>MAGELLAN:Mandanten > Daten 1 > Schulnummer </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -161,17 +165,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F2 > Satzart(„Schüler“)	</th>
+        <th align=left>F2 > Satzart(„Schüler“) </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -184,12 +188,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
@@ -207,12 +211,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
@@ -230,12 +234,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
   <tr>
@@ -253,12 +257,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -267,7 +271,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Klassen > Daten > Kürzel	</td>
+    <td>MAGELLAN:Klassen > Daten > Kürzel </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -276,21 +280,21 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F7 > Jahrgangsstufe	</th>
+        <th align=left>F7 > Jahrgangsstufe </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Klassen > Zeiträume > Zeitraum > Jahrgang	</td>
+    <td>MAGELLAN:Klassen > Zeiträume > Zeitraum > Jahrgang </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -299,12 +303,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
   <tr>
@@ -313,7 +317,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>    DAVINCI Stundenplan	     </td>
+    <td>    DAVINCI Stundenplan      </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -322,12 +326,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B	</td>
+    <td> B </td>
     </td>
   </tr>
   <tr>
@@ -345,17 +349,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F10 > Name	</th>
+        <th align=left>F10 > Name </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -368,12 +372,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
@@ -391,12 +395,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> P 	</td>
+    <td> P  </td>
     </td>
   </tr>
   <tr>
@@ -405,26 +409,26 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>F12 >  Geburtsdatum	MAGELLAN:Schüler > Daten 1 > Geboren am	</td>
+    <td>F12 >  Geburtsdatum MAGELLAN:Schüler > Daten 1 > Geboren am </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>  Tragen Sie im Feld „Geboren am“ das „Geburtsdatum“ des Schülers ein.	</td>
+    <td>  Tragen Sie im Feld „Geboren am“ das „Geburtsdatum“ des Schülers ein. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F13 > Geschlecht	</th>
+        <th align=left>F13 > Geschlecht </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -432,17 +436,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>  Tragen Sie im Feld „Geschlecht“ das Geschlecht des Schülers ein.	</td>
+    <td>  Tragen Sie im Feld „Geschlecht“ das Geschlecht des Schülers ein. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
@@ -451,7 +455,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss	</td>
+    <td>MAGELLAN:Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -460,12 +464,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  P	</td>
+    <td>  P </td>
     </td>
   </tr>
   <tr>
@@ -483,12 +487,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -497,7 +501,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Klassen > Daten > Schulform	</td>
+    <td>MAGELLAN:Klassen > Daten > Schulform </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -506,12 +510,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -529,12 +533,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -552,35 +556,35 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F19 > Beruf/Bildungsgang <br/>F69 > Fachrichtung	</th>
+        <th align=left>F19 > Beruf/Bildungsgang <br/>F69 > Fachrichtung </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN: Klassen > Daten > Bildungsgang	</td>
+    <td>MAGELLAN: Klassen > Daten > Bildungsgang </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>Tragen Sie im Feld „Bildungsgang“ den Bildungs-gang/Fachrichtung der Klasse ein.Grundlage ist das Schlüsselver-zeichnis „Bildungsgaenge“.	</td>
+    <td>Tragen Sie im Feld „Bildungsgang“ den Bildungs-gang/Fachrichtung der Klasse ein.Grundlage ist das Schlüsselver-zeichnis „Bildungsgaenge“. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -598,7 +602,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -621,7 +625,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -635,16 +639,16 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>	MAGELLAN:<br/>Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulart<br/>Schüler > Zugang/Abgang > Herkunftsschule	</td>
+    <td> MAGELLAN:<br/>Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulart<br/>Schüler > Zugang/Abgang > Herkunftsschule </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>Tragen Sie im Feld „Schulart“ die Schulart der zuvor besuchten Schule ein.<br/>Wählen Sie die Herkunftsschule im Feld „Herkunftsschule“ aus.<br/>Grundlage ist das Schlüsselverzeichnis „Schularten (Herkunft)“.	</td>
+    <td>Tragen Sie im Feld „Schulart“ die Schulart der zuvor besuchten Schule ein.<br/>Wählen Sie die Herkunftsschule im Feld „Herkunftsschule“ aus.<br/>Grundlage ist das Schlüsselverzeichnis „Schularten (Herkunft)“. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -654,11 +658,11 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F23 > Zugang – Land	</th>
+        <th align=left>F23 > Zugang – Land </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Zugang/Abgang > Bereits besuchte Schulen > UnterlagenSchüler > Zugang/Abgang > Herkunftsschule	</td>
+    <td>MAGELLAN:Schüler > Zugang/Abgang > Bereits besuchte Schulen > UnterlagenSchüler > Zugang/Abgang > Herkunftsschule </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -667,7 +671,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -690,12 +694,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
     <tr>
@@ -713,12 +717,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
     <tr>
@@ -736,12 +740,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
     <tr>
@@ -759,12 +763,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -782,17 +786,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F29 > Entlassungsdatum	</th>
+        <th align=left>F29 > Entlassungsdatum </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -805,12 +809,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -819,21 +823,21 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Laufbahn > Allgemein > Wiederholer	</td>
+    <td>MAGELLAN:Schüler > Laufbahn > Allgemein > Wiederholer </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>	Markieren Sie das Feld „Wiederholer“, wenn der Schüler das Schuljahr wiederholt.</td>
+    <td> Markieren Sie das Feld „Wiederholer“, wenn der Schüler das Schuljahr wiederholt.</td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B	</td>
+    <td> B </td>
     </td>
   </tr>
   <tr>
@@ -842,53 +846,53 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Statistik > Merkmal S1	</td>
+    <td>MAGELLAN:Schüler > Statistik > Merkmal S1 </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>Tragen Sie im Feld „Merkmal S1“ den Aussiedler, bzw. Ausländer-status des Schülers ein.Grundlage ist das Schlüsselver-zeichnis „Schülemerkmale Bereich S1“.	</td>
+    <td>Tragen Sie im Feld „Merkmal S1“ den Aussiedler, bzw. Ausländer-status des Schülers ein.Grundlage ist das Schlüsselver-zeichnis „Schülemerkmale Bereich S1“. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F32 > Staatsangehörigkeit	</th>
+        <th align=left>F32 > Staatsangehörigkeit </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Daten 2 > Staatsangehörigkeiten > Staatsangeh. 1	</td>
+    <td>MAGELLAN:Schüler > Daten 2 > Staatsangehörigkeiten > Staatsangeh. 1 </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>Tragen Sie im Feld „Staatsangeh.1“ die Staatsangehörigkeit des Schülers ein.<br/>Grundlage ist das Schlüsselverzeichnis „Staatsangehoerigkeiten“.	</td>
+    <td>Tragen Sie im Feld „Staatsangeh.1“ die Staatsangehörigkeit des Schülers ein.<br/>Grundlage ist das Schlüsselverzeichnis „Staatsangehoerigkeiten“. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F33 > Wohnort	</th>
+        <th align=left>F33 > Wohnort </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Daten 1 > Gemeinde	</td>
+    <td>MAGELLAN:Schüler > Daten 1 > Gemeinde </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -897,7 +901,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -907,7 +911,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F34 > Schülerstatus	</th>
+        <th align=left>F34 > Schülerstatus </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -920,12 +924,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -943,12 +947,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -957,7 +961,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Daten 4 > Beförderung > Entfernung	</td>
+    <td>MAGELLAN:Schüler > Daten 4 > Beförderung > Entfernung </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -966,12 +970,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -989,17 +993,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F38 > Religion – Abmeldung<br/>F39 > Religion – Meldung	</th>
+        <th align=left>F38 > Religion – Abmeldung<br/>F39 > Religion – Meldung </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -1012,17 +1016,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F40 > Religion/Ethik Teilnahme	</th>
+        <th align=left>F40 > Religion/Ethik Teilnahme </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -1030,17 +1034,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Beschreibung</td>
-    <td>  Tragen Sie im Feld „Rel.-Teilnahme“ die Teilnahme am Religionsunterricht ein.	</td>
+    <td>  Tragen Sie im Feld „Rel.-Teilnahme“ die Teilnahme am Religionsunterricht ein. </td>
     </td>
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -1058,17 +1062,17 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F42 > 1.FS-Status<br/>F44 > 2.FS-Status<br/>F46 > 3. FS-Status	</th>
+        <th align=left>F42 > 1.FS-Status<br/>F44 > 2.FS-Status<br/>F46 > 3. FS-Status </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -1081,7 +1085,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -1091,7 +1095,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F43 > 1.FS-Sprache<br/>F45 > 2.FS-Sprache<br/>F47 > 3. FS-Sprache	</th>
+        <th align=left>F43 > 1.FS-Sprache<br/>F45 > 2.FS-Sprache<br/>F47 > 3. FS-Sprache </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
@@ -1104,12 +1108,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
   <tr>
@@ -1127,12 +1131,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
    <tr>
@@ -1150,22 +1154,22 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
         <th align=left>F50 > 1. Leistungskurs 
-<br/>F51 > 2. Leistungskurs	</th>
+<br/>F51 > 2. Leistungskurs </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:<br/>Schüler > Zeugnis > Fächer > FachSchüler > Zeugnis > Fächer > Unterrichtsart<br/>Schüler > Zeugnis > Fächer > Fachstatus	</td>
+    <td>MAGELLAN:<br/>Schüler > Zeugnis > Fächer > FachSchüler > Zeugnis > Fächer > Unterrichtsart<br/>Schüler > Zeugnis > Fächer > Fachstatus </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1174,7 +1178,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -1188,7 +1192,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:<br/>Schüler > Zeugnis > Fächer > Fach<br/>Schüler > Zeugnis > Fächer > Unterrichtsart<br/>Schüler > Zeugnis > Fächer > Fachstatus	</td>
+    <td>MAGELLAN:<br/>Schüler > Zeugnis > Fächer > Fach<br/>Schüler > Zeugnis > Fächer > Unterrichtsart<br/>Schüler > Zeugnis > Fächer > Fachstatus </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1197,7 +1201,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -1207,11 +1211,11 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F61 > Seminarfach	</th>
+        <th align=left>F61 > Seminarfach </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:<br/>Schüler > Zeugnis > Fächer > FachSchüler > Zeugnis > Fächer > Unterrichtsart<br/>Schüler > Zeugnis > Fächer > Fachstatus	</td>
+    <td>MAGELLAN:<br/>Schüler > Zeugnis > Fächer > FachSchüler > Zeugnis > Fächer > Unterrichtsart<br/>Schüler > Zeugnis > Fächer > Fachstatus </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1220,7 +1224,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -1243,12 +1247,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
  <tr>
@@ -1266,12 +1270,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -1289,12 +1293,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
   <tr>
@@ -1312,7 +1316,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
@@ -1322,11 +1326,11 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F70 > früherer Name	</th>
+        <th align=left>F70 > früherer Name </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Statistik > Merkmal T2	</td>
+    <td>MAGELLAN:Schüler > Statistik > Merkmal T2 </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1335,21 +1339,21 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
     <th>Statistikfeld</th>
-        <th align=left>F71 > Geburtsort-/land	</th>
+        <th align=left>F71 > Geburtsort-/land </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Daten 1 > Geburtsort	</td>
+    <td>MAGELLAN:Schüler > Daten 1 > Geburtsort </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1358,21 +1362,21 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> P 	</td>
+    <td> P  </td>
     </td>
   </tr>
 <tr>
     <th>Statistikfeld</th>
-        <th align=left>F72 > Zugang – letzte Tätigkeit	</th>
+        <th align=left>F72 > Zugang – letzte Tätigkeit </th>
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Statistik > Merkmal S2	</td>
+    <td>MAGELLAN:Schüler > Statistik > Merkmal S2 </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1381,12 +1385,12 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td>  B	</td>
+    <td>  B </td>
     </td>
   </tr>
   <tr>
@@ -1395,7 +1399,7 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
     </tr>
   <tr>
     <td>Datenfeld</td>
-    <td>MAGELLAN:Schüler > Ausbildung > Ausbildungsbetrieb	</td>
+    <td>MAGELLAN:Schüler > Ausbildung > Ausbildungsbetrieb </td>
     </tr>
   <tr>
     <td>Beschreibung</td>
@@ -1404,14 +1408,13 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
   </tr>
   <tr>
     <td>Statistikdatei</td>
-    <td>  sa	</td>
+    <td>  sa </td>
     </td>
   </tr>
  <tr>
     <td>Typ</td>
-    <td> B 	</td>
+    <td> B  </td>
     </td>
   </tr>
 </tbody>
 </table>
-

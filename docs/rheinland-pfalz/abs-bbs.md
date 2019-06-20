@@ -11,7 +11,6 @@ Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachte
 
 Aktuelle Änderungen zur Statistik 2018/2019 sehen Sie [**hier!**](https://doc.ls.stueber.de/rheinland-pfalz/changelog/)
 
-
 ## Einführung
 
 Das statistische Landesamt fordert die elektronische Landesstatistik im XML Dateiformat. Die statistischen Daten können in diesem Format aus Magellan heraus erzeugt werden.

@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/qbn7g4dk3qotwdyu?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-de)
+[![Build status](https://ci.appveyor.com/api/projects/status/l9mooqqcuc2sw12a?svg=true)](https://ci.appveyor.com/project/stueber/doc-ls-de)
 
 # Dokumentation zu Landesstatistiken
 

@@ -2,7 +2,6 @@
 
 Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen im Saarland die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Statistikamt im Schuljahr 2017/2018 und die Erzeugung der Eingabedaten für die Abiturstatistik (teilweise) und der Religionsstatistik.
 
-
 !!! info "Hinweis"
 
     Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.

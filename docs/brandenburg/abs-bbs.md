@@ -2,7 +2,6 @@
 
 Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildende Schulen in Brandenburg die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Landesbetrieb für Datenverarbeitung und Statistik im Schuljahr 2015/2016. Die Schulstatistik 2015/2016 wird derzeit nur für Berufsbildende Schulen unterstützt.
 
-
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
@@ -29,7 +28,6 @@ Daten|Inhalt
 LUnnnnnn.TXT |Daten Lehrerunterrichtsverteilung; ABS und BBS
 FLnnnnnn.TXT |Lehrerstammdaten für Schulen freier Träger; ABS und BBS
 
-
 !!! info "Hinweis"
 
     Hierbei steht nnnnnn für Ihre 6-stellige Schulnummer.
@@ -37,7 +35,6 @@ FLnnnnnn.TXT |Lehrerstammdaten für Schulen freier Träger; ABS und BBS
 In LUSD-BB müssen Sie zuvor die Lehrerstammdaten eingelesen haben. Wie Sie die Daten in LUSD-BB importieren, erfahren Sie beim Landesbetrieb für Datenverarbeitung und Statistik. Das Statistikamt fordert diese Daten aus dem aktuellen (1. Halbjahr 2015/2016) und aus dem gesamten vorangegangenen Schuljahr (1. und 2. Halbjahr 2014/2015).
 
 ## Notwendige Schritte
-
 
 1. Schritt: [Statistikschlüssel aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/) 
 2. Schritt: Dateneingabe
@@ -48,11 +45,9 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 
 ## Statistikschlüssel aktualisieren
 
-
 Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](https://doc.ls.stueber.de/schluesselverzeichnisse/).
 
 ## Statistisch relevante Daten eingeben
-
 
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang, in einer tabellarischen Übersicht.
 Statistikkürzel

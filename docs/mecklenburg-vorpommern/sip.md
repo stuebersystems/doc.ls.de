@@ -13,7 +13,6 @@ Für Sie als Schule bedeutet dies: Sie müssen die folgende XML-Datei über das 
 xxxxx_[DATUM].xml
 Hierbei steht xxxxx für Ihre Schulnummer und [DATUM] für das aktuelle Datum.
 
-
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
@@ -271,312 +270,74 @@ Beschreibung |Wählen Sie die, an Ihrer Schule gemachten Abschlüsse des Schüle
 Datenfeld |Magellan: Schueler > Laufbahn > Abschluss > Abschluss 1 > Abschlussdatum
 Beschreibung |Tragen Sie zu den Abschlüssen jeweils das Abschlussdatum ein. Je nach Schulart wird es im entsprechenden Knoten ausgespielt.
 
-
-
-
 ## Lehrerdaten
 
+!!! info "Hinweis"
 
->Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-<table class="table">
-<caption></caption>
-<thead>
-<tr>
-<th colspan=2 style="background-color:#FFFFFF;">Titel</th>
-    </tr>
- </thead>
-<tbody>
-<tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > LehrerId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > ID</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Es wird automatisch die ID des Lehrers mit dem Präfix ‚F‘ eingetragen. Dies führt dazu, dass der Lehrer im SIP-System neu eingelesen wird.   <br/> Es werden alle Lehrer berücksichtigt. </td>
-    </td>
-  </tr>
-<tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > GeschlechtId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > Daten 1 >       Geschlecht</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Wählen Sie hier das Geschlecht des Lehrers aus. Der statistische Wert wird intern berechnet.</td>
-    </td>
-  </tr>
-<tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > LehrAmtId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>Lehrer > Daten 3 >   Lehrämter <br/>Lehrer > Daten 3 > Lehrämter > Lehramtstyp [Lehraemter]</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Nur für Freie Schulen!  <br/>  Es wird der erste Eintrag, der als Lehramt eingetragen ist, ausgespielt.  <br/>Aktuell gibt es noch keine Unterscheidung zu freien Schulen und es wird für alle Schulen ausgespielt. <br/> Standardwert: Leer</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > StaatsangehoerigkeitId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > Daten 1 >  Staatsangeh. [Staatsangehoerigkeiten]</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Wählen Sie die Staastangehörigkeit des Lehrers aus.    Standardwert: 0</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > TaetigkeitArtId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > Daten 2 >   Dienstbez.   [Dienstbez]</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Nur für Freie Schulen!  Wählen Sie hier die Dienstbezeichnung des Lehrers aus.   Aktuell gibt es noch keine Unterscheidung zu freien Schulen und es wird für alle Schulen ausgespielt.   Standardwert: - 1 </td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > PersonenGruppeId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>Lehrer > Daten 2 >     Besch-verh.</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td> Nur für Freie Schulen!   Wählen Sie das Beschäftigungsverhältnis des Lehrers aus.   Aktuell gibt es noch keine Unterscheidung zu freien Schulen und es wird für alle Schulen ausgespielt.    Standardwert: -1 	</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Titel</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > Daten 1 > Anrede</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Wählen Sie die Anrede des Lehrers aus.    Standardwert: Leer</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Vorname</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > Daten 1 > Vorname</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Tragen Sie den Vornamen des Lehrers ein.  Standardwert: Leer</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Nachname</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>      Lehrer > Daten 1 >    Nachname   </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Tragen Sie den Nachnamen des Lehrers ein.     Standardwert: Leer</td>
-    </td>
-  </tr>
-<tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > GebDatum</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td> Lehrer > Daten 1 >   Geburtsdatum<br/></td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Tragen Sie das Geburtsdatum des Lehrers ein.  Standardwert: 01.01.1900</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > FachLehrBefaehigung > FachID</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>  Lehrer > Daten 3 >    Lehrämter<br/>    Lehrer > Daten 3 >   Lehrämter > Lehramtstyp      [Lehraemter]    </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>  |
- Es werden alle als Lehrbefähigung eingetragenen Lehrämter ausgespielt.  Standardwert: Knoten wird nicht angelegt.	</td>
-    </td>
-  </tr>
-<tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Ausbildung >  AbschlussArtId<br/>
-Schule > Lehrer > Ausbildung >   QualifikationId<br/><br/>
-Schule > Lehrer > Beschaeftigung >   ZugangsArtId<br/>
-Schule > Lehrer > Beschaeftigung >   BeschaeftigungsUmfangId<br/>
-Schule > Lehrer > Beschaeftigung >   RegelStundenId<br/>
-Schule > Lehrer > Beschaeftigung >   VertragsStunden<br/>
-Schule > Lehrer > Beschaeftigung >   ZugangsDatum<br/><br/>
-Schule > Lehrer > LehrerUe > UeId<br/>
-Schule > Lehrer > LehrerUe >  GueltigAb<br/>
-Schule > Lehrer > LehrerUe >   GueltigBis</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>     -    </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td> Merkmale werden nicht unterstützt. 	</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Altersteilzeit > GrundId<br/>
-Schule > Lehrer > Altersteilzeit >   Stunden<br/>
-Schule > Lehrer > Altersteilzeit >   GueltigAb<br/>
-Schule > Lehrer > Altersteilzeit >  GueltigBis<br/><br/>
-Schule > Lehrer > Arbeitszeitkonto >     GrundId<br/>           
-Schule > Lehrer > Arbeitszeitkonto >  Stunden<br/>
-Schule > Lehrer > Arbeitszeitkonto >    GueltigAb<br/>
-Schule > Lehrer > Arbeitszeitkonto >      GueltigBis</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>         </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Nur für Freie Schulen! <br/> Merkmale werden nicht unterstützt.</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Rolle > RolleId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>Mandanten > Daten 1 > Schulleiter/Stellvertreter <br/>Klassen > Zeitraeume >  Klassenleiter1</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Tragen Sie beim Mandanten ein, welche Lehrer die Rolle des Schulleiters und des Stellvertreters haben.    <br/>Achtung: Aktuell wird die Rolle des Klassenleiters nicht unterstützt.</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Rolle > KlasseId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>     -    </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Wird entsprechend der Rolle berechnet.   -1 bei Schulleiter und Stellvertreter.</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Rolle > GueltigAb</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>   -      </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Entsprechend der Eingabe im Dialogfenster.</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Rolle > GueltigBis</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>      -   </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td> Entsprechend der Eingabe im Dialogfenster. 	</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Anrechnung >  AnrechnungsArtId<br/>
-Schule > Lehrer > Anrechnung >     Stunden<br/>
-Schule > Lehrer > Anrechnung >       GueltigAb<br/>
-Schule > Lehrer > Anrechnung >      GueltigBis<br/><br/>
-Schule > Lehrer > PmsAEinsatz >      EinsatzArtId<br/>
-Schule > Lehrer > PmsAEinsatz >     Stunden<br/>
-Schule > Lehrer > PmsAEinsatz >     GueltigAb<br/>
-Schule > Lehrer > PmsAEinsatz >    GueltigBis<br/><br/>
-Schule > Lehrer > StundenAbgabe >    SchuleId<br/>
-Schule > Lehrer > StundenAbgabe >  Stunden<br/>
-Schule > Lehrer > StundenAbgabe >       GueltigAb<br/>
-Schule > Lehrer > StundenAbgabe >  GueltigBis</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>   -      </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td> Merkmale werden nicht unterstützt. 	</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Abgang >  AbgangsArtId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>Lehrer > Daten 2 >  Abgangsart  LehrerAbgaenge]</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Wählen Sie die Abgangsart des Lehrers aus.</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > Lehrer > Abgang > AbgangsDatum</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>Lehrer > Daten 2 >   Abgang am</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Tragen Sie das Abgangsdatum des Lehrers ein.</td>
-    </td>
-  </tr>
-</tbody>
-</table>
+**Statistikfeld** | **Schule > Lehrer > LehrerId**
+---|---
+Datenfeld |Lehrer > ID
+Beschreibung |Es wird automatisch die ID des Lehrers mit dem Präfix ‚F‘ eingetragen. Dies führt dazu, dass der Lehrer im SIP-System neu eingelesen wird. Es werden alle Lehrer berücksichtigt.
+**Statistikfeld** |**Schule > Lehrer > GeschlechtId**
+Datenfeld |Lehrer > Daten 1 > Geschlecht
+Beschreibung  | Wählen Sie hier das Geschlecht des Lehrers aus. Der statistische Wert wird intern berechnet.
+**Statistikfeld**| **Schule > Lehrer > LehrAmtId**
+Datenfeld |Lehrer > Daten 3 > Lehrämter<br/>Lehrer > Daten 3 > Lehrämter > Lehramtstyp [Lehraemter]
+Beschreibung |Nur für Freie Schulen!<br/>Es wird der erste Eintrag, der als Lehramt eingetragen ist, ausgespielt.<br/>Aktuell gibt es noch keine Unterscheidung zu freien Schulen und es wird für alle Schulen ausgespielt.<br/>Standardwert: Leer
+**Statistikfeld**| **Schule > Lehrer > StaatsangehoerigkeitId**
+Datenfeld |Lehrer > Daten 1 > Staatsangeh. [Staatsangehoerigkeiten]
+Beschreibung |Wählen Sie die Staastangehörigkeit des Lehrers aus. Standardwert: 0
+**Statistikfeld** |  **Schule > Lehrer > TaetigkeitArtId**
+Datenfeld |Lehrer > Daten 2 > Dienstbez. [Dienstbez]
+Beschreibung |Nur für Freie Schulen! Wählen Sie hier die Dienstbezeichnung des Lehrers aus. Aktuell gibt es noch keine Unterscheidung zu freien Schulen und es wird für alle Schulen ausgespielt. Standardwert: - 1
+**Statistikfeld** | **Schule > Lehrer > PersonenGruppeId**
+Datenfeld |Lehrer > Daten 2 > Besch-verh.
+Beschreibung|Nur für Freie Schulen! Wählen Sie das Beschäftigungsverhältnis des Lehrers aus. Aktuell gibt es noch keine Unterscheidung zu freien Schulen und es wird für alle Schulen ausgespielt. Standardwert: -1
+**Statistikfeld**  |**Schule > Lehrer > Titel**
+Datenfeld |Lehrer > Daten 1 > Anrede
+Beschreibung|Wählen Sie die Anrede des Lehrers aus. Standardwert: Leer
+**Statistikfeld**|  **Schule > Lehrer > Vorname**
+Datenfeld |Lehrer > Daten 1 > Vorname
+Beschreibung |Tragen Sie den Vornamen des Lehrers ein. Standardwert: Leer
+**Statistikfeld** | **Schule > Lehrer > Nachname**
+Datenfeld |Lehrer > Daten 1 > Nachname
+Beschreibung |Tragen Sie den Nachnamen des Lehrers ein. Standardwert: Leer
+**Statistikfeld**|  **Schule > Lehrer > GebDatum**
+Datenfeld |Lehrer > Daten 1 > Geburtsdatum
+Beschreibung |Tragen Sie das Geburtsdatum des Lehrers ein. Standardwert: 01.01.1900
+**Statistikfeld** |  **Schule > Lehrer > FachLehrBefaehigung > FachID**
+Datenfeld |Lehrer > Daten 3 > Lehrämter.<br/>Lehrer > Daten 3 > Lehrämter > Lehramtstyp [Lehraemter]
+Beschreibung | Es werden alle als Lehrbefähigung eingetragenen Lehrämter ausgespielt. Standardwert: Knoten wird nicht angelegt.
+**Statistikfeld** |  **Schule > Lehrer > Ausbildung > AbschlussArtId<br/>Schule > Lehrer > Ausbildung > QualifikationId<br/><br/>Schule > Lehrer > Beschaeftigung > ZugangsArtId<br/> Schule > Lehrer > Beschaeftigung > BeschaeftigungsUmfangId<br/>Schule > Lehrer > Beschaeftigung > RegelStundenId<br/>Schule > Lehrer > Beschaeftigung > VertragsStunden<br/> Schule > Lehrer > Beschaeftigung > ZugangsDatum<br/><br/>Schule > Lehrer > LehrerUe > UeId<br/>Schule > Lehrer > LehrerUe > GueltigAb<br/>Schule > Lehrer > LehrerUe > GueltigBis**
+Datenfeld |-
+Beschreibung |Merkmale werden nicht unterstützt.
+**Statistikfeld** | **Schule > Lehrer > Altersteilzeit > GrundId<br/>Schule > Lehrer > Altersteilzeit > Stunden<br/>Schule > Lehrer > Altersteilzeit > GueltigAb<br/>Schule > Lehrer > Altersteilzeit > GueltigBis<br/><br/>Schule > Lehrer > Arbeitszeitkonto > GrundId<br/>Schule > Lehrer > Arbeitszeitkonto > Stunden<br/>Schule > Lehrer > Arbeitszeitkonto > GueltigAb<br/>Schule > Lehrer > Arbeitszeitkonto > GueltigBis**
+Datenfeld | -
+Beschreibung| Nur für Freie Schulen!<br/>Merkmale werden nicht unterstützt.
+**Statistikfeld**  | **Schule > Lehrer > Rolle > RolleId**
+Datenfeld |Mandanten > Daten 1 > Schulleiter/Stellvertreter<br/>Klassen > Zeitraeume > Klassenleiter1
+Beschreibung|Tragen Sie beim Mandanten ein, welche Lehrer die Rolle des Schulleiters und des Stellvertreters haben.<br/>Achtung: Aktuell wird die Rolle des Klassenleiters nicht unterstützt.
+**Statistikfeld** | **Schule > Lehrer > Rolle > KlasseId**
+Datenfeld |-
+Beschreibung|Wird entsprechend der Rolle berechnet. -1 bei Schulleiter und Stellvertreter.
+**Statistikfeld** | **Schule > Lehrer > Rolle > GueltigAb**
+Datenfeld |-
+Beschreibung |Entsprechend der Eingabe im Dialogfenster.
+**Statistikfeld** | **Schule > Lehrer > Rolle > GueltigBis**
+Datenfeld |-
+Beschreibung |Entsprechend der Eingabe im Dialogfenster.
+**Statistikfeld** |  **Schule > Lehrer > Anrechnung > AnrechnungsArtId<br/>Schule > Lehrer > Anrechnung > Stunden<br/>Schule > Lehrer > Anrechnung > GueltigAb<br/>Schule > Lehrer > Anrechnung > GueltigBis<br/><br/>Schule > Lehrer > PmsAEinsatz > EinsatzArtId<br/>Schule > Lehrer > PmsAEinsatz > Stunden<br/>Schule > Lehrer > PmsAEinsatz > GueltigAb<br/>Schule > Lehrer > PmsAEinsatz > GueltigBis<br/><br/>Schule > Lehrer > StundenAbgabe > SchuleId<br/>Schule > Lehrer > StundenAbgabe > Stunden<br/>Schule > Lehrer > StundenAbgabe > GueltigAb<br/>Schule > Lehrer > StundenAbgabe > GueltigBis**
+Datenfeld |-
+Beschreibung |Merkmale werden nicht unterstützt.
+**Statistikfeld** |  **Schule > Lehrer > Abgang > AbgangsArtId**
+Datenfeld |Lehrer > Daten 2 > Abgangsart LehrerAbgaenge]
+Beschreibung |Wählen Sie die Abgangsart des Lehrers aus.
+**Statistikfeld** |  **Schule > Lehrer > Abgang > AbgangsDatum**
+Datenfeld |Lehrer > Daten 2 > Abgang am
+Beschreibung |Tragen Sie das Abgangsdatum des Lehrers ein.
+
 
 ## Nicht-Schülerdaten
 

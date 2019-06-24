@@ -63,7 +63,7 @@ Ein zusätzliches „*“ in der in der Überschrift der Statistikdatei, zeigt I
     <td align=left style="background-color:#F0F8FF;">   Typ </td>
     <td align=left style="background-color:#F0F8FF;">   - </td>
     <td align=left style="background-color:#F0F8FF;">  In der Spalte „Typ“ können folgende Werte stehen:<br/>
-<b>P </b>=> Gibt an, dass es sich bei diesem Feld um ein Pflichtfeld handelt.g<br/>
+<b>P </b>=> Gibt an, dass es sich bei diesem Feld um ein Pflichtfeld handelt.<br/>
 <b>B </b>=> Gibt an, dass es sich bei diesem Feld um ein bedingtes Pflichtfeld handelt. Bedingte Pflichtfelder sind Felder, die je nach schulischer Situation für Sie Pflicht sein können.  </td>
     </tr>
   </tbody>

@@ -1,4 +1,4 @@
-# Schlüssel**Verzeichnis**  se
+# Schlüsselverzeichnisse
 
 Die für die jeweiligen Landesstatistiken oder für die Arbeit in DAVINCI und MAGELLAN notwendigen Schlüssel werden als Dateien mit der Endung .KEYS per Serviceupdate von STÜBER SYSTEMS zur Verfügung gestellt. 
 
@@ -11,7 +11,7 @@ Die für die jeweiligen Landesstatistiken oder für die Arbeit in DAVINCI und MA
 Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinterlegt. Um die Inhalte dieser Dateien in DAVINCI nutzen zu können, führen Sie bitte die nachfolgenden Schritte aus:
 
 1. Öffnen Sie DAVINCI und wechseln in die Ansicht `Extras > Schlüssel**Verzeichnis**  se`.
-2. Rufen Sie per Doppelklick das zu füllende Schlüssel**Verzeichnis**   auf, im Beispiel haben wir die "Lehrer-Soll-Änderungsgründe" gewählt.
+2. Rufen Sie per Doppelklick das zu füllende Schlüsselverzeichnis auf, im Beispiel haben wir die "Lehrer-Soll-Änderungsgründe" gewählt.
 3. Wählen Sie `Importieren`, verweisen Sie auf die entsprechende Importdatei und bestätigen den Dialog.
 
 ![Import der mitgelieferten DAVINCI-Schlüssel](/assets/images/davinci.schluessel-importieren.png)

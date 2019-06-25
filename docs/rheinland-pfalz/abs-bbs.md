@@ -80,14 +80,6 @@ Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von daVinci vorn
 ### Abgleich der IDs zwischen MAGELLAN und DAVINCI
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
-<<<<<<< HEAD
-
-1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
-1. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-2. Öffnen Sie daVinci und wechseln Sie in die entsprechende Ansicht. 
-3. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der daVinci Ansicht und korrigieren Sie ggf. in daVinci.
-=======
->>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
 1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
@@ -131,18 +123,12 @@ Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Pro
 
 Exportieren der statistisch relevanten Daten aus DAVINCI
 So exportieren Sie Daten aus daVinci:
-<<<<<<< HEAD
-1. Starten Sie daVinci.
-1. Klicken Sie dort im Menü Extras auf Exportieren.
-2. Wählen Sie unter Typ Rheinland-Pfalz und geben Sie die Exportdatei an.
-3. Klicken Sie auf OK. Die Daten werden jetzt in die angegebene Datei exportiert.
-=======
 
 1. Starten Sie daVinci.
 2. Klicken Sie dort im Menü Extras auf Exportieren.
 3. Wählen Sie unter Typ Rheinland-Pfalz und geben Sie die Exportdatei an.
 4. Klicken Sie auf OK. Die Daten werden jetzt in die angegebene Datei exportiert.
->>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
+
 
 ### Aufgestockte Grundkurse
 
@@ -153,19 +139,15 @@ Wie Sie aufgestockte Grundkurse in DAVINCI eintragen können, beschreiben wir [*
 So exportieren Sie Daten aus DAVINCI:
 
 1. Starten Sie DAVINCI.
-<<<<<<< HEAD
 2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
 3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie auf  ```Weiter```.
 4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf ```Weiter```.
-=======
-2. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
-3. Wählen Sie unter Export den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
-4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
->>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
-5. Geben Sie den Dateipfad und einen passenden Dateinamen ()Beispiel: mien.export.txtei zum Export der Statistikdaten an.
+5. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
+6. Wählen Sie unter Export den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
+7. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
+8. Geben Sie den Dateipfad und einen passenden Dateinamen ()Beispiel: mien.export.txtei zum Export der Statistikdaten an.
 
 Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert. Auf diese Datei verweisen Sie später aus dem Statistikassistenten von MAGELLAN.
-
 
 !!! warning "Wichtig"
 
@@ -234,15 +216,7 @@ Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn folgende
 | Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. |
 | Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus. |
 | Schüler > Zugang/Abgang > Abgang > **ZugangAm** | Erhebungsdatum (ZugangAm <= Erhebungsdatum UND AbgangAm >= Erhebungsdatum) ODER AbgangAm = Leer |
-| Schüler > Zugang/Abgang > Abgang > **AbgangAm** | Erhebungsdatum (ZugangAm <= Erhebungsdatum UND AbgangAm >= Erhebungsdatum) ODER AbgangAm = Leer |
-<<<<<<< HEAD
-
-
-
-**BBS**
-
-=======
->>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
+| Schüler > Zugang/Abgang > Abgang > **AbgangAm** | Erhebungsdatum (ZugangAm <= Erhebungsdatum UND AbgangAm >= Erhebungsdatum) ODER AbgangAm = Leer 
 
 #### BBS
 
@@ -265,20 +239,19 @@ Die Bewegungsdatei enthält Schüler- und Klassendaten aus den vergangenen 2 Hal
 
 !!! warning "Wichtig"
 
-    Die Bewegungsdatei enthält Daten von Abgängern und Absolventen die bestimmte Anforderungen erfüllen.
+    Die Bewegungsdatei enthält Daten von Abgängern und Absolventen die bestimmte Anforderungen erfüllen.<br>
     **ABS:**
      - Abgänger mit erfüllter Schulpflicht (auch ohne Hauptschulabschluss, also Abgänger-/innen)
      - Absolventen mit Hauptschulabschluss, qualifiziertem Sekundarabschluss I, erfüllten schulischen Voraussetzungen für die Fachhochschulreife oder Abiturienten
      - Absolventen die den höchst möglichen Abschluss an der Schule erreicht haben und an einer andere Schule wechseln um eine höhere Qualifikation zu erreichen 
      Beispiel: *Realschüler wechselt nach der 10. mit Realschulabschluss auf ein Gymnasium.
      
-     **NICHT **in die Bewegungsdaten gehören:
+     **NICHT** in die Bewegungsdaten gehören:
      - Schüler die nur umziehen und daher die Schule wechseln
      - Schüler die von einer Schulart auf die gleiche wechseln (von einer Realschule zu einer anderen Realschule)
      - Schüler die von einer Gesamtschule (mit Oberstufe) aus Klasse 12 auf ein Gymnasium in die 13 wechseln (der Abschluss bleibe der selbe)
-     - Schüler die von einer Realschule an eine Hauptschule wechseln oder vom Gymnasium auf die Realschule o.ä.
-     - 
-     ** BBS:**
+     - Schüler die von einer Realschule an eine Hauptschule wechseln oder vom Gymnasium auf die Realschule o.ä.<br> 
+     **BBS:**
      - jeder Schüler der einen Bildungsgang durchlaufen hat, egal ob mit Erfolg oder ohne Abgänger/Abbrecher, wenn sie ein Abgangszeugnis erhalten haben, dafür muss bei den Schülern das Feld `Schüler > Laufbahn > Abschluss > Abschluss1` gefüllt sein.
 
 Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn eins der nachfolgenden Kriterien zutrifft:
@@ -287,9 +260,9 @@ Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn eins der
 
 | Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
 |------------------------------------------|------------------------------------------|
-| Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. |
-| Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus.<br /> |
-| Klasse > Zeiträume > Zeitraum > **Klassenstufe**<br /><br />Klassen > Daten 1 > **Schulart**<br /><br />Schüler > **Status**<br /><br />Schüler > Zugang/Abgang > Abgang > **Übergang**<br /><br />Schüler > Laufbahn > Allgemein > **Versetzungsart**<br /><br />Schüler > Laufbahn > Allgemein > **Entscheidung**<br /><br />Schüler > Laufbahn > Abschluss > **Abschluss1**<br /><br />Schüler > Laufbahn > Allgemein > **Wiederholungsart** | Status = 4 (Inaktiv) UND<br />Abschluss 1 = 1 (Abgang ohne HS-Abschluss) II<br />Abschluss 1 = 7 (HS-Abschluss) II<br />Abschluss 1 = 15 (Qualifizierte SK-I) II<br />Abschluss 1 = 18 (Abitur) II<br />Abschluss 1 = 43 (FH-Reife) ODER<br />Versetzungsart = 5 (Nicht versetzt) ODER<br />{ Übergänger berücksichtigen }<br />(Klassenstufe = 4 UND<br /> Schulart = 11 (Grundschüler) UND<br /> Uebergang <> Leer) ODER<br />{ UEOS-Verbleib berücksichtigen }<br />(Klassenstufe = 6) UND<br /> Entscheidung <> Leer) ODER<br />{ Freiwilliger Wiederholer / Überspringer <br /> berücksichtigen }<br />(<br /> (Klassenstufe = 5 ODER Klassenstufe = 6) UND<br /> (Wiederholungsart = 3 ODER Wiederholungsart = 5) <br />) <br /> |
+| Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein.
+Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus.
+Klasse > Zeiträume > Zeitraum > **Klassenstufe**<br /><br />Klassen > Daten 1 > **Schulart**<br /><br />Schüler > **Status**<br /><br />Schüler > Zugang/Abgang > Abgang > **Übergang**<br /><br />Schüler > Laufbahn > Allgemein > **Versetzungsart**<br /><br />Schüler > Laufbahn > Allgemein > **Entscheidung**<br /><br />Schüler > Laufbahn > Abschluss > **Abschluss1**<br /><br />Schüler > Laufbahn > Allgemein > **Wiederholungsart** | Status = 4 (Inaktiv) UND<br />Abschluss 1 = 1 (Abgang ohne HS-Abschluss) II<br />Abschluss 1 = 7 (HS-Abschluss) II<br />Abschluss 1 = 15 (Qualifizierte SK-I) II<br />Abschluss 1 = 18 (Abitur) II<br />Abschluss 1 = 43 (FH-Reife) ODER<br />Versetzungsart = 5 (Nicht versetzt) ODER<br />{ Übergänger berücksichtigen }<br />(Klassenstufe = 4 UND<br /> Schulart = 11 (Grundschüler) UND<br /> Uebergang <> Leer) ODER<br />{ UEOS-Verbleib berücksichtigen }<br />(Klassenstufe = 6) UND<br /> Entscheidung <> Leer) ODER<br />{ Freiwilliger Wiederholer / Überspringer <br /> berücksichtigen }<br />(<br /> (Klassenstufe = 5 ODER Klassenstufe = 6) UND<br /> (Wiederholungsart = 3 ODER Wiederholungsart = 5) <br />) <br /> |
 | Klasse > Zeiträume > Zeitraum > **Klassenstufe** <br /><br />Schüler > **Status**<br /><br />Schüler > Laufbahn > Allgemein > **Versetzungsart**<br /><br />Schüler > Laufbahn > Abschluss > **Abschluss1Art** | Status = 3 (Aktiv) UND<br />{ Klassenstufe 12 oder 13 und Abitur nicht bestanden }<br />(Klassenstufe = 13 UND <br /> Abschluss1Art = 2 (Abitur nicht bestanden)) ODER<br />Versetzungsart = 5 (Nicht versetzt) ODER<br />{ Freiwilliger Wiederholer / Überspringer berücksichtigen }<br />(<br />(Klassenstufe = 5 ODER Klassenstufe = 6) UND<br />(Wiederholungsart = 3 ODER Wiederholungsart = 5)<br />) |
 
 #### Nur BBS
@@ -425,17 +398,10 @@ Nur, wenn Sie noch nicht die neue Systematik der Berufskennziffern nutzen, sollt
 
 Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der Berufskennziffern, die aktuell enthaltenen Berufskennziffern in MAGELLAN ausgetauscht werden, bevor die neuen Statistikschlüssel auf dem üblichen Wege aktualisiert werden können.
 
-<<<<<<< HEAD
-1. Öffnen Sie Magellan-Administrator und wechseln Sie in die Ansicht ```Datenbankpflege```. 
-2. Klicken Sie auf ```Starten``` im ```Datenbank überprüfen```.
-3. Im Dialogfenster wählen Sie als Datenbank Magellan-Datenbank und als Aktion ```RLP-Berufskennziffern austauschen``` aus.
-4. Klicken Sie auf ```OK```. Es erscheint ein Dialogfenster mit Fortschrittsanzeige, warten Sie bis die Aktion beendet wurde, um die Dialogfenster zu schließen.
-=======
 1. Öffnen Sie Magellan-Administrator und wechseln Sie in die Ansicht `Datenbankpflege`.
 2. Klicken Sie auf `Starten` im `Datenbank überprüfen`.
 3. Im Dialogfenster wählen Sie als Datenbank Magellan-Datenbank und als Aktion `RLP-Berufskennziffern austauschen` aus.
 4. Klicken Sie auf `OK`. Es erscheint ein Dialogfenster mit Fortschrittsanzeige, warten Sie bis die Aktion beendet wurde, um die Dialogfenster zu schließen.
->>>>>>> bd4b9646b7fe758d9dd5f1f5d19bee17193422c9
 
 Danach können die Schlüsselverzeichnisse auf dem üblichen Wege aktualisiert werden.
 [Bitte schauen Sie hier.](https://doc.ls.stueber.de/schluesselverzeichnisse/schlusselverzeichnisse/)
@@ -541,7 +507,6 @@ Dies bedeutet für Sie:
 
 ##### Für BBS
 
-| Feld                | Was hat sich |
-|------------------------------------------|--------------|
-| geändert            | Datei        |
-| Schüler > Laufbahn > Abschluss > Abschluss1 > Abschlussdatum | Pflichtfeld  |
+ Feld|Was hat sich geändert|Datei
+-|-|-
+Schüler > Laufbahn > <br>Abschluss > Abschluss1 ><br> Abschlussdatum | Pflichtfeld  |-

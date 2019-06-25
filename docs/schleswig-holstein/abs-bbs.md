@@ -19,8 +19,8 @@ XXX_DATLE_JJJJMMTT.TXT| Beinhaltet alle Daten der Lehrer im aktuellen Schuljahr<
 
 
  !!! info "Hinweis"
-
- Dabei steht das <XXX> für die Schulnummer der Schule und <JJJJMMTT> für das Erstellungsdatum z.B. 20140826. Ist beispielsweise die Lehrerdatei am 29.08.2015 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20140829.TXT. 
+ 
+    Dabei steht das <XXX> für die Schulnummer der Schule und <JJJJMMTT> für das Erstellungsdatum z.B. 20140826. Ist beispielsweise die Lehrerdatei am 29.08.2015 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20140829.TXT. 
 
 Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 
@@ -41,8 +41,7 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang, in einer tabellarischen Übersicht.
 
 !!! warning "Wichtig"
-
-Statistikkürzel: Voraussetzung für das Ausspielen der Daten in das Statistikformat ist die Angabe des Feldes ```Klassen > Daten 1| > Statistikkürzel```. Das Feld kann beliebig eingetragen werden und sollte eindeutig benannt sein. Üblicherweise wird hier einfach das Klassenkürzel wiederholt. Schüler, für deren Klasse kein Statistikkürzel eingetragen ist, werden statistisch nicht berücksichtigt.
+    Statistikkürzel: Voraussetzung für das Ausspielen der Daten in das Statistikformat ist die Angabe des Feldes ```Klassen > Daten 1| > Statistikkürzel```. Das Feld kann beliebig eingetragen werden und sollte eindeutig benannt sein. Üblicherweise wird hier einfach das Klassenkürzel wiederholt. Schüler, für deren Klasse kein Statistikkürzel eingetragen ist, werden statistisch nicht berücksichtigt.
 
 Statistikfeld|Datenfeld in MAGELLAN/DAVINCI|Beschreibung
 --|--|--
@@ -52,8 +51,7 @@ Statistikfeld|Datenfeld in MAGELLAN/DAVINCI|Beschreibung
 ## Eingaben in DAVINCI
 
 !!! info "Hinweis"
-
-  Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DAVINCI vornehmen. Genauere Informationen zu den Eingaben für DAVINCI finden Sie in der nachfolgenden tabellarischen Übersicht.
+    Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DAVINCI vornehmen. Genauere Informationen zu den Eingaben für DAVINCI finden Sie in der nachfolgenden tabellarischen Übersicht.
 
 Überprüfen Sie in DAVINCI (bei Gymnasien/Gesamtschulen) bitte folgende Punkte:
 
@@ -81,8 +79,7 @@ Schulen mit Oberstufe müssen ihre Kurswahldaten für die Statistik in DAVINCI m
 Nachdem in DAVINCI unter ``Stammdaten > Lehrer`` die Solländerungsgründe erfasst wurden, müssen diese Informationen von DAVINCI nach MAGELLAN abgeglichen werden. Der Übertrag erfolgt beim Abgleich des Punktes „Lehrer“.
 
 !!! info "Hinweis"
-
-  Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
+     Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
 
 ## Statistikdaten aus DAVINCI exportieren
 
@@ -107,133 +104,53 @@ Zur aktuellen Statistik existieren derzeit keine Besonderheiten.
 
 Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-<table class="table">
-  <thead>
-<tr>
-<th colspan="2" style="background-color:#FFFFFF;">Schuldaten (Leitdatei)</th>
-</tr>
-  </thead>
-  
-
-  <tbody>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>FAX</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>MAGELLAN: Mandanten > Daten 1 > Telefax</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Geben Sie die Faxnummer der Schule ein.</td>
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>EMAIL</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>MAGELLAN: Mandanten > Daten 1 > E-Mail</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Geben Sie die Email-Adresse der Schule ein.</td>
-</td>
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>SLEIT</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>MAGELLAN: Mandanten > Daten 1 > Schulleiter<br/>
-Lehrer > Daten 1 > VornameLehrer > Daten 1 > Nachname
-</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Wählen Sie den Schulleiter der Schule aus. <br/>Der Schulleiter muss zuvor als Lehrer mit Vor- und Nachnamen eingetragen worden sein.</td>
-</td>
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>SLGS</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>MAGELLAN: Mandanten > Daten 1 > Schulleiter<br/>Lehrer > Daten 1 > Geschlecht</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Wählen Sie den Schulleiter der Schule aus. <br/>Der Schulleiter muss zuvor als Lehrer mit seinem Geschlecht eingetragen worden sein.</td>
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>GTB (GTB)</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>MAGELLAN:Mandanten > Daten 1 > Betreuungsform<br/>[Betreuungsformen] </td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Geben Sie die Betreuungsform der Schule ein.</td> 
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>VORWFAX</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>Wird aktuell nicht unterstützt</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td> Hier sollte die Faxvorwahl stehen.</td>
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>URL</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>MAGELLAN:Mandanten > Daten 1 > Internet</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Geben Sie die Internetpräsens der Schule ein.</td> 
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>SVP</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Wir geben hier fest den Wert „MAGELLAN 6“ aus</td>
-</tr>
-<tr style="background-color:#CEE3F6;">
-<th>Statistikfeld</th>
-<th align=left>VERSION</th>
-</tr>
-<tr style="background-color:#FFFFFF;">
-<td>Datenfeld</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Beschreibung</td>
-<td>Wir geben hier die aktuell installierte MAGELLAN 6 Version (Registry Wert) aus.</td>
-</tr>
-  </tbody>
-</table>
+**Statistikfeld** | **FAX**
+-|-
+Datenfeld	|MAGELLAN: Mandanten > Daten 1 > Telefax
+Beschreibung|Geben Sie die Faxnummer der Schule ein.
+**Statistikfeld**|**EMAIL**
+Datenfeld|MAGELLAN: Mandanten > Daten 1 > E-Mail
+Beschreibung|Geben Sie die Email-Adresse der Schule ein.
+**Statistikfeld**|**SLEIT**
+Datenfeld|MAGELLAN: Mandanten > Daten 1 > Schulleiter<br>Lehrer > Daten 1 > VornameLehrer > Daten 1 > Nachname
+Beschreibung|Wählen Sie den Schulleiter der Schule aus. Der Schulleiter muss zuvor als Lehrer mit Vor- und Nachnamen eingetragen worden sein.
+**Statistikfeld**|**SLGS**
+Datenfeld|MAGELLAN: Mandanten > Daten 1 > Schulleiter<br>Lehrer > Daten 1 > Geschlecht
+Beschreibung|Wählen Sie den Schulleiter der Schule aus. Der Schulleiter muss zuvor als Lehrer mit seinem Geschlecht eingetragen worden sein.
+**Statistikfeld**|**GTB** (GTB)
+Datenfeld|MAGELLAN:Mandanten > Daten 1 > Betreuungsform<br>[Betreuungsformen]
+Beschreibung|Geben Sie die Betreuungsform der Schule ein.
+**Statistikfeld**|**VORWFAX**
+Datenfeld|Wird aktuell nicht unterstützt
+Beschreibung|Hier sollte die Faxvorwahl stehen.
+**Statistikfeld**|**URL**
+Datenfeld|MAGELLAN:Mandanten > Daten 1 > Internet
+Beschreibung|Geben Sie die Internetpräsens der Schule ein.
+**Statistikfeld**|**SVP**
+Datenfeld|-
+Beschreibung|Wir geben hier fest den Wert „MAGELLAN 6“ aus
+**Statistikfeld**|**VERSION**
+Datenfeld|-
+Beschreibung|Wir geben hier die aktuell installierte MAGELLAN 6 Version (Registry Wert) aus.
 
 ### Schülerdaten und Klassendaten
 
 Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+
+**Statistikfeld**| **SNR	SA, EA, SB, EB**
+-|-
+Datenfeld|MAGELLAN: Schueler > Liste der Schüler > ID
+Beschreibung|Die ID des Schülers wird beim Anlegen des Schülers automatisch erstellt und ist eindeutig. Sie wird beim Erstellen der Statistikdateien automatisch gesetzt.
+**Statistikfeld**|**SART (SART) 	SA, EA, FB**
+Datenfeld|MAGELLAN: Klassen > Daten > Schulart<br>[Schularten]
+Beschreibung|Geben Sie hier die Schulart ein.
+**Statistikfeld**|**KLNM 	SA, SB**
+Datenfeld |MAGELLAN: Klassen > Daten > Statistikkürzel
+Beschreibung|Geben Sie hier das Klassenkürzel ein, so wie es in der Statistik erscheinen soll. Sie können bestimmte Klassen von der Statistik ausnehmen, indem Sie das Feld leer lassen.
+**Statistikfeld**|**KLK 	SA**
+Datenfeld |Zeugnis > Fächer > Unterrichtsart<br>Schüler > Zeugnis > Fächer > Fachstatus
+Beschreibung |Dieser Wert setzt sich aus den Feldern:<br>FachUnterrichtsart<br>Fach<br>Status<br>Klassenstufe<br>zusammen und wird automatisch berechnet.<br>Geben Sie im Feld „Unterrichtsart“ folgende Werte an:<br>LK = Leistungskurs<br>GK = Grundkurs<br>Kurs = Kurs bzw. Klassenunterricht<br>Wahlb = Wahlbereich<br>LG = Lerngruppe<br><br>Für übergreifenden Unterricht, GK+LK im Jahrgang 12 und 13 geben Sie im Feld „Unterrichtsart“ = LG ein und im Feld „FachStatus“ = „Übergr“ ein. 
+
 
 <table class="table">
   <thead>

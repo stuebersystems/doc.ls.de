@@ -68,10 +68,9 @@ So archivieren Sie DAVINCI-Daten ins Datawarehouse:
 
 Nutzen Sie nur MAGELLAN für die Statistik, so entfällt der Schritt der Archivierung der DAVINCI-Daten ins Datawarehouse.
 
-
 !!! info "Hinweis"
 
-  Übertragen Sie immer zuerst die Daten aus MAGELLAN und dann aus DAVINCI in das Datawarehouse.
+    Übertragen Sie immer zuerst die Daten aus MAGELLAN und dann aus DAVINCI in das Datawarehouse.
 
 ## Statistikkontrolle im MAGELLAN-DWH-Explorer durchführen
 
@@ -97,50 +96,30 @@ Wie Sie diese Dateien nach izn-Stabil importieren können, entnehmen Sie bitte d
 
 Wenn Sie nur eine Lizenz von MAGELLAN besitzen, dürfen Sie nur die Datei KLIMP.TXT nach izn-Stabil importieren.
 
-#Besonderheiten
+# Besonderheiten
 
-##2016/2017{#2016/2017}
+## 2016/2017
 
-###Verzeichnis Staatsangehörigkeiten
-
-<table class="table" >
-<caption></caption>
-<thead> 
-  <tr> 
-    <th>Schlüssel Alt</th> 
-    <th>Schlüssel Neu</th>
-    <th>Bezeichnung</th> 
-    <th>Änderung</th> 
-  </tr>
-</thead>
-<tbody>
-  <tr> 
-    <td>133</td> 
-    <td><strong>170</strong></td>
-    <td>Serbien</td> 
-    <td>Schlüssel</td> 
-  </tr> 
-</tbody>
-</table>
+### Verzeichnis Staatsangehörigkeiten
+Schlüssel Alt |Schlüssel Neu|Bezeichnung |Änderung
+--|--|--|--
+133 |170|Serbien|Schlüssel
 
 ## Allgemeine Daten
 
-
 !!! info "Hinweis"
 
-  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+      Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-
-Datenfeld in MAGELLAN/DAVINCI  |Beschreibung |tatistikdatei| Typ
+Datenfeld in MAGELLAN/DAVINCI  |Beschreibung |Statistikdatei| Typ
 --|--|--|--
 MAGELLAN:Mandanten > Daten 1 > Schulnummer| Geben Sie hier Ihre 5-stellige Schulnummer ein. |Alle Statistikdateien| P
 
 ## Schüler- und Klassendaten
 
-
 !!! info "Hinweis"
 
-  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Datenfeld in    MAGELLAN/DAVINCI|Beschreibung|Statistikdatei|Typ
 --|--|--|--
@@ -169,10 +148,9 @@ DAVINCI-Stundenplan Veranstaltungsliste|Die Anzahl der Lerngruppen und deren jew
 
 ## Lehrerdaten
 
-
 !!! info "Hinweis"
 
-  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
 Datenfeld in   MAGELLAN/DAVINCI|Beschreibung|Statistikdatei|Typ
 --|--|--|--

@@ -1,6 +1,6 @@
 
 # Niedersachsen - BBS
- 
+
 !!! info "Hinweis"
 
      Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
@@ -178,19 +178,15 @@ Die folgenden Angaben müssen bei Lehrern in MAGELLAN gemacht werden, damit die 
 
 Angabe gemäß Statistik|Angabe in MAGELLAN
 --|--
-Stammschule|Ansicht > Lehrer > Merkmale > Merkmal A3 mit den Werten
-|1=Stammschule
-|2=Nebenschule
+Stammschule|Ansicht > Lehrer > Merkmale > Merkmal A3 mit den Werten<br>1=Stammschule<br>2=Nebenschule
 Nach- und Vorname|Ansicht > Lehrer > Daten1 > Nachname bzw. Vorname
 Geschlecht|Ansicht > Lehrer > Daten 1 > Geschlecht
 Staatsangehörigkeit|Ansicht > Lehrer > Daten 1 > Staatsangeh
 Geburtsdatum|Ansicht > Lehrer > Daten 1 > Geboren am
 Beschäftigungsverhältnis|Ansicht > Lehrer > Daten 2 > Besch-verh.
 Konfession|Ansicht > Lehrer > Daten 1 > Konfession
-Lehramt|Ansicht > Lehrer > Daten 3 > Lehrämter
-|mit Lehramtstyp=“Lehramt“
-Fach > Fachrichtung|Ansicht > Lehrer > Daten 3 > Lehrämter
-|mit Lehramtstyp=“Lehrbefähigung“
+Lehramt|Ansicht > Lehrer > Daten 3 > Lehrämter<br>mit Lehramtstyp=“Lehramt“
+Fach > Fachrichtung|Ansicht > Lehrer > Daten 3 > Lehrämter<br>mit Lehramtstyp=Lehrbefähigung“
 Zugangsgrund|Ansicht > Lehrer > Daten2 > Zugangsart
 Zugangsjahr|Ansicht > Lehrer > Daten2 > Zugang am
 Abgangsgrund|Ansicht > Lehrer > Daten2 > Abgangsart

@@ -344,45 +344,12 @@ Beschreibung |Tragen Sie das Abgangsdatum des Lehrers ein.
 
 !!! info "Hinweis"
 
-  Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-
-<table class="table">
-<caption></caption>
-<thead>
-<tr>
-<th colspan=2 style="background-color:#FFFFFF;">Nicht-Schülerdaten</th>
-    </tr>
- </thead>
-<tbody>
-<tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > NichtSchueler > PruefungsArtId</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>Magellan: Schueler > Statistik >    Merkmal S1 [SchuelerMerkmale]. [Bereich 6]</td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>Wählen Sie die Prüfungsart des NichtSchülers aus. Zur weiteren Berechnung werden nur Schüler berücksichtigt, die hier einen Eintrag haben. Wichtig: Zur Unterscheidung von Deutsch und NichtDeutsch wird die Staatsangehörigkeit berücksichtig. Eine leere Staastangehörigkeit wird als Deutsch gezählt.</td>
-    </td>
-  </tr>
-  <tr style="background-color:#CEE3F6;">
-    <th>Statistikfeld</th>
-        <th align=left>Schule > NichtSchueler > MaennlichDeutsch<br/>
-Schule > NichtSchueler > WeiblichDeutsch<br/>
-Schule > NichtSchueler > MaennlichNichtDeutsch<br/>
-Schule > NichtSchueler > WeiblichNichtDeutsch</th>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Datenfeld</td>
-    <td>     -    </td>
-    </tr>
-  <tr style="background-color:#FFFFFF;">
-    <td>Beschreibung</td>
-    <td>  Diese Werte werden intern berechnet.	</td>
-    </td>
-  </tr>
-</tbody>
-</table>
+**Statistikfeld** |  **Schule > NichtSchueler > PruefungsArtId**
+--|--
+Datenfeld |Magellan: Schueler > Statistik > Merkmal S1 [SchuelerMerkmale]. [Bereich 6]
+Beschreibung|Wählen Sie die Prüfungsart des NichtSchülers aus. Zur weiteren Berechnung werden nur Schüler berücksichtigt, die hier einen Eintrag haben. Wichtig: Zur Unterscheidung von Deutsch und NichtDeutsch wird die Staatsangehörigkeit berücksichtig. Eine leere Staastangehörigkeit wird als Deutsch gezählt.
+**Statistikfeld** | **Schule > NichtSchueler > MaennlichDeutsch**<br/>Schule > NichtSchueler > WeiblichDeutsch<br/>Schule > NichtSchueler > MaennlichNichtDeutsch<br/>Schule > NichtSchueler > WeiblichNichtDeutsch
+Datenfeld|-
+Beschreibung|Diese Werte werden intern berechnet.

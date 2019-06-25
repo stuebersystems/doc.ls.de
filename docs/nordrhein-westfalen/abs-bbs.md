@@ -17,13 +17,13 @@ EXTERN.DAT|nur DAVINCI-Daten aus dem Export für „ASDPC/EXTERN.DAT“|[EXTERN.
 
 Hierbei steht xxxxx für Ihre Schulnummer und YYYYMMDD für das Erstellungsdatum der Datei.
 
-!! info "Hinweis"
+!!! info "Hinweis"
 
-    Sie müssen die xxxxx_SIM_YYYYMMDD.TXT für den Import in ASDPC vorher in SIM.TXT umbenennen, da sonst ASDPC die Datei nicht annimmt.
+     Sie müssen die xxxxx_SIM_YYYYMMDD.TXT für den Import in ASDPC vorher in SIM.TXT umbenennen, da sonst ASDPC die Datei nicht annimmt.
 
 Die Datei SIM.TXT wertet Daten aus dem aktuellen Halbjahr (1. Halbjahr 2018/2019), sowie dem gesamten vorangehenden Schuljahr (1. und 2. Halbjahr 2017/2018) aus. Die Schnittstelle kann sowohl für die Haupterhebung im Herbst wie auch für die Halbjahreserhebung genutzt werden. Im Unterschied zur Haupterhebung ist für die Halbjahreserhebung nur die Datei SIM.TXT zu erzeugen.
 
-## DAVINCI-LIZENZ ?
+## DAVINCI-LIZENZ?
 
 Eine DAVINCI Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, da diese Stundenplandaten enthalten. Jede Datei kann einzeln erzeugt werden, somit benötigen Sie z.B. kein DAVINCI wenn Sie lediglich die SIM.TXT oder die ABI.TXT erzeugen möchten.
 
@@ -115,7 +115,7 @@ Bitte ändern Sie folgende Schlüssel manuell um, da das Statistikamt die Bedeut
 
 Der 2. Förderschwerpunkt wurde in der Vergangenheit mangels passender Felder im Feld „Behinderung“ abgefragt. Dies ändert sich dieses Jahr. Sie müssen den 2. Förderschwerpunkt im neuen Feld „Schwerpunkt 2“ eintragen. 
 
-Wenn Sie bereits eingetragenen Werte im Feld „Behinderung“ haben, führen Sie bitte im MAGELLAN-Administrator den Punkt  ```„Datenbankpflege > Datenbank überprüfen >  NRW: Förderschwerpunkte umkopieren“``` aus. Dieser kopiert den Wert aus „Behinderung“ nach „Schwerpunkt 2“ und entfernt den Wert dann aus „Behinderung“.
+Wenn Sie bereits eingetragenen Werte im Feld „Behinderung“ haben, führen Sie bitte im MAGELLAN-Administrator den Punkt  `Datenbankpflege > Datenbank überprüfen >  NRW: Förderschwerpunkte umkopieren` aus. Dieser kopiert den Wert aus „Behinderung“ nach „Schwerpunkt 2“ und entfernt den Wert dann aus „Behinderung“.
 
 Achten Sie bitte darauf, dass dieser Vorgang erst nach dem Import der Schlüsselverzeichnisse durchgeführt werden darf.
 

@@ -2,27 +2,24 @@
 
 In DAVINCI können Sie die Stundenplandaten in die Datei EXTERN.DAT für ASDPC exportieren. Als Voraussetzung für einen erfolgreichen Export müssen Sie bestimmte Angaben in DAVINCI machen, die nachfolgend beschrieben sind. Für eine erfolgreiche Übernahme der Daten aus DAVINCI nach ASDPC müssen Sie wie folgt vorgehen.
 
-
 | Was ist zu tun?  |
 |------------------------------------------|
 | 1. Geben Sie die notwendigen Daten in DAVINCI an. |
 | 2. Erzeugen Sie die Exportdatei EXTERN.DAT. |
 | 3. Importieren Sie die Daten in ASDPC.   |
 
-
 !!! info "Hinweis"
 
-  Für Erstellung der Lehrer.txt aus MAGELLAN heraus ist NICHT die Extern.dat die Grundlage, sondern die txt-Datei die durch dem „Allgemeinen Statistikexport“ erzeugt werden kann.
+   Für Erstellung der Lehrer.txt aus MAGELLAN heraus ist NICHT die Extern.dat die Grundlage, sondern die txt-Datei die durch dem „Allgemeinen Statistikexport“ erzeugt werden kann.
 
-## UVD.txt ?
+## UVD.txt?
 
 Wir zitieren nachstehend aus der Anleitung für [ASDPC](https://schulverwaltungsprogramme.msb.nrw.de/asschule.pdf): 
 Die Dateien Extern.dat und UVD.txt werden alternativ verwendet. Eine gleichzeitige Verwendung dieser Dateien ist nicht sinnvoll. 
 
-
 !!! warning "Wichtig"
 
- Man benötigt nur eine der beiden Dateien und nicht die UVD.txt und die EXTERN.dat, DAVINCI kann die Extern.dat erzeugen.
+     Man benötigt nur eine der beiden Dateien und nicht die UVD.txt und die EXTERN.dat, DAVINCI kann die Extern.dat erzeugen.
 
 
 ## Notwendige Angaben für die ABS-Statistik

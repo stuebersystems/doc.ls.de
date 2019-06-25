@@ -13,7 +13,6 @@ In DAVINCI können Sie den Statistikexport GPC durchführen. Als Voraussetzung f
 Geben Sie die notwendigen Daten in DAVINCI an.
 
 1. ``Stammdatenfenster > Lehrer``: Tragen Sie in Spalte "Geb.Datum" das Geburtsdatum Ihrer Lehrer ein.
-
 ![](/assets/images/Stammdaten.Lehrer.Gebdatum.png)
 
 2. In DAVINCI gibt es das neue Schlüsselverzeichnis „Lehrerfehlgrunddetails“.

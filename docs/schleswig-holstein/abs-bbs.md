@@ -149,7 +149,82 @@ Datenfeld |MAGELLAN: Klassen > Daten > Statistikkürzel
 Beschreibung|Geben Sie hier das Klassenkürzel ein, so wie es in der Statistik erscheinen soll. Sie können bestimmte Klassen von der Statistik ausnehmen, indem Sie das Feld leer lassen.
 **Statistikfeld**|**KLK 	SA**
 Datenfeld |Zeugnis > Fächer > Unterrichtsart<br>Schüler > Zeugnis > Fächer > Fachstatus
-Beschreibung |Dieser Wert setzt sich aus den Feldern:<br>FachUnterrichtsart<br>Fach<br>Status<br>Klassenstufe<br>zusammen und wird automatisch berechnet.<br>Geben Sie im Feld „Unterrichtsart“ folgende Werte an:<br>LK = Leistungskurs<br>GK = Grundkurs<br>Kurs = Kurs bzw. Klassenunterricht<br>Wahlb = Wahlbereich<br>LG = Lerngruppe<br><br>Für übergreifenden Unterricht, GK+LK im Jahrgang 12 und 13 geben Sie im Feld „Unterrichtsart“ = LG ein und im Feld „FachStatus“ = „Übergr“ ein. 
+Beschreibung |Dieser Wert setzt sich aus den Feldern:<br>FachUnterrichtsart<br>Fach<br>Status<br>Klassenstufe<br>zusammen und wird automatisch berechnet.<br>Geben Sie im Feld „Unterrichtsart“ folgende Werte an:<br>LK = Leistungskurs<br>GK = Grundkurs<br>Kurs = Kurs bzw. Klassenunterricht<br>Wahlb = Wahlbereich<br>LG = Lerngruppe<br><br>Für übergreifenden Unterricht, GK+LK im Jahrgang 12 und 13 geben Sie im Feld „Unterrichtsart“ = LG ein und im Feld „FachStatus“ = „Übergr“ ein.
+**Statistikfeld**|**SNR 	SA, EA, SB, EB**
+Datenfeld|MAGELLAN: Schueler > Liste der Schüler > ID
+Beschreibung |Die ID des Schülers wird beim Anlegen des Schülers automatisch erstellt und ist eindeutig. Sie wird beim Erstellen der Statistikdateien automatisch gesetzt.
+**Statistikfeld**|**SART (SART) 	SA, EA, FB**
+Datenfeld |MAGELLAN: Klassen > Daten > Schulart<br>[Schularten]
+Beschreibung|Geben Sie hier die Schulart ein.
+**Statistikfeld**|**KLNM 	SA, SB**
+Datenfeld |MAGELLAN: Klassen > Daten > Statistikkürzel
+Beschreibung |Geben Sie hier das Klassenkürzel ein, so wie es in der Statistik erscheinen soll. Sie können bestimmte Klassen von der Statistik ausnehmen, indem Sie das Feld leer lassen.
+**Statistikfeld**|**KLK 	SA**
+Datenfeld|Zeugnis > Fächer > Unterrichtsart<br>Schüler > Zeugnis > Fächer > Fachstatus
+Beschreibung|Dieser Wert setzt sich aus den Feldern:<br>FachUnterrichtsart<br>Fach<br>Status<br>Klassenstufe<br>zusammen und wird automatisch berechnet<br>.Geben Sie im Feld „Unterrichtsart“ folgende Werte an:<br>LK = Leistungskurs<br>GK = Grundkurs<br>Kurs = Kurs bzw. Klassenunterricht<br>Wahlb = Wahlbereich<br>LG = Lerngruppe<br><br>Für übergreifenden Unterricht, GK+LK im Jahrgang 12 und 13 geben Sie im Feld „Unterrichtsart“ = LG ein und im Feld „FachStatus“ = „Übergr“ ein.
+**Statistikfeld**| **GS 	SA,EA, SB,EB**
+Datenfeld |MAGELLAN: Schüler > Daten 1 > Geschlecht
+Beschreibung |Geben Sie hier das Geschlecht des Schülers ein.
+**Statistikfeld**| **GBDAT 	SA,EA, SB,EB**
+Datenfeld|MAGELLAN: Schüler > Daten 1 > Geboren am
+Beschreibung|Geben Sie hier das Geburtsdatum des Schülers ein.
+**Statistikfeld** |**STAAT(STAAT) 	SA,EA, SB,EB**
+Datenfeld|MAGELLAN: Schüler > Daten 2 > Staatsangeh. 1<br>[Staatsangehörigkeiten]
+Beschreibung|Geben Sie hier die Nationalität des Schülers ein.
+**Statistikfeld** |**DAZ 	SA, EA**
+Datenfeld |MAGELLAN: Schüler > Statistik > Merkmal S6<br>[Schülermerkmale (Bereich S6)]
+Beschreibung |Geben Sie die Teilnahme am Unterricht „Deutsch als Zweitsprache“ an.
+**Statistikfeld**|**GEBLAND (STAAT) 	SA,EA, SB,EB**
+Datenfeld |MAGELLAN: Schüler > Daten 1 > Geburtsland<br>[Staatsangehörigkeiten]
+Beschreibung |Geben Sie hier das Geburtsland des Schülers an.
+**Statistikfeld**|**ZUZD 	SA,EA, SB,EB**
+Datenfeld |MAGELLAN: Schüler > Daten 2 > In Deutschland seit
+Beschreibung |Geben Sie hier das das Zuzugsdatum nach Deutschland ein.
+**Statistikfeld**| **VERKSPR (VERKSPR) 	SA,EA, SB,EB**
+Datenfeld |MAGELLAN: Schüler > Daten 2 > Sprachgruppe<br>[Sprachgruppen]
+Beschreibung|Geben Sie hier die Verkehrssprache ein.
+**Statistikfeld** | **KONF (KONF) 	SA,EA**
+Datenfeld |MAGELLAN: Schüler > Daten 1 > Konfession<br>[Konfessionen]
+Beschreibung|Geben Sie hier die Konfession des Schülers ein.
+**Statistikfeld** | **GTBU 	SA**
+Datenfeld |MAGELLAN: Schüler > Statistik > Merkmal T1
+Beschreibung |Geben Sie hier die Teilnahme des Schülers am Ganztagsbetrieb ein.<br>1 oder J = JA<br>leer = NEIN
+**Statistikfeld**| **JGSTUF (JGSTUF) 	SA,EA,FA, SB,EB,FB, OA**
+Datenfeld|MAGELLAN: Klassen > Zeiträume > Klassenstufe<br>[Klassenstufen]
+Beschreibung |Geben Sie hier die Klassenstufe der Klasse in.
+**Statistikfeld**|**SCHHERK (1 von 3) (SCHHERK) 	SA**
+Datenfeld |MAGELLAN: Schüler > Zugang / Abgang > Bereits besuchte Schulen > Schulform<br>[Schulformen]<br>Schüler > Zugang / Abgang > Bereits besuchte Schulen > Herkunftsschule
+Beschreibung |Geben Sie für neu an die Schule gekommene Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus.<br>Beachten Sie bitte dass die „Schulform“ eingetragen sein muss.<br>Ein Schüler wird als Neuzugang erkannt, wenn unter ```Schüler > Zugang/Abgang > Zugang am``` ein Datum erfasst wurde, dass nach dem letzten und vor dem aktuellen Statistiktermin liegt.<br>Für Schüler mit der Klassenstufe 1 (Klassen > Zeiträume > Klassenstufe) geben wir automatisch den Wert für den Schlüssel „Neuaufnahme (in die 1. Jahrgangsstufe)“ aus.
+**Statistikfeld** |**SCHHERK (2 von 3) (SCHHERK) 	SA**
+Datenfeld |MAGELLAN: Schüler > Laufbahn > Häkchen Wiederholer<br>MAGELLAN > Schüler > Laufbahn > Wiederholungsarten<br>[Wiederholungsarten]
+Beschreibung|Wiederholer:<br>Setzen Sie bitte für die Schüler im aktuellen Zeitraum das Häkchen für Überspringer.<br>Wählen Sie im Feld Wiederholungsart einen Wert aus.
+**Statistikfeld**| **SCHHERK (3 von 3) (SCHHERK) 	SA**
+Datenfeld |MAGELLAN: Schüler > Laufbahn > Häkchen Überspringer
+Beschreibung |Überspringer:<br>Setzen Sie bitte für die Schüler im aktuellen Zeitraum das Häkchen für Überspringer.
+**Statistikfeld** |  **HWS(GKZ) 	SA,EA, SB,EB**
+Datenfeld |MAGELLAN: Schüler > Daten 1 > LandSchüler > Daten 1 > Gemeinde
+Beschreibung|Geben Sie im Feld „Land“ (das Feld vor „PLZ“) das Kürzel für das Wohnland des Schülers ein. Ein Statistikwert wird eingetragen, wenn der Schüler in Dänemark DK) oder Deutschland(D oder leer) wohnt.Geben Sie im Feld „Gemeinde“ die Wohngemeinde des Schülers ein. Der Statistikwert wird automatisch aus beiden Angaben errechnet.
+**Statistikfeld**|**G8 	SA,EA**
+Datenfeld |MAGELLAN: Klassen > Daten > Schulart<br>Schüler > Statistik > Merkmal T2
+Beschreibung |Geben Sie hier die Teilnahme des Schülers am Schulversuch G8 ein.<br>1 = JA<br>2 = NEIN<br>Wenn dieses Feld bei Gymnasien nicht gefüllt wird, erhalten die Schüler automatisch den Eintrag „2“ für Nein.<br>Nur für Gymnasien, wenn Teilnahme am Schulversuch G8. Dazu prüfen wir die Schulart der Klasse, die eingetragen werden muss.
+**Statistikfeld** | **FSWP (FSWP) 	SA,EA**
+Datenfeld |MAGELLAN: Schüler > Daten 4 > Förderung > Förderung<br>[Förderungen]
+Beschreibung |Geben Sie hier den Förderschwerpunkt des Schülers ein.Nicht bei „Förderzentrum“!
+**Statistikfeld** | **IFÖZ (IFÖZ) 	SA,SB**
+Datenfeld |MAGELLAN: Schüler > Statistik > Merkmal > S5<br>[Merkmale (Schüler)]
+Beschreibung|	Geben Sie hier den die Festlegung des zuständigen Förderzentrums an.
+**Statistikfeld**| **JERST 	SA,EA**
+Datenfeld |MAGELLAN: Schüler > Daten 2 > Grundschuleintritt
+Beschreibung|Geben Sie hier das Datum der Ersteinschulung ein. Wichtig ist lediglich das Jahr.
+**Statistikfeld**|**FACH01-20**<br>**KURS (FACH/KURS) 	SA,FB,OA**
+Datenfeld|MAGELLAN: Schüler > Zeugnis > Fächer > Fach<br>[Fächer]
+Beschreibung |Geben Sie die Fächer des Schülers ein.
+**Statistikfeld**|**UART01-20 (UART) 	SA**
+Datenfeld |MAGELLAN:<br>Schüler > Zeugnis > Fächer > Fach<br>[Fächer]<br>Schüler > Zeugnis > Fächer > Unterrichtsart<br>Schüler > Zeugnis > Fächer > Fachstatus
+Beschreibung|Geben Sie die Fächer des Schülers ein.<br>Für die Statistik werden einige besondere Fächer mit deren Fachstatus und der Schüleranzahl erfasst.<br><br>Unterrichtsfach ABS:<br>Fremdsprache, Fach wg. Nichtteilnahme am Religionsunterricht und Wahlpflichtfächer.<br>Bitte beachten Sie die Übersicht über automatisch erzeugte oder umgesetzte Werte im Abschnitt „Besonderheiten!<br><br>Unterrichtsfach<br>BBS: Nur Darstellung der Fremdsprachen
+**Statistikfeld**|**USPR01-20 (FACH) 	SA**
+Datenfeld|MAGELLAN:Schüler > Zeugnis > Fächer > Sprache<br>[Kurssprachen]
+Beschreibung |Geben Sie die mündl. und schriftl. Unterrichtssprache für ein genehmigtes bilinguales Bildungsangebot für fremdsprachlichen Fachunterricht ein.
 
 
 <table class="table">

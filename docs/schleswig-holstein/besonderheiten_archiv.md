@@ -8,114 +8,40 @@ Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueb
 
 Folgende Schlüssel wurden ersetzt und müssen, wenn bereits zugeordnet, von Ihnen umgestellt werden.
 
-<table class="table">
-<thead>
-  <tr> 
-    <th>Schlüssel</th>
-    <th>Bezeichnung</th>
-    <th>Änderung</th>
-  </tr> 
-</thead>
-<tbody>
-   <tr> 
-    <td>02MS2</td>
-    <td>Maschinen- und Anlagenführerin/Maschinen- und Anlagenführer Schwerpunkt Lebensmitteltechnik</td>
-    <td>Jetzt zu finden unter: <strong>12MFL</strong></td>
-  </tr>
-  <tr> 
-    <td>02MS3</td>
-    <td>Maschinen- und Anlagenführerin/-führer Schwerpunkt Druckweiter- und Papierverarbeitung</td>
-    <td>Jetzt zu finden unter: <strong>08MFD</strong></td>
-  </tr> 
-</tbody>
-</table>
+Schlüssel|Bezeichnung |Änderung
+-|-|-
+02MS2|Maschinen- und Anlagenführerin/Maschinen- und Anlagenführer Schwerpunkt Lebensmitteltechnik |Jetzt zu finden unter: 12MFL
+02MS3 |Maschinen- und Anlagenführerin/-führer Schwerpunkt Druckweiter- und Papierverarbeitung |Jetzt zu finden unter: 08MFD
 
 ### Verzeichnis Abgangsarten (Lehrer) (ABS/BBS)
 
-<table class="table">
-<thead> 
-  <tr> 
-    <th>Schlüssel</th> 
-    <th>Bezeichnung</th> 
-    <th>Änderung</th> 
-  </tr>
-</thead>
-<tbody>
-  <tr> 
-    <td rowspan="2">10</td> 
-    <td>Übergang auf Teilzeitbeschäftigung (Beamte)</td> 
-    <td rowspan="2">Textänderung</td> </tr> 
-  <tr> 
-    <td><strong>Zuvor:</strong> Teilzeitbeschäftigung nach § 88 a, c LBG</td> 
-  </tr>  
-  <tr> 
-    <td rowspan="2">11</td> 
-    <td>Übergang auf Teilzeitbeschäftigung (Beschäftigte)</td> 
-    <td rowspan="2">Textänderung</td> </tr> 
-  <tr> 
-    <td><strong>Zuvor:</strong> Übergang auf Teilzeitbeschäftigung (Angestellte nach § 11 TV-L)</td> 
-  </tr>  
-</tbody>
-</table>
+Schlüssel|Bezeichnung |Änderung
+-|-|-
+10 |Übergang auf Teilzeitbeschäftigung (Beamte)<br> **Zuvor:** Teilzeitbeschäftigung nach § 88 a, c LBG |	Textänderung
+11|Übergang auf Teilzeitbeschäftigung (Beschäftigte)<br>**Zuvor:** Übergang auf Teilzeitbeschäftigung (Angestellte nach § 11 TV-L)|Textänderung
+
 
 ### Verzeichnis Bildungsgänge (BBS)
 
-<table class="table" >
-<thead> 
-  <tr> 
-    <th>Schlüssel</th> 
-    <th>Bezeichnung</th> 
-    <th>Änderung</th> 
-  </tr>
-</thead>
-<tbody>
-  <tr> 
-    <td rowspan="2">021</td> 
-    <td>Prävention im Kindergarten (von Grundschulen erteilt)</td> 
-    <td rowspan="2">Textänderung</td> </tr> 
-  <tr> 
-    <td><strong>Zuvor:</strong> Prävention im Kindergarten</td> 
-  </tr>  
-  <tr> 
-    <td rowspan="2">11</td> 
-    <td>Übergang auf Teilzeitbeschäftigung (Beschäftigte)</td> 
-    <td rowspan="2">Textänderung</td> </tr> 
-  <tr> 
-    <td><strong>Zuvor:</strong> Übergang auf Teilzeitbeschäftigung (Angestellte nach § 11 TV-L)</td> 
-  </tr>  
-</tbody>
-</table>
+Schlüssel|Bezeichnung |Änderung
+-|-|-
+021 |Prävention im Kindergarten (von Grundschulen erteilt)<br>**Zuvor:** Prävention im Kindergarten|Textänderung
+11|Übergang auf Teilzeitbeschäftigung (Beschäftigte) <br>**Zuvor:** Übergang auf Teilzeitbeschäftigung (Angestellte nach § 11 TV-L) |Textänderung
 
 ### Verzeichnis Dienstverhältnisse (ABS/BBS)
 
-<table class="table" >
-<thead> 
-  <tr> 
-    <th>Schlüssel</th> 
-    <th>Bezeichnung</th> 
-    <th>Änderung</th> 
-  </tr>
-</thead>
-<tbody>
-  <tr> 
-    <td rowspan="2">3</td> 
-    <td>Beamter auf Widerruf / Lehrkraft im Vorbereitungsdienst (Referendar)</td> 
-    <td rowspan="2">Textänderung</td> </tr> 
-  <tr> 
-    <td><strong>Zuvor:</strong> Beamter auf Widerruf</td> 
-  </tr>  
-</tbody>
-</table>
+Schlüssel|Bezeichnung |Änderung
+-|-|-
+3|Beamter auf Widerruf / Lehrkraft im Vorbereitungsdienst (Referendar) <br>**Zuvor:** Beamter auf Widerruf |Textänderung
+
 
 ### Verzeichnis Fächer (ABS/BBS) korrigieren 
 
 Das Statistikamt hält für die Statistik zwei Kataloge "Fächer" und "Kurse" bereit. In MAGELLAN werden   "Fächer" plus Eigenschaften verwaltet werden, es gibt also kein Verzeichnis der Kurse, da ein Fach mit Eigenschaften wie einer Unterrichtsart, einem Fachstatus, einer Kursnummer usw zum Kurs wird.
 
-
-
 !!! info "Hinweis"
 
-  Beide Kataloge werden über das **Verzeichnis Fächer** vereint. Zur Zusammenlegung und Differenzierung der Schlüssel, die als Fächer und Kurse genutzt werden, erhalten die Schlüssel beim Import im Feld "Kürzel" und "Schlüssel" ein "F" oder "K" und in der Bezeichnung den Zusatz "(Fach)" oder "(Kurs)".
+    Beide Kataloge werden über das **Verzeichnis Fächer** vereint. Zur Zusammenlegung und Differenzierung der Schlüssel, die als Fächer und Kurse genutzt werden, erhalten die Schlüssel beim Import im Feld "Kürzel" und "Schlüssel" ein "F" oder "K" und in der Bezeichnung den Zusatz "(Fach)" oder "(Kurs)".
 
 Bei Schlüssel die in beiden Katalogen existieren, wird kein Zusatz angehangen.
 
@@ -130,7 +56,7 @@ Wir haben im Administrator dazu eine Korrektur integriert. Bitte führen Sie fol
 
 1. Stellen Sie sicher, dass die aktuelle Version (mindestens die 6.0.179) auf Ihrem Server und auf Ihrem Client installiert sind, nur dann stehen Ihnen die aktuellen Kataloge und die Korrekturfunktion zur Verfügung.
 2. Importieren Sie die Schlüsselkataloge über ```MAGELLAN ADMINISTRATOR > Datenimporte > Schlüsselverzeichnisse importieren > Schleswig-Holstein und "allgemeinbildende Schule"```.
-3. Rufen Sie den Punkt MAGELLAN ADMINISTRATOR > Datenbankpflege > Datenbank überprüfen auf und wählen aus der Liste der möglichen Funktionen "SHL: Fächerschlüssel anpassen" aus.
+3. Rufen Sie den Punkt ``MAGELLAN ADMINISTRATOR > Datenbankpflege > Datenbank überprüfen`` auf und wählen aus der Liste der möglichen Funktionen ``SHL: Fächerschlüssel anpassen`` aus.
 
 ![Assistent zum Anpassen der Fächerschlüssel für SHL](../images/shl.umschluesseln.png)
 

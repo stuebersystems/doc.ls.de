@@ -10,7 +10,7 @@ FIX: SHL-Statistik DATSA 2018 Skriptfehler REGEL SA9501
 
 !!! info "Hinweis"
 
-    Eine Anleitung zum Austausch der einzelnen Dateien finden Sie im Abschnitt ["Wie genau tauscht man die Dateien aus?"](https://doc.ls.stueber.de/nordrhein-westfalen/changelog/#wie-genau-tauscht-man-die-dateien-aus)!
+     Eine Anleitung zum Austausch der einzelnen Dateien finden Sie im Abschnitt ["Wie genau tauscht man die Dateien aus?"](https://doc.ls.stueber.de/nordrhein-westfalen/changelog/#wie-genau-tauscht-man-die-dateien-aus)!
 
 ## Aktuellste Ausgabe ist die 6.5.28 - 14. September 2018
 

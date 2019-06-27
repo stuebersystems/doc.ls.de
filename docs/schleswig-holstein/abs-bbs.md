@@ -253,85 +253,69 @@ Beschreibung |Geben Sie für den Schüler die zuletzt besuchte Schule ein und w�
 Datenfeld |MAGELLAN: Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulform [Schulformen (Herkunft)]<br>Schüler > Zugang/Abgang > Herkunftsschule
 Beschreibung |Geben Sie für den Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus. Beachten Sie bitte, dass die „Schulform“ eingetragen sein muss.
 **Statistikfeld**|**LKLST (JGSTUF) 	SB**
-Datenfeld 	MAGELLAN:
-Schüler > Zugang/Abgang > Bereits besuchte Schulen > Letzte Klassenstufe
-[Klassenstufen]
-Schüler > Zugang/Abgang > Herkunftsschule
-Beschreibung 	Geben Sie für den Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus.
-Beachten Sie bitte, dass die „Schulform“ eingetragen sein muss.
-Statistikfeld 	AABS 	SB, EB
-Datenfeld 	MAGELLAN: Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss
-[Abschlüsse (Extern)]
-Beschreibung 	Geben Sie hier den höchsten erreichten Abschluss an einer ABS ein.
-Statistikfeld 	LABS 	SB, EB
-Datenfeld 	MAGELLAN: Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss
-[Abschlüsse (Extern)]
-Beschreibung 	Geben Sie hier den höchsten erreichten berufsbezogenen Abschluss ein.
-Statistikfeld 	WIEDH 	SB
-Datenfeld 	MAGELLAN: Schüler > Laufbahn > Allgemein > Wiederholer
-Beschreibung 	Haken Sie das Feld „Wiederholer“ an, wenn der Schüler ein Wiederholer ist.Der statistische Wert wird automatisch berechnet.
-Statistikfeld 	ZUSKURS (ZUSKURS) 	SB, EB
-Datenfeld 	MAGELLAN: Schüler > Statistik > Merkmal S2
-[Schülermerkmale (Bereich S2)]
-Beschreibung 	Geben Sie an, ob der Schüler Zusatzkurse für weitere Abschlüsse absolviert.
-Statistikfeld 	BFKLBS 	SB, EB
-Datenfeld 	MAGELLAN: Klasse > Merkmale > Merkmal S3
-[Klassenmerkmale (Bereich S3)]
-Schueler > Statistik > Merkmal S3
-[Schülermerkmale (Bereich S3)]
-Beschreibung 	Geben Sie an, ob sich der Schüler oder alle/viele Schüler der Klasse in einer Bezirksfach- oder Landesklasse befinden.Die Angabe beim Schülermerkmal hat vorrang zur Angabe des Klassenmerkmals, wenn beide eingetragen wurden.
-Statistikfeld 	ENTL 	EA
-Datenfeld 	MAGELLAN: Schüler > Statistik > Merkmal S4
-[Schülermerkmale (Bereich S4)]
-Beschreibung 	Tragen Sie hier bitte für Abgänger ein, ob der Schüler das allgemeinbildende Schulsystem verlässt oder nicht.Achtung:Wenn der Schüler in einer Klasse < Jahrgang 9 ist, geben wir automatisch den Wert für „Ja, Schüler verbleibt im allgemeinbildenden Schulsystem“ aus.
-Statistikfeld 	ABSCHL (ABSCHL) 	EA, EB
-Datenfeld 	MAGELLAN: Schüler > Laufbahn > Abschluss > Abschluss 1
-[Abschlüsse (Intern)]
-Beschreibung 	Der Statistikwert errechnet sich anhand des Eintrags im Feld „Abschluss 1“ aus dem vorangegangenen Schuljahr.Hinweis: Für alle Abgänger (inaktive Schüler mit Abgangsdatum zwischen dem aktuellen und dem vergangenen Statistiktermin unter Zugang/Abgang > AbgangAm), die noch nicht die Schulpflicht erfüllt haben, wird automatisch der Schlüssel für „ohne Abschluss“ in die Statistikdatei übernommen.Schulbesuchsjahre werden am aktuellen Datum und dem Grundschuleintritt errechnet.
-Statistikfeld 	ABSCHLBS (ABSCHLBS) 	EB
-Datenfeld 	MAGELLAN: Schüler > Laufbahn > Abschluss 2 > Abschlussart
-[Abschlussarten]
-Beschreibung 	Geben Sie hier den Erfolg des Bildungsgangs ein.
-Statistikfeld 	ABINOTE 	EA,EB
-Datenfeld 	MAGELLAN: Schüler > Abschluss > Abschluss 1 > Abschlussnote
-Beschreibung 	Geben Sie bei bestandenem Abitur hier die Abiturnote mit genau einer Nachkommastelle ein. Nutzer des Abiturmoduls müssen hier keinen Eintrag machen, wenn im Abiturmodul eine Abiturnote vorhanden ist.
-Statistikfeld 	INSG 	FB
-Datenfeld 	-
-Beschreibung 	Anzahl der Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet.
-Statistikfeld 	WEIBL 	FB
-Datenfeld 	-
-Beschreibung 	Anzahl der weiblichen Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet.
-Statistikfeld 	PROFIL 	OB
-Datenfeld 	MAGELLAN: Schueler > Daten 3 > ProfilSchueler > Zeugnis > Faecher > Unterrichtsart
-Beschreibung 	Tragen Sie das Profil des Schülers ein.Anhand der Eingabe und des gewählten 3. Prüfungsfach berechnet sich beim entsprechenden Fach der Profilschlüssel.
-Statistikfeld 	SCHINSG 	OB
-Datenfeld 	-
-Beschreibung 	Anzahl der Schüler (pro Kurs).Statistikwert wird berechnet.
-Statistikfeld 	SCHWEIBL 	OB
-Datenfeld 	-
-Beschreibung 	Anzahl der weiblichen Schüler (pro Kurs).Statistikwert wird berechnet.
-Statistikfeld 	SCHANDS 	FB,OB
-Datenfeld 	MAGELLAN: Schüler > Statistik > Merkmal T3
-Beschreibung 	Geben Sie im Feld „Merkmal T3“ ein „J“ ein, wenn der Schüler einer anderen Schule den Unterricht besucht.Es wird die Anzahl der Schüler (pro Kurs), die von einer anderen Schule kommen automatisch berechnet.
-Statistikfeld 	SCHSTD 	SB
-Datenfeld 	-
-Beschreibung 	Anzahl der Wochen-Ist-Stunden (pro Schüler) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird.Statistikwert wird berechnet.
-Statistikfeld 	WOSTD 	OB
-Datenfeld 	-
-Beschreibung 	Anzahl der Wochen-Ist-Stunden (pro Kurs) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird.
-Statistikwert wird berechnet.
-Statistikfeld 	BERUF (BERUF) 	SB, EB
-Datenfeld 	MAGELLAN: Schüler > Ausbildung > Beruf
-[Berufe]
-Beschreibung 	Geben Sie hier den Ausbildungsberuf des Schülers ein.
-Statistikfeld 	UMSCH 	SB
-Datenfeld 	MAGELLAN: Schüler > Daten 2 > Umschulung > Umschulung
-[Umschulungsmerkmale]
-Beschreibung 	Bitte erfassen Sie, ob der Schüler ein Umschüler ist.
-Statistikfeld 	ABSKREIS 	SB
-Datenfeld 	MAGELLAN: Schüler > Daten 1 > Gemeinde
-Beschreibung 	Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein.Der Statistikwert wird automatisch daraus errechnet.
-Statistikfeld 	ABSLAND 	SB
-Datenfeld 	MAGELLAN: Schüler > Daten 1 > Gemeinde
-Beschreibung 	Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein.Der Statistikwert wird automatisch daraus errechnet.
+Datenfeld |	MAGELLAN: Schüler > Zugang/Abgang > Bereits besuchte Schulen > Letzte Klassenstufe [Klassenstufen]<br>Schüler > Zugang/Abgang > Herkunftsschule
+Beschreibung|Geben Sie für den Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus. Beachten Sie bitte, dass die „Schulform“ eingetragen sein muss.
+**Statistikfeld**|**AABS 	SB, EB**
+Datenfeld|MAGELLAN: Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]
+Beschreibung |Geben Sie hier den höchsten erreichten Abschluss an einer ABS ein.
+**Statistikfeld**|**LABS 	SB, EB**
+Datenfeld|MAGELLAN: Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss [Abschlüsse (Extern)]
+Beschreibung|Geben Sie hier den höchsten erreichten berufsbezogenen Abschluss ein.
+**Statistikfeld**|**WIEDH 	SB**
+Datenfeld |MAGELLAN: Schüler > Laufbahn > Allgemein > Wiederholer
+Beschreibung|Haken Sie das Feld „Wiederholer“ an, wenn der Schüler ein Wiederholer ist. Der statistische Wert wird automatisch berechnet.
+**Statistikfeld**|**ZUSKURS (ZUSKURS) 	SB, EB**
+Datenfeld| MAGELLAN: Schüler > Statistik > Merkmal S2 [Schülermerkmale (Bereich S2)]
+Beschreibung|Geben Sie an, ob der Schüler Zusatzkurse für weitere Abschlüsse absolviert.
+**Statistikfeld**|**BFKLBS 	SB, EB**
+Datenfeld | MAGELLAN: Klasse > Merkmale > Merkmal S3 [Klassenmerkmale (Bereich S3)]<br>Schueler > Statistik > Merkmal S3 [Schülermerkmale (Bereich S3)]
+Beschreibung |Geben Sie an, ob sich der Schüler oder alle/viele Schüler der Klasse in einer Bezirksfach- oder Landesklasse befinden.Die Angabe beim Schülermerkmal hat vorrang zur Angabe des Klassenmerkmals, wenn beide eingetragen wurden.
+**Statistikfeld**|**ENTL 	EA**
+Datenfeld | MAGELLAN: Schüler > Statistik > Merkmal S4 [Schülermerkmale (Bereich S4)]
+Beschreibung   |Tragen Sie hier bitte für Abgänger ein, ob der Schüler das allgemeinbildende Schulsystem verlässt oder nicht. Achtung:Wenn der Schüler in einer Klasse < Jahrgang 9 ist, geben wir automatisch den Wert für „Ja, Schüler verbleibt im allgemeinbildenden Schulsystem“ aus.
+**Statistikfeld**|**ABSCHL (ABSCHL) 	EA, EB**
+Datenfeld |MAGELLAN: Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]
+Beschreibung |Der Statistikwert errechnet sich anhand des Eintrags im Feld „Abschluss 1“ aus dem vorangegangenen Schuljahr. Hinweis: Für alle Abgänger (inaktive Schüler mit Abgangsdatum zwischen dem aktuellen und dem vergangenen Statistiktermin unter Zugang/Abgang > AbgangAm), die noch nicht die Schulpflicht erfüllt haben, wird automatisch der Schlüssel für „ohne Abschluss“ in die Statistikdatei übernommen.Schulbesuchsjahre werden am aktuellen Datum und dem Grundschuleintritt errechnet.
+**Statistikfeld**|**ABSCHLBS (ABSCHLBS) 	EB**
+Datenfeld |MAGELLAN: Schüler > Laufbahn > Abschluss 2 > Abschlussart [Abschlussarten]
+Beschreibung |Geben Sie hier den Erfolg des Bildungsgangs ein.
+**Statistikfeld**|**ABINOTE 	EA,EB**
+Datenfeld |	MAGELLAN: Schüler > Abschluss > Abschluss 1 > Abschlussnote
+Beschreibung| 	Geben Sie bei bestandenem Abitur hier die Abiturnote mit genau einer Nachkommastelle ein. Nutzer des Abiturmoduls müssen hier keinen Eintrag machen, wenn im Abiturmodul eine Abiturnote vorhanden ist.
+**Statistikfeld**|**INSG 	FB**
+Datenfeld |	-
+Beschreibung |	Anzahl der Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet.
+**Statistikfeld**|**WEIBL 	FB**
+Datenfeld |	-
+Beschreibung 	|Anzahl der weiblichen Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet.
+**Statistikfeld**|**PROFIL 	OB**
+Datenfeld| 	MAGELLAN: Schueler > Daten 3 > ProfilSchueler > Zeugnis > Faecher > Unterrichtsart
+Beschreibung |	Tragen Sie das Profil des Schülers ein. Anhand der Eingabe und des gewählten 3. Prüfungsfach berechnet sich beim entsprechenden Fach der Profilschlüssel.
+**Statistikfeld**|**SCHINSG 	OB**
+Datenfeld| 	-
+Beschreibung |	Anzahl der Schüler (pro Kurs).Statistikwert wird berechnet.
+**Statistikfeld**|**SCHWEIBL 	OB**
+Datenfeld |	-
+Beschreibung| 	Anzahl der weiblichen Schüler (pro Kurs).Statistikwert wird berechnet.
+**Statistikfeld**|**SCHANDS 	FB,OB**
+Datenfeld |	MAGELLAN: Schüler > Statistik > Merkmal T3
+Beschreibung |	Geben Sie im Feld „Merkmal T3“ ein „J“ ein, wenn der Schüler einer anderen Schule den Unterricht besucht. Es wird die Anzahl der Schüler (pro Kurs), die von einer anderen Schule kommen automatisch berechnet.
+**Statistikfeld**|**SCHSTD 	SB**
+Datenfeld| 	-
+Beschreibung |	Anzahl der Wochen-Ist-Stunden (pro Schüler) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird.Statistikwert wird berechnet.
+**Statistikfeld**|**WOSTD 	OB**
+Datenfeld |	-
+Beschreibung |	Anzahl der Wochen-Ist-Stunden (pro Kurs) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird. Statistikwert wird berechnet.
+**Statistikfeld**|**BERUF (BERUF) 	SB, EB**
+Datenfeld| 	MAGELLAN: Schüler > Ausbildung > Beruf [Berufe]
+Beschreibung|	Geben Sie hier den Ausbildungsberuf des Schülers ein.
+**Statistikfeld**|**UMSCH 	SB**
+Datenfeld |	MAGELLAN: Schüler > Daten 2 > Umschulung > Umschulung [Umschulungsmerkmale]
+Beschreibung| 	Bitte erfassen Sie, ob der Schüler ein Umschüler ist.
+**Statistikfeld**|**ABSKREIS 	SB**
+Datenfeld |	MAGELLAN: Schüler > Daten 1 > Gemeinde
+Beschreibung 	|Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein. Der Statistikwert wird automatisch daraus errechnet.
+**Statistikfeld**|**ABSLAND 	SB**
+Datenfeld |	MAGELLAN: Schüler > Daten 1 > Gemeinde
+Beschreibung |	Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein.Der Statistikwert wird automatisch daraus errechnet.
 

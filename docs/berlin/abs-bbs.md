@@ -2,7 +2,7 @@
 
 !!! info "Hinweis"
 
-    Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan6.stueber.de/schulverwaltung/regionales/berlin/stat.abidaten.html/).
+    Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan6.stueber.de/regionales/berlin/stat.abidaten.html/).
 
 Dieser Abschnitt beschreibt für Schulen in Berlin die Schülerdatenerfassung 2009/2010 aus MAGELLAN in die Dateien für den Datenaustausch des eGovernment Projekts des Senates im Schuljahr. Voraussetzung hierfür ist eine Lizenz von MAGELLAN.
 
@@ -12,7 +12,7 @@ Art |Schulform |Dateiname
 ----|----------|--------
 Schülerdaten|Für Allgemeinbildende Schulen|SchuelerABS_2010_xxxxx.csv
 -|Für Berufsbildende Schulen|SchuelerBBS_2010_xxxxx.csv
-Abiturerfassung<br/>[Anleitung](https://doc.magellan6.stueber.de/schulverwaltung/regionales/berlin/stat.abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
+Abiturerfassung<br/>[Anleitung](https://doc.magellan6.stueber.de/regionales/berlin/stat.abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
 -|Für Berufsbildende Schulen|Abiturerfassung_BBS_2015_xxxxx.csv
 
 Hierbei steht xxxxx für Ihre Schulnummer.

@@ -78,404 +78,56 @@ Zwar wird lt. dem Amt der Schlüssel 040 nicht mehr als Fach "Orchester/Chor" ve
 
 ### Liste der manuell zu korrigierenden Schlüssel
 
-<table class="table" >
-<thead> 
-  <tr> 
-    <th>Alter Schlüssel</th>     
-    <th>Kürzel</th>     
-    <th>Schlüssel</th> 
-    <th>Bezeichnung</th> 
-    <th>Gültig von</th> 
-    <th>Kommentar</th>
-  </tr>
-</thead>
-<body>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">009</td>    
-    <td>009</td> 
-    <td>009</td> 
-    <td>Gemeinschaftskunde</td>
-    <td>01.08.2006</td> 
-    <td style="color: black">Ersetzt durch: <b>009_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">011</td>    
-    <td>011</td> 
-    <td>011</td> 
-    <td>Dänisch nur übergreifender Unterricht - 1.-4. Fremdspr. zusammen(Kurs/Fach BBS)</td>
-    <td>01.08.2006</td> 
-    <td style="color: black">Ersetzt durch: <b>011_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">016</td>    
-    <td>016</td> 
-    <td>016</td> 
-     <td>Englisch nur übergreifender Unterricht  - 1.-3. Fremdspr. zusammen (Kurs/Fach BBS)</td>
-    <td>01.08.2014</td> 
-    <td style="color: black">Ersetzt durch: <b>016_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">017</td>    
-    <td>017</td> 
-    <td>017</td> 
-     <td>Geographie</td>
-    <td>01.08.2006</td> 
-    <td style="color: black">Ersetzt durch: <b>017_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">022</td>
-    <td>022</td>
-    <td>022</td>
-    <td>Französisch nur übergreifender Unterricht - 1.- 4. Fremdspr. zusammen (Kurs/Fach BBS)</td>    
-    <td>01.08.2014</td>   
-    <td style="color: black">Ersetzt durch: <b>022_F</b></td>
-  </tr> 
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>041</td> 
-    <td>041</td>
-    <td>Rechtskunde</td>
-    <td>01.08.2006</td> 
-    <td style="color: black">Ersetzt durch: <b>041_F</b> und <b>041_K</b></td> 
-  </tr>  
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">023</td>
-    <td>023</td>
-    <td>023</td>
-    <td>Geschichte</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>023_F</b></td>
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">024</td>    
-    <td>024</td> 
-    <td>024</td> 
-    <td>Altgriechisch</td>
-    <td>01.08.2012</td> 
-    <td style="color: black">Ersetzt durch: <b>023_F</b></td>
-  </tr>  
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">027</td>    
-    <td>027</td> 
-    <td>027</td> 
-    <td>Textillehre</td>
-    <td>01.08.2006</td> 
-    <td style="color: black">Ersetzt durch: <b>027_F</b></td>
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">028</td>    
-    <td>028</td> 
-    <td>028</td> 
-    <td>Neugriechich</td>
-    <td>01.08.2012</td>
-    <td style="color: black">Ersetzt durch: <b>028_F</b></td>
-  </tr> 
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">031</td>    
-    <td>031</td> 
-    <td>031</td> 
-    <td>Italienisch</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>031_F</b></td>
-  </tr> 
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">032</td>    
-    <td>032</td> 
-    <td>032</td> 
-    <td>Latein nur übergreifender Unterricht - 1.-4. Fremdspr. zusammen (Kurs/Fach BBS)</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>032_F</b></td>
-  </tr>  
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">039</td>    
-    <td>039</td> 
-    <td>039</td> 
-    <td>Wirtschaft/Politik</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>039_F</b></td>
-  </tr>    
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">041</td>    
-    <td>041</td> 
-    <td>041</td> 
-    <td>Rechtskunde</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>041_F</b></td>
-  </tr>    
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">045</td>    
-    <td>045</td> 
-    <td>045</td> 
-    <td>"Russisch nur übergreifender Unterricht  2.- 4. Fremdspr. zusammen (Kurs/Fach BBS)</td>
-    <td>01.08.2014</td>
-    <td style="color: black">Ersetzt durch: <b>045_F</b></td>
-  </tr>  
-  <tr> 
-    <td style="font-weight: bold; text-align:center">047_F</td>
-    <td>047_F</td> 
-    <td>047F</td> 
-    <td style="color: blue">Heimat-, Welt- und Sachunterricht (Fach)</td> 
-    <td style="color: blue">01.08.2015</td>
-    <td>Textänderung</td>    
-  </tr>   
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">051</td>    
-    <td>051</td>
-    <td>051</td> 
-    <td>"Spanisch nur übergreifender Unterricht  2. - 4. Fremdspr. zusammen (Kurs/Fach BBS)</td>
-    <td>01.08.2014</td>
-    <td style="color: black">Ersetzt durch: <b>051_F</b></td> 
-  </tr>    
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">052</td>    
-    <td>052</td> 
-    <td>052</td> 
-    <td>"Türkisch</td>
-    <td>01.08.2008</td>
-    <td style="color: black">Ersetzt durch: <b>052_F</b></td>  
-  </tr>   
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">075</td>    
-    <td>075</td> 
-    <td>075</td> 
-    <td>"Friesisch</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>075_F</b></td>  
-  </tr> 
-  <tr>
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>111</td> 
-    <td>111</td> 
-    <td>Dänisch - 1. Fremdsprache 
-      <font style="color: blue">(Fach)(Kurs, neu begonnen)</font>
-    </td>
-    <td>01.08.2015</td>
-    <td>Textänderung</td>
-  </tr> 
-  <tr>
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>116</td> 
-    <td>116</td> 
-    <td>Englisch - 1. Fremdsprache 
-      <font style="color: blue">(Fach)(Kurs, neu begonnen)</font>
-    </td>
-    <td>01.08.2015</td>
-    <td>Textänderung</td>
-  </tr> 
-  <tr style="color: red"> 
-    <td style="font-weight: bold; text-align:center">-</td> 
-    <td>117</td>     
-    <td>117</td>     
-    <td>"Wirtschaftslehre/Wirtschaft</td>    
-    <td>01.08.2006</td>   
-    <td style="color: black">Ersetzt durch: <b>117_F</b> und <b>042_K</b></td>
-  </tr>
-  <tr>
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>122</td> 
-    <td>122</td> 
-    <td>Französisch - 1. Fremdsprache 
-      <font style="color: blue">(Fach)(Kurs, neu begonnen)</font>
-    </td>
-    <td>01.08.2015</td>
-    <td>Textänderung</td>
-  </tr> 
-  <tr>
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>132</td> 
-    <td>132</td> 
-    <td>Latein - 1. Fremdsprache 
-      <font style="color: blue">(Fach)(Kurs, neu begonnen)</font>
-    </td>
-    <td>01.08.2015</td>
-    <td>Textänderung</td>
-  </tr> 
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">143</td>    
-    <td>143</td> 
-    <td>143</td> 
-    <td>"Religion, katholisch</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>143_F</b></td>
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">144</td>    
-    <td>144</td> 
-    <td>144</td> 
-    <td>Religion, evangelisch</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>144_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>211</td> 
-    <td>211</td> 
-    <td>Dänisch - 2. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>211_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>216</td> 
-    <td>216</td> 
-    <td>Englisch - 2. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>216_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>222</td> 
-    <td>222</td> 
-    <td>Französisch - 2. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>222_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>232</td> 
-    <td>232</td> 
-    <td>Latein - 2. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>232_F</b></td> 
-  </tr>
-  <tr>
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>245_K</td> 
-    <td>245K</td> 
-    <td>Russisch - <font style="color: blue">1. Fremdsprache, fortgeführt</font> Kurs</td>
-    <td style="color: blue">01.08.2015</td>
-    <td>Textänderung, Achtung: <b>Bedeutung verändert!</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>251</td> 
-    <td>251</td> 
-    <td>Spanisch- 2. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>251_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>311</td> 
-    <td>311</td> 
-    <td>Dänisch- 3. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>311_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>316</td> 
-    <td>316</td> 
-    <td>Englisch - 3. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>316_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>322</td> 
-    <td>322</td> 
-    <td>Französisch- 3. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>322_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>332</td> 
-    <td>332</td> 
-    <td>Latein - 3. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>332_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>345</td> 
-    <td>345</td> 
-    <td>Russisch - 3. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>345_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>351</td> 
-    <td>351</td> 
-    <td>Spanisch - 3. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>351_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>411</td> 
-    <td>411</td> 
-    <td>Dänisch - 4. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>411_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>422</td> 
-    <td>422</td> 
-    <td>Französisch - 4. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>422_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>432</td> 
-    <td>432</td> 
-    <td>Latein - 4. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>432_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>445</td> 
-    <td>445</td> 
-    <td>Russisch - 4. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>445_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>451</td> 
-    <td>451</td> 
-    <td>Spanisch - 4. Fremdsprache</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>451_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>503</td> 
-    <td>503</td> 
-    <td>Datenverarbeitungstechnik</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>503_F</b> und <b>550_K</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">-</td>    
-    <td>509</td> 
-    <td>509</td> 
-    <td>Maschinenbautechnik</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>509_F</b></td> 
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">514</td>    
-    <td>514</td> 
-    <td>514</td> 
-    <td>"Sporttheorie</td>
-    <td>01.08.2006</td>
-    <td style="color: black">Ersetzt durch: <b>514_F</b></td>  
-  </tr>
-  <tr style="color: red">
-    <td style="font-weight: bold; text-align:center">970</td>    
-    <td>970</td> 
-    <td>970</td> 
-    <td>"WPU - sonstiges Fach</td>
-    <td>01.08.2013</td>
-    <td style="color: black">Ersetzt durch: <b>970_F</b></td>  
-  </tr>
-</tbody>
-</table>
+Alter Schlüssel| 	Kürzel 	|Schlüssel 	|Bezeichnung |	Gültig von |	Kommentar
+-|-|-|-|-|-|-|
+009 |	009 |	009| 	Gemeinschaftskunde 	|01.08.2006 |	Ersetzt durch: 009_F
+011 |	011| 	011 |	Dänisch nur übergreifender Unterricht - 1.-4. Fremdspr. zusammen(Kurs/Fach BBS) |	01.08.2006 |	Ersetzt durch: 011_F
+016 |	016 |	016 |	Englisch nur übergreifender Unterricht - 1.-3. Fremdspr. zusammen (Kurs/Fach BBS) |	01.08.2014 |	Ersetzt durch: 016_F
+017 |	017 |	017 |	Geographie |	01.08.2006 |	Ersetzt durch: 017_F
+022 |	022 |	022 |	Französisch nur übergreifender Unterricht - 1.- 4. Fremdspr. zusammen (Kurs/Fach BBS) |	01.08.2014| 	Ersetzt durch: 022_F
+- |	041 |	041 	|Rechtskunde| 	01.08.2006 |Ersetzt durch: 041_F und 041_K
+023 |	023 |	023 |	|Geschichte |	01.08.2006 |	Ersetzt durch: 023_F
+024 |	024 |	024 |	Altgriechisch |	01.08.2012 |	Ersetzt durch: 023_F
+027 |	027 |	027 |	Textillehre |	01.08.2006 |	Ersetzt durch: 027_F
+028 |	028 |	028 |	Neugriechisch |	01.08.2012| 	Ersetzt durch: 028_F
+031 |	031 |	031 |	Italienisch   |01.08.2006 |	Ersetzt durch: 031_F
+032 |	032 |	032 |	Latein nur übergreifender Unterricht - 1.-4. Fremdspr. zusammen (Kurs/Fach BBS)  |	01.08.2006| 	Ersetzt durch: 032_F
+039 |	039 |	039 |	Wirtschaft/Politik 	|01.08.2006 |	Ersetzt durch: 039_F
+041 |	041 |	041 |	Rechtskunde|	01.08.2006| 	Ersetzt durch: 041_F
+045 |	045 |	045 |	"Russisch nur übergreifender Unterricht 2.- 4. Fremdspr. zusammen (Kurs/Fach BBS)  |	01.08.2014 	|Ersetzt durch: 045_F
+047_F |	047_F| 	047F| 	Heimat-, Welt- und Sachunterricht (Fach) 	 |01.08.2015 	|Textänderung
+051 |	051 |	051 |	"Spanisch nur übergreifender Unterricht 2. - 4. Fremdspr. zusammen (Kurs/Fach BBS) |	01.08.2014 |	Ersetzt durch: 051_F
+052 |	052 |	052| 	"Türkisch |	01.08.2008 |	Ersetzt durch: 052_F
+075 |	075 |	075 |	"Friesisch 	|01.08.2006 |	Ersetzt durch: 075_F
+- 	|111| 	111 |	Dänisch - 1. Fremdsprache (Fach)(Kurs, neu begonnen) 	|01.08.2015 |	Textänderung
+- 	|116 |	116 |	Englisch - 1. Fremdsprache (Fach)(Kurs, neu begonnen) |	01.08.2015 |	Textänderung
+- 	|117 |	117 	|"Wirtschaftslehre/Wirtschaft |	01.08.2006|	Ersetzt durch: 117_F und 042_K
+- 	|122| 	122 |	Französisch - 1. Fremdsprache (Fach)(Kurs, neu begonnen) 	|01.08.2015| 	Textänderung
+- 	|132 	|132| 	Latein - 1. Fremdsprache (Fach)(Kurs, neu begonnen) |	01.08.2015 |	Textänderung
+143 |	143 |	143 |	"Religion, katholisch |	01.08.2006| 	Ersetzt durch: 143_F
+144 |	144 |	144|	Religion, evangelisch |	01.08.2006| 	Ersetzt durch: 144_F
+- 	|211 |	211| 	Dänisch - 2. Fremdsprache |	01.08.2006| 	Ersetzt durch: 211_F
+- 	|216| 	216 |	Englisch - 2. Fremdsprache 	|01.08.2006 |	Ersetzt durch: 216_F
+- |	222 |	222 	|Französisch - 2. Fremdsprache |	01.08.2006 |	Ersetzt durch: 222_F
+- |	232 |	232 |	Latein - 2. Fremdsprache 	|01.08.2006 |	Ersetzt durch: 232_F
+- |	245_K |	245K |	Russisch - 1. Fremdsprache, fortgeführt Kurs 	|01.08.2015 |	Textänderung, Achtung: Bedeutung verändert!
+- |	251 |	251 |	Spanisch- 2. Fremdsprache |	01.08.2006 |	Ersetzt durch: 251_F
+- |	311 |	311 |	Dänisch- 3. Fremdsprache 	|01.08.2006 |	Ersetzt durch: 311_F
+- |	316 |	316 |	Englisch - 3. Fremdsprache |	01.08.2006 |	Ersetzt durch: 316_F
+- |	322 |	322 |Französisch- 3. Fremdsprache |	01.08.2006 |	Ersetzt durch: 322_F
+- 	|332 |	332 |	Latein - 3. Fremdsprache |01.08.2006 |	Ersetzt durch: 332_F
+- |	345 |	345 |	Russisch - 3. Fremdsprache 	|01.08.2006 |	Ersetzt durch: 345_F
+- |	351 |	351 |	Spanisch - 3. Fremdsprache |	01.08.2006 |	Ersetzt durch: 351_F
+- |	411 |	411 |	Dänisch - 4. Fremdsprache |	01.08.2006 |	Ersetzt durch: 411_F
+- |	422 |	422 |	Französisch - 4. Fremdsprache |	01.08.2006 	|Ersetzt durch: 422_F
+- |	432 |	432 |	Latein - 4. Fremdsprache 	|01.08.2006 |	Ersetzt durch: 432_F
+- |	445 |	445 	|Russisch - 4. Fremdsprache |	01.08.2006 |	Ersetzt durch: 445_F
+- |	451 |	451 |	Spanisch - 4. Fremdsprache |	01.08.2006 |	Ersetzt durch: 451_F
+- |	503 |	503 |	Datenverarbeitungstechnik |	01.08.2006 	|Ersetzt durch: 503_F und 550_K
+- |	509 |	509 |	Maschinenbautechnik |	01.08.2006 |	Ersetzt durch: 509_F
+514 |	514 |	514 |	"Sporttheorie 	|01.08.2006 |	Ersetzt durch: 514_F
+970 |	970 |	970| 	"WPU - sonstiges Fach |	01.08.2013 |	Ersetzt durch: 970_F
+
 
 ### Vollständige Übersicht der Fächer und Kurse (Stand 2016/17)
 

@@ -36,7 +36,7 @@ In LUSD-BB müssen Sie zuvor die Lehrerstammdaten eingelesen haben. Wie Sie die 
 
 ## Notwendige Schritte
 
-1. Schritt: [Statistikschlüssel aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/) 
+1. Schritt: [Statistikschlüssel aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/)
 2. Schritt: Dateneingabe
 3. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 4. Schritt: Statistikdateien erstellen
@@ -77,7 +77,6 @@ Soll-Änderungsgrund für die Klasse|Entspricht dem Eintrag in der Spalte Bemerk
 
 ## Statistikdaten aus DAVINCI exportieren
 
-
 Wenn Sie die Lehrer Abminderungen und Unterrichtsverteilung aus MAGELLAN heraus exportieren möchten, dann müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet. Wenn Sie diese Dateien nicht aus MAGELLAN importieren möchten und die Daten direkt in LUSD-BB erfassen, dann wird der DAVINCI Export nicht benötigt.
 
 So exportieren Sie Daten aus DAVINCI:
@@ -100,12 +99,11 @@ Zum Erstellen der Statistikdateien gehen Sie wie folgt vor:
 1. Starten Sie MAGELLAN.
 2. Klicken Sie im Menü ```Extras``` auf ```Statistik```.
 3. Wählen Sie als Bundesland Brandenburg und als Schulart Berufsbildende Schule (BBS). Klicken Sie dann auf ```Weiter```.
-4. Wählen Sie als Art der Erstellung ```Nur Statistikdateien erstellen```. Markieren Sie die Dateien, welche Sie erstellen möchten. Unter Statistikzeiträume auswählen müssen Sie den Erhebungszeitpunkt (02.11.2015), den aktuellen Zeitraum (1. Halbjahr 2015/2016) und die Zeiträume des Vorjahres (2. Halbjahr 2014/2015 und 1. Halbjahr 2014/2015) einstellen. 
-5. Geben Sie Ggf. eine DAVINCI-Exportdatei an. Klicken Sie dann auf ```Weiter```. 
+4. Wählen Sie als Art der Erstellung ```Nur Statistikdateien erstellen```. Markieren Sie die Dateien, welche Sie erstellen möchten. Unter Statistikzeiträume auswählen müssen Sie den Erhebungszeitpunkt (02.11.2015), den aktuellen Zeitraum (1. Halbjahr 2015/2016) und die Zeiträume des Vorjahres (2. Halbjahr 2014/2015 und 1. Halbjahr 2014/2015) einstellen.
+5. Geben Sie Ggf. eine DAVINCI-Exportdatei an. Klicken Sie dann auf ```Weiter```.
 6. Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf ```Weiter```. Klicken Sie auf ```Start```, um die Erstellung der Statistikdateien zu starten.
 
 ## Statistikfelder mit Beschreibung
-
 
 !!! info "Hinweis"
 
@@ -135,9 +133,9 @@ STATUS| MAGELLAN:Schüler >  Statistik > Merkmal S1 |Geben Sie hier die Statusau
 STAATSAN(Schlüssel 09)| MAGELLAN:Schüler > Daten 2 >  Staatsangehörigkeit > Staatsangeh. 1| Geben Sie hier die Staatsangehörigkeit des Schülers, oder das Herkunftsland bei Aussiedlern ein. Grundlage ist das Schlüsselverzeichnis „Staatsangehörigkeiten“.                                                   |SP
 EINZUGL |MAGELLAN:Schüler > Statistik > Merkmal T1 |Geben Sie hier den Wert „Ja“ ein, wenn der Schüler einzugliedernder im Sinne der Eingliederungsverordnung ist. Wenn Sie hier nichts eingeben, oder das Feld anderweitig verwenden, dann ist der Standardwert für die Statistik gleich „Nein“.                |SP
 AUFNDAT |MAGELLAN:Schüler > Zugang/Abgang > Zugang > Zugang am |Geben Sie hier das Zugangsdatum an der Schule ein.                                                                                       |SP
-JG, JGVJ (Schlüssel 11)|MAGELLAN:Klassen > Zeiträume > Zeitraum > Klassenstufe|Geben Sie hier den Jahrgang des Schuljahres für die gesamte Klasse ein. Es wird automatisch der Jahrgang des aktuellen sowie des vorangegangenen Schuljahres ausgelesen, vorausgesetzt, Sie haben im vorangegangenen Schuljahr den Jahrgang eingetragen. War der Schüler im letzten Schuljahr nicht auf der Schule muss die Jahrgangsstufe des vorangegangenen Schuljahres im Feld „Letzte Klassenstufe“ der bereits besuchten Schule eingetragen werden. Grundlage ist das Schlüsselverzeichnis „Klassenstufen“.              |SP                        
+JG, JGVJ (Schlüssel 11)|MAGELLAN:Klassen > Zeiträume > Zeitraum > Klassenstufe|Geben Sie hier den Jahrgang des Schuljahres für die gesamte Klasse ein. Es wird automatisch der Jahrgang des aktuellen sowie des vorangegangenen Schuljahres ausgelesen, vorausgesetzt, Sie haben im vorangegangenen Schuljahr den Jahrgang eingetragen. War der Schüler im letzten Schuljahr nicht auf der Schule muss die Jahrgangsstufe des vorangegangenen Schuljahres im Feld „Letzte Klassenstufe“ der bereits besuchten Schule eingetragen werden. Grundlage ist das Schlüsselverzeichnis „Klassenstufen“.              |SP
 |Schüler > Zugang / Abgang >  Bereits besuchte Schulen> Schule > Letzte Klassenstufe            ||
-BIG (Schlüssel 12) |MAGELLAN:Klassen > Bildungsgang|Geben Sie hier den aktuellen Bildungsgang der Klasse ein. Wählen Sie den aktuellen Ausbildungsbetrieb aus der Liste aus. Grundlage ist das Schlüsselverzeichnis „Bildungsgänge“.                                                         |SP,LU 
+BIG (Schlüssel 12) |MAGELLAN:Klassen > Bildungsgang|Geben Sie hier den aktuellen Bildungsgang der Klasse ein. Wählen Sie den aktuellen Ausbildungsbetrieb aus der Liste aus. Grundlage ist das Schlüsselverzeichnis „Bildungsgänge“.                                                         |SP,LU
 BIGVJ (Schlüssel 12)|MAGELLAN:Klassen > Bildungsgang|Geben Sie im vorangegangenen Schuljahr den Bildungsgang ein, vorausgesetzt, Sie der Schüler war im letzten Schuljahr an Ihrer Schule. War der Schüler im letzten Schuljahr nicht auf der Schule muss der Bildungsgang des vorangegangenen Schuljahres im Feld „Unterlagen“ der bereits besuchten Schule eingetragen werden.Grundlage ist das Schlüsselverzeichnis „Bildungsgaenge“.                                                          |SP
 |Schüler > Zugang / Abgang >  Bereits besuchte Schulen > Schule > Unterlagen                   ||  
 SNRVJ| / |Nicht für BBS und ZBW – leer für BBS und Schulen des zweiten Bildungsweges!| SP
@@ -148,8 +146,7 @@ LANDVJ |MAGELLAN:Schüler > Zugang/Abgang >  Bereits besuchte Schulen > Schule|I
 |Schüler > Zugang/Abgang > Herkunftsschule                                                    ||
 |Schulen > Daten > Gemeinde                                                                ||
 STAATVJ(Schlüssel 09)|MAGELLAN:Schüler > Zugang/Abgang > Bereits besuchte Schulen > Unterlagen|Ist der Schüler aus einem anderen Land neu an die Schule gekommen, so wird der Staat benötigt. Geben Sie bei „Bereits besuchte Schulen“ die Herkunftsschule ein. Die Schule müssen Sie vorher unter Schulen angelegt haben. Dort müssen Sie das „Land“ der Schule eintragen. Wählen Sie bei „Herkunftsschule“ die zuletzt besuchte Schule aus.                                                                          |SP
-|Schüler > Zugang/Abgang  >  Herkunftsschule                                               || 
-GRUNDEMP (Schlüssel 13)|MAGELLAN:Schüler > Laufbahn > Allgemein > Empfehlung| Geben Sie hier die Grundschulempfehlung für den Schüler ein. Grundlage ist das Schlüsselverzeichnis „Empfehlungen“. Nur Jahrgangsstufe 7, sonst leer!                                                                  |SP
+|Schüler > Zugang/Abgang  >  Herkunftsschule                                               || GRUNDEMP (Schlüssel 13)|MAGELLAN:Schüler > Laufbahn > Allgemein > Empfehlung| Geben Sie hier die Grundschulempfehlung für den Schüler ein. Grundlage ist das Schlüsselverzeichnis „Empfehlungen“. Nur Jahrgangsstufe 7, sonst leer!                                                                  |SP
 HABSCHL (Schlüssel 14)|MAGELLAN: Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss| Geben Sie hier den bisher höchsten erreichten schulischen Abschluss ein. Nur BBS und Einrichtungen des zweiten Bildungsweges, sonst leer!                                                                   |SP
 ZF  (Schlüssel B)|MAGELLAN:Klasse > Daten > Organisation|Geben Sie hier die Zeitform der Klasse an. Nur BBS und ZBW, sonst leer!                                                                |SP,LU
 UMSCHUEL|MAGELLAN:Schüler > Daten 2 > Umschulung > Umschulung| Geben Sie hier an, ob der Schüler Umschüler ist oder an einer Einstiegsqualifizierung teilnimmt. Standardwert bei leerem Feld ist „Nein“.                                                                                                |SP
@@ -160,7 +157,7 @@ AUSBER|Ausbildungsbereich|Immer leer!                                           
 AUSVER|Art des Ausbildungsvertrages|Immer leer!                                               |SP
 AUSKREIS|MAGELLAN:Schüler > Ausbildung > Liste der Ausbildungsbetriebe > Betrieb|Geben Sie hier den aktuellen Ausbildungsbetrieb des Schülers ein. Wählen Sie den aktuellen Ausbildungsbetrieb aus der Liste der erfassten Ausbildungsbetriebe aus. Geben Sie beim aktuellen Ausbildungsbetrieb die korrekte Gemeindekennziffer ein. Nur duale Ausbildung!                                                |SP
 |Schüler > Daten 1 > Ausbildung                                                            ||
-|Betriebe > Daten 1 > Gemeinde                                                          || 
+|Betriebe > Daten 1 > Gemeinde                                                          ||
 SPFART (Schlüssel 16)| MAGELLAN: Schüler > Daten 4 > Förderung > Förderung| Geben Sie hier die Art des sonderpädagogischen Förderbedarfs ein. Grundlage ist das Schlüsselverzeichnis „Förderungen“. Nur Primarstufe, Sek. I und II                                                                    |SP
 MBEHIND/AUTIST| MAGELLAN:Schüler > Daten 4 > Behinderung| Bisher wurde die Mehrfachbehinderung im Merkmal T2 abgebildet. Dies ändert sich ab diesem Jahr. Dafür kommt das statistische Feld AUTIST hinzu, beide werden wie folgt abgefragt. Geben Sie in diesem Feld bitte an, ob der Schüler Mehrfachbehindert, Autistisch oder Beides ist. Wenn Sie hier nichts angeben, dann ist der Standardwert für die Statistik  gleich „Nein“.                                                                              |SP
 HKUNT |MAGELLAN:Schüler > Merkmale > Merkmal T3 |Geben Sie hier den Wert „Ja“ ein, wenn der Schüler Haus-/ Krankenhausunterricht hat. Wenn Sie hier nichts eingeben, oder das Feld anderweitig verwenden, dann ist der Standardwert für die Statistik  gleich „Nein“.                                  |SP
@@ -178,7 +175,7 @@ FSPSTATC (Schlüssel 17)| MAGELLAN:Schüler > Daten 3 >  Fremdsprachenfolge >  3
 FSPJGC| MAGELLAN:Schüler > Daten 3 >  Fremdsprachenfolge > 3.Fremdsprache > Von| Geben Sie hier den Jahrgang ein an dem der Schüler begonnen hat die Fremdsprache zu erlernen. Der Schlüssel für die Statistik wird berechnet. Grundlage der Berechnung ist das Schlüsselverzeichnis „Klassenstufen“.|SP
 FSPFACHC (Schlüssel 18/06)| MAGELLAN:Schüler > Daten 3 >  Fremdsprachenfolge >  3. Fremdsprache| Geben Sie hier die dritte Fremdsprache ein.Grundlage ist das Schlüsselverzeichnis „Fächer“.    |SP
 FSPSTATD (Schlüssel 17)| Schüler > Daten 3 >  Fremdsprachenfolge >  4. Fremdsprache > Status|Lesen Sie dazu die Beschreibung des Feldes „FSPSTATA“.                                               |SP
-|Schüler > Daten 3 >  Fremdsprachenfolge >  4. Fremdsprache  > Zusatz                        || 
+|Schüler > Daten 3 >  Fremdsprachenfolge >  4. Fremdsprache  > Zusatz                        ||
 FSPJGD |MAGELLAN:Schüler > Daten 3 >  Fremdsprachenfolge > 4.Fremdsprache > Von| Geben Sie hier den Jahrgang ein an dem der Schüler begonnen hat die Fremdsprache zu erlernen. Der Schlüssel für die Statistik wird berechnet.Grundlage der Berechnung ist das Schlüsselverzeichnis „Klassenstufen“. |SP
 FSPFACHD (Schlüssel 18/06) MAGELLAN:Schüler > Daten 3 >  Fremdsprachenfolge >  4. Fremdsprache |Geben Sie hier die vierte Fremdsprache ein. Grundlage ist das Schlüsselverzeichnis „Fächer“.        |SP
 FSPSTATE|/|                                                                                     |SP

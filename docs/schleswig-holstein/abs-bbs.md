@@ -19,7 +19,6 @@ XXX_DATLE_JJJJMMTT.TXT| Beinhaltet alle Daten der Lehrer im aktuellen Schuljahr<
 
 
  !!! info "Hinweis"
- 
     Dabei steht das <XXX> für die Schulnummer der Schule und <JJJJMMTT> für das Erstellungsdatum z.B. 20140826. Ist beispielsweise die Lehrerdatei am 29.08.2015 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20140829.TXT. 
 
 Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.

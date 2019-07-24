@@ -126,7 +126,7 @@ Alter Schlüssel| 	Kürzel 	|Schlüssel 	|Bezeichnung |	Gültig von |	Kommentar
 - |	503 |	503 |	Datenverarbeitungstechnik |	01.08.2006 	|Ersetzt durch: 503_F und 550_K
 - |	509 |	509 |	Maschinenbautechnik |	01.08.2006 |	Ersetzt durch: 509_F
 514 |	514 |	514 |	"Sporttheorie 	|01.08.2006 |	Ersetzt durch: 514_F
-970 |	970 |	970| 	"WPU - sonstiges Fach |	01.08.2013 |	Ersetzt durch: 970_F
+970 |	970 |	970| 	"WPU - sonstiges Fach |	01.08.2013 	Ersetzt durch: 970_F
 
 
 ### Vollständige Übersicht der Fächer und Kurse (Stand 2016/17)

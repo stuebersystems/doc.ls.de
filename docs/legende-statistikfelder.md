@@ -2,9 +2,9 @@
 
 In der nachfolgend aufgelisteten Tabelle zur Statistik erhalten Sie eine Übersicht der geforderten Daten und Ihrer Zuordnung in MAGELLAN, mit entsprechenden Beschreibungen.
 
-## Statistikfeld in der Statistikdatei:
+## Statistikfeld in der Statistikdatei
 
-In der erzeugten CSV-Statistikdatei sind die Daten in einer bestimmten Struktur abgelegt. Den Inhalt der CSV-Datei können Sie mit Microsoft Excel ansehen. Über den hier angegeben Pfad zum entsprechenden Statistikfeld, können Sie eine abgespeicherte Statistikinformation gezielt in der CSV-Datei finden.
+In der erzeugten Statistikdatei sind die Daten in einer bestimmten Struktur abgelegt. Den Inhalt der Datei können Sie mit Microsoft Excel ansehen. Über den hier angegeben Pfad zum entsprechenden Statistikfeld, können Sie eine abgespeicherte Statistikinformation gezielt in der CSV-Datei finden.
 
 !!! info "Hinweis"
 

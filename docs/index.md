@@ -16,7 +16,7 @@ Eine Schulverwaltungssoftware wie MAGELLAN bietet natürlich eine wesentlich bes
 
 ## Bevor Sie beginnen
 
-Grundlage für die elektronische Erfassung der Landesstatistikdaten sind Dateien, die von der Schulverwaltungs- bzw. Stundenplansoftware erzeugt werden. Welche Dateien das sind und wie deren Inhalt aussieht, wird durch die Spezifikationen Ihres Bundeslandes bestimmt. Diese Spezifikationen erhalten Sie von Ihrem Kultusministerium bzw. Ihrem Statistikamt. 
+Grundlage für die elektronische Erfassung der Landesstatistikdaten sind Dateien, die von der Schulverwaltungs- bzw. Stundenplansoftware erzeugt werden. Welche Dateien das sind und wie deren Inhalt aussieht, wird durch die Spezifikationen der Schnittstelle Ihres Bundeslandes bestimmt. Diese Spezifikationen erhalten Sie von Ihrem Kultusministerium bzw. Ihrem Statistikamt.
 
 Um Fehler bei der Statistik zu vermeiden, müssen Sie sich unbedingt an diese Spezifikationen halten. So dürfen in der Regel Klassen-, Lehrer- und Fachkürzel oft eine bestimmte Maximallänge an Buchstaben nicht überschreiten.
 
@@ -30,16 +30,24 @@ Lesen Sie das für Ihre Schule zutreffende Kapitel in diesem Dokument sehr genau
 
 ## Das Statistikkonzept
 
-Die Statistikdateien werden direkt aus MAGELLAN heraus mit Hilfe eines Statistikassistenten erstellt. Werden Stundenplanwerte für die Statistik erwartet, greift der Assistent zusätzlich auf eine aus DAVINCI heraus exportierbare TXT-Datei zu. Dieses Verfahren gilt für die Bundesländer:
+MAGELLAN verfügt über eine allgemeine Export- und Importschnittstelle aus der Daten der MAGELLAN Datenbank ausgelesen und Daten aus einer von DAVINCI für die Statistik exportierten TXT-Datei (im CSV-Format) eingelesen werden können.
+Jeder Import- oder Export von Daten ist eine konkrete Umsetzung der jeweiligen Spezifikationen und kann somit auf spezielle Eigenheiten beim Ausspielen der Daten eingehen.
+Die Statistikdateien werden direkt aus MAGELLAN heraus mit Hilfe eines Assistenten erstellt. Werden Stundenplanwerte für die Statistik erwartet, greift der Assistent zusätzlich auf die exportierte aus DAVINCI exportierte TXT-Datei zu. Nicht alle Bundesländer erwarten Stundenplandaten.  
+Derzeit werden die Statistikschnittstellen folgende Bundesländer unterstützt:
 
-* Berlin
-* Brandenburg
-* Rheinland-Pfalz
-* Mecklenburg-Vorpommern
-* Nordrhein-Westfalen
-* Schleswig-Holstein
+Bundesland             | MAGELLAN 6 | MAGELLAN 7                | Zur Vollständigen Unterstützung
+---------------------- | ---------- | ------------------------- | -------------------------------
+Berlin                 | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN
+Brandenburg            | 2018/2019  | Auf Anfrage               | MAGELLAN
+Rheinland-Pfalz        | 2019/2020  | -                         | MAGELLAN / DAVINCI
+Mecklenburg-Vorpommern | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN / DAVINCI
+Nordrhein-Westfalen    | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN / DAVINCI
+Schleswig-Holstein     | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN / DAVINCI
 
-In wenigen Ausnahmen werden die Statistikdateien aus einer separaten Datenbank erstellt, dem MAGELLAN-Datawarehouse, das sowohl von MAGELLAN als auch von DAVINCI mit den notwendigen Daten versorgt wird. Beide Konzepte setzen natürlich voraus, dass in MAGELLAN und DAVINCI die entsprechenden Daten richtig eingegeben worden sind. Bitte kontrollieren Sie anhand der nachfolgenden Hinweise die Vollständigkeit der Daten.
+!!! info "Hinweis"
+
+    Statistikdateien die DAVINCI voraussetzen können nicht ausgespielt werden, wenn Sie DAVINCI nicht als Ihre Stundenplansoftware einsetzen.
+    Das Konzept setzt voraus, dass in MAGELLAN und DAVINCI die entsprechenden Daten richtig eingegeben worden sind. Bitte kontrollieren Sie anhand der nachfolgenden Hinweise die Vollständigkeit der Daten.
 
 ## Kürzel, Schlüssel, IDs
 
@@ -53,9 +61,9 @@ Bei der Arbeit mit MAGELLAN sollten Sie im Hinblick auf die Statistik auf Folgen
 
 Grundlage vieler Eingabemasken in MAGELLAN sind Schlüsselverzeichnisse, welche die Eingabe auf eine Liste vordefinierter Werte einschränken. Wenn Sie also z.B. bei einem Schüler die Konfession eingeben möchten, so können Sie nur eine Konfession aus dem Schlüsselverzeichnis Konfessionen auswählen. Alle Schlüsselverzeichnisse in MAGELLAN sind frei editierbar und bestehen in der Regel aus den Feldern `Kürzel`, `Schlüssel`, `Bezeichnung`, `GueltigVon` und `GueltigBis`. Während `Kürzel` und `Beschreibung` frei wählbar sind, ist der `Schlüssel` durch das Amt vorgegeben und sollte nicht geändert werden. Damit Sie nun nicht alle Schlüsselverzeichnisse füllen müssen, liefern wir die benötigten Schlüsselverzeichnisse bereits mit. Diese werden durch die Installation von MAGELLAN in einem separaten Ordner abgelegt. Mit Hilfe des MAGELLAN-Administrator können Sie die Schlüsselverzeichnisse Ihres Bundeslandes bzw. Ihrer Schulart jederzeit in die bestehende MAGELLAN-Datenbank einspielen. Wurden mit einem Update neue Schlüssel zur Verfügung gestellt, werden Ihre Schlüsselverzeichnisse nicht automatisch hinzugefügt. Mit Hilfe des MAGELLAN-Administrator müssen Sie die neuen Schlüssel importieren.
 
-### Zeiträume 
+### Zeiträume
 
-Schüler- und Klassendaten werden in MAGELLAN zeitraumbezogen gespeichert. Achten Sie daher bei der Definition Ihrer Zeiträume in MAGELLAN darauf, dass diese sich im Anfangs- oder Enddatum nicht überschneiden. Außerdem müssen Sie sich im Klaren darüber sein, dass in der Regel Daten sowohl aus dem aktuellen Zeitraum (also 1. Halbjahr Schuljahr 2013/2014) als auch aus den beiden vorangegangenen Zeiträumen (also 1. und 2. Halb-jahr 2012/2013) benötigt werden.
+Schüler- und Klassendaten werden in MAGELLAN zeitraumbezogen gespeichert. Achten Sie daher bei der Definition Ihrer Zeiträume in MAGELLAN darauf, dass diese sich im Anfangs- oder Enddatum nicht überschneiden. Außerdem müssen Sie sich im Klaren darüber sein, dass in der Regel Daten sowohl aus dem aktuellen Zeitraum (also 1. Halbjahr des Schuljahres) als auch aus den beiden vorangegangenen Zeiträumen (also 1. und 2. Halbjahr des davorliegenden Schuljahres) benötigt werden können.
 
 ## DAVINCI
 
@@ -63,9 +71,9 @@ Sobald in der Landestatistik stundenplanrelevante Daten benötigt werden, kommt 
 
 ### Schlüsselverzeichnisse
 
-An vielen Stellen in DAVINCI begegnen Ihnen Auswahlfelder, die mit Daten aus einem bestimmten Schlüsselverzeichnis vorbelegt sind. Die Schlüsselverzeichnisse tragen ihren Namen, weil sie in der Re-gel Angaben beinhalten, die für die statistische Auswertung der Stundenplandaten benötigt werden. Alle diese Ver-zeichnisse enthalten eine Spalte „Schlüssel“, deren Felder mit den Schlüsselwerten versehen werden können, die die Landesstatistikämter für die jährlichen Schulstatistiken herausgeben. Derzeit stehen in DAVINCI verschiedene Schlüsselverzeichnisse zur Verfügung.
+An vielen Stellen in DAVINCI begegnen Ihnen Auswahlfelder, die mit Daten aus einem bestimmten Schlüsselverzeichnis vorbelegt sind. Die Schlüsselverzeichnisse tragen ihren Namen, weil sie in der Re-gel Angaben beinhalten, die für die statistische Auswertung der Stundenplandaten benötigt werden. Alle diese Verzeichnisse enthalten eine Spalte „Schlüssel“, deren Felder mit den Schlüsselwerten versehen werden können, die die Landesstatistikämter für die jährlichen Schulstatistiken herausgeben. Derzeit stehen in DAVINCI verschiedene Schlüsselverzeichnisse zur Verfügung.
 
-Die meisten dieser Schlüsselverzeichnisse sind leer und können von den Schulen je nach dem schulform- und landesspezifischen Bedarf gefüllt werden. Einige Schlüsselverzeichnisse, die häufig benötigt werden und besonders typische Einträge aufweisen, sind bereits mit Standard-oder Beispielwerten versehen. Dies betrifft z.B. das Schlüsselverzeichnis „Unterrichtsarten“, dessen Einträge u. a. der Unterscheidung zwischen Leistungskursen, Grundkursen und anderen Kursen dienen. 
+Die meisten dieser Schlüsselverzeichnisse sind leer und können von den Schulen je nach dem schulform- und landesspezifischen Bedarf gefüllt werden. Einige Schlüsselverzeichnisse, die häufig benötigt werden und besonders typische Einträge aufweisen, sind bereits mit Standard-oder Beispielwerten versehen. Dies betrifft z.B. das Schlüsselverzeichnis „Unterrichtsarten“, dessen Einträge u. a. der Unterscheidung zwischen Leistungskursen, Grundkursen und anderen Kursen dienen.
 
 Die Schlüsselverzeichnisse gehören nicht eigentlich zu den Stammdaten, vielmehr handelt es sich um Daten zweiter Ordnung, die im Wesentlichen der Beschreibung oder Kategorisierung anderer Daten dienen. Sie kommen nicht nur im Programmbereich „Stammdaten“, sondern auch in den anderen Programmbereichen zum Einsatz. Die vollständige Bearbeitung der Stammdaten setzt aber in der Regel voraus, dass bestimmte Schlüsselverzeichnisse im Vorfeld angepasst werden.
 
@@ -73,12 +81,12 @@ Die Schlüsselverzeichnisse gehören nicht eigentlich zu den Stammdaten, vielmeh
 
 Damit die Daten später sinnvoll zueinander passen, müssen die Stammdaten zwischen MAGELLAN und DAVINCI abgeglichen werden. Das bedeutet, dass vor allem die Stammdaten in DAVINCI (Klassen, Lehrer, Fächer und evtl. Schüler) mit der gleichen ID-Nummer versehen werden wie in MAGELLAN. Diese Aufgabe übernimmt für Sie der Import/Export-Assistent in DAVINCI.
 
-Nähere Informationen hierzu finden Sie auch im DAVINCI-Benutzerhandbuch.
+Nähere Informationen hierzu finden Sie auch im MAGELLAN-Handbuch unter [Datenaustausch mit MAGELLAN](https://doc.magellan7.stueber.de/schulverwaltung/howto/abgleich_mit_dav/).
 
 ### Lehrer-Soll-Berechnungsschlüssel
 
-Die Mehrarbeits- und Ermäßigungsstunden von Lehrern werden in DAVINCI in der Lehrer-Soll-Berechnung dokumentiert. Grundlage für diese Daten sind die Soll-Berechnungsschlüssel des jewei-ligen Bundeslandes. Diese werden bei jeder Installation von DAVINCI automatisch mitinstalliert und können jederzeit in die aktuelle Stundenplandatei importiert werden.
-Nähere Informationen hierzu finden Sie auch im DAVINCI-Benutzerhandbuch.
+Die Mehrarbeits- und Ermäßigungsstunden von Lehrern werden in DAVINCI in der Lehrer-Soll-Berechnung dokumentiert. Grundlage für diese Daten sind die Soll-Berechnungsschlüssel des jeweiligen Bundeslandes. Diese werden bei jeder Installation von DAVINCI automatisch mitinstalliert und können jederzeit in die aktuelle Stundenplandatei importiert werden.
+Nähere Informationen hierzu finden Sie auch im DAVINCI-Benutzerhandbuch unter [Lehrer-Zeitkonten](https://doc.davinci6.stueber.de/01.stundenplan/stammdaten/#lehrer-zeitkonten).
 
 ### Unterrichtsarten und Fachstatus
 
@@ -103,9 +111,9 @@ Nachdem Sie die kontrolliert haben, dass die IDs in beiden Programmen übereinst
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer.
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht. 
+3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht.
 4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
 
 ### Daten als Berufsbildende Schule in DAVINCI prüfen
@@ -137,7 +145,7 @@ Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbilde
 So exportieren Sie Daten aus DAVINCI:
 
 1. Starten Sie DAVINCI.
-2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
-3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie aur ```Weiter```.
-4. Wählen Sie Ihr Bundesland aus  und klicken Sie auf ```Weiter```.
+2. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
+3. Wählen Sie unter Export den Punkt `Statistikdaten exportieren` aus und klicken Sie aur `Weiter`.
+4. Wählen Sie Ihr Bundesland aus und klicken Sie auf `Weiter`.
 5. Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an. Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert.

@@ -16,9 +16,9 @@ Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche vo
  XXX_DATLD_JJJJMMTT.TXT | LD     | X | ABS / BBS | Die Leitdatei enthält Daten zu Ihrer Schule.
  XXX_DATLE_JJJJMMTT.TXT | LE     | X | ABS / BBS | Die Lehrerdatei enthält Daten zum Lehrer im aktuellen Schuljahr.
  XXX_DATSA_JJJJMMTT.TXT | SA     | X | ABS       | Die Schülerdatei enthält Daten der Schüler und gegebenen Fächer im aktuellen Schuljahr.
- XXX_DATEA_JJJJMMTT.TXT | EA     | X | ABS       | Die Entlassenendatei entält Daten der Entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
+ XXX_DATEA_JJJJMMTT.TXT | EA     | X | ABS       | Die Entlassenendatei entält Daten der entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
  XXX_DATSB_JJJJMMTT.TXT | SB     | - | BBS       | Die Schülerdatei enthält Daten der Schüler im aktuellen Schuljahr.
- XXX_DATEB_JJJJMMTT.TXT | EB     | - | BBS       | Die Entlassenendatei entält Daten der Entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
+ XXX_DATEB_JJJJMMTT.TXT | EB     | - | BBS       | Die Entlassenendatei entält Daten der entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
  XXX_DATFB_JJJJMMTT.TXT | FB     | - | BBS       | Die Fächerdatei entält Daten der gegebenen Fächer aktuellen Schuljahr.
  XXX_DATOS_JJJJMMTT.TXT | OS     | - | BBS       | Die Oberstufendatei enthält Daten zu den Kursen in der Oberstufe.
 

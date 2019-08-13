@@ -1,14 +1,14 @@
 # Rheinland-Pfalz - ABS und BBS
 
-Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen in Rheinland-Pfalz die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Statistikamt in Bad Ems im Schuljahr 2018/2019.
+Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen in Rheinland-Pfalz die benötigten Schritte zum Erstellen der elektronischen Landesstatistik für den Abgleich mit dem Statistikamt in Bad Ems im Schuljahr 2019/2020.
 
 !!! warning "Wichtig"
 
-    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 6.5.23!
+    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 6.5.37 - 673 vom 12.08.2019!
 
 Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 
-Aktuelle Änderungen zur Statistik 2018/2019 sehen Sie [**hier!**](https://doc.ls.stueber.de/rheinland-pfalz/changelog/)
+Aktuelle Änderungen zur Statistik 2019/2020 sehen Sie [**hier!**](https://doc.ls.stueber.de/rheinland-pfalz/changelog/)
 
 ## Einführung
 
@@ -16,9 +16,9 @@ Das statistische Landesamt fordert die elektronische Landesstatistik im XML Date
 Für Sie als Schule bedeutet dies: Sie müssen die folgenden XML-Dateien je nach Schulart an das Statistikamt in Bad Ems verschicken:
 
 | Schulart | Dateiname      |
-|:------------------------------|:------------------------------------|
-| Für Allgemeinbildende Schulen | SchuelerAbsNeuanlage_2018_xxxxx.xml |
-| Für Allgemeinbildende Schulen | SchuelerAbsBewegung_2018_xxxxx.xml  |
+|------------------------------|------------------------------------|
+| Für Allgemeinbildende Schulen | SchuelerAbsNeuanlage_2019_xxxxx.xml |
+| Für Allgemeinbildende Schulen | SchuelerAbsBewegung_2019_xxxxx.xml  |
 | Für Berufsbildende Schulen    | xxxxx-SchuelerBbsNeuanlage.xml      |
 | Für Berufsbildende Schulen    | xxxxx-SchuelerBbsBewegung.xml       |
 | Für Berufsbildende Schulen    | xxxxx-LehrerNeuanlage.xml           |
@@ -27,47 +27,46 @@ Hierbei steht xxxxx für Ihre Schulnummer.
 
 Die Neuanlage- und Bewegungsdaten sind für alle Schulformen erforderlich und größtenteils identisch. Das Statistikamt fordert diese Daten aus dem aktuellen und den zwei vorangegangenen Halbjahren.
 
-Die Daten der SchuelerNeuanlage kommen aus dem aktuellen Halbjahr (1. Halbjahr 2018/2019). Für die Daten der SchuelerBewegung wird das gesamte vorangehende Schuljahr (1. und 2. Halbjahr 2017/2018) ausgewertet. 
+Die Daten der SchuelerNeuanlage kommen aus dem aktuellen Halbjahr (1. Halbjahr 2019/2020). Für die Daten der SchuelerBewegung wird das gesamte vorangehende Schuljahr (1. und 2. Halbjahr 2018/2019) ausgewertet.
 Die Daten der LehrerNeuanlage dagegen werden zeitraumunabhängig herangezogen und werden nur für Berufsbildende Schulen aus MAGELLAN heraus erstellt. Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 
 !!! info "Hinweis"
 
     ABS-STATISTIK OHNE LEHRERANGABEN
-    Für Allgemeinbildende Schulen sind im Schuljahr 2018/2019 keine Lehrerangaben notwendig, da die Lehrerdatei nur über die Excel-Datei der ADD erstellt wird.
+    Für Allgemeinbildende Schulen sind im Schuljahr 2019/2020 keine Lehrerangaben notwendig, da die Lehrerdatei nur über die Excel-Datei der ADD erstellt wird.
 
 ## DAVINCI-LIZENZ?
 
-Gymnasien/Gesamtschulen \(Oberstufe\) benötigen für die Landesstatistik jeweils das Stunden- und das Kursplanmodul von daVinci zur Vervollständigung der Statistikdaten.
-Berufsbildende Schulen benötigen für die Landesstatistik jeweils das Stundenplanmodul von daVinci zur Vervollständigung der Statistikdaten.
-Lesen Sie folgende Punkte aufmerksam durch. Punkte, die nur für Gymnasien\/Gesamtschulen mit Oberstufe oder Berufsbildende Schulen interessant sind, werden gesondert ausgezeichnet.
+Gymnasien/Gesamtschulen mit einer Oberstufe benötigen für die Landesstatistik jeweils das Stunden- und das Kursplanmodul von DAVINCD zur Vervollständigung der Statistikdaten.
+Berufsbildende Schulen benötigen für die Landesstatistik jeweils das Stundenplanmodul von DAVINCI zur Vervollständigung der Statistikdaten.
+Lesen Sie folgende Punkte aufmerksam durch. Punkte, die nur für Gymnasien/Gesamtschulen mit Oberstufe oder Berufsbildende Schulen interessant sind, werden gesondert ausgezeichnet.
 
 ## Notwendige Schritte
 
+1. Schritt: [Schlüsselverzeichnisse importieren, PLZs aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/).
+2. Schritt: Statistisch relevante Daten in DAVINCI bzw. MAGELLAN eingeben
+3. Schritt: Kurswahlen von DAVINCI nach MAGELLAN übertragen (nur für Gymnasien/Gesamtschulen mit Oberstufe)
+4. Schritt: Statistikdaten aus DAVINCI exportieren
+5. Schritt: Statistikdaten erstellen.
 
-1. Schritt:[Schlüsselverzeichnisse importieren, PLZs aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/). Bitte beachten Sie den Abschnitt "Besonderheiten 2018/2019" am Ende der Beschreibung!
-2. Schritt: Statistisch relevante Daten in daVinci bzw. MAGELLAN eingeben
-3. Schritt: Kurswahlen von daVinci nach MAGELLAN übertragen \(nur für Gymnasien\/Gesamtschulen mit Oberstufe\)
-4. Schritt: Statistikdaten aus daVinci exportieren
-5. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
-6. Schritt: Statistikdaten erstellen.
+
+!!! info "Hinweis"
+
+    Eine automatische Plausibilitätsprüfung ist für die Statistik im Schuljahr 2019/2020 in MAGELLAN 6 NICHT eingebaut.
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
 ## Statistikschlüssel aktualisieren
 
-Das Statistikamt gibt jährlich aktualisierte Schlüssel für die Landesstatistik heraus. Die aktuellen Schlüssel des Statistikamtes finden Sie auf der gemeinsamen Veröffentlichungsplattform von Schulaufsicht und amtlicher Statistik \(www.egsch.bildung-rp.de\).
+Das Statistikamt gibt jährlich aktualisierte Schlüssel für die Landesstatistik heraus. Die aktuellen Schlüssel des Statistikamtes finden Sie auf der gemeinsamen Veröffentlichungsplattform von Schulaufsicht und amtlicher Statistik (www.egsch.bildung-rp.de).
+
 Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse/).
-
-
-!!! warning "Wichtig"
-
-    In diesem Jahr müssen bitte zusätzlich  die Postleitzahlen neu eingelesen werden. Im Anschluss müssen die Gemeinden synchronisiert werden, eine Anleitung finden Sie im Abschnitt [Schlüsselverzeichnisse](https://doc.ls.stueber.de/schluesselverzeichnisse/)!
 
 ## Stundenplandaten
 
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang, in einer tabellarischen Übersicht.
 
-Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von daVinci vornehmen. Genauere Informationen zu den Eingaben für daVinci finden Sie in der nachfolgenden tabellarischen Übersicht.
+Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DAVINCI vornehmen. Genauere Informationen zu den Eingaben für DAVINCI finden Sie in der nachfolgenden tabellarischen Übersicht.
 
 ### Für die Oberstufe bei Gymnasien/Gesamtschulen
 
@@ -81,9 +80,9 @@ Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von daVinci vorn
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer. 
+1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer.
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3. Öffnen Sie daVinci und wechseln Sie in die entsprechende Ansicht. 
+3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht.
 4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der daVinci Ansicht und korrigieren Sie ggf. in daVinci.
 
 ## Für Berufsbildende Schulen
@@ -104,56 +103,43 @@ Einige Daten für die Statistik errechnen sich unmittelbar aus den Unterrichtsan
 | Soll-Änderung eines Fachs          | Errechnet sich aufgrund des Einträge in der Spalte Differenz der Stundentafel der Klasse für das entsprechende Fach. |
 | Soll-Änderungsgrund für die Klasse | Die Änderungsgründe sind ab der Statistik 2014/15 veranstaltungs- und nicht mehr klassenbasiert einzutragen. Wählen Sie dazu in der Veranstaltungskategorie (Veranstaltungsliste > Rechtsklick auf die Veranstaltung > Veranstaltung bearbeiten > Kategorie) den entsprechenden Schlüssel aus. Die Schlüssel (aus der Datei „25_RLP_Veranstaltungskategorien.keys“) können Sie unter Extras > Schlüsselverzeichnisse > Veranstaltungskategorien > Import in Ihre Plandatei importieren. |
 
-### Kurswahldaten und Lehrerdaten von daVinci nach MAGELLAN übertragen
+### Kurswahldaten und Lehrerdaten von DAVINCI nach MAGELLAN übertragen
 
-Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, wie im daVinci Handbuch im Kapitel „Spezielles“  unter „Datenaustausch mit Magellan“, „Daten nach MAGELLAN übergeben“ beschrieben.
-
-
-!!! warning "Wichtig"
-
-    Bitte beachten Sie, dass Sie nur mit Kopien der daVinci Datei und MAGELLAN Datenbank arbeiten!
-
-### Statistikdaten aus daVinci exportieren
+Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, so wie im [DAVINCI Handbuch](https://doc.davinci6.stueber.de/11.datenaustausch/magellan/#so-ubertragen-sie-daten-von-davinci-nach-magellan) beschrieben.
 
 
 !!! warning "Wichtig"
 
-    Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus daVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
-    Ist Ihre Schule kein Gymnasium/keine Gesamtschule mit Oberstufe bzw. Berufsbildende Schule, so benötigen Sie keine daVinci-Daten für die Statistik.
-
-Exportieren der statistisch relevanten Daten aus DAVINCI
-So exportieren Sie Daten aus daVinci:
-
-1. Starten Sie daVinci.
-2. Klicken Sie dort im Menü Extras auf Exportieren.
-3. Wählen Sie unter Typ Rheinland-Pfalz und geben Sie die Exportdatei an.
-4. Klicken Sie auf OK. Die Daten werden jetzt in die angegebene Datei exportiert.
-
+    Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
 
 ### Aufgestockte Grundkurse
 
-Wie Sie aufgestockte Grundkurse in DAVINCI eintragen können, beschreiben wir [**hier**](https://doc.davinci6.stueber.de/course-plan/#aufgestockte-grundkurse).
+Wie Sie aufgestockte Grundkurse in DAVINCI eintragen können, beschreiben wir [hier](https://doc.davinci6.stueber.de/03.kursplan/spezielles/#aufgestockte-grundkurse).
 
-## Statistikdaten aus DAVINCI exportieren
+### Statistikdaten aus DAVINCI exportieren
+
+!!! warning "Wichtig"
+
+    Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
+    Ist Ihre Schule kein Gymnasium/keine Gesamtschule mit Oberstufe bzw. Berufsbildende Schule, so benötigen Sie keine DAVINCI-Daten für die Statistik.
 
 So exportieren Sie Daten aus DAVINCI:
 
 1. Starten Sie DAVINCI.
-2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
-3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie auf  ```Weiter```.
-4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf ```Weiter```.
+2. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
+3. Wählen Sie unter Exportieren den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
+4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
 5. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
 6. Wählen Sie unter Export den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
 7. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
 8. Geben Sie den Dateipfad und einen passenden Dateinamen ()Beispiel: mien.export.txtei zum Export der Statistikdaten an.
-
-Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert. Auf diese Datei verweisen Sie später aus dem Statistikassistenten von MAGELLAN.
+9. Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert. Auf diese Datei verweisen Sie später aus dem Statistikassistenten von MAGELLAN.
 
 !!! warning "Wichtig"
 
      Diese Datei wird nur von Berufsbildenden Schulen und Gymnasien benötigt. 
 
-## ABS: Wann wird die 2.Fremdsprache ausgegeben?
+## ABS: Wann wird die 2. Fremdsprache ausgegeben?
 
 Ob nur die erste Fremdsprache in die ABSNeuanlage-Datei übergeben wird oder auch weitere berechnet MAGELLAN anhand von Einträgen in verschiedene Felder. Geprüft werden folgende Felder:
 
@@ -208,8 +194,6 @@ Schüler.Status = 4 UND Abschluss1 = 18, bedeutet, der Ausdruck gilt, wenn der S
 Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn folgende Kriterien zutreffen:
 
 #### ABS
-
-
 
 | Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
 |------------------------------------------|-----------------------------------------:|

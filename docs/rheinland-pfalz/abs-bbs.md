@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen in 
 
 !!! warning "Wichtig"
 
-    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2018 und mindestens die MAGELLAN Version 6.5.37 - 673 vom 12.08.2019!
+    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2019 und mindestens die MAGELLAN Version 6.5.38 - 673 vom 12.08.2019!
 
 Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 
@@ -52,7 +52,7 @@ Lesen Sie folgende Punkte aufmerksam durch. Punkte, die nur für Gymnasien/Gesam
 
 !!! info "Hinweis"
 
-    Eine automatische Plausibilitätsprüfung ist für die Statistik im Schuljahr 2019/2020 in MAGELLAN 6 NICHT eingebaut.
+    Ab diesem Jahr ist keine automatische Plausibilitätsprüfung für die Statistik eingebaut.
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
@@ -279,6 +279,10 @@ Lehrer werden in der Statistikdatei berücksichtigt, wenn folgende Kriterien zut
 | DateiKopf > **ErhebungsJahr**       |                     | Das Erhebungsjahr wird automatisch beim Erstellen der Statistikdateien mit eingetragen und muss nicht in MAGELLAN eingegeben werden. | Alle           |
 
 ## Besonderheiten der Statistik nach Schuljahren
+
+### Besonderheiten Statistik 2019/2020
+
+Ab diesem Jahr liefern wir keine Plausibilitätsprüfung mehr mit aus.
 
 ### Besonderheiten Statistik 2018/2019
 

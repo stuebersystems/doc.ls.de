@@ -408,6 +408,91 @@ Statistikdateien  | SB
 Datenfeld         | MAGELLAN: Schüler > Daten 1 > Gemeinde
 Beschreibung      | Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein. Der Statistikwert wird automatisch daraus errechnet.
 
+### Lehrerdaten
+
+Einige der Daten können aus der Stundenverwaltung DAVINCI stammen. Aus diesem Grunde unterscheiden wir in der Spalte `Datenfeld` zwischen MAGELLAN: und DAVINCI: Angaben.
+
+**Spalte**        | **Beschreibung**  
+----------------- | ----------------
+**Statistikfeld** | **DSTNR Dienststellennummer**  
+Datenfeld         |Mandanten > Daten 1 > Schulnummer. 
+Beschreibung      |Geben Sie die vom Land vergebene Schulnummer an.
+**Statistikfeld** | **LENR Lehrernummer**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 2 > StatistikNr.
+Beschreibung      | Geben Sie hier die 7 stellige Statistik Nr. ein.
+**Statistikfeld** | **ZUGANG Neuzugang**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Zugang am
+Beschreibung      | Geben Sie hier das Datum des Zugangs des Lehrer an Ihre Schule an. Ein Lehrer wird als Neuzugang erkannt, wenn unter Lehrer > Daten 2 > Zugang am ein Datum erfasst wurde, dass nach dem letzten und vor dem aktuellen Statistiktermin liegt.
+**Statistikfeld** | **NAME Familienname**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Nachname
+Beschreibung      | Geben Sie hier den Nachnamen des Lehrers ein.
+**Statistikfeld** | **VNAME Vorname**  
+Datenfeld         |  MAGELLAN: Lehrer > Daten 1 > Vorname
+Beschreibung      | Geben Sie hier den Vornamen des Lehrers ein.
+**Statistikfeld** | **GNAME Geburtsname**  
+Datenfeld         |  MAGELLAN: Lehrer > Daten 1 > Geburtsname
+Beschreibung      | Geben Sie hier den Geburtsnamen des Lehrers ein.
+**Statistikfeld** | **GS Geschlecht**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Geschlecht
+Beschreibung      | Wählen Sie hier das Geschlecht des Lehrers aus.
+**Statistikfeld** | **GGBDAT Geburtsdatum**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Geboren am
+Beschreibung      | Geben Sie hier das Geburtsdatum des Lehrers ein.
+**Statistikfeld** | **STAAT Staatsangehörigkeit**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Staatsangeh. 1 (Verzeichnisse > Staatsangehörigkeiten)
+Beschreibung      | Geben Sie hier die Nationalität des Lehrers ein.
+**Statistikfeld** | **BSCHU Beschäftigungsumfang**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Beschäftigungsverhältnis (Verzeichnisse > Beschäftigungsverhältnis)
+Beschreibung      |  Geben Sie hier das Beschäftigungsverhältnis des Lehrers ein.
+**Statistikfeld** | **BGRZ Grund Zugang**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Zugangsart(Verzeichnisse > Zugangsarten (Lehrer))
+Beschreibung      | Geben Sie hier die Zugangsart des Lehrers ein.
+**Statistikfeld** | **BGRA Grund Abgang**  
+Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Abgangsart (Verzeichnisse > Abgangsarten (Lehrer))
+Beschreibung      | Geben Sie hier die Abgangsart des Lehrers ein.
+**Statistikfeld** | **DIST Dienstverhältnis**  
+Datenfeld         |  MAGELLAN: Lehrer > Daten 2 > Dienstverhältnis (Verzeichnisse > Dienstverhältnisse)
+Beschreibung      | 
+**Statistikfeld** | **LAUFB Lehrerlaufbahn**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **LEBF1-4 Lehrbefähigung 1-4**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **SOLL Regelstundenmaß**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **MEHR genehmigte Mehrarbeit**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **SABBAT Sabbatjahrt**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **ALTERTZ Altersteilzeit**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **STG1 Grund1-6 - Ausgl. + Erm.Stunden**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **STS1-6 Stunden1-6 - Ausgl. + Erm.Stunden**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **UEBSTD Überstunden**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **UNTSTD Unterstunden**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **IST erteilte Stunden insgesamt**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **MASS1-15 Einrichtung/Maßnahme1-15**  
+Datenfeld         | 
+Beschreibung      | 
+**Statistikfeld** | **ISS1-15 erteilte Stunden SA1 - SA15**  
+Datenfeld         | 
+Beschreibung      | 
+
 ### Weggefallene Statistikangaben
 
 <table class="table" style="color: red">

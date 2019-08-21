@@ -6,7 +6,7 @@ Mit dem Landesstatistik-Modul können Sie die benötigten Schnittstellendateien 
 
 ## Einführung
 
-Die Statistikdateien werden anhand der erfassten Daten in MAGELLAN und DAVINCI erstellt. Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von MAGELLAN 7 unterstützt werden:
+Die Statistikdateien werden anhand der erfassten Daten in MAGELLAN und DAVINCI erstellt. Hier erhalten Sie eine Übersicht über die Schnittstellendateien:
 
 Dateiname  | Abkürzung | Kapitel                           | Inhalt
 ---------- | --------- | --------------------------------- | ------
@@ -26,7 +26,7 @@ LEHRER         | -
 ABI            | 2. HJ. vorangegangenes Schuljahr
 EXTERN         | -
 
-Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Export aufgenommen werden entnehmen Sie den einzelnen Kapiteln zu den Statistikdateien.
+Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Export aufgenommen werden, entnehmen Sie den einzelnen Kapiteln zu den Statistikdateien.
 
 ### DAVINCI-LIZENZ
 
@@ -34,21 +34,17 @@ Eine DAVINCI Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, d
 
 ## Notwendige Schritte
 
-1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md)
+1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md){target=_blank}
 2. Schritt: Dateneingabe
 3. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 4. Schritt: Statistikdateien erstellen
 
-Diese Schritte werden nachfolgend ausführlich erklärt.
-
-### Statistikschlüssel aktualisieren
-
-Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](../schluesselverzeichnisse.md).
+Verlinkte Schritte werden in den jeweiligen Kapiteln beschrieben. Klicken Sie dazu auf den Link. Alle anderen Schritte werden nachfolgend ausführlich erklärt.
 
 ## Dateneingabe
 
-Sie erhalten eine Übersicht der Felder in den Statistikdateien, sowie diese in MAGELLAN bzw. DAVINCI einzupflegen sind.
-Die Dateneingaben zu den einzelnen Statistikdateien finden Sie in der obersten Tabelle in der Spalte "Kapitel".
+Sie erhalten eine Übersicht der Felder in den Statistikdateien und wie diese in MAGELLAN bzw. DAVINCI einzupflegen sind.
+Jede Statistikdatei wird in einem einzelnen Kapitel behandelt, die Links zu den Kaptieln finden Sie in der obersten Tabelle in der Spalte "Kapitel".
 
 ### Voraussetzungen für alle Statistikdaten
 
@@ -56,7 +52,7 @@ Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen
 
 Statistikfeld | Statistikdatei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
 ------------- | -------------- | ----------------------------- | ------------
---            | ALLE           | MAGELLAN:<br>`Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule.<br/>Bei Berufskollegs = BK.<br/>Wichtig:<br/>MAGELLAN sortiert die Schulformen. Die Schulform sollte als erste erscheinen. Um sicher zu gehen, sollten Sie zuerst alle Schulformen entfernen und dann die Hauptschulform als Erstes eintragen.
+--            | ALLE           | MAGELLAN:<br>`Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule.<br/>Bei Berufskollegs = BK.<br/>**Wichtig:**<br/>MAGELLAN sortiert die Schulformen. Die Schulform sollte als erste erscheinen. Um sicher zu gehen, sollten Sie zuerst alle Schulformen entfernen und dann die Hauptschulform als Erstes eintragen.
 
 ### Besonderheiten
 

@@ -71,8 +71,8 @@ nav:
   - LEHRER.TXT: nordrhein-westfalen/lehrerdaten.md
   - ABI.TXT: nordrhein-westfalen/abiturdaten.md
   - EXTERN.DAT: nordrhein-westfalen/stundenplandaten.md
-  - Aktuelle Version: nordrhein-westfalen/changelog.md
   - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
+  - Aktuelle Version: nordrhein-westfalen/changelog.md
 - Rheinland-Pfalz:
   - ABS/BBS: rheinland-pfalz/abs-bbs.md
   - Schüler-/Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md

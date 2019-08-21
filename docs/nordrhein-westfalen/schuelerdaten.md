@@ -25,8 +25,10 @@ Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund 
 #### Abgänger
 
 - Schüler werden aus allen drei Schulhalbjahren ausgelesen
-- Der Schüler ist in MAGELLAN auf `Ausgeschult` gesetzt
-- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt und `Schüler > Daten 2 > Abgang > Abgangsart` oder `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist auf den Wert ***0A*** gesetzt.
+- Der Schüler ist in MAGELLAN auf `Ausgeschult` gesetzt oder
+- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt und
+    - `Schüler > Daten 2 > Abgang > Abgangsart` oder
+    - `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist auf den Wert ***0A*** gesetzt.
 
 #### Bildungsgang abgeschlossen
 
@@ -41,18 +43,18 @@ Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund 
 
 Nach dem Auslesen der Daten wird der Typus auf **Neuzugang** gesetzt und dann weitere Bedingungen geprüft:
 
-##### Aktuell eingeschult
+#### Aktuell eingeschult
 
-- Schüler ist Stammschüler
-- Schüler war bereits im letzten Schuljahr an der Schule (es wird die Laufbahn geprüft)
+- Schüler ist Stammschüler und
+- Schüler war bereits im letzten Schuljahr an der Schule (es wird die Laufbahn geprüft) und
 - Die Gliederung hat sich zum aktuellen Schulhalbjahr nicht verändert
 
-##### Neuzugang an gleicher Schule
+#### Neuzugang an gleicher Schule
 
-- Schüler ist ein Nebenschüler
+- Schüler ist ein Nebenschüler oder
 - Schüler ist Stammschüler und
-  - war bereits im letzten Schuljahr an der Schule (es wird die Laufbahn geprüft) und
-  - die Gliederung sich zum aktuellen Schulhalbjahr verändert
+    - war bereits im letzten Schuljahr an der Schule (es wird die Laufbahn geprüft) und
+    - die Gliederung sich zum aktuellen Schulhalbjahr verändert
 
 ## Dateneingabe
 

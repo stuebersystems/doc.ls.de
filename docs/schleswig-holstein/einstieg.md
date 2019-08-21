@@ -452,13 +452,13 @@ Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Abgangsart (Verzeichnisse > Abg
 Beschreibung      | Geben Sie hier die Abgangsart des Lehrers ein.
 **Statistikfeld** | **DIST Dienstverhältnis**  
 Datenfeld         |  MAGELLAN: Lehrer > Daten 2 > Dienstverhältnis (Verzeichnisse > Dienstverhältnisse)
-Beschreibung      | 
+Beschreibung      |  Geben Sie hier das Dienstverhältnis des Lehrers ein.
 **Statistikfeld** | **LAUFB Lehrerlaufbahn**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         |  MAGELLAN: Lehrer > Daten 3 > Lehramt Typ Lehramt
+Beschreibung      | Wählen Sie hier den Lehramtstyp des Lehrers aus.
 **Statistikfeld** | **LEBF1-4 Lehrbefähigung 1-4**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | MAGELLAN: Lehrer > Daten 3 > Lehramt Typ Lehrbefähigung
+Beschreibung      | Wählen Sie hier die Lehrbefähigung des Lehrers aus.
 **Statistikfeld** | **SOLL Regelstundenmaß**  
 Datenfeld         | 
 Beschreibung      | 

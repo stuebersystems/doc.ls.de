@@ -4,6 +4,10 @@ Das Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen for
 Zur Erstellung der Statistik wird das Programm ASDPC des Schulministerium benötigt. ASDPC verfügt über eine Importschnittstelle zum Einlesen von Daten aus Schulverwaltungsprogrammen.
 Mit dem Landesstatistik-Modul können Sie die benötigten Schnittstellendateien direkt aus MAGELLAN und DAVINCI erzeugen.
 
+!!! info "Hinweis"
+
+    Eine DAVINCI-Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, da diese Stundenplandaten enthalten. Jede Datei kann einzeln erzeugt werden, somit benötigen Sie z.B. kein DAVINCI wenn Sie lediglich die SIM.TXT oder die ABI.TXT erzeugen möchten.
+
 ## Einführung
 
 Die Statistikdateien werden anhand der erfassten Daten in MAGELLAN und DAVINCI erstellt. Hier erhalten Sie eine Übersicht über die Schnittstellendateien:
@@ -28,13 +32,9 @@ EXTERN         | -
 
 Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Export aufgenommen werden, entnehmen Sie den einzelnen Kapiteln zu den Statistikdateien.
 
-### DAVINCI-LIZENZ
-
-Eine DAVINCI Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, da diese Stundenplandaten enthalten. Jede Datei kann einzeln erzeugt werden, somit benötigen Sie z.B. kein DAVINCI wenn Sie lediglich die SIM.TXT oder die ABI.TXT erzeugen möchten.
-
 ## Notwendige Schritte
 
-1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md){target=_blank}
+1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md)
 2. Schritt: Dateneingabe
 3. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
 4. Schritt: Statistikdateien erstellen
@@ -58,4 +58,4 @@ Statistikfeld | Statistikdatei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
 
 #### 2019/2020
 
-Aktuell keine Besonderheiten.
+`Schüler > Statistik > Merkmal S10` -  Wählen Sie im Schülermerkmal S10 ***Kein Export nach ASDPC*** au, um Schüler explizit aus der Statistik zu nehmen.

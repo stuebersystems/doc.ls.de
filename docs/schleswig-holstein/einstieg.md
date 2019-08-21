@@ -50,8 +50,8 @@ Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdat
 
 Statistikfeld | Datenfeld in MAGELLAN/DAVINCI  | Beschreibung
 ------------- | ------------------------------ | ------------
--             | MAGELLAN:<br>Klassen > Daten > Statistikkürzel | Über das Statistikkürzel steuern Sie, ob diese Klasse und dessen Schüler statistisch relevant sind und in den Statistikdateien berücksichtigt werden sollen.
--             | MAGELLAN:<br>Schüler > Daten 3 > Verschiedenes > Gastschüler | Wenn Sie den Haken beim Gastschüler setzen, wird der Schüler nicht mit in der Statistik berücksichtigt.
+--            | MAGELLAN:<br>`Klassen > Daten > Statistikkürzel` | Über das Statistikkürzel steuern Sie, ob diese Klasse und dessen Schüler statistisch relevant sind und in den Statistikdateien berücksichtigt werden sollen.
+--            | MAGELLAN:<br>`Schüler > Daten 3 > Verschiedenes > Gastschüler` | Wenn Sie den Haken beim Gastschüler setzen, wird der Schüler nicht mit in der Statistik berücksichtigt.
 
 ## Eingaben in DAVINCI
 

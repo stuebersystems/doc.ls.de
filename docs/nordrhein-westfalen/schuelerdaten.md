@@ -2,6 +2,62 @@
 
 [Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
 
+## Daten in der SIM-Datei
+
+1. Die Ausgabe von Schülerdaten in die Statistikdatei kann gesteuert werden. Das heisst, damit Schüler überhaupt ausgespielt werden können, müssen gewisse Eingaben in MAGELLAN getätigt worden sein. Andererseits können Sie mit diesen Eingaben auch explizit Schüler aus der Statistik ausschließen, sei es auf natürlichem Wege, z.B. da Gastschüler nicht statistisch erfasst werden dürfen, oder aus anderen Gründen, ein bestimmter Schülerdatensatz nicht exportiert werden soll.
+
+2. In der Datei werden die zu exportierenden Schülerdaten in typisierte Datensätze eingeteilt. Damit ein Schüler einem Typus entspricht müssen auch hier bestimmte Eingaben in MAGELLAN getätigt sein, bzw. ergeben sich aufgrund der Laufbahn des Schülers. Schülerdatensätze können auch mehrfach in der Statistikdatei auftauchen, da sie ggf. mehreren Typen entsprechen.
+
+### Allgemeine Voraussetzungen zum Export
+
+Allgemeine Angaben zum Export von Daten in die Statistikdatei.
+
+MAGELLAN                                          | Beschreibung
+------------------------------------------------- | -------------
+`Klassen > Daten 1 > Statistikkürzel`             | Damit Schüler einer Klasse zur Statistik berücksichtigt werden, muss die Klasse ein Statistikkürzel eingetragen haben. Ist dieses Feld leer, wird die komplette Klasse ignoriert.
+`Schüler > Statistik > Merkmal S10`               | Wählen Sie im Schülermerkmal S10 ***Kein Export nach ASDPC*** aus, um Schüler explizit aus der Statistik zu nehmen.
+`Schüler > Daten 3 > Verschiedenes > Gastschüler` | Haken Sie einen Schüler als Gastschüler an, wird dieser nicht in die Statistikdatei exportiert.
+
+### Einteilung eines Datensatzes in den entsprechenden Schülertyp
+
+Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund der Laufbahn und gegebenen Datenmenge in MAGELLAN und in der folgenden Reihenfolge:
+
+#### Abgänger
+
+- Schüler werden aus allen drei Schulhalbjahren ausgelesen
+- Der Schüler ist in MAGELLAN auf `Ausgeschult` gesetzt oder
+- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt und
+    - `Schüler > Daten 2 > Abgang > Abgangsart` oder
+    - `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist auf den Wert ***0A*** gesetzt.
+
+#### Bildungsgang abgeschlossen
+
+- Schüler werden aus allen drei Schulhalbjahren ausgelesen
+- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt
+- `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist gefüllt und darf nicht auf den Wert ***0A*** gesetzt sein.
+
+#### Aktuell eingeschult, Neuzugang, Neuzugang an gleicher Schule
+
+- Schüler werden nur aus dem aktuellen Schulhalbjahr ausgelesen
+- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt
+
+Nach dem Auslesen der Daten wird der Typus auf **Neuzugang** gesetzt und dann weitere Bedingungen geprüft:
+
+#### Aktuell eingeschult
+
+- Schüler ist Stammschüler und
+- Schüler war bereits im letzten Schuljahr an der Schule (es wird die Laufbahn geprüft) und
+- Die Gliederung hat sich zum aktuellen Schulhalbjahr nicht verändert
+
+#### Neuzugang an gleicher Schule
+
+- Schüler ist ein Nebenschüler oder
+- Schüler ist Stammschüler und
+    - war bereits im letzten Schuljahr an der Schule (es wird die Laufbahn geprüft) und
+    - die Gliederung sich zum aktuellen Schulhalbjahr verändert
+
+## Dateneingabe
+
 | Art           | Inhalt                                   |
 |---------------|------------------------------------------|
 | **Statistikfeld** | **Bezugsjahr**                               |

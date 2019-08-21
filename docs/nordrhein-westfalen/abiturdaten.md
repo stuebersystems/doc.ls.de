@@ -2,6 +2,10 @@
 
 [Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
 
+
+Pruefstatus   | ABI            | MAGELLAN:<br/>`Schüler > Abschluss > Abschluss 1 > Abschlussart` | Für Berufskollegs: <br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden haben und dementsprechend, das Statistikfeld Pruefstatus auf Wert 1 gesetzt haben. Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status`
+
+
 | Art           | Inhalt                                   |
 |---------------|------------------------------------------|
 |**Statistikfeld**| **ldNR**                                     |

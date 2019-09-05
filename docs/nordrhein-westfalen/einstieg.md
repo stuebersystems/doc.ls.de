@@ -58,4 +58,4 @@ Statistikfeld | Statistikdatei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
 
 #### 2019/2020
 
-`Schüler > Statistik > Merkmal S10` -  Wählen Sie im Schülermerkmal S10 ***Kein Export nach ASDPC*** au, um Schüler explizit aus der Statistik zu nehmen.
+`Schüler > Statistik > Merkmal S10` -  Wählen Sie im Schülermerkmal S10 ***Kein Export nach ASDPC*** aus, um Schüler explizit aus der Statistik zu nehmen.

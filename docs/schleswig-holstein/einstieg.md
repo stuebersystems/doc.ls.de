@@ -460,38 +460,38 @@ Beschreibung      | Wählen Sie hier den Lehramtstyp des Lehrers aus.
 Datenfeld         | MAGELLAN: Lehrer > Daten 3 > Lehramt Typ Lehrbefähigung
 Beschreibung      | Wählen Sie hier die Lehrbefähigung des Lehrers aus.
 **Statistikfeld** | **SOLL Regelstundenmaß**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | Geben Sie die Sollstunden für jeden Lehrer in seiner Soll-Berechnung an.
 **Statistikfeld** | **MEHR genehmigte Mehrarbeit**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | Geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **SABBAT Sabbatjahrt**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **ALTERTZ Altersteilzeit**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **STG1 Grund1-6 - Ausgl. + Erm.Stunden**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **STS1-6 Stunden1-6 - Ausgl. + Erm.Stunden**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **UEBSTD Überstunden**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **UNTSTD Unterstunden**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **IST erteilte Stunden insgesamt**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **MASS1-15 Einrichtung/Maßnahme1-15**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **ISS1-15 erteilte Stunden SA1 - SA15**  
-Datenfeld         | 
-Beschreibung      | 
+Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 
 ### Weggefallene Statistikangaben
 

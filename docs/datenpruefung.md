@@ -5,12 +5,12 @@ Vor dem Erstellen der eigentlichen Statistikdateien sollten Sie eine Prüfung de
 Zum Prüfen der Statistikdateien gehen Sie bitte wie folgt vor:
 
 1. Starten Sie MAGELLAN.
-2. Klicken Sie im Menü `Extras` auf `Statistik`.
-3. Wählen Sie Ihr Bundesland und Ihre Schulart aus und klicken Sie auf `Weiter`.
-4. Wählen Sie als Art der Erstellung `Nur Statistikdateien erstellen`. Unter `Statistikzeiträume auswählen` stellen Sie den aktuellen Zeitraum ein und die beiden vorangegangenen Halbjahre ein.
+2. Klicken Sie im Menü `Extras` auf `Exporte > Export`.
+3. Wählen Sie Ihr dann die Exportschnittstelle aus.
+4. Unter `Statistikzeiträume auswählen` stellen Sie den aktuellen Zeitraum ein und die beiden vorangegangenen Halbjahre ein.
 5. Geben Sie für die `daVinci Exportdatei` bitte den Pfad zu der Textdatei ein, die Sie in DAVINCI über den Punkt `Plan > Importieren und Exportieren > Export > Statistikdaten exportieren` erzeugt haben und klicken dann auf `Weiter`.
 6. Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf `Weiter`.
-7. Starten Sie die Datenprüfung.
+7. Starten Sie den StatStitkexport. Mögliche vorhandene Fehler werden Ihnen nun ausgegeben.
 
 ## Ergebnis der Datenprüfung auswerten
 

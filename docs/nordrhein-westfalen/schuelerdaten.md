@@ -82,11 +82,11 @@ SF / ST           | Alle
 Beschreibung      | Bitte wiederholen Sie hier das Klassenkürzel, um die Klasse und dessen Schüler für die Statistik zu berücksichtigen. Das Statistikkürzel darf nicht mehr als 6 Zeichen betragen.<br/>***Achtung***: Über das Statistikkürzel steuern Sie auch, ob eine Klasse für den Export berücksichtigt wird. Kein Statistikkürzel = Kein Export!
 **Statistikfeld** | **Gliederung (Schulgliederung)**
 SF / ST           | Alle
-Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Bildgungsgang [Bildgungsgänge] und [Berufsfelder] (Aktuelle Ausbildung)<br/>Schüler > Daten 3 > Verschiedenes > G8/G9
+Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildgungsgang [Bildgungsgänge]<br/>Schüler > Daten 3 > Verschiedenes > G8/G9
 Beschreibung      | ***ABS***: Gymnasien geben hier im Feld "G8/G9" an, ob es sich um ein G8 oder G9 Bildungsgang handelt. Kein Wert bedeutet = G01 (Aufbaugymnasium).<br/><br/>***BBS***: Da die Schulgliederung von der Fachklasse abhängig ist, wird diese anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
 **Statistikfeld** | **Fachklasse (Fachklassen)**
 SF / ST           | BK / ABG, AKT, BAG, NZG, NGS
-Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Bildgungsgang [Bildgungsgänge] und [Berufsfelder] (Aktuelle Ausbildung)
+Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung >  Aktuelle Ausbildung > Bildgungsgang [Bildgungsgänge]
 Beschreibung      | Die Schulgliederung wird anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung, alles danach ergibt die Fachklasse. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
 **Statistikfeld** | **Klassenart (Klassenarten)**
 SF / ST           | ABS / AKT, BAG, NZG, NGS
@@ -129,7 +129,7 @@ Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geburtsdatum
 Beschreibung      | Geben Sie das Geburtsdatum des Schülers ein.
 **Statistikfeld** | **Geschlecht**
 SF / ST           | Alle
-Datenfeld         | MAGELLAN: Klassen > Daten 1 > Geschlecht
+Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geschlecht
 Beschreibung      | Wählen Sie das Geschlecht des Schülers aus. ***WICHTIG***: MAGELLAN 7 unterstützt das neue Geschlecht D = divers. Dieses wird durch die Statistik in diesem Jahr noch nicht offiziell unterstützt. In Absprache mit dem Statistikamt wird der zukünftige Schlüssel 5 ausgespielt und vom Amt nicht beanstandet, sollten sie das neue Geschlecht in MAGELLAN verwenden.
 **Statistikfeld** | **Staatsang - Staatsangehörigkeit (Staatsangehörigkeiten)**
 SF / ST           | Alle

@@ -41,7 +41,7 @@ Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Ex
 
 Verlinkte Schritte werden in den jeweiligen Kapiteln beschrieben. Klicken Sie dazu auf den Link. Alle anderen Schritte werden nachfolgend ausführlich erklärt.
 
-## Dateneingabe
+## 2. Dateneingabe
 
 Sie erhalten eine Übersicht der Felder in den Statistikdateien und wie diese in MAGELLAN bzw. DAVINCI einzupflegen sind.
 Jede Statistikdatei wird in einem einzelnen Kapitel behandelt, die Links zu den Kaptieln finden Sie in der obersten Tabelle in der Spalte "Kapitel".
@@ -53,6 +53,24 @@ Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen
 Statistikfeld | Statistikdatei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
 ------------- | -------------- | ----------------------------- | ------------
 --            | ALLE           | MAGELLAN:<br/>`Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule.<br/>Bei Berufskollegs = BK.<br/>**Wichtig:**<br/>MAGELLAN sortiert die Schulformen. Die Schulform sollte als erste erscheinen. Um sicher zu gehen, sollten Sie zuerst alle Schulformen entfernen und dann die Hauptschulform als Erstes eintragen.
+
+## 4. Statistikdaten erstellen
+
+!!! info "Hinweis"
+
+
+ Bitte achten Sie darauf, dass Sie für das Erstellen der Statistik in MAGELLAN den aktuellsten Statistikzeitraum geöffnet haben.
+
+Die Statistikdaten erstellen Sie wie folgt:
+
+
+1. Klicken Sie im Menü Extras auf `Exporte > Export`.
+2. Wählen Sie dann den Aufruf `Export...` aus.
+3. Wenn Sie im MAGELLAN Adminstrator Ihr Bundesland `Nordrhein-Westfalen` hinterlegt haben, steht Ihnen bei der Auswahl der Exportsschnittstelle `Landesstatistik Nordrhein-Westfalen` zur Auswahl.
+4. Unter Exportdateien wählen Sie die zu erzeugenden Exportdateien aus.
+5. Unter Export-Zeiträume stellen Sie den aktuellen Zeitraum ein und die beiden vorangegangenen Halbjahre.
+6. Wenn Sie die Lehrer.txt für den Export ausgewählt haben, müssen Sie hier Ihre DAVINCI Exportdatei hinterlegen.
+7. Klicken Sie auf `Weiter`
 
 ### Besonderheiten
 

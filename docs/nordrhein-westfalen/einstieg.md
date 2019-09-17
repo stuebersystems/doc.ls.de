@@ -23,14 +23,18 @@ EXTERN.DAT | EXTERN    | [EXTERN.DAT](stundenplandaten.md) | Nur DAVINCI-Daten a
 
 Viele Schüler- und Klassendaten in MAGELLAN werden zeitraumbezogen pro Schulhalbjahr abgelegt. Je nach Statistkdatei und Datensatz müssen die Daten entsprechend der Vorgaben aus der Schnittstelle aus den unterschiedlichen Halbjahren ausgelesen und ausgewertet werden.
 
-Statistikdatei | Benötigte Halbjahre
--------------- | -------------------
+Statistikdatei | Ausgelesene Halbjahre
+-------------- | ---------------------
 SIM            | 1. HJ. aktuelles Schuljahr, 2. HJ. vorangegangenes Schuljahr, 1. HJ. vorangegangenes Schuljahr
 LEHRER         | -
 ABI            | 2. HJ. vorangegangenes Schuljahr
 EXTERN         | -
 
 Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Export aufgenommen werden, entnehmen Sie den einzelnen Kapiteln zu den Statistikdateien.
+
+!!! warning "Wichtig"
+
+    Sie müssen immer alle drei Zeiträume im Assistenten angeben, ungeachtet dessen welche Datei Sie zum Export auswählen. Der Exportmechanismus entscheidet von sich aus, welchen Zeitraum zu nehmen.
 
 ## Notwendige Schritte
 
@@ -48,11 +52,12 @@ Jede Statistikdatei wird in einem einzelnen Kapitel behandelt, die Links zu den 
 
 ### Voraussetzungen für alle Statistikdaten
 
-Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden.
+Damit die Statistikdateien korrekt erstellt und gefüllt werden können, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
 
 Statistikfeld | Statistikdatei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
 ------------- | -------------- | ----------------------------- | ------------
---            | ALLE           | MAGELLAN:<br/>`Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule.<br/>Bei Berufskollegs = BK.<br/>**Wichtig:**<br/>MAGELLAN sortiert die Schulformen. Die Schulform sollte als erste erscheinen. Um sicher zu gehen, sollten Sie zuerst alle Schulformen entfernen und dann die Hauptschulform als Erstes eintragen.
+--            | ALLE           | MAGELLAN: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule.<br/>Bei Berufskollegs = BK.<br/>**Wichtig:**<br/>MAGELLAN sortiert die Schulformen. Die Schulform sollte als erste erscheinen. Um sicher zu gehen, sollten Sie zuerst alle Schulformen entfernen und dann die Hauptschulform als Erstes eintragen.
+--            | ALLE           | MAGELLAN: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
 
 ### Besonderheiten
 

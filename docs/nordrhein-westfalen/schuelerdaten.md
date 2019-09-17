@@ -258,8 +258,8 @@ Datenfeld         | -
 Beschreibung      | Wird nicht erfasst.
 **Statistikfeld** | **Versetzung**
 SF / ST           | Alle
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Allgemein > Versetzungsart [Versetzungsarten]
-Beschreibung      | Wählen Sie die Art der Versetzung des Schülers im letzten Schuljahr aus.
+Datenfeld         | MAGELLAN:<br/>Schüler > Laufbahn > Allgemein > Versetzt<br/>Schüler > Laufbahn > Allgemein > Versetzungsart [Versetzungsarten]
+Beschreibung      | Sie können einen Schüler als `Versetzt` oder `Nicht Versetzt` über das Feld `Versetzt` angeben. Ist diese Feld leer oder Sie haben zusätzlich im Feld `Versetzungsart` einen Wert ausgewählt, dann wird dieses für die Versetzung ausgelesen.
 **Statistikfeld** | **JahrZuzug**
 SF / ST           | -
 Datenfeld         | -
@@ -327,11 +327,11 @@ Beschreibung      | Wählen Sie aus, ob bereits eine abgeschlossene Berufsausbil
 **Statistikfeld** | **Produktname**
 SF / ST           | Alle
 Datenfeld         | -
-Beschreibung      | Wir geben hier fest den Wert „MAGELLAN 7“ aus
+Beschreibung      | Das Feld wird für die Statistik nicht benötigt, soll aber beim Support helfen. Wir geben hier fest den Wert „MAGELLAN 7“ und die aktuell installierte MAGELLAN 7 Version (Registry Wert) aus.
 **Statistikfeld** | **Produktversion**
 SF / ST           | Alle
 Datenfeld         | -
-Beschreibung      | Wir geben hier die aktuell installierte MAGELLAN 7 Version (Registry Wert) aus.
+Beschreibung      | Das Feld wird für die Statistik nicht benötigt, soll aber beim Support helfen. Wir geben hier die berechnete Datensatzart (z.B. Neuzugang, Eingeschult, etc.) für die Zeile aus.
 **Statistikfeld** | **Adressenmerkmal**
 SF / ST           | -
 Datenfeld         | -

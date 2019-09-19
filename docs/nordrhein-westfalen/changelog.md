@@ -6,7 +6,7 @@ Hier finden Sie die jeweils aktuellste Version der Landesstatistik **inklusiver 
 
 Sollte die aktuelle Statistik bereits in einem Serviceupdate veröffentlicht sein, dann zeigt der Link auf unsere Downloadseite.
 
-[**Statistikpaket ABS/BBS 2019 - 17-09-2019**](https://my.hidrive.com/lnk/N7Spidx2)
+[**Statistikpaket ABS/BBS 2019 - 19-09-2019**](https://my.hidrive.com/share/neqlm8tqnv)
 
 !!! info "Hinweis"
 
@@ -14,18 +14,20 @@ Sollte die aktuelle Statistik bereits in einem Serviceupdate veröffentlicht sei
 
 ## Aktuelle Änderungen
 
+* FIX: ABI.TXT - Zeugnis wird jetzt korrekt, entsprechend der Dolumentation ausgespielt.
+
+---
+
+## Bereits per Update veröffentlichte Änderungen
+
+### 17.09.2019
+
 * FIX: SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen. Das führte zu Leereinträgen in der Spalte.
 * FIX: SIM.TXT - LSKlassenart wurde nicht ausgespielt, sondern nur ausgelesen. Das führte bei den Datensatzsarten: "Neuzugang" und "Neuzugang an gleicher Schule" dazu, dass eine Spalte in der Zeile fehlte.
 * FIX: SIM.TXT - Adressmerkmal wird zwar nicht benötigt wurde aber auch nicht als Leerfeld (Nur Trennzeichen) ausgespielt.
 * FIX: SIM.TXT - Die Kopfzeilen für Adressmerkmal und Internat am Ende der SIM.TXT haben gefehlt
 * CHANGE: SIM.TXT - Die beiden Spalten `Produktname` und `Produktversion` dienen lediglich Supportzwecken. Beide Informationen wurden in die Spalte Produktname verschoben. In der Spalte `Produktversion` geben wir jetzt die Datensatzart aus, dies hilft dem Support bei der Suche nach Problemlösungen.
 * CHANGE: Kein Fehler aber eine Eingabehilfe. Einige Kunden geben keine Versetzungart ein, sondern setzen lediglich das Merkmal Versetzt. Wir tragen dem Folge und berechnen entsprechend die Versetzung anders als zuvor. Nachzulesen in der Dokumentation unter [SIM.TXT - Dateneingabe - Feld "Versetzung"](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/#dateneingabe).
-
----
-
-## Bereits per Update veröffentlichte Änderungen
-
-Aktuell keine Änderungen.
 
 ---
 

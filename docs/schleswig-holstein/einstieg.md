@@ -36,7 +36,7 @@ Notwendige Schritte:
 4. Schritt: Lehrer (Soll-Ist-Berechnung) von DAVINCI nach MAGELLAN übertragen
 5. Schritt: [Statistikdaten aus DAVINCI exportieren](../dav.statistikdaten-exportieren.md)
 6. Schritt: [Datenprüfung](../datenpruefung.md)
-7. Schritt: Statistikdaten erstellen
+7. Schritt: [Statistikdateien erzeugen](../statistikdaten.erstellen.md)
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 

@@ -41,7 +41,7 @@ Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Ex
 1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md)
 2. Schritt: Dateneingabe
 3. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
-4. Schritt: Statistikdateien erstellen
+4. Schritt: [Statistikdateien erzeugen](../statistikdaten.erstellen.md)
 
 Verlinkte Schritte werden in den jeweiligen Kapiteln beschrieben. Klicken Sie dazu auf den Link. Alle anderen Schritte werden nachfolgend ausführlich erklärt.
 

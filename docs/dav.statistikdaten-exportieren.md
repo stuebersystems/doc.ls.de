@@ -15,3 +15,11 @@ So exportieren Sie Daten aus DAVINCI:
 5. Geben Sie den Dateipfad und einen passenden Dateinamen zum Export der Statistikdaten an.
 
 Klicken Sie auf ```OK```. Die Daten werden jetzt in die angegebene Datei exportiert.
+
+!!! info "Hinweis"
+
+    Die so erzeugte Textdateien werden beim Erstellen der Statisktikdatei aus MAGELLAN heraus verwendet. Im Statistikassistenten (`MAGELLAN > Extras > Exporte`) kann in der Zeile `daVinci-Dateien` auf Ihre aus DAVINCI exportierte Datei vewiesen werden (siehe Abbildung unten). 
+
+    Diese Daten sind nicht für jede Region oder jede Schulart Voraussetzung, bitte lesen Sie im jeweiligen Bundeslandabschnitt nach, ob die vorstehenden Schritte notwendig sind.
+
+![Auf die DAVINCI-Dateien verweisen](assets/images/01.png)

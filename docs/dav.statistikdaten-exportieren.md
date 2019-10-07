@@ -22,4 +22,4 @@ Klicken Sie auf ```OK```. Die Daten werden jetzt in die angegebene Datei exporti
 
     Diese Daten sind nicht für jede Region oder jede Schulart Voraussetzung, bitte lesen Sie im jeweiligen Bundeslandabschnitt nach, ob die vorstehenden Schritte notwendig sind.
 
-![Auf die DAVINCI-Dateien verweisen](assets/images/01.png)
+![Auf die DAVINCI-Dateien verweisen](/assets/images/01.png)

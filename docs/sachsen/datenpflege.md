@@ -300,7 +300,7 @@ Wird ausgegeben, wenn der Schüler im Ausland wohnt.
 |Titel|Inhalt|
 |-----|------|
 |**Statistikfeld**| `<an_staat>` - OP|
-|Beschreibung| `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. Der auszugebende Wert wird berechnet. Aktuell berechnen wir folgende Länder:<br/>PL = Polen<br/>CZ = Tschechiche Republik.<br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.|
+|Beschreibung| `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. Der auszugebende Wert wird berechnet. Aktuell berechnen wir folgende Länder:<br/>PL = Polen<br/>CZ = Tschechiche Republik<br/>CH = Schweiz.<br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.|
 |**Statistikfeld**| `<an_plz>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.|
 |**Statistikfeld**| `<an_ort>` - OP|
@@ -370,7 +370,7 @@ Wenn wir im folgenden die MAGELLAN Personenangaben zur Ansicht "Sorgeberechtigte
 | **Statistikfeld** | `<sorgeberechtigte><as_name>` - OP      |
 | Beschreibung      | `Sorgeberechtigte > Nachname`<br/>Nachname des Sorgeberechtigten. |
 | **Statistikfeld** | `<sorgeberechtigter><as_staat>` - OP     |
-| Beschreibung      | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>Mögliche Einträge: D (De, Deu), PL oder CZ.<br/>Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support. |
+| Beschreibung      | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>Mögliche Einträge: D (De, Deu), PL, CZ oder CH.<br/>Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support. |
 | **Statistikfeld** | `<sorgeberechtigter><as_land>`           |
 | Beschreibung      | `Sorgeberechtigte > Gemeindekennziffer`<br/>Das Wohnbundesland des Sorgeberechtigten (wenn in Deutschland lebend wird aus der Gemeindekennziffer errechnet. |
 | **Statistikfeld** | `<sorgeberechtigter><as_plz>`            |

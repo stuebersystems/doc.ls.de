@@ -211,7 +211,7 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 |**Statistikfeld**| `<al_fremd_fs3>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache`<br/>3. Fremdsprache des Schülers.|
 |**Statistikfeld**| `<al_ausgen>`|
-|Beschreibung| `MAGELLAN > Schüler > Daten 3 > Verschiedenes > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.|
+|Beschreibung| `MAGELLAN > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.|
 |**Statistikfeld**| `<al_mfoerdersw>`|
 |Beschreibung| `MAGELLAN > Klassen > Daten > Einzelintegration / Förderklasse`<br/>`MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Bei der Förderung wird zwischen Schülern unterschieden, die in einer Förderklasse eingeschult sind und damit speziellen rechtlichen Vorgaben unterliegen (Förderstunden, Gelder etc.) und allen anderen Schülern mit Förderbedarf. Die Ausgabe für die Schnittstelle ändert sich dementsprechend. Bei Schülern die in einer Förderklasse eingeschult sind, geben Sie bei der Klasse an, dass es sich um eine Förderklasse handelt. Der Förderschwerpunkt hingegen wird wie auch bei allen anderen Schülern direkt beim Schüler eingetragen und entsprechend ausgewertet.<br/> **Wichtig**: Wenn Sie das Häckchen bei der Klasse vergessen, geht der Export von einer individuellen Förderung aus und prüft dann auch die Werte für Regelstunden etc. Die kann dann zu Fehlern führen. Lesen Sie dazu den Abschnitt `Förderungen`.|
 |**Statistikfeld**| `<af_behart>`|

@@ -83,8 +83,7 @@ In der XML-Datei sieht das wie folgt aus:
 |**Statistikfeld**| `<saxsvs-bbs dienststelle>`|
 |Beschreibung|`MAGELLAN > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt|
 
-    
-## Schüler  `<saxsvs-bbs><schueler>` 
+## Schüler  `<saxsvs-bbs><schueler>`
 
 Ab hier beginnen die Schülerdaten. Schüler die nicht von der Schnittstelle ausgeschlossen und valide sind,
 erscheinen als Datensatz mit einem `<schueler>` Knoten in der XML-Datei. Ab hier werden die weiteren Unterknoten nicht weiter 
@@ -92,6 +91,7 @@ mit den Elternknoten benannt.
 
 Ein Schülerknoten enthält alle Informationen die zum Schüler gehören und wird erzeugt, wenn der Schülerdatensatz Bestandteil des Exportes ist. 
 Dies ergibt sich aus folgenden Regeln:
+
 1. Ein Schüler in MAGELLAN ist nicht gleich ein Schüler in SAXSVS. Der Schüler in MAGELLAN macht sich anhand seiner MAGELLAN-ID und dem Mandanten in dem er sich befindet eindeutig. 
    Dies ist in SAXSVS nicht so. Dort kann ein Schüler aufgrund seiner sich ändernden Ausbildungsumstände mehrfach vorhanden sein. 
    Dazu nutzt SAXSVS eine GUID für jeden Schülerdatensatz, die sich ändert, wenn sich die Ausbildungsumstände entsprechend ändern, dass ein weiterer Datensatz nach SAXSVS gespielt werden muss. 
@@ -118,7 +118,6 @@ werden sollen.
 |Beschreibung| `MAGELLAN > Schüler > Ausbildung > Schulform [BS_Schulformen]`<br/>Geben Sie die passende Schulform an.|
 |**Statistikfeld**| `<al_zeitform schluessel>`|
 |Beschreibung| `MAGELLAN > Schüler > Ausbildung > Organisation [BS_Organisationen]`<br/>Geben Sie die passende Organisationsform an.<br/>Lesen Sie dazu bitte auch den nachstehenden Abschnitt.|
-
 
 SAXSVS erfordert im Bereich der Ausbildung folgende Werte:
 
@@ -193,7 +192,7 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 |**Statistikfeld**| `<al_abschl_dat>` - MI|
 |Beschreibung| `MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.|
 |**Statistikfeld**| `<al_laufb_kl>` - OP|
-|Beschreibung| `MAGELLAN > Schüler > Klasse`<br/>Die aktuelle Klasse des Schülers. Eine Klasse hat der Schüler sobald die Einschulung erfolgt ist. Das Klassenkürzel der aktuellen Klasse wird automatisch ausgelesen.|
+|Beschreibung| `MAGELLAN > Schüler > Klasse`<br/>Die aktuelle Klasse des Schülers. Eine Klasse hat der Schüler sobald die Einschulung erfolgt ist. Das Klassenkürzel wird für die aktuelle Klasse  aus dem Feld `Statistikkürzel`ausgelesen.|
 |**Statistikfeld**| `<al_laufb_von>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Laufbahn > Allgemein > Zugang`<br/>Das Zugangsdatum der Laufbahn, damit Zugang zur Klasse.|
 |**Statistikfeld**| `<al_laufb_bis>` - OP|

@@ -475,7 +475,11 @@ Wird ausgegeben, wenn der Schüler die Schullaufbahn beendet. Dabei wird zwische
 
 ### Abschluss  `<absch>` 
 
-Im Falle eines Abschlusses wird der Knoten `<absch>` gefüllt.
+Im Falle eines Abschlusses wird der Knoten `<absch>` gefüllt. 
+
+!!! danger "Achtung"
+
+    Der Abschluss wird an dem Eintrag unter `Schüler > Laufbahn > Abschluss > Abschluss 1` erkannt, weitere Prüfungen werden dann ausgelöst. Wird für Ihren Schüler kein Abschluss erkannt, prüfen Sie bitte, ob in diese Feld ein korrekter Eintrag vorgenommen wurde.
 
 |Titel|Inhalt|
 |----|-------|

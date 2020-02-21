@@ -16,7 +16,7 @@ Erklärung zu einigen wenigen Abkürzungen bzw. erwähnenswerten Anmerkungen die
 
 |Benennung|Beschreibung|
 |----|-------|
-|Statistikwerte| Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>• Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>• „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>• Freitextfeld<br/>• Datum im Format YYYY-MM-DD<br/>• Zahlwert|
+|Statistikwerte| Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>* Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>* „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>* Freitextfeld<br/>* Datum im Format YYYY-MM-DD<br/>* Zahlwert|
 |MI| Mindestvoraussetzung. Diese Felder müssen gefüllt sein, da ansonsten der Import in SAXSVS grundsätzlich aufgrund von XML-Schemafehlern nicht durgeführt werden kann.|
 |OP| Optional Pflicht. Wenn grundsätzliche Aussagen zutreffen und Sie Felder in MAGELLAN mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden.Beispiel: Abwesenheiten, wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.|
 |GUID| Ein Globally Unique Identifier ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter UUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.|
@@ -24,6 +24,7 @@ Erklärung zu einigen wenigen Abkürzungen bzw. erwähnenswerten Anmerkungen die
 ## Datensätze vom Export ausschließen, für die Löschung in SAXSVS vorsehen
 
 Es gibt in der Schnittstelle zwei Stränge für die Angabe von Daten:
+
 1. `<saxsvs-bbs><schueler>`
 2. `<saxsvs-bbs><schueler_loeschen>`
 
@@ -46,7 +47,9 @@ Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das 
 
 ![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](/assets/images/sachsen/kein.saxsvs.png)
 
-### Schüler zum Löschen vorsehen `<saxsvs-bbs><schueler_loeschen>`
+### Schüler zum Löschen vorsehen
+
+`<saxsvs-bbs><schueler_loeschen>`
 
 In der XML-Datei sieht das wie folgt aus:
 
@@ -59,13 +62,15 @@ In der XML-Datei sieht das wie folgt aus:
 Schüler die in SAXSVS zum Löschen vorgemerkt werden sollen, können unter `Schüler > Statistik > Merkmal S10` mit dem entsprechenden Schlüssel markiert werden.
 Der Wert kann auch per Sammelzuweisung verteilt werden.
 
+## Kopfbereich  
 
-## Kopfbereich  `<saxsvs-bbs>` 
+`<saxsvs-bbs>`
 
 Der Haupteinstiegsknoten ist `<saxsvs-bbs>` und enthält Kopfdaten für die Schnittstelle,
 wie die Versionsnummer der adressierten SASVS-Schnittstelle oder auch Ihre Dienststellennummer.
 
 In der XML-Datei sieht das wie folgt aus:
+
 ```xml
 <saxsvs-bbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
   xsi:noNamespaceSchemaLocation="https://web1.extranet.sachsen.de/bbsp/public/XMLSchema/saxsvs-bbs-2.3.xsd"
@@ -83,7 +88,9 @@ In der XML-Datei sieht das wie folgt aus:
 |**Statistikfeld**| `<saxsvs-bbs dienststelle>`|
 |Beschreibung|`MAGELLAN > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt|
 
-## Schüler  `<saxsvs-bbs><schueler>`
+## Schüler  
+
+`<saxsvs-bbs><schueler>`
 
 Ab hier beginnen die Schülerdaten. Schüler die nicht von der Schnittstelle ausgeschlossen und valide sind,
 erscheinen als Datensatz mit einem `<schueler>` Knoten in der XML-Datei. Ab hier werden die weiteren Unterknoten nicht weiter 
@@ -156,7 +163,6 @@ Folgende Bildungsgänge sind für BGY gedacht:
 |25000001| Technikwissenschaft/Maschinenbautechnik| BGY| v|
 |71000002| Wirtschaftswissenschaft| BGY| v|
 
-
 ### Allgemeine Angaben
 
 Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
@@ -200,7 +206,7 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 |**Statistikfeld**| `<al_laufb_bem>`|
 |Beschreibung| `Nicht unterstützt`<br/>Ein Freitextfeld zur Laufbahn.|
 |**Statistikfeld**| `<al_laufb_neuanf>`|
-|Beschreibung| `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang. Neuanfänger ist:<br />• ein Schüler im AJ1, wenn er die Ausbildung beginnt (Normalfall)<br />• ein Schüler im AJ2, wenn er sofort in das 2. AJ einsteigt (die Klasse ist aber schon ein Jahr in Beschulung) -> das trifft bspw. zu, wenn ein Schüler vorher Gym gemacht hat und da wird manchmal (Antrag bei der Kammer) das erste AJ erlassen<br />• ein Schüler im AJ3, wenn er eine artähnliche Ausbildung macht (sicher ein Sonderfall) -> ein Schüler lernt Restaurantkaufmann und macht eine zusätzliche Ausbildung als Hotelkaufmann (dieser Sachverhalt ist keine Stufenausbildung)<br />• ein Schüler, der eine Ausbildung fertig hat (bspw. BVJ) und nun eine Ausbildung macht<br /><br />Neuanfänger ist nicht:<br />• ein Schüler im AJ1, wenn er die Ausbildung ein 2. Mal beginnt -> Ausbildung beginnt, Schülerin macht Erziehungsurlaub ab Oktober und fängt im Folgejahr noch einmal mit AJ1 an, eigentlich keine neue UUID erforderlich<br />• ein Schüler im AJ2, wenn er artähnlich wechselt<br/> -> Neue Kennziffer -> das trifft bspw. zu, wenn ein Schüler von Fleischer auf Fleischfachverkäufer wechselt (keine neue UUID)<br />• ein Schüler, der im AJ1 Schulpflichterfüller war und innerhalb des Jahres nichts gefunden hat und noch ein Jahr Schulpflichterfüller ist (der bekommt aber auch eine neue Kennziffer) (keine neue UUID)<br />• ein Schüler im AJ3, der eine aufgesetzte Ausbildung macht -> ein Schüler lernt Verkäufer (2 Jahre) und macht anschließend die Ausbildung zum Einzelhandelskaufmann im AJ3 -> er bekommt eine neue Kennziffer, der erste Abschluss muss gezählt werden, deshalb eine neue UUID, aber er darf das Merkmal Neuanfänger nicht bekommen (Festlegung vom SMK)<br />• ein Schüler im AJ2, der innerhalb von Dubas (Beruf mit Abitur) lernt -> im ersten Jahr ist er Schüler des BGY, ab dem 2. AJ ist er Schüler der Schulart BS/BS, hat eine neue Kennziffer, aber keine neue UUID und der Abschluss des AJ1 wird nicht gezählt<br /><br />Und dann gibt es noch einen besonderen Sonderfall:<br />Ein Schüler soll verkürzt lernen. Er macht<br />• das AJ1 komplett<br />• das AJ2 und AJ3 parallel<br />Der Schüler hat im AJ1 einen Datensatz. Damit er gleichzeitig in AJ2 und AJ3 gezählt wird, muss er mit Beginn des AJ2 geklont werden. Damit ist der eine Schüler aus dem AJ1 jetzt zweimal da (auch namentlich, da er ja in beiden Klassen gezählt werden muss) -> Schüler ist beide Male kein Neuanfänger, obwohl er einmal neu angelegt wird.<br /><br />Sie haben die Möglichkeit die Option direkt auf der Karte unter `Schüler > Ausbildung` für den jeweiligen Ausbildungsdatensatz zu aktivieren oder zu deaktivieren. Alternativ können Sie hierfür auf die Sammelzuweisung für eine Gruppe von Schülern verwenden.|
+|Beschreibung| `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang. Neuanfänger ist:<br />* ein Schüler im AJ1, wenn er die Ausbildung beginnt (Normalfall)<br />* ein Schüler im AJ2, wenn er sofort in das 2. AJ einsteigt (die Klasse ist aber schon ein Jahr in Beschulung) -> das trifft bspw. zu, wenn ein Schüler vorher Gym gemacht hat und da wird manchmal (Antrag bei der Kammer) das erste AJ erlassen<br />* ein Schüler im AJ3, wenn er eine artähnliche Ausbildung macht (sicher ein Sonderfall) -> ein Schüler lernt Restaurantkaufmann und macht eine zusätzliche Ausbildung als Hotelkaufmann (dieser Sachverhalt ist keine Stufenausbildung)<br />* ein Schüler, der eine Ausbildung fertig hat (bspw. BVJ) und nun eine Ausbildung macht<br /><br />Neuanfänger ist nicht:<br />* ein Schüler im AJ1, wenn er die Ausbildung ein 2. Mal beginnt -> Ausbildung beginnt, Schülerin macht Erziehungsurlaub ab Oktober und fängt im Folgejahr noch einmal mit AJ1 an, eigentlich keine neue UUID erforderlich<br />* ein Schüler im AJ2, wenn er artähnlich wechselt<br/> -> Neue Kennziffer -> das trifft bspw. zu, wenn ein Schüler von Fleischer auf Fleischfachverkäufer wechselt (keine neue UUID)<br />* ein Schüler, der im AJ1 Schulpflichterfüller war und innerhalb des Jahres nichts gefunden hat und noch ein Jahr Schulpflichterfüller ist (der bekommt aber auch eine neue Kennziffer) (keine neue UUID)<br />* ein Schüler im AJ3, der eine aufgesetzte Ausbildung macht -> ein Schüler lernt Verkäufer (2 Jahre) und macht anschließend die Ausbildung zum Einzelhandelskaufmann im AJ3 -> er bekommt eine neue Kennziffer, der erste Abschluss muss gezählt werden, deshalb eine neue UUID, aber er darf das Merkmal Neuanfänger nicht bekommen (Festlegung vom SMK)<br />* ein Schüler im AJ2, der innerhalb von Dubas (Beruf mit Abitur) lernt -> im ersten Jahr ist er Schüler des BGY, ab dem 2. AJ ist er Schüler der Schulart BS/BS, hat eine neue Kennziffer, aber keine neue UUID und der Abschluss des AJ1 wird nicht gezählt<br /><br />Und dann gibt es noch einen besonderen Sonderfall:<br />Ein Schüler soll verkürzt lernen. Er macht<br />* das AJ1 komplett<br />* das AJ2 und AJ3 parallel<br />Der Schüler hat im AJ1 einen Datensatz. Damit er gleichzeitig in AJ2 und AJ3 gezählt wird, muss er mit Beginn des AJ2 geklont werden. Damit ist der eine Schüler aus dem AJ1 jetzt zweimal da (auch namentlich, da er ja in beiden Klassen gezählt werden muss) -> Schüler ist beide Male kein Neuanfänger, obwohl er einmal neu angelegt wird.<br /><br />Sie haben die Möglichkeit die Option direkt auf der Karte unter `Schüler > Ausbildung` für den jeweiligen Ausbildungsdatensatz zu aktivieren oder zu deaktivieren. Alternativ können Sie hierfür auf die Sammelzuweisung für eine Gruppe von Schülern verwenden.|
 |**Abbildung** |<img src=/assets/images/sachsen/neuanf.png>|
 |**Statistikfeld**| `<al_laufb_bgut>`|
 |Beschreibung| `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.|
@@ -217,8 +223,9 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 |**Statistikfeld**| `<af_behart>`|
 |Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Behinderung`<br/>Behinderungsart des Schülers. Dabei wird die Liste der Förderungen sortiert nach Position durchlaufen und der erste gefüllte Eintrag unter `Behinderung` ausgelesen.|
 
+## Abwesenheiten 
 
-## Abwesenheiten `<saxsvs-bbs><schueler><abw>`
+`<saxsvs-bbs><schueler><abw>`
 
 Werden angegeben, wenn ein Schüler längerfristig nicht anwesend ist, z.B. wg. Mutterschutz oder Aufenthalt im Ausland.
 
@@ -232,8 +239,9 @@ Dazu markieren Sie den Schüler und klicken im `Kontextmenü (Rechte Maustaste) 
 |**Statistikfeld**| `<an_abw_dat>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Laufbahn > Abwesenheiten > Von`<br/>Abewesend seit Datum|
 
+## Migration  
 
-## Migration  `<saxsvs-bbs><schueler><migration>` 
+`<saxsvs-bbs><schueler><migration>` 
 
 Wird angegeben, wenn ein Schüler nicht deutscher Herkunft ist. 
 
@@ -246,7 +254,9 @@ Wird angegeben, wenn ein Schüler nicht deutscher Herkunft ist.
 |**Statistikfeld**| `<an_migr_daz>`|
 |Beschreibung| `MAGELLAN > Schüler > Förderung > Bedarf`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn es sich um einen Schüler mit besonderer Bildungsempfehlung handelt und Deutsch als Zweitsprache, da nicht Muttersprache, unterrichtet bekommt. In MAGELLAN müssen Sie dazu im Förderbedarf den Wert `DAZ-3` auswählen.|
 
-## Adresse  `<saxsvs-bbs><schueler><adresse>` 
+## Adresse  
+
+`<saxsvs-bbs><schueler><adresse>` 
 
 Die Adresse ist ein Pflichtknoten für die Mindestimplementation. Hier wird die Adresse des Wohnortes erwartet.
 Die Schnittstelle unterscheidet dabei, ob der Schüler den Wohnsitz in Sachsen, außerhalb Sachsens in Deutschland oder im Ausland hat.
@@ -261,7 +271,9 @@ Zur Unterscheidung in MAGELLAN werden die Einträge in `Gemeinde` und `Land` wie
 |`Gemeinde` nicht eingetragen<br />`Land` <> "D", "DE", "DEU"| Wohnsitz im Ausland|
 |`Gemeinde` nicht eingetragen<br />`Land` = "D", "DE", "DEU"| Keine Ausgabe, führt zu Fehler|
 
-### Adresse Sachsen  `<adresse_sachsen>` 
+### Adresse Sachsen  
+
+`<adresse_sachsen>` 
 
 Wird ausgegeben, wenn der Schüler im Bundesland Sachsen wohnt.
 
@@ -276,7 +288,9 @@ Wird ausgegeben, wenn der Schüler im Bundesland Sachsen wohnt.
 |**Statistikfeld**| `<an_strasse>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.|
 
-### Adresse Deutschland  `<adresse_deutschland>` 
+### Adresse Deutschland  
+
+`<adresse_deutschland>` 
 
 Wird ausgegeben, wenn der Schüler in Deutschland wohnt, aber nicht im Bundesland Sachsen.
 
@@ -293,7 +307,9 @@ Wird ausgegeben, wenn der Schüler in Deutschland wohnt, aber nicht im Bundeslan
 |**Statistikfeld**| `<an_strasse>`|
 |Beschreibung| `MAGELLAN > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.|
 
-### Adresse Ausland  `<adresse_ausland>` 
+### Adresse Ausland  
+
+`<adresse_ausland>` 
 
 Wird ausgegeben, wenn der Schüler im Ausland wohnt.
 
@@ -310,7 +326,9 @@ Wird ausgegeben, wenn der Schüler im Ausland wohnt.
 |**Statistikfeld**| `<an_strasse>`|
 |Beschreibung| `MAGELLAN > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.|
 
-## Sorgeberechtigte  `<saxsvs-bbs><schueler><sorgeberechtigte>` 
+## Sorgeberechtigte  
+
+`<saxsvs-bbs><schueler><sorgeberechtigte>` 
 
 Wird ausgegeben, wenn der Schüler Sorgeberechtigte eingetragen hat und der Schüler noch nicht volljährig ist. Wir berechnen die Volljährigkeit anhand des Geburtsdatums und Ihrer Angabe des Stichtages im Statistikassitenten.
 SAXSVS erlaubt die Angabe von bis zu vier Sorgeberechtigten.
@@ -322,8 +340,6 @@ werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schül
     Für den Export nach SAXSVS setzen wir die MAGELLAN-Sorgeberechtigten-Verhältnisse in Schlüssel um. 
     Für einige unserer Verhältnisse gibt es Entsprechungen als Schlüssel, für einige leider nicht. 
     Diese Verhältnisse (Eltern, Erziehungsberechtigte(r), Sorgeberechtigte(r), Ansprechpartner(in), Eheleute, Verhältnis1 - Verhältnis10) dürfen nicht verwendet werden.
-
-
 
 | Schlüssel in SAXSVS | Verhältnis in MAGELLAN     |
 |---------------------|----------------------------|
@@ -347,11 +363,9 @@ werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schül
 | keine Entsprechung  | Eheleute                   |
 | keine Entsprechung  | Verhältnis1 - Verhältnis10 |
 
-
 Wenn Sie in der folgenden Auflistung **Person > ...** lesen, dann ist damit die entsprechende Ansicht `Schüler`, `Lehrer`, `Personen` oder `Sorgeberechtigte` gemeint, je nachdem welchen Personentyp Sie in MAGELLAN als Familienmitglied angegeben haben. 
 
 Wenn wir im folgenden die MAGELLAN Personenangaben zur Ansicht "Sorgeberechtigte" machen, dann kann damit auch Lehrer oder Personen gemeint sein.
-
 
 | Titel             | Inhalt                                   |
 |-------------------|------------------------------------------|
@@ -362,7 +376,7 @@ Wenn wir im folgenden die MAGELLAN Personenangaben zur Ansicht "Sorgeberechtigte
 | **Statistikfeld** | `<sorgeberechtigter><as_beziehung>` - OP |
 | Beschreibung      | `Schüler > Daten 1 > Familie > Verhältnis`<br/>Gibt die Beziehung des Familienmitglieds zum Schüler an, z.B. Vater, Mutter etc. |
 | **Statistikfeld** | `<sorgeberechtigter><as_einrichtung>`    |
-| Beschreibung      | `Schüler > Daten 4 > Betreuung > Einrichtung`<br/>Falls das Sorgerecht von einer Einrichtung ausgeübt wird, wird hier die Einrichtung angegeben. |
+| Beschreibung      | Wird aktuell nicht unterstützt. |
 | **Statistikfeld** | `<sorgeberechtigter><as_anrede>` - OP    |
 | Beschreibung      | `Sorgeberechtigte > Anrede`<br/>Anrede des Sorgeberechtigten. |
 | **Statistikfeld** | `<sorgeberechtigter><as_vname>` - OP     |
@@ -382,10 +396,9 @@ Wenn wir im folgenden die MAGELLAN Personenangaben zur Ansicht "Sorgeberechtigte
 | **Statistikfeld** | `<sorgeberechtigter><as_strasse>`        |
 | Beschreibung      | `Sorgeberechtigte > Straße`<br/>Straße des Sorgeberechtigten. |
 
+## Schwächen  
 
-
-
-## Schwächen  `<saxsvs-bbs><schueler><schwaechen>` 
+`<saxsvs-bbs><schueler><schwaechen>` 
 
 Die Schwächen sind ein gesonderter Teil der Förderungen und werden für bestimmte Aspekte der Förderung/Teilleistungsschwächen der Schüler ausgegeben.
 
@@ -401,8 +414,9 @@ Die Schwächen sind ein gesonderter Teil der Förderungen und werden für bestim
 |**Statistikfeld**| `<af_schwaeche_dat>` - OP|
 |Beschreibung| `Schüler > Daten 4 > Förderungen > Von`<br/>Schwäche seit Datum|
 
+## Förderung  
 
-## Förderung  `<saxsvs-bbs><schueler><foerderung>` 
+`<saxsvs-bbs><schueler><foerderung>` 
 
 Wird ausgegeben, wenn der Schüler eine Integrationsform eingetragen hat.
 Seit MAGELLAN 7 sind mehrere Einträge für Förderungen möglich. Lesen Sie dazu bitte auch den kommenden Abschnitt [Unterschiede in MAGELLAN 6 und MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/regionales/sachsen/datenpflege/#unterschiede-in-magellan-6-und-magellan-7)!
@@ -438,14 +452,14 @@ Sie haben damit die Möglichkeit ab MAGELLAN 7 mehrere Förderungen mit Bedarfen
 
 ![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Förderbedarf](/assets/images/sachsen/schluessel01.png)
 
-
 Nachstehend sehen Sie auf der linken Seite die alte Ansicht aus MAGELLAN 6 unter Daten 4, hier gibt es nur die Möglichkeit jeweils einen Wert zu erfassen. 
 Auf der rechten Seite die neue Möglichkeit mehrere Einträge in einer Liste anzulegen.
 
 ![Linke Seite MAGELLAN 6 und rechte Seite MAGELLAN 7](/assets/images/sachsen/foerderungen.png)
 
+## Vorbildung ABS  
 
-## Vorbildung ABS  `<saxsvs-bbs><schueler><abs>` 
+`<saxsvs-bbs><schueler><abs>` 
 
 Wird ausgegeben, wenn beim Schüler der Höchste allgemeinbildende Abschluss angegeben ist.
 
@@ -456,8 +470,9 @@ Wird ausgegeben, wenn beim Schüler der Höchste allgemeinbildende Abschluss ang
 |**Statistikfeld**| `<av_abs_zeugnis>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss`<br/>Höchster allgemeinbildender Abschluss, z.B. 06 = Allgemeine Hochschulreife.|
 
+## Vorbildung BBS  
 
-## Vorbildung BBS  `<saxsvs-bbs><schueler><bbs>` 
+`<saxsvs-bbs><schueler><bbs>` 
 
 Wird ausgegeben, wenn beim Schüler der Höchste berufsbildenden Abschluss angegeben ist.
 
@@ -468,12 +483,15 @@ Wird ausgegeben, wenn beim Schüler der Höchste berufsbildenden Abschluss angeg
 |**Statistikfeld**| `<av_bbs_zeugnis>` - OP|
 |Beschreibung| `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss`<br/>Höchster berufsbildender Abschluss, z.B. 00 = noch kein Abschluss an einer berufsbildenden Schule.|
 
+## Ende der Ausbildung  
 
-## Ende der Ausbildung  `<saxsvs-bbs><schueler><aab_ende>` 
+`<saxsvs-bbs><schueler><aab_ende>` 
 
 Wird ausgegeben, wenn der Schüler die Schullaufbahn beendet. Dabei wird zwischen regulärem Abschluss oder Abbruch der Laufbahn unterschieden und jeweils nur ein Weg gefüllt.
 
-### Abschluss  `<absch>` 
+### Abschluss  
+
+`<absch>` 
 
 Im Falle eines Abschlusses wird der Knoten `<absch>` gefüllt. 
 
@@ -490,7 +508,9 @@ Im Falle eines Abschlusses wird der Knoten `<absch>` gefüllt.
 |**Statistikfeld**| `<absch_art_zusatz>`|
 |Beschreibung| `MAGELLAN > Schüler > Laufbahn > Abschluss 1 > Abschlussart`<br/>Zusätzliche erworbener Schulabschluss, z.B. 030 = Fachhochschulreife.|
 
-### Abbruch  `<abbruch>` 
+### Abbruch  
+
+`<abbruch>` 
 
 Im Falle eines Abbruches wird der Knoten `<abbruch>` gefüllt.
 
@@ -503,7 +523,9 @@ Im Falle eines Abbruches wird der Knoten `<abbruch>` gefüllt.
 |**Statistikfeld**| `<bzsort_neu>`|
 |Beschreibung| `MAGELLAN > Schüler > Daten 2 > Abgang > Übergang an Schule`<br/>`MAGELLAN > Schulen > Daten > Schulnummer`<br/>Bei Wechsel auf eine andere Schule, wird hier die vom Amt vergebene 7-stellige Dienststellennummer der neuen Schule erwartet. In MAGELLAN geben Sie die Schule an, an die der Schüler wechselt. In der Ansicht `Schulen` muss für die entsprechende Schule die Schulnummer eingetragen sein.|
 
-## Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb)  `<saxsvs-bbs><schueler><aau_einbetr>` 
+## Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb)  
+
+`<saxsvs-bbs><schueler><aau_einbetr>` 
 
 Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Vertrag abgeschlossen wird. In MAGELLAN ist dies der Ausbildungsbetrieb. 
 Wie beim Wohnort des Schülers wird die Adresse unterschieden in Adresse in Sachsen, restliches Deutschland und Ausland.
@@ -513,7 +535,9 @@ Wie beim Wohnort des Schülers wird die Adresse unterschieden in Adresse in Sach
 |**Ausbildungsbetrieb**| `MAGELLAN > Schüler > Ausbildung > Betrieb [Ausbildungsbetrieb]`|
 |Beschreibung| Wählen Sie bei der aktuellen Ausbildung den Betrieb aus, der als Einstellungsbetrieb gelten soll.<br/>Alle weiteren Informationen berufen sich auf den ausgewählten Betrieb.|
 
-### Adresse Sachsen  `<adresse_sachsen>` 
+### Adresse Sachsen  
+
+`<adresse_sachsen>` 
 
 Wird ausgegeben, wenn sich der Einstellungsbetrieb im Bundesland Sachsen befindet.
 
@@ -528,7 +552,9 @@ Wird ausgegeben, wenn sich der Einstellungsbetrieb im Bundesland Sachsen befinde
 |**Statistikfeld**| `<str>` - OP|
 |Beschreibung| `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).|
 
-### Adresse Deutschland  `<adresse_deutschland>` 
+### Adresse Deutschland  
+
+`<adresse_deutschland>` 
 
 Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
 
@@ -545,7 +571,9 @@ Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb)
 |**Statistikfeld**| `<str>`|
 |Beschreibung| `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).|
 
-### Adresse Ausland  `<adresse_ausland>` 
+### Adresse Ausland  
+
+`<adresse_ausland>` 
 
 Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb) im Ausland befindet.
 
@@ -562,10 +590,11 @@ Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb)
 |**Statistikfeld**| `<str>`|
 |Beschreibung| `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes.|
 
+## Ausbildungsbetrieb (MAGELLAN Praxisbetrieb)  
 
-## Ausbildungsbetrieb (MAGELLAN Praxisbetrieb)  `<saxsvs-bbs><schueler><aau_ausbetr>` 
+`<saxsvs-bbs><schueler><aau_ausbetr>`
 
-Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Schüler ausgebildet wird. Dies ist überwiegend gleich dem Einstellungsbetrieb, aber in einigen Fällen, kann dies abweichen. In MAGELLAN ist dies der Praxisbetrieb. 
+Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Schüler ausgebildet wird. Dies ist überwiegend gleich dem Einstellungsbetrieb, aber in einigen Fällen, kann dies abweichen. In MAGELLAN ist dies der Praxisbetrieb.
 Wie beim Wohnort des Schülers wird die Adresse unterschieden in Adresse in Sachsen, restliches Deutschland und Ausland.
 
 |Titel|Inhalt|
@@ -573,7 +602,9 @@ Wie beim Wohnort des Schülers wird die Adresse unterschieden in Adresse in Sach
 |**Praxisbetrieb**| `MAGELLAN > Schüler > Ausbildung > Praxisbetrieb`|
 |Beschreibung| Wählen Sie bei der aktuellen Ausbildung den Betrieb aus, der als Praxisbetrieb gelten soll.<br/>Alle weiteren Informationen berufen sich auf den ausgewählten Betrieb.|
 
-### Adresse Sachsen  `<adresse_sachsen>` 
+### Adresse Sachsen
+
+`<adresse_sachsen>` 
 
 Wird ausgegeben, wenn sich der Ausbildungsbetrieb im Bundesland Sachsen befindet.
 
@@ -588,7 +619,9 @@ Wird ausgegeben, wenn sich der Ausbildungsbetrieb im Bundesland Sachsen befindet
 |**Statistikfeld**| `<str>` - OP|
 |Beschreibung| `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).|
 
-### Adresse Deutschland  `<adresse_deutschland>` 
+### Adresse Deutschland
+
+`<adresse_deutschland>` 
 
 Wird ausgegeben, wenn sich der Ausbildungsbetrieb (MAGELLAN Praxisbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
 
@@ -605,7 +638,9 @@ Wird ausgegeben, wenn sich der Ausbildungsbetrieb (MAGELLAN Praxisbetrieb) in De
 |**Statistikfeld**| `<str>`|
 |Beschreibung| `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).|
 
-### Adresse Ausland  `<adresse_ausland>` 
+### Adresse Ausland
+
+`<adresse_ausland>` 
 
 Wird ausgegeben, wenn sich der Ausbildungsbetrieb (MAGELLAN Praxisbetrieb) im Ausland befindet.
 

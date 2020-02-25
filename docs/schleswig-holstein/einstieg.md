@@ -3,12 +3,11 @@
 Dieses Kapitel beschreibt für Allgemeinbildende in Schleswig-Holstein die benötigten Schritte zum Erstellen der Schnittstellendateien zur elektronischen Landesstatistik im Statistik-Online-Verfahren für das Schuljahr 2019/2020.
 
 !!! info "Hinweis"
-     Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein,
-     bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.
+     Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein, bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.
 
 ## Einführung
 
-Auf Basis der erfassten Daten in MAGELLAN und DAVINCI können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen.
+Auf Basis der erfassten Daten in MAGELLAN und DAVINCI können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen. Voraussetzung dafür ist eine Lizenz für das jeweilige Statistikjahr.
 Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von MAGELLAN 7 unterstützt werden:
 
  Datei                  | Kürzel | Unterstützt   | Schulart  | Inhalt
@@ -35,9 +34,9 @@ Notwendige Schritte:
 2. Schritt: Statistisch relevante Daten in DAVINCI bzw. MAGELLAN eingeben
 3. Schritt: Kurswahlen (nur für Gymnasien/Gesamtschulen mit Oberstufe)
 4. Schritt: Lehrer (Soll-Ist-Berechnung) von DAVINCI nach MAGELLAN übertragen
-5. Schritt: Statistikdaten aus DAVINCI exportieren
-6. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
-7. Schritt: Statistikdaten erstellen
+5. Schritt: [Statistikdaten aus DAVINCI exportieren](../dav.statistikdaten-exportieren.md)
+6. Schritt: [Datenprüfung](../datenpruefung.md)
+7. Schritt: [Statistikdateien erzeugen](../statistikdaten.erstellen.md)
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 

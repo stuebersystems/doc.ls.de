@@ -19,6 +19,11 @@ LEHRER.TXT | LEHRER    | [LEHRER.TXT](lehrerdaten.md)      | MAGELLAN-Daten und 
 ABI.TXT    | ABI       | [ABI.TXT](abiturdaten.md)         | Nur MAGELLAN-Daten
 EXTERN.DAT | EXTERN    | [EXTERN.DAT](stundenplandaten.md) | Nur DAVINCI-Daten aus dem Export für „ASDPC/EXTERN.DAT“
 
+!!! warning "Wichtig"
+
+    Wir erstellen die Statistikdateien entsprechend der Schnittstellenbeschreibungen des statistischen Landesamtes. 
+    In einigen Fällen (Beispiel: SIM.txt) spielen wir zusätzliche Felder aus, die die Zuordnung der Zeilen zu Datensätzen in Ihrem Datenbestand ermöglichen. Damit können wir bei Problemen besser die Ursache im Datenstand finden. Diese zusätzlichen Felder sind in Absprache mit dem statistischen Landesamt integriert und werden von ASDPC beim Import ignoriert.
+
 ### Zeitraumbedingte Daten
 
 Viele Schüler- und Klassendaten in MAGELLAN werden zeitraumbezogen pro Schulhalbjahr abgelegt. Je nach Statistkdatei und Datensatz müssen die Daten entsprechend der Vorgaben aus der Schnittstelle aus den unterschiedlichen Halbjahren ausgelesen und ausgewertet werden.
@@ -41,7 +46,7 @@ Welche Daten wie ausgewertet werden und unter welchen Umständen Daten in den Ex
 1. Schritt: [Statistikschlüssel aktualisieren](../schluesselverzeichnisse.md)
 2. Schritt: Dateneingabe
 3. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
-4. Schritt: Statistikdateien erstellen
+4. Schritt: [Statistikdateien erzeugen](../statistikdaten.erstellen.md)
 
 Verlinkte Schritte werden in den jeweiligen Kapiteln beschrieben. Klicken Sie dazu auf den Link. Alle anderen Schritte werden nachfolgend ausführlich erklärt.
 

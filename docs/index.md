@@ -41,8 +41,8 @@ Berlin                 | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN
 Brandenburg            | 2018/2019  | Auf Anfrage               | MAGELLAN
 Rheinland-Pfalz        | 2019/2020  | -                         | MAGELLAN / DAVINCI
 Mecklenburg-Vorpommern | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN / DAVINCI
-Nordrhein-Westfalen    | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN / DAVINCI
-Schleswig-Holstein     | 2018/2019  | 2019/2020 in Vorbereitung | MAGELLAN / DAVINCI
+Nordrhein-Westfalen    | 2018/2019  | veröffentlicht            | MAGELLAN / DAVINCI
+Schleswig-Holstein     | 2018/2019  | veröffentlicht            | MAGELLAN / DAVINCI
 
 !!! info "Hinweis"
 

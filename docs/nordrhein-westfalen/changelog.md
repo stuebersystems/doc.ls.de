@@ -14,7 +14,8 @@ Sollte die aktuelle Statistik bereits in einem Serviceupdate veröffentlicht sei
 
 ## Aktuelle Änderungen
 
-* FIX: ABI.TXT - Zeugnis wird jetzt korrekt, entsprechend der Dolumentation ausgespielt.
+* FIX: ABI.TXT - Ausgabe der Abiturnote im Format n.n (Punkt)
+* FIX: ABI.TXT - Zeugnis wird jetzt korrekt, entsprechend der Dokumentation ausgespielt.
 
 ---
 

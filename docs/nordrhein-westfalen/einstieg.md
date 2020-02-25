@@ -53,7 +53,7 @@ Verlinkte Schritte werden in den jeweiligen Kapiteln beschrieben. Klicken Sie da
 ## 2. Dateneingabe
 
 Sie erhalten eine Übersicht der Felder in den Statistikdateien und wie diese in MAGELLAN bzw. DAVINCI einzupflegen sind.
-Jede Statistikdatei wird in einem einzelnen Kapitel behandelt, die Links zu den Kaptieln finden Sie in der obersten Tabelle in der Spalte "Kapitel".
+Jede Statistikdatei wird in einem einzelnen Kapitel behandelt, die Links zu den Kapiteln finden Sie in der obersten Tabelle in der Spalte "Kapitel".
 
 ### Voraussetzungen für alle Statistikdaten
 
@@ -68,11 +68,9 @@ Statistikfeld | Statistikdatei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
 
 !!! info "Hinweis"
 
-
  Bitte achten Sie darauf, dass Sie für das Erstellen der Statistik in MAGELLAN den aktuellsten Statistikzeitraum geöffnet haben.
 
 Die Statistikdaten erstellen Sie wie folgt:
-
 
 1. Klicken Sie im Menü Extras auf `Exporte > Export`.
 2. Wählen Sie dann den Aufruf `Export...` aus.

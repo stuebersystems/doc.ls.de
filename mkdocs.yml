@@ -43,7 +43,7 @@ plugins:
     
 # Extensions    
 markdown_extensions:
-    - admonition
+    - admonition    
   
 # Navigation  
 nav:
@@ -82,7 +82,7 @@ nav:
 - Saarland:
   - ABS/BBS: saarland/abs-bbs.md
 - Sachsen:
-  - Einstieg: sachsen/sachsen.md
+  - Einstieg: sachsen/einstieg.md
   - 1. Schlüsselpflege: sachsen/schluessel.md
   - 2. Datenpflege: sachsen/datenpflege.md
   - 3. XML-Datei erzeugen: sachsen/xml.erzeugen.md  

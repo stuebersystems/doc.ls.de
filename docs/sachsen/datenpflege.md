@@ -1,6 +1,6 @@
 # Datenpflege
 
-Um die SAXSVS.xml sinnvoll füllen zu können, müssen die korrekten Schlüssel in der Datenbank den verwendeten Datensätzen zugewiesen worden sein (vorheriger Abschnitt) und die Felder, 
+Um die SAXSVS.xml sinnvoll füllen zu können, müssen die korrekten Schlüssel in der Datenbank den verwendeten Datensätzen zugewiesen worden sein (vorheriger Abschnitt) und die Felder,
 die die Schnittstelle abfragt, in MAGELLAN auch gefüllt sein. Die nachstehenden Schritte zeigen die Felder auf, die Sie befüllen müssen.
 
 Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in MAGELLAN eingepflegt werden.
@@ -14,12 +14,12 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
 Erklärung zu einigen wenigen Abkürzungen bzw. erwähnenswerten Anmerkungen die in der Beschreibung verwendet werden.
 
-|Benennung|Beschreibung|
-|----|-------|
-|Statistikwerte| Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>* Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>* „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>* Freitextfeld<br/>* Datum im Format YYYY-MM-DD<br/>* Zahlwert|
-|MI| Mindestvoraussetzung. Diese Felder müssen gefüllt sein, da ansonsten der Import in SAXSVS grundsätzlich aufgrund von XML-Schemafehlern nicht durgeführt werden kann.|
-|OP| Optional Pflicht. Wenn grundsätzliche Aussagen zutreffen und Sie Felder in MAGELLAN mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden.Beispiel: Abwesenheiten, wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.|
-|GUID| Ein Globally Unique Identifier ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter UUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.|
+Benennung      | Beschreibung
+-------------- | ------------
+Statistikwerte | Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>* Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>* „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>* Freitextfeld<br/>* Datum im Format YYYY-MM-DD<br/>* Zahlwert
+MI             | *Mindestvoraussetzung.* Diese Felder müssen gefüllt sein, da ansonsten der Import in SAXSVS grundsätzlich aufgrund von XML-Schemafehlern nicht durgeführt werden kann.
+OP             | *Optional Pflicht.* Wenn grundsätzliche Aussagen zutreffen und Sie Felder in MAGELLAN mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden. Beispiel: Abwesenheiten. Wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.
+GUID           | Ein *Globally Unique Identifier* ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter UUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.
 
 ## Datensätze vom Export ausschließen, für die Löschung in SAXSVS vorsehen
 
@@ -40,8 +40,7 @@ Einen Gastschüler markieren Sie mit dem gleichnamigen Häkchen unter `Schüler 
 
 ### Schüler ausschließen
 
-Schüler, die aus anderen Gründen nicht nach SAXSVS übergeben werden sollen. Beispielsweise, 
-weil Sie mitten in der Erfassung der Daten stecken und erst einmal einen Teil der bereits gepflegten Schüler übertragen möchten, können unter `Schüler > Statistik > Merkmal S10` entsprechend mit "Kein Export" markiert werden. 
+Schüler, die aus anderen Gründen nicht nach SAXSVS übergeben werden sollen. Beispielsweise, weil Sie mitten in der Erfassung der Daten stecken und erst einmal einen Teil der bereits gepflegten Schüler übertragen möchten, können unter `Schüler > Statistik > Merkmal S10` entsprechend mit "Kein Export" markiert werden.
 
 Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das Verzeichnis `BS_SchuelerMerkmale.keys` erneut oder legen unter `Extras > Schlüsselverzeichnisse > Merkmale (Schüler)` eine Schlüsselzeile entsprechend der nachfolgenden Abbildung an. Der Wert kann auch per Sammelzuweisung verteilt werden.
 
@@ -79,52 +78,52 @@ In der XML-Datei sieht das wie folgt aus:
   dienststelle="Mandanten.Schulnummer">
 ```
 
-|Titel|Inhalt|
-|----|-------|
-|**Statistikfeld**| `<saxsvs-bbs zeit>`|
-|Beschreibung| Für dieses Feld wird automatisch ein aktueller Datums-/Zeitstempel beim Export eingefügt.|
-|**Statistikfeld**| `<saxsvs-bbs schuljahr>`|
-|Beschreibung|`MAGELLAN > Verzeichnisse > Zeitraeume > Von`<br/> Aus dem Eintrag wird der geforderte Wert im Format `JJJJ/JJJJ` gebildet, als Beispiel: 2018/2019|
-|**Statistikfeld**| `<saxsvs-bbs dienststelle>`|
-|Beschreibung|`MAGELLAN > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt|
+Titel             | Inhalt
+----------------- | ------
+**Statistikfeld** | `<saxsvs-bbs zeit>`
+Beschreibung      | Für dieses Feld wird automatisch ein aktueller Datums-/Zeitstempel beim Export eingefügt.
+**Statistikfeld** | `<saxsvs-bbs schuljahr>`
+Beschreibung      | `MAGELLAN > Verzeichnisse > Zeitraeume > Von`<br/> Aus dem Eintrag wird der geforderte Wert im Format `JJJJ/JJJJ` gebildet, als Beispiel: 2018/2019
+**Statistikfeld** | `<saxsvs-bbs dienststelle>`
+Beschreibung      | `MAGELLAN > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt
 
 ## Schüler  
 
 `<saxsvs-bbs><schueler>`
 
 Ab hier beginnen die Schülerdaten. Schüler die nicht von der Schnittstelle ausgeschlossen und valide sind,
-erscheinen als Datensatz mit einem `<schueler>` Knoten in der XML-Datei. Ab hier werden die weiteren Unterknoten nicht weiter 
+erscheinen als Datensatz mit einem `<schueler>` Knoten in der XML-Datei. Ab hier werden die weiteren Unterknoten nicht weiter
 mit den Elternknoten benannt.
 
-Ein Schülerknoten enthält alle Informationen die zum Schüler gehören und wird erzeugt, wenn der Schülerdatensatz Bestandteil des Exportes ist. 
+Ein Schülerknoten enthält alle Informationen die zum Schüler gehören und wird erzeugt, wenn der Schülerdatensatz Bestandteil des Exportes ist.
 Dies ergibt sich aus folgenden Regeln:
 
-1. Ein Schüler in MAGELLAN ist nicht gleich ein Schüler in SAXSVS. Der Schüler in MAGELLAN macht sich anhand seiner MAGELLAN-ID und dem Mandanten in dem er sich befindet eindeutig. 
-   Dies ist in SAXSVS nicht so. Dort kann ein Schüler aufgrund seiner sich ändernden Ausbildungsumstände mehrfach vorhanden sein. 
-   Dazu nutzt SAXSVS eine GUID für jeden Schülerdatensatz, die sich ändert, wenn sich die Ausbildungsumstände entsprechend ändern, dass ein weiterer Datensatz nach SAXSVS gespielt werden muss. 
+1. Ein Schüler in MAGELLAN ist nicht gleich ein Schüler in SAXSVS. Der Schüler in MAGELLAN macht sich anhand seiner MAGELLAN-ID und dem Mandanten in dem er sich befindet eindeutig.
+   Dies ist in SAXSVS nicht so. Dort kann ein Schüler aufgrund seiner sich ändernden Ausbildungsumstände mehrfach vorhanden sein.
+   Dazu nutzt SAXSVS eine GUID für jeden Schülerdatensatz, die sich ändert, wenn sich die Ausbildungsumstände entsprechend ändern, dass ein weiterer Datensatz nach SAXSVS gespielt werden muss.
    Wann dies der Fall ist, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.<br/>
    Ein Schüler ohne GUID wird vom Export ausgeschlossen!
 2. Der Schüler wird durch ein Merkmal explizit vom Export ausgeschlossen!
 3. Der Schüler ist als Gastschüler gekennzeichnet und somit nur von der Stammschule nach SAXSVS einzuspielen. Der Schüler wird vom Export ausgeschlossen!
-4. Der Schüler enthält einige Minimalvoraussetzungen. Wie in Punkt 1 erwähnt sind Ausbildungsinformationen für SAXSVS wichtig, neben der GUID müssen mindestens Bildungsgang, 
+4. Der Schüler enthält einige Minimalvoraussetzungen. Wie in Punkt 1 erwähnt sind Ausbildungsinformationen für SAXSVS wichtig, neben der GUID müssen mindestens Bildungsgang,
    Organisationsform und Schulform angegeben werden. Fehlen diese Werte, wird der Schüler vom Export ausgeschlossen!
 
-### Mindestvoraussetzung für einen Schülerdatensatz {#Mindestvoraussetzung}
+### Mindestvoraussetzung für einen Schülerdatensatz
 
 Ohne Angaben zur **Ausbildung** beim Schüler wird der Schüler nicht in die XML-Datei gespielt und Sie erhalten einen entsprechenden Hinweis beim Durchlauf.
 Alle folgenden Felder der Ausbildung `müssen` gepflegt sein, sind damit `Pflichtfelder`. Dies gilt auch für Schüler die in SAXSVS zum Löschen markiert
 werden sollen.
 
-|Titel|Inhalt|
-|-----|------|
-|**Statistikfeld**| `<schueler extern_id>`|
-|Beschreibung|`Schüler > Ausbildung > GUID`<br/>1. Wenn Sie aktuell MAGELLAN 6 nutzen und zum ersten mal in MAGELLAN 7 den Export durchlaufen, dann existieren noch keine GUIDs.<br/> Diese werden dann für bestehende aktuelle Ausbildungen angelegt und in der Datenbank gespeichert.<br/> 2. Schüler ohne eine aktuelle Ausbildung im ausgewählten Exportzeitraum werden <b>nicht berücksichtigt</b>. Berufsschülern muss auf der Ausbildungskarte ein Bildungsgang zugewiesen werden (Schüler > Bearbeiten > Sammelzuweisung), Oberstufenschüler benötigen zusätzlich die Schulform, auch diese kann per Sammelzuweisung zugewiesen werden.|
-|**Statistikfeld**| `<al_kennziffer>`|
-|Beschreibung| `MAGELLAN > Schüler > Ausbildung > Bildungsgang [BS_Bildungsgaenge]`<br/>`Hinweis:` Auch Oberstufenschüler benötigen einen Bildungsgang, lesen Sie [Berufliches Gymnasium - Oberstufenschüler]().|
-|**Statistikfeld**| `<al_schulart schluessel>`|
-|Beschreibung| `MAGELLAN > Schüler > Ausbildung > Schulform [BS_Schulformen]`<br/>Geben Sie die passende Schulform an.|
-|**Statistikfeld**| `<al_zeitform schluessel>`|
-|Beschreibung| `MAGELLAN > Schüler > Ausbildung > Organisation [BS_Organisationen]`<br/>Geben Sie die passende Organisationsform an.<br/>Lesen Sie dazu bitte auch den nachstehenden Abschnitt.|
+Titel             | Inhalt
+----------------- | ------
+**Statistikfeld** | `<schueler extern_id>`
+Beschreibung      |`Schüler > Ausbildung > GUID`<br/>1. Wenn Sie aktuell MAGELLAN 6 nutzen und zum ersten mal in MAGELLAN 7 den Export durchlaufen, dann existieren noch keine GUIDs.<br/> Diese werden dann für bestehende aktuelle Ausbildungen angelegt und in der Datenbank gespeichert.<br/> 2. Schüler ohne eine aktuelle Ausbildung im ausgewählten Exportzeitraum werden <b>nicht berücksichtigt</b>. Berufsschülern muss auf der Ausbildungskarte ein Bildungsgang zugewiesen werden (Schüler > Bearbeiten > Sammelzuweisung), Oberstufenschüler benötigen zusätzlich die Schulform, auch diese kann per Sammelzuweisung zugewiesen werden.
+**Statistikfeld** | `<al_kennziffer>`
+Beschreibung      | `MAGELLAN > Schüler > Ausbildung > Bildungsgang [BS_Bildungsgaenge]`<br/>`Hinweis:` Auch Oberstufenschüler benötigen einen Bildungsgang, lesen Sie [Berufliches Gymnasium - Oberstufenschüler]().
+**Statistikfeld** | `<al_schulart schluessel>`
+Beschreibung      | `MAGELLAN > Schüler > Ausbildung > Schulform [BS_Schulformen]`<br/>Geben Sie die passende Schulform an.
+**Statistikfeld** | `<al_zeitform schluessel>`
+Beschreibung      | `MAGELLAN > Schüler > Ausbildung > Organisation [BS_Organisationen]`<br/>Geben Sie die passende Organisationsform an.<br/>Lesen Sie dazu bitte auch den nachstehenden Abschnitt.
 
 SAXSVS erfordert im Bereich der Ausbildung folgende Werte:
 
@@ -133,16 +132,13 @@ SAXSVS erfordert im Bereich der Ausbildung folgende Werte:
 * `<al_zeitform>`   -> Organisation
 
 Da diese in unterschiedlichen Kombinationen auftreten können, müssen die Daten bei der Schüler-Ausbildung pro Schüler angegeben werden.
-Die Felder `Schulform` und `Organisation` gibt es erst seit MAGELLAN 7 unter `Schüler > Ausbildung`. Sie haben die Möglichkeit die Felder direkt unter `Schüler > Ausbildung`
-einzutragen, oder die Sammelzuweisung unter `Schüler > Schüler (Ribbontab) > Sammelzuweisung` zu nutzen. 
+Sie haben die Möglichkeit die Felder direkt unter `Schüler > Ausbildung` einzutragen, oder die Sammelzuweisung unter `Schüler > Schüler (Ribbontab) > Sammelzuweisung` zu nutzen.
 
 ### Sammelzuweisung für Bildungsgang, Schulform und Organisation
 
-|Nr|So geht's|
-|--|---------|
-|1. |Die Sammelzuweisung rufen Sie unter `Menüpunkt Schüler > Registerkarte Schüler > Sammelzuweisung` auf.|
-|2. |Markieren Sie die Gruppe von Schülern, für die die gleichen Eigenschaften vergeben werden sollen.|
-|3. |Klicken Sie `Weiter` bis zur dritten Karte, hier können Ausbildungsinformationen neu oder ergänzend zugewiesen werden.<br/>Wichtig: bitte wählen Sie `Neue Ausbildung anlegen` oder `ggfs. aktuelle Ausbildung bearbeiten`!|
+1. Die Sammelzuweisung rufen Sie unter `Menüpunkt Schüler > Registerkarte Schüler > Sammelzuweisung` auf.
+2. Markieren Sie die Gruppe von Schülern, für die die gleichen Eigenschaften vergeben werden sollen.
+3. Klicken Sie `Weiter` bis zur dritten Karte, hier können Ausbildungsinformationen neu oder ergänzend zugewiesen werden.<br/>Wichtig: bitte wählen Sie `Neue Ausbildung anlegen` oder `ggfs. aktuelle Ausbildung bearbeiten`!
 
 ![MAGELLAN 7 > Menü Schüler > Tab Schüler> Sammelzuweisung](/assets/images/sachsen/sammelzuweisung01.png)
 
@@ -151,17 +147,17 @@ einzutragen, oder die Sammelzuweisung unter `Schüler > Schüler (Ribbontab) > S
 Auch Schüler des beruflichen Gymnasiums müssen einen Bildungsgang zugewiesen bekommen. Diesen können Sie auch über die Sammelzuweisung vergeben.
 Folgende Bildungsgänge sind für BGY gedacht:
 
-|Kennziffer|Bildungsgang|Schulart|Zeitform|
-|----------|------------|--------|--------|
-|83000002| Ernährungswissenschaft| BGY| v|
-|82000003| Gesundheit und Sozialwesen| BGY| v|
-|43000001| Informations- und Kommunikationstechnologie| BGY| v|
-|43000002| Technikwissenschaft| BGY| v|
-|32000001| Technikwissenschaft/Bautechnik| BGY| v|
-|43000003| Technikwissenschaft/Datenverarbeitungstechnik| BGY| v|
-|26000001| Technikwissenschaft/Elektrotechnik| BGY| v|
-|25000001| Technikwissenschaft/Maschinenbautechnik| BGY| v|
-|71000002| Wirtschaftswissenschaft| BGY| v|
+Kennziffer | Bildungsgang                                  |Schulart | Zeitform
+---------  | --------------------------------------------- |-------- | --------
+83000002   | Ernährungswissenschaft                        | BGY     | v
+82000003   | Gesundheit und Sozialwesen                    | BGY     | v
+43000001   | Informations- und Kommunikationstechnologie   | BGY     | v
+43000002   | Technikwissenschaft                           | BGY     | v
+32000001   | Technikwissenschaft/Bautechnik                | BGY     | v
+43000003   | Technikwissenschaft/Datenverarbeitungstechnik | BGY     | v
+26000001   | Technikwissenschaft/Elektrotechnik            | BGY     | v
+25000001   | Technikwissenschaft/Maschinenbautechnik       | BGY     | v
+71000002   | Wirtschaftswissenschaft                       | BGY     | v
 
 ### Allgemeine Angaben
 
@@ -223,7 +219,7 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 |**Statistikfeld**| `<af_behart>`|
 |Beschreibung| `MAGELLAN > Schüler > Daten 4 > Förderungen > Behinderung`<br/>Behinderungsart des Schülers. Dabei wird die Liste der Förderungen sortiert nach Position durchlaufen und der erste gefüllte Eintrag unter `Behinderung` ausgelesen.|
 
-## Abwesenheiten 
+## Abwesenheiten
 
 `<saxsvs-bbs><schueler><abw>`
 

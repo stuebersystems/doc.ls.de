@@ -331,7 +331,7 @@ Beschreibung      | Das Feld wird für die Statistik nicht benötigt, soll aber 
 **Statistikfeld** | **Produktversion**
 SF / ST           | Alle
 Datenfeld         | -
-Beschreibung      | Das Feld wird für die Statistik nicht benötigt, soll aber beim Support helfen. Wir geben hier die berechnete Datensatzart (z.B. Neuzugang, Eingeschult, etc.) für die Zeile aus.
+Beschreibung      | Das Feld wird für die Statistik nicht benötigt, soll aber beim Support helfen. <br/>Wir geben hier die berechnete Datensatzart (z.B. Neuzugang, Eingeschult, etc.) für die Zeile aus.
 **Statistikfeld** | **Adressenmerkmal**
 SF / ST           | -
 Datenfeld         | -

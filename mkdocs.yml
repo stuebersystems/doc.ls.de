@@ -44,6 +44,7 @@ plugins:
 # Extensions    
 markdown_extensions:
     - admonition    
+    - codehilite
   
 # Navigation  
 nav:
@@ -83,9 +84,9 @@ nav:
   - ABS/BBS: saarland/abs-bbs.md
 - Sachsen:
   - Einstieg: sachsen/einstieg.md
-  - 1. Schlüsselpflege: sachsen/schluessel.md
-  - 2. Datenpflege: sachsen/datenpflege.md
-  - 3. XML-Datei erzeugen: sachsen/xml.erzeugen.md  
+  - Schlüsselpflege: sachsen/schluessel.md
+  - Daten exportieren: sachsen/export_saxsvs.md
+  - Daten importieren: sachsen/import_saxsvs.md
 - Schleswig-Holstein:
   - Einstieg: schleswig-holstein/einstieg.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md

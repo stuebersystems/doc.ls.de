@@ -1,6 +1,6 @@
 # Schüler- und Klassendaten der SIM.TXT
 
-[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-fur-alle-statistikdaten)
 
 ## Daten in der SIM-Datei
 

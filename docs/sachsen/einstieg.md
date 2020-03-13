@@ -8,11 +8,11 @@ Diese Dokumentation beschreibt die für Sächsische Schulen spezifischen Funktio
 
 !!! warning "Wichtig"
 
-    Zur Nutzung der aktuellsten Version benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2020 und mindestens die MAGELLAN Version 7.1.7 - 711 vom XX.XX.2020!
+    Zur Nutzung der aktuellsten Version benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2020 und mindestens die MAGELLAN Version 7.1.7 - 712!
 
 ## Einführung
 
-Die SaxSVS-BBS Schnittstelle wird über eine definierte Schnittstellendatei im XML-Format bedient. Diese Datei dient sowohl dem Export- als auch dem Import von und nach MAGELLAN, sowie SaxSVS-BBS.
+Die SaxSVS-BBS Schnittstelle wird über eine definierte Schnittstellendatei im XML-Format bedient. Diese Datei dient sowohl dem Export als auch dem Import von und nach MAGELLAN, sowie SaxSVS-BBS.
 In den nachfolgenden Abschnitten beschreiben wir die Voraussetzungen und Schritte zur Erstellung der jeweiligen Schnittstellendatei, bzw. zum Import von Daten aus einer Schnittstellendatei.
 
 ### Das XML-Dateiformat
@@ -47,12 +47,10 @@ Um die fertige XML-Datei mit der Schemadatei prüfen zu können, benötigen Sie 
 
 ### Lizenz
 
-Die Lizenz zum Ausspielen der Schnittstellendatei aus MAGELLAN wurde erstmalig 2018 vom Kultusministerium für die teilnehmenden Berufsschulen zur Verfügung gestellt und beinhaltet
-lediglich das Ausspielen der zum Zeitpunkt 2018 definierten Schnittstelle.
+Die Lizenz zum Ausspielen der Schnittstellendatei aus MAGELLAN wurde erstmalig 2018 vom Kultusministerium für die teilnehmenden Berufsschulen zur Verfügung gestellt und beinhaltet lediglich das Ausspielen der zum Zeitpunkt 2018 definierten Schnittstelle.
 
-Im Laufe der Entwicklung wurden 2019 weitere Anforderungen an die Schnittstelle gestellt, wie das separate Ausspielen der Abgänger und dem Import der Daten nach MAGELLAN 7.
-Für diese und zukünftige Weiterentwicklung der Schnittstelle muss die Lizenz entsprechend erneuert werden. Erfahrungsgemäß sind Änderungen an der Schnittstelle jährlich zu erwarten.
-Die Lizenz enthält den entsprechenden Support der Schnittstelle für ein Jahr.
+Im Laufe der Entwicklung wurden 2019 weitere Anforderungen an die Schnittstelle gestellt, wie dem Import der Daten nach MAGELLAN 7.
+Für diese und zukünftige Weiterentwicklung der Schnittstelle muss die Lizenz entsprechend jährlich erneuert werden. Die Lizenz enthält somit die Pflege, Weiterentwicklung und den entsprechenden Support der Schnittstelle für jeweils ein Jahr.
 
 ## Notwendige Schritte
 
@@ -64,7 +62,7 @@ Die Lizenz enthält den entsprechenden Support der Schnittstelle für ein Jahr.
 
 Dateiname    | Abkürzung | Kapitel                                                     | Lizenz | Inhalt
 ------------ | --------- | ----------------------------------------------------------- | ------ | ------
-SAXSVS.XML   | SAXSVS    | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs.md)   | 2018   | Aktuelle und abgegangene Schüler des laufenden Schuljahres
+SAXSVS.XML   | SAXSVS    | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs.md)   | 2020   | Aktuelle und abgegangene Schüler des laufenden Schuljahres
 
 [comment]: # (SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS-A.XML](export_saxsvs.md) | 2020   | Abgegangene Schüler am Schuljahresende)
 

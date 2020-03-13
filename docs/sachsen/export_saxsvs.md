@@ -26,8 +26,10 @@ GUID           | Ein *Globally Unique Identifier* ist eine Zahl mit 128 Bit (16 
 
 Es gibt in der Schnittstelle zwei Stränge für die Angabe von Daten:
 
-1. `<saxsvs-bbs><schueler>`
-2. `<saxsvs-bbs><schueler_loeschen>`
+```xml
+1. <saxsvs-bbs><schueler>
+2. <saxsvs-bbs><schueler_loeschen>
+```
 
 Wenn sich Datensätze innerhalb dieser Stränge wiederfinden, dann werden sie entweder in SAXSVS eingepflegt oder gelöscht.
 Wie Sie verhindern können, bzw. wann automatisch Datensätze nicht exportiert werden und wie Sie Datensätze für die Löschung vorsehen,
@@ -57,12 +59,12 @@ Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das 
 
 In der XML-Datei sieht das wie folgt aus:
 
-    ```xml
-    <saxsvs-bbs ...>
-        <schueler_loeschen extern_id="{A0EA16FB-724E-4345-A3EF-62F3E08C6827}"/>
-        <schueler_loeschen extern_id="{A0EA16FB-724E-4345-A3EF-62F3E08C6828}"/>
-        <schueler_loeschen extern_id="{A0EA16FB-724E-4345-A3EF-62F3E08C6829}"/>  
-    ```
+```xml
+<saxsvs-bbs ...>
+    <schueler_loeschen extern_id="{A0EA16FB-724E-4345-A3EF-62F3E08C6827}"/>
+    <schueler_loeschen extern_id="{A0EA16FB-724E-4345-A3EF-62F3E08C6828}"/>
+    <schueler_loeschen extern_id="{A0EA16FB-724E-4345-A3EF-62F3E08C6829}"/>  
+```
 
 Schüler die in SAXSVS zum Löschen vorgemerkt werden sollen, können unter `Schüler > Statistik > Merkmal S10` mit dem entsprechenden Schlüssel markiert werden.
 Der Wert kann auch per Sammelzuweisung verteilt werden.
@@ -76,13 +78,13 @@ wie die Versionsnummer der adressierten SAXSVS-Schnittstelle oder auch Ihre Dien
 
 In der XML-Datei sieht das wie folgt aus:
 
-    ```xml
-    <saxsvs-bbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:noNamespaceSchemaLocation="https://web1.extranet.sachsen.de/bbsp/public/XMLSchema/saxsvs-bbs-2.3.xsd"
-    zeit="TDateTime Today (2001-12-17T09:30:47-05:00)" 
-    schuljahr="Zeitraeume.Von (2017/2018)" 
-    dienststelle="Mandanten.Schulnummer">
-    ```
+```xml
+<saxsvs-bbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="https://web1.extranet.sachsen.de/bbsp/public/XMLSchema/saxsvs-bbs-2.3.xsd"
+zeit="TDateTime Today (2001-12-17T09:30:47-05:00)"
+schuljahr="Zeitraeume.Von (2017/2018)"
+dienststelle="Mandanten.Schulnummer">
+```
 
 Feld in Schnittstelle       | Beschreibung
 --------------------------- | ------------

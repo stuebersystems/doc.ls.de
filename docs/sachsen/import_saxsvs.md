@@ -2,11 +2,11 @@
 
 1. [Beachten Sie bitte die Mindestvoraussetzungen für den Import](einstieg.md/#voraussetzungen-fur-den-import)
 2. Lesen Sie in diesem Abschnitt wie Sie mit Meldungen durch den Import umgehen.
-3. Lesen Sie im Abschnitt [Schnittstellendatei nach MAGELLAN importieren](xml.erzeugen.md), wie Sie den Import durchführen.
+3. Lesen Sie im Abschnitt [Schnittstellendatei nach MAGELLAN importieren](#schnittstellendatei-nach-magellan-importieren), wie Sie den Import durchführen.
 
 ## Prüfung von Schülerdaten
 
-Es wird geprüft, ob sich bereits ein Schüler mit gleicher GUID in MAGELLAN befindet. Wenn dies der FAll ist, wird dieser Schüler nicht erneut importiert und der Datensatz übersprungen.
+Es wird geprüft, ob sich bereits ein Schüler mit gleicher GUID in MAGELLAN befindet. Wenn dies der Fall ist, wird dieser Schüler nicht erneut importiert und der Datensatz übersprungen.
 Es ist möglich, dass sich der zu importierende Schüler dennoch bereits in MAGELLAN befindet, es aber keine Übereinstimmung mit der GUID gibt.
 
 Dieser Fall wird anhand folgender Felder geprüft:
@@ -52,7 +52,7 @@ Wenn nach diesen Prüfungen ein Datensatz übrig bleibt, dann wird dieser genomm
 
 ## Mit Meldungen des Imports umgehen
 
-Meldungen die durch die Mindestprüfung der Kataloge entstehen. Jeder Schlüssel wird geprüft, aber nur beim ersten Schüler in dem der SChlüssel fehlt schlägt die Meldung an, um Massenmeldungen aufgrund eines fehlenden Schlüssel zu unterbinden. Da ein Schüler nicht importiert wird, wenn dieser den fehlenden Schlüssel einsetzt, kann es sein, dass von dieser Meldung mehrer Schüler betroffen sind und diese nicht eingelesen werden.
+Meldungen die durch die Mindestprüfung der Kataloge entstehen. Jeder Schlüssel wird geprüft, aber nur beim ersten Schüler in dem der Schlüssel fehlt schlägt die Meldung an, um Massenmeldungen aufgrund eines fehlenden Schlüssel zu unterbinden. Da ein Schüler nicht importiert wird, wenn dieser den fehlenden Schlüssel einsetzt, kann es sein, dass von dieser Meldung mehrere Schüler betroffen sind und diese nicht eingelesen werden.
 
 `Im Schlüsselverzeichnis fehlt der Schlüssel "Schlüsselwert" - Dieser Schüler "Max Mustermann" - und ggf. weitere werden übersprungen.`
 
@@ -66,7 +66,6 @@ Import von           | Meldung
 **Schüler**          | Es existiert bereits der Schüler "Max Mustermann" mit der zu importierenden GUID "`Eine GUID`"
 **Schüler**          | Dem Schüler ["Max Mustermann"] fehlen folgende Mindestangaben:<br>- Keine GUID<br>- Kein Vorname<br>- Kein Nachname<br>- Kein Geburtsdatum<br><br>**Oder Varianten dieser Meldung**
 **Schlüssel**        | Es konnte kein Datensatz in der Tabelle "Tabellenname" anhand des Schlüssels "Schlüsselwert" gefunden werden. Dies bedeutet, dass ein Schlüssel für ein Feld in der Datenbank beim Import nicht gesetzt werden konnte, da der Schlüssel im entsprechenden Katalog nicht vorhanden ist. Dies ist eine Meldung, die aufgrund der Mindestprüfung nicht auftauchen sollte.
-
 
 Meldungen die sie eigentlich **nie** sehen sollten, da diese nicht auftreten dürften. Diese Bedürfen einer Meldung im STÜBER-Ticketsystem. In den meisten Fällen wird der nicht importierte Datensatz übersprungen und der Import weiter ausgeführt. Aufgrund der Meldungen können Sie ggf. nicht importierte Daten manuell im System eintragen.
 
@@ -87,17 +86,20 @@ Sie importieren die im [Einstieg](einstieg.md#einfuhrung) erwähnte XML-Datei au
 
 ## Import ausführen
 
-Für den Import der Schnittstellendatei rufen Sie bitte aus dem Menü `Schüler` den Reiter `Extras` auf und wählen den Unterpunkt `Import`.<br><br>
-![Daten nach MAGELLAN importieren über `Schüler > Importe > Import...`](/assets/images/sachsen/export.saxsvs01.png)
+Für den Import der Schnittstellendatei rufen Sie bitte aus dem Menü `Schüler` den Reiter `Extras` auf und wählen den Unterpunkt `Import`.
+![Daten nach MAGELLAN importieren über `Schüler > Importe > Import...`](/assets/images/sachsen/import.saxsvs01.png)<br><br>
 
-Es startet der Importassistent, bitte wählen Sie die Schnittstelle `SAX-SVS (BBS)` und fügen über das Plus den gewünschten Exportzeitraum hinzu. Klicken Sie auf `Weiter`!<br><br>
-![Wählen Sie die Schnittstelle und den Zeitraum aus!](/assets/images/sachsen/export.saxsvs02.png)
+Es startet der Importassistent, bitte wählen Sie die Schnittstelle `SAX-SVS (BBS)` aus.
+![Wählen Sie die Schnittstelle aus!](/assets/images/sachsen/import.saxsvs02.png)<br><br>
 
-Auf der Folgekarte wählen Sie einen Speicherort (Exportordner) und klicken auf `Weiter`!<br><br>
-![Bitte wählen Sie einen Speicherort!](/assets/images/sachsen/export.saxsvs04.png)
+Fügen Sie über das Plus die zu importierende SAXSVS.XML hinzu.
+![Wählen Sie die Schnittstelledatei aus!](/assets/images/sachsen/import.saxsvs03.png)<br><br>
 
-Starten Sie die Erstellung der Exportdatei oder die Prüfung per Klick auf `Fertigstellen`!<br><br>
-![Starten Sie die Erstellung!](/assets/images/sachsen/export.saxsvs05.png)
+Im unteren Bereich geben Sie an, ob Sie die zu importierende Datei vorab prüfen möchten, die Prüfung und Import zusammen durchführen, oder ohne Prüfung den Import ausführen möchten.
+![Wählen Sie die Art des Imports aus!](/assets/images/sachsen/import.saxsvs04.png)<br><br>
+
+Starten Sie den Import oder die Prüfung per Klick auf `Fertigstellen`!
+![Starten Sie den Import!](/assets/images/sachsen/import.saxsvs05.png)
 
 ## Mögliche Probleme
 
@@ -107,4 +109,4 @@ Sollte Ihnen in der Auswahl im Exportassistenten nicht der Punkt `SAXSVS` gezeig
 
 1. Schließen Sie bitte MAGELLAN und starten Sie bitte den MAGELLAN ADMINISTRATOR und wechseln in den Menüpunkt `Datenbankverbindungen`.
 2. Klicken Sie doppelt auf Ihre Verbindungszeile, es öffnet sich das Fenster `Verbindungsdetails`.
-3. Rufen Sie den Punkt `Datenbank` auf und tragen im Feld `Region` "Sachsen" ein.<br>Im Anschluss starten Sie MAGELLAN wieder, unter `Extras > Export > Export...` sollte jetzt auch die Auswahl `SAXSVS` zur Verfügung stehen!
+3. Rufen Sie den Punkt `Datenbank` auf und tragen im Feld `Region` "Sachsen" ein.<br>Im Anschluss starten Sie MAGELLAN wieder, unter `Extras > Importe > Import...` sollte jetzt auch die Auswahl `SAXSVS` zur Verfügung stehen!

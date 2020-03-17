@@ -1,6 +1,6 @@
 # Export von Daten für SaxSVS aus MAGELLAN
 
-1. [Beachten Sie bitte die Mindesteingaben für den Export](einstieg.md/#voraussetzungen-fur-den-export)
+1. [Beachten Sie bitte die Mindesteingaben für den Export](einstieg.md/####voraussetzungen-fur-den-export)
 2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in MAGELLAN.
 3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](saxsvs_xml.erzeugen.md), wie Sie den Export durchführen.
 

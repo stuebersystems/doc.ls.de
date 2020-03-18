@@ -81,15 +81,15 @@ In der XML-Datei sieht das wie folgt aus:
 ```xml
 <saxsvs-bbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="https://web1.extranet.sachsen.de/bbsp/public/XMLSchema/saxsvs-bbs-2.3.xsd"
-zeit="TDateTime Today (2001-12-17T09:30:47-05:00)"
-schuljahr="Zeitraeume.Von (2017/2018)"
+zeit="TDateTime Today (2020-03-17T09:30:47-05:00)"
+schuljahr="Zeitraeume.Von (2019/2020)"
 dienststelle="Mandanten.Schulnummer">
 ```
 
 Feld in Schnittstelle       | Beschreibung
 --------------------------- | ------------
 `<saxsvs-bbs zeit>`         | Für dieses Feld wird automatisch ein aktueller Datums-/Zeitstempel beim Export eingefügt.
-`<saxsvs-bbs schuljahr>`    | `MAGELLAN > Verzeichnisse > Zeitraeume > Von`<br/> Aus dem Eintrag wird der geforderte Wert im Format `JJJJ/JJJJ` gebildet, als Beispiel: 2018/2019
+`<saxsvs-bbs schuljahr>`    | `MAGELLAN > Verzeichnisse > Zeitraeume > Von`<br/> Aus dem Eintrag wird der geforderte Wert im Format `JJJJ/JJJJ` gebildet, als Beispiel: 2019/2020
 `<saxsvs-bbs dienststelle>` | `MAGELLAN > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt
 
 #### Schüler  

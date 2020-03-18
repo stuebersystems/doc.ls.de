@@ -23,7 +23,7 @@ Allgemeine Informationen zum grundsätzlichen Verständnis von XML-Dateien finde
 Hier ein kleiner Ausschnitt aus der SaxSVS-Schnittstelle:
 
 ```xml
-<saxsvs-bbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://web1.extranet.sachsen.de/bbsp/public/XMLSchema/saxsvs-bbs-2.3.xsd" zeit="TDateTime Today (2001-12-17T09:30:47-05:00)"  schuljahr="Zeitraeume.Ausdruck2 (2018/2019)" dienststelle="Mandanten.Schulnummer">
+<saxsvs-bbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://web1.extranet.sachsen.de/bbsp/public/XMLSchema/saxsvs-bbs-2.3.xsd" zeit="TDateTime Today (2020-03-17T09:30:47-05:00)"  schuljahr="Zeitraeume.Ausdruck2 (2019/2020)" dienststelle="Mandanten.Schulnummer">
   <schueler extern_id="Schueler.ID">
     <an_vname>Schueler.Vorname</an_vname>
     <an_name>Schueler.Nachname</an_name>
@@ -68,6 +68,10 @@ SAXSVS.XML   | SAXSVS    | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs
 
 #### Voraussetzungen für den Export
 
+!!! warning "Wichtig"
+
+    SAXSVS benötigt Daten aus dem aktuellen Schuljahr. Aus MAGELLAN Sicht können dies max. Daten aus dem 1. HJ und 2. HJ sein. Das aktuelle Schuljahr berechnet sich anhand des Exportdatums. Wenn sich der Export im 1.HJ befindet so werden Sie in der Exportdatei auch nur Daten aus dem 1. HJ des aktuellen Schuljahres finden. Wenn der Export im 2. HJ ausgeführt wird, so werden Sie in der Exportdatei Daten aus beiden Halbjahren finden.
+
 Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
 
 Ohne Angaben zur **Ausbildung** beim Schüler wird der Schüler nicht in die XML-Datei gespielt und Sie erhalten einen entsprechenden Hinweis beim Durchlauf.
@@ -76,7 +80,7 @@ Alle folgenden Felder der Ausbildung `müssen` gepflegt sein, sind damit `Pflich
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | -
-**Beschreibung** | `Schüler > Ausbildung > Aktuelle Ausbildung`<br/>Sie müssen dem Schüler für den zu exportierenden Zeitraum eine aktuelle Ausbildung zuweisen. Schüler ohne eine aktuelle Ausbildung im ausgewählten Exportzeitraum werden <b>nicht berücksichtigt</b>.
+**Beschreibung** | `Schüler > Ausbildung > Aktuelle Ausbildung`<br/>Sie müssen dem Schüler für den zu exportierenden Zeitraum eine aktuelle Ausbildung zuweisen. Schüler ohne eine aktuelle Ausbildung im Exportzeitraum werden <b>nicht berücksichtigt</b>.
 **Feld**         | `<schueler extern_id>`
 **Beschreibung** | `Schüler > Ausbildung > GUID`<br/>Wenn Sie  zum ersten mal in MAGELLAN 7 den Export durchlaufen, dann existieren noch keine GUIDs für bestehende aktuelle Ausbildungen. Diese werden dann angelegt und in der Datenbank gespeichert.
 **Feld**         |  `<al_kennziffer extern_id>`

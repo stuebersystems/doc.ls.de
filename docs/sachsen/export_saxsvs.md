@@ -471,6 +471,10 @@ Titel            | Inhalt
 
 Im Falle eines Abbruches wird der Knoten `<abbruch>` gefüllt.
 
+!!! danger "Achtung"
+
+    Wird kein Abschluss gefunden, der Schüler ist ausgeschult und eine Abgangsart ist eingetragen, wird der Knoten Abbruch gefüllt.
+
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<abbruch>` - OP

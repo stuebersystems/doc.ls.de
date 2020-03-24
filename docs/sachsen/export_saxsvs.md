@@ -110,10 +110,10 @@ Dies ergibt sich aus folgenden Regeln:
 !!! danger "Achtung"
 
     Wann wird die GUID erzeugt:
-        - Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
-        -  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
-        - Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll. 
-        - Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
+        * Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
+        *  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
+        * Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll. 
+        * Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
 
 Ein Schüler ohne GUID wird vom Export ausgeschlossen!
 

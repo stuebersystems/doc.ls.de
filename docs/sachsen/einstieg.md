@@ -108,7 +108,7 @@ Fehlen diese Angaben, wird der Schüler nicht importiert.
 
 !!! warning "Wichtig"
 
-Wenn die Kataloge nicht die korrekten Schlüssel enthalten, dann können Sie davon ausgehen, dass somit kein Schüler aus der Schnittstellendatei importiert wird.
+    Wenn die Kataloge nicht die korrekten Schlüssel enthalten, dann können Sie davon ausgehen, dass somit kein Schüler aus der Schnittstellendatei importiert wird.
 
 Titel            | Inhalt
 ---------------- | ------

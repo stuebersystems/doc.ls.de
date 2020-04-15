@@ -20,7 +20,7 @@ Benennung      | Beschreibung
 Werte          | Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>* Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>* „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>* Freitextfeld<br/>* Datum im Format YYYY-MM-DD<br/>* Zahlwert
 MI             | *Mindestvoraussetzung.* Diese Felder müssen gefüllt sein, da ansonsten der Import in SAXSVS grundsätzlich aufgrund von XML-Schemafehlern nicht durgeführt werden kann.
 OP             | *Optional Pflicht.* Wenn grundsätzliche Aussagen zutreffen und Sie Felder in MAGELLAN mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden. Beispiel: Abwesenheiten. Wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.
-GUID           | Ein *Globally Unique Identifier* ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter UUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.
+GUID           | Ein *Globally Unique Identifier* ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter GUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.
 
 ## Aufbau der Schnittstelle
 
@@ -106,11 +106,16 @@ Dies ergibt sich aus folgenden Regeln:
 1. Ein Schüler in MAGELLAN ist nicht gleich ein Schüler in SAXSVS. Der Schüler in MAGELLAN macht sich anhand seiner MAGELLAN-ID und dem Mandanten in dem er sich befindet eindeutig.
    Dies ist in SAXSVS nicht so. Dort kann ein Schüler aufgrund seiner sich ändernden Ausbildungsumstände mehrfach vorhanden sein.
    Dazu nutzt SAXSVS eine GUID für jeden Schülerdatensatz, die sich ändert, wenn sich die Ausbildungsumstände entsprechend ändern, dass ein weiterer Datensatz nach SAXSVS gespielt werden muss.
-   Wann dies der Fall ist, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.<br/>
-   Ein Schüler ohne GUID wird vom Export ausgeschlossen!
-2. Der Schüler wird durch ein Merkmal explizit vom Export ausgeschlossen!
-3. Der Schüler ist als Gastschüler gekennzeichnet und somit nur von der Stammschule nach SAXSVS einzuspielen. Der Schüler wird vom Export ausgeschlossen!
-4. Der Schüler enthält einige Minimalvoraussetzungen. Wie in Punkt 1 erwähnt sind Ausbildungsinformationen für SAXSVS wichtig, neben der GUID müssen mindestens Bildungsgang,
+
+!!! danger "Achtung"
+
+    Wann wird die GUID erzeugt: <br/> * Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt. <br/> *  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben. <br/> * Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll. <br/> * Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
+
+Ein Schüler ohne GUID wird vom Export ausgeschlossen!
+
+1. Der Schüler wird durch ein Merkmal explizit vom Export ausgeschlossen!
+2. Der Schüler ist als Gastschüler gekennzeichnet und somit nur von der Stammschule nach SAXSVS einzuspielen. Der Schüler wird vom Export ausgeschlossen!
+3. Der Schüler enthält einige Minimalvoraussetzungen. Wie in Punkt 1 erwähnt sind Ausbildungsinformationen für SAXSVS wichtig, neben der GUID müssen mindestens Bildungsgang,
    Organisationsform und Schulform angegeben werden. Fehlen diese Werte, wird der Schüler vom Export ausgeschlossen!
 
 ##### Sammelzuweisung für Bildungsgang, Schulform und Organisation
@@ -470,6 +475,10 @@ Titel            | Inhalt
 `<abbruch>`
 
 Im Falle eines Abbruches wird der Knoten `<abbruch>` gefüllt.
+
+!!! danger "Achtung"
+
+    Wird kein Abschluss gefunden, der Schüler ist ausgeschult und eine Abgangsart ist eingetragen, wird der Knoten Abbruch gefüllt.
 
 Titel            | Inhalt
 ---------------- | ------

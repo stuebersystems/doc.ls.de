@@ -1,13 +1,23 @@
 # Niedersachsen - ABS
 
+## Lizenz und Version
+
+Für das Erzeugen der Schnittstellendatei wird die jährliche Lizenz für das Modul "Modul LANDESSTATISTIK Niedersachsen ABS" benötigt. Damit können die Daten für die
+amtliche Statistik Niedersachsen (IZN-Stabil) erzeugt werden. Zusätzlich ist Support zum Modul und das jeweilige Jahr enthalten.
+
+!!! danger "Achtung"
+
+    In der MAGELLAN 6 wurde die Schnittstellendatei aus dem MAGELLAN Datawarehouse heraus erzeugt. 
+    Ab Version 7 wird die Schnittstellendatei direkt aus MAGELLAN erzeugt.
+
+
+## Grundsätzliches
+
+Mit DAVINCI und MAGELLAN können Sie die Datensätze erstellen, die für die Erhebung der amtlichen Landesschulstatistik 2014/2015 für allgemeinbildendende Schulen in Niedersachsen benötigt werden. Wenn Sie nur MAGELLAN besitzen, können Sie nur die Klassendatei für den Import nach izn-Stabil erzeugen.
 
 !!! info "Hinweis"
 
    Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
-
-## Grundsätzliches
-
-Mit DAVINCI und MAGELLAN können Sie die Datensätze erstellen, die für die Erhebung der amtlichen Landesschulstatistik 2014/2015 für allgemeinbildendende Schulen in Niedersachsen benötigt werden. Wenn Sie nur MAGELLAN besitzen, können Sie nur die Klassendatei für den Import nach izn-Stabil erzeugen. 
 
 Mit MAGELLAN bzw. MAGELLAN und DAVINCI können die folgenden Dateien erzeugt werden:
 

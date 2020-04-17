@@ -8,7 +8,7 @@ Für die Erstellung der Schnittstellendatei rufen Sie bitte aus dem Menü `Schü
 ![Daten aus MAGELLAN exportieren über `Schüler > Exporte > Export...`](/assets/images/export/export01.png)
 
 Es startet der Exportassistent, bitte wählen Sie die Schnittstelle `SAX-SVS (BBS)`. Klicken Sie auf `Weiter`!<br><br>
-![Wählen Sie die Schnittstelle aus!](/assets/images/export/export02.saxsvs.png)
+![Wählen Sie die Schnittstelle aus!](/assets/images/export/export02.mvpsip.png)
 
 Auf der Folgekarte wählen Sie einen Speicherort (Exportordner) und klicken auf `Weiter`!<br><br>
 ![Bitte wählen Sie einen Speicherort!](/assets/images/export/export04.png)

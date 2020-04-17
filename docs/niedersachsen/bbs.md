@@ -1,15 +1,25 @@
 
 # Niedersachsen - BBS
 
+## Lizenz und Version
+
+Für das Erzeugen der Schnittstellendatei wird die jährliche Lizenz für das Modul "Modul LANDESSTATISTIK Niedersachsen BBS" benötigt. Damit können die Daten für die
+amtliche Statistik Niedersachsen (IZN-Stabil) erzeugt werden. Zusätzlich ist Support zum Modul und das jeweilige Jahr enthalten.
+
+!!! danger "Achtung"
+
+    In der MAGELLAN 6 wurde die Schnittstellendatei aus dem MAGELLAN Datawarehouse heraus erzeugt. 
+    Ab Version 7 wird die Schnittstellendatei direkt aus MAGELLAN erzeugt.
+
+## Grundsätzlich
+
+Mit DAVINCI und MAGELLAN können Sie alle Datensätze erstellen, die für die Erhebung der amtlichen Landsschulstatistik 2004/2005 benötigt werden.  Wenn Sie nur DAVINCI besitzen, können Sie nur einen Teil der Statistik erzeugen.Mit DAVINCI bzw.
+
 !!! info "Hinweis"
 
      Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-## Grundsätzlich
-
-Mit DAVINCI und MAGELLAN können Sie alle Datensätze erstellen, die für die Erhebung der amtlichen Landsschulstatistik 2004/2005 benötigt werden.  Wenn Sie nur DAVINCI besitzen, können Sie nur einen Teil der Statistik erzeugen.Mit DAVINCI bzw. 
-
-MAGELLAN können die folgenden Dateien erzeugt werden 
+MAGELLAN können die folgenden Dateien erzeugt werden
 
 Datei| Beschreibung |Voraussetzung
 --|--|--

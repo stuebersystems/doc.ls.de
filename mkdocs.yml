@@ -63,7 +63,9 @@ nav:
 - Brandenburg:
   - ABS/BBS: brandenburg/abs-bbs.md
 - Mecklenburg-Vorpommern:
-  - SIP: mecklenburg-vorpommern/einstieg.md
+  - Einstieg: mecklenburg-vorpommern/einstieg.md
+  - Daten exportieren: mecklenburg-vorpommern/export_sip.md
+  - Daten importieren: mecklenburg-vorpommern/import_sip.md
 - Niedersachsen:
   - ABS: niedersachsen/abs.md
   - BBS: niedersachsen/bbs.md

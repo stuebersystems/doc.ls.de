@@ -1,6 +1,6 @@
 # Export von Daten für SIP aus MAGELLAN
 
-1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/mecklenburg-vorpommern/einstieg/#voraussetzungen-fur-den-export))
+1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/mecklenburg-vorpommern/einstieg/#voraussetzungen-fur-den-export)
 2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in MAGELLAN.
 3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](sip_xml.erzeugen.md), wie Sie den Export durchführen.
 
@@ -248,7 +248,7 @@ Titel            | Inhalt
 
 `<Schueler><AnAbmeldung>` - OP
 
-An- bzw. Abmeldungen der eigenen werden aktuell nicht unterstützt.
+An- bzw. Abmeldungen der eigenen Schule werden aktuell nicht unterstützt.
 
 Titel            | Inhalt
 ---------------- | ------

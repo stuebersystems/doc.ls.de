@@ -244,8 +244,8 @@ Datenfeld         | MAGELLAN: Schüler > Daten 1 > Konfession (Verzeichnisse > K
 Beschreibung      | Geben Sie hier die Konfession des Schülers ein.
 **Statistikfeld** | **GTBU - Ganztagbetrieb**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Extras > Betreuung > Ganztagbetrieb
-Beschreibung      | Geben Sie hier an, ob der Schüler am Ganztagsbetrieb teilnimmt.
+Datenfeld         | MAGELLAN: Schüler > Extras > Betreuung > Ganztagbetrieb<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Gebunden<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Offen
+Beschreibung      | Geben Sie hier mit dem Haken bei `Ganztagbetrieb` an, ob ein Schüler grundsätzlich am Ganztagsbetrieb teilnimmt. Wenn ja, muss ein Wert im Feld `Gebunden` oder `Offen` ausgewählt werden. Die Art der Werte ist egal. Je nachdem welches Feld gefüllt ist, wird folgender Wert ausgespielt:<br>Gebunden = 1 voll gebundene Ganztagsschule<br>Offen = 2 offene Ganztagsschule mit Genehmigung
 **Statistikfeld** | **JGSTUF - Jahrgangsstufe (JGSTUF)**
 Statistikdateien  | SA, EA, SB, EB, FB, OA
 Datenfeld         | MAGELLAN: Klassen > Zeiträume > Klassenstufe (Verzeichnisse > Klassenstufen)

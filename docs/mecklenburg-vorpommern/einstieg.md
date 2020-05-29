@@ -4,6 +4,10 @@ Schülerdaten, Personalangaben von Lehrerinnen und Lehrern: Die Datenerhebung f�
 
 STÜBER SYSTEMS bietet Ihnen die Möglichkeit, Daten für die SIP-Schnittstelle mit MAGELLAN zu exportieren.
 
+!!! warning "Wichtig"
+
+    Zur Nutzung der aktuellsten Version benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2020 und mindestens die MAGELLAN Version 7.1.1 - 712!
+
 ## Einführung
 
 Die SIP-MV Schnittstelle wird über zwei definierte Schnittstellendateien im XML-Format bedient. Eine für die Richtung MAGELLAN -> SIP, eine weitere für die Richtung SIP -> MAGELLAN.

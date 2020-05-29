@@ -8,7 +8,7 @@ Diese Dokumentation beschreibt die für Sächsische Schulen spezifischen Funktio
 
 !!! warning "Wichtig"
 
-    Zur Nutzung der aktuellsten Version benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2020 und mindestens die MAGELLAN Version 7.1.7 - 712!
+    Zur Nutzung der aktuellsten Version benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2020 und mindestens die MAGELLAN Version 7.1.1 - 712!
 
 ## Einführung
 

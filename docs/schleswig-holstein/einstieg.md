@@ -1,9 +1,10 @@
-# Schleswig-Holstein - Einstieg in die die Landesstatistik
+# Schleswig-Holstein
 
 Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein die benötigten Schritte zum Erstellen der Schnittstellendateien zur elektronischen Landesstatistik im Statistik-Online-Verfahren für das Schuljahr 2020/2021.
 
-!!! warning "Wichtig" Bitte beachten Sie, mit dem kommenden MAGELLAN 7 Serviceupdate 7.1.11 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der
-    Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
+!!! warning "Wichtig"
+
+    Bitte beachten Sie, mit dem kommenden MAGELLAN 7 Serviceupdate 7.1.11 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen. 
 
 !!! info "Hinweis"
      Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein, bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.

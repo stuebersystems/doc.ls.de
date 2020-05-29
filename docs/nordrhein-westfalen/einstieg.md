@@ -1,8 +1,12 @@
-# Nordrhein-Westfalen - Einstieg in die die Landesstatistik
+# Nordrhein-Westfalen
 
 Das Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen fordert mehrmals im Jahr eine statistische Erhebung von den Schulen.
 Zur Erstellung der Statistik wird das Programm ASDPC des Schulministerium benötigt. ASDPC verfügt über eine Importschnittstelle zum Einlesen von Daten aus Schulverwaltungsprogrammen.
-Mit dem Landesstatistik-Modul können Sie die benötigten Schnittstellendateien direkt aus MAGELLAN und DAVINCI erzeugen.
+Mit dem Schnittstellen-Modul können Sie die benötigten Schnittstellendateien direkt aus MAGELLAN und DAVINCI erzeugen.
+
+!!! warning "Wichtig"
+
+    Bitte beachten Sie, mit dem kommenden MAGELLAN 7 Serviceupdate 7.1.11 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen. 
 
 !!! info "Hinweis"
 

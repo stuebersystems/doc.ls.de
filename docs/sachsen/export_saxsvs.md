@@ -501,6 +501,11 @@ Titel                  | Inhalt
 **Ausbildungsbetrieb** | `MAGELLAN > Schüler > Ausbildung > Betrieb [Ausbildungsbetrieb]`
 **Beschreibung**       | Wählen Sie bei der aktuellen Ausbildung den Betrieb aus, der als Einstellungsbetrieb gelten soll.<br/>Alle weiteren Informationen berufen sich auf den ausgewählten Betrieb.
 
+
+!!! info "Hinweis"
+
+    In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (MAGELLAN-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (MAGELLAN-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
+
 #### Adresse Sachsen
 
 `<adresse_sachsen>`
@@ -567,6 +572,10 @@ Titel             | Inhalt
 ----------------- | ------
 **Praxisbetrieb** | `MAGELLAN > Schüler > Ausbildung > Praxisbetrieb`
 **Beschreibung**  | Wählen Sie bei der aktuellen Ausbildung den Betrieb aus, der als Praxisbetrieb gelten soll.<br/>Alle weiteren Informationen berufen sich auf den ausgewählten Betrieb.
+
+!!! info "Hinweis"
+
+    In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (MAGELLAN-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (MAGELLAN-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
 
 ### Adresse Sachsen
 

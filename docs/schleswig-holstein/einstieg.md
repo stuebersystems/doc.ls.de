@@ -105,7 +105,13 @@ Es kann vorkommen, dass für den aktuellen Statistikzeitraum bestimmte Besonderh
 
 ### Zur Statistik 2020/2021
 
-Zur aktuellen Statistik existieren derzeit keine Besonderheiten.
+#### 15.06.2020
+
+Das Amt hat fälschlicherweise einen Schlüssel aus der Tabelle "GTB" für die Ganztagsbetreuung entfernt. Dieser fehlt ggf. auch in Ihrer MAGELLAN Installation im Schlüsselverzeichnis "Betreuungsformen" und müsste, sofern dieser für Sie relevant ist, manuell nachgetragen werden: 
+
+Kürzel     | Schlüssel | Bezeichnung                        | Gültig von
+---------- | --------- | ---------------------------------- | ----------
+Teilg. GTS | 4         | teilweise gebundene Ganztagsschule | 01.08.2012
 
 ## Statistikdateien
 

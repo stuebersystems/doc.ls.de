@@ -52,7 +52,7 @@ Wenn nach diesen Prüfungen ein Datensatz übrig bleibt, dann wird dieser genomm
 
 ## Zuordnung zu einer Klasse
 
-Die Schüler sind nach dem Import nach MAGELLAN nicht einer Klasse zugeordnet, auch wenn sie in SAXSVS bereits einer Klasse zugeordnet sind.
+Die Schüler sind nach dem Import nach MAGELLAN nicht einer Klasse zugeordnet (sondern Vagabunden), auch wenn sie in SAXSVS bereits einer Klasse zugeordnet sind.
 Die SAXSVS-Klasse wird als Wert ins Verzeichnis `Einschulmerkmale` übernommen und für die Vagabunden ins Feld `Einschulmerkmale3` übertragen. Dieses Feld wird unter `Laufbahnprozesse > Schüler einschulen` als Zuordnungshilfe gezeigt.
 
 ## Mit Meldungen des Imports umgehen
@@ -187,9 +187,9 @@ AusbildungBis| `al_abschl_dat`|-
 
 Feld in der Schnittstelle|Anmerkung
 --|--    
-<al_zeitform> | Organisation der Klasse: Da der Schüler als Vagabund importiert wird, kann der Wert nicht importiert werden.
-<al_laufb_von> | Kann erst mit Einschulung gesetzt werden
-<al_laufb_bis> | Ende der Klasse (kann noch nicht feststehen)
-<al_laufb_bem> | Keine Entsprechung in MAGELLAN
-<aab_ende> | Abschluss/Abbruch der Ausbildung kann rein logisch noch nicht erfolgt sein
-<sorgeberechtigter><as_einrichtung> | Keine Entsprechung in MAGELLAN
+`<al_zeitform>` | Organisation der Klasse: Da der Schüler als Vagabund importiert wird, kann der Wert nicht importiert werden.
+`<al_laufb_von>` | Kann erst mit Einschulung gesetzt werden
+`<al_laufb_bis>` | Ende der Klasse (kann noch nicht feststehen)
+`<al_laufb_bem>` | Keine Entsprechung in MAGELLAN
+`<aab_ende>` | Abschluss/Abbruch der Ausbildung kann rein logisch noch nicht erfolgt sein
+`<sorgeberechtigter><as_einrichtung>` | Keine Entsprechung in MAGELLAN

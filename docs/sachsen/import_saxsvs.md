@@ -50,6 +50,11 @@ Es wird der einzuspielende Sorgeberechtigte mit den Datensätzen in Sorgeberecht
 Werden mehrere Datensätze gefunden wird zusätzlich die `Strasse` geprüft, einmal gesamt und wenn dies nicht zum Erfolg führt, dann werden noch einmal nur die ersten 5 Zeichen der `Strasse` geprüft.
 Wenn nach diesen Prüfungen ein Datensatz übrig bleibt, dann wird dieser genommen.
 
+## Zuordnung zu einer Klasse
+
+Die Schüler sind nach dem Import nach MAGELLAN nicht einer Klasse zugeordnet, auch wenn sie in SAXSVS bereits einer Klasse zugeordnet sind.
+Die SAXSVS-Klasse wird als Wert ins Verzeichnis `Einschulmerkmale` übernommen und für die Vagabunden ins Feld `Einschulmerkmale3` übertragen. Dieses Feld wird unter `Laufbahnprozesse > Schüler einschulen` als Zuordnungshilfe gezeigt.
+
 ## Mit Meldungen des Imports umgehen
 
 Meldungen die durch die Mindestprüfung der Kataloge entstehen. Jeder Schlüssel wird geprüft, aber nur beim ersten Schüler in dem der Schlüssel fehlt schlägt die Meldung an, um Massenmeldungen aufgrund eines fehlenden Schlüssel zu unterbinden. Da ein Schüler nicht importiert wird, wenn dieser den fehlenden Schlüssel einsetzt, kann es sein, dass von dieser Meldung mehrere Schüler betroffen sind und diese nicht eingelesen werden.

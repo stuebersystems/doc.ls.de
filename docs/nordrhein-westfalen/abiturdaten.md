@@ -62,7 +62,7 @@ Datenfeld         | MAGELLAN: Schüler > Laufbahn > Abschluss > Abschluss 1 > Ab
 Beschreibung      | Geben Sie bei bestandenem Abitur hier die Abiturnote mit genau einer Nachkommastelle ein. Nutzer des Abiturmoduls müssen hier keinen Eintrag machen, wenn im Abiturmodul eine Abiturnote vorhanden ist.
 **Statistikfeld** | **Staatsang - Staatsangehörigkeit (Staatsangehörigkeiten)**
 Schulform         | Alle
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Staatsangeh. 1 [Staatsangehörigkeiten]
+Datenfeld         | MAGELLAN: Schüler > Daten 1 > Staatsangeh. 1 [Staatsangehörigkeiten]
 Beschreibung      | Wählen Sie die Staatsangehörigkeit des Schülers aus.
 **Statistikfeld** | **Pruefstatus**
 Schulform         | Alle

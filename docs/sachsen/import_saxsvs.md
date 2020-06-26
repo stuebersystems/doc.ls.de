@@ -50,6 +50,11 @@ Es wird der einzuspielende Sorgeberechtigte mit den Datensätzen in Sorgeberecht
 Werden mehrere Datensätze gefunden wird zusätzlich die `Strasse` geprüft, einmal gesamt und wenn dies nicht zum Erfolg führt, dann werden noch einmal nur die ersten 5 Zeichen der `Strasse` geprüft.
 Wenn nach diesen Prüfungen ein Datensatz übrig bleibt, dann wird dieser genommen.
 
+## Zuordnung zu einer Klasse
+
+Die Schüler sind nach dem Import nach MAGELLAN nicht einer Klasse zugeordnet (sondern Vagabunden), auch wenn sie in SAXSVS bereits einer Klasse zugeordnet sind.
+Die SAXSVS-Klasse wird als Wert ins Verzeichnis `Einschulmerkmale` übernommen und für die Vagabunden ins Feld `Einschulmerkmale3` übertragen. Dieses Feld wird unter `Laufbahnprozesse > Schüler einschulen` als Zuordnungshilfe gezeigt.
+
 ## Mit Meldungen des Imports umgehen
 
 Meldungen die durch die Mindestprüfung der Kataloge entstehen. Jeder Schlüssel wird geprüft, aber nur beim ersten Schüler in dem der Schlüssel fehlt schlägt die Meldung an, um Massenmeldungen aufgrund eines fehlenden Schlüssel zu unterbinden. Da ein Schüler nicht importiert wird, wenn dieser den fehlenden Schlüssel einsetzt, kann es sein, dass von dieser Meldung mehrere Schüler betroffen sind und diese nicht eingelesen werden.
@@ -110,3 +115,81 @@ Sollte Ihnen in der Auswahl im Exportassistenten nicht der Punkt `SAXSVS` gezeig
 1. Schließen Sie bitte MAGELLAN und starten Sie bitte den MAGELLAN ADMINISTRATOR und wechseln in den Menüpunkt `Datenbankverbindungen`.
 2. Klicken Sie doppelt auf Ihre Verbindungszeile, es öffnet sich das Fenster `Verbindungsdetails`.
 3. Rufen Sie den Punkt `Datenbank` auf und tragen im Feld `Region` "Sachsen" ein.<br>Im Anschluss starten Sie MAGELLAN wieder, unter `Extras > Importe > Import...` sollte jetzt auch die Auswahl `SAXSVS` zur Verfügung stehen!
+
+## Was wird importiert
+
+### Schüler
+
+Feld in MAGELLAN|Feld in der Schnittstelle|Verzeichnis
+--|--|--
+Vorname|'an_vname'|-
+Nachname | 'an_name'|-
+Geburtsname | 'an_gebname'|-
+Geburtsdatum | 'an_gebdat'|-
+Geburtsort | 'an_gebort'|-
+PLZ | 'an_plz'|-
+Ort | 'an_ort'|-
+Ortsteil | 'an_ortsteil-
+Strasse | 'an_strasse'|-
+Land | 'an_staat'|-
+Gemeinde | PLZ, Ort|-
+Staatsang1 | 'an_staatsang_1'| 'Staatsangehoerigkeiten'
+Staatsang2 | 'an_staatsang_2'| 'Staatsangehoerigkeiten'
+NichtDeutscheHerkunft | 'an_migr_grund'|- 
+Einschulmerkmal3|`al_laufb_kl`|-
+EinschulungAntrag | 'al_ausgen'|-
+FFoerderung | 'al_laufb_bgut'|-
+FSP1 | 'al_fremd_fs1'| 'Faecher'
+FSP2 | 'al_fremd_fs2'| 'Faecher'
+FSP3 | 'al_fremd_fs3'| 'Faecher'
+FHAbschlussABSSchulform | 'av_abs_schart'|  'SchulformenHerkunft'
+FHAbschlussABS | 'av_abs_zeugnis'|  'AbschluesseExtern'
+FHAbschlussBBSSchulform | 'av_bbs_schart'|  'SchulformenHerkunft'
+FHAbschlussBBS | 'av_bbs_zeugnis'|  'AbschluesseExtern'
+FMerkmalU2 | 'an_migr_dat'|- 
+FMerkmalS1 | 'al_status'| 'SchuelerMerkmale'
+
+### Daten4 > Beeinträchtigungen und Fördermaßnahmen
+
+Feld in MAGELLAN|Feld in der Schnittstelle|Verzeichnis
+--|--|--
+Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>als eine Zeile|'af_behart'=> Behinderung/Diagnose<br/>'al_mfoerdersw'=>Förderschwerpunkt1<br/>'an_migr_daz3'=>Fördermaßnahme/Bedarf|'Behinderungsarten'<br/>'FoerderSchwerpunkte'<br/>`J` ergibt `DAZ-3`
+Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>als eine Zeile|`af_schwaeche` => Förderschwerpunkt2<br/>`af_schwaeche_dat`=>Von|`FoerderSchwerpunkte`
+Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>(ggfs. als mehrere Zeilen)|Bedarf=> `af_int`<br/>Schwerpunkt1=>`af_int_foerdersw`<br/>Von =>`af_int_von`<br/>Bis =>`af_int_bis`<br/>tunden1 =>`af_int_rs_std`<br/>Stunden2 =>`af_int_fs_std`| SopaedFoerderungen<br/>FoerderSchwerpunkte<br/>-<br/>-<br/>-<br/>-
+
+### Sorgeberechtigte
+
+Feld in MAGELLAN|Feld in der Schnittstelle|Verzeichnis
+--|--|--
+Sorgerecht| `as_berechtigt`|-
+Verhaeltnis| `as_beziehung`|-
+Anrede    | `as_anrede`|-
+Vorname   | `as_vname`|-
+Nachname  | `as_name`|-
+Land      | `as_land`|-
+PLZ       | `as_plz`|-
+Ort       | `as_ort`|-
+Ortsteil  | `as_ortsteil`|-
+Strasse   | `as_strasse`|-
+
+### Schüler > Ausbildung
+
+Feld in MAGELLAN|Feld in der Schnittstelle|Verzeichnis
+--|--|--
+GUID   | `schueler extern_id`|-
+Schulform    | `al_schulart`|Schulformen
+Organisation   | `al_zeitform`|Organisationen
+Bildungsgang | `al_kennziffer`|Bildungsgaänge
+Neuanfaenger | `al_laufb_neuanf`|-
+AusbildungBis| `al_abschl_dat`|-
+
+### Folgende Knoten werden nicht importiert
+
+Feld in der Schnittstelle|Anmerkung
+--|--    
+`<al_zeitform>` | Organisation der Klasse: Da der Schüler als Vagabund importiert wird, kann der Wert nicht importiert werden.
+`<al_laufb_von>` | Kann erst mit Einschulung gesetzt werden
+`<al_laufb_bis>` | Ende der Klasse (kann noch nicht feststehen)
+`<al_laufb_bem>` | Keine Entsprechung in MAGELLAN
+`<aab_ende>` | Abschluss/Abbruch der Ausbildung kann rein logisch noch nicht erfolgt sein
+`<sorgeberechtigter><as_einrichtung>` | Keine Entsprechung in MAGELLAN

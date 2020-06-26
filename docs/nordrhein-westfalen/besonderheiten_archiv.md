@@ -1,5 +1,9 @@
 # Besonderheiten Archiv
 
+#### 2019/2020
+
+`Schüler > Statistik > Merkmal S10` -  Wählen Sie im Schülermerkmal S10 ***Kein Export nach ASDPC*** aus, um Schüler explizit aus der Statistik zu nehmen.
+
 ## 2018/2019
 
 ### Verzeichnis Abgangsarten (BBS) / Abschlüsse Extern (BBS) / Abschlüsse Intern (BBS)

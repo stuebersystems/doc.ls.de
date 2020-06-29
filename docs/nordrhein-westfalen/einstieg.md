@@ -65,14 +65,13 @@ Damit die Dateien korrekt erstellt und gefüllt werden können, müssen in MAGEL
 
 Feld | Datei  | Datenfeld in MAGELLAN/DAVINCI                 | Beschreibung
 ------------- | --------------------------------------------- | ------------
---   | ALLE   | MAGELLAN: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule.<br/>Bei Berufskollegs = BK.<br/>**NEU:**<br/>MAGELLAN benötigt jeweils die Hauptschulform, für die Ihre Statistik gelten soll. Diese Schulform sollte als erste erscheinen. MAGELLAN beinhaltet die Möglichkeit die Mandanten-Schulformen anhand des neuen Feldes "Position", diese komfortabel für Sie einzustellen.
+--   | ALLE   | MAGELLAN: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule. <br/>Bei Berufskollegs = BK. <br/>**NEU:**<br/>MAGELLAN benötigt jeweils die Hauptschulform, für die Ihre Statistik gelten soll. Diese Schulform sollte als erste erscheinen. MAGELLAN beinhaltet die Möglichkeit die Mandanten-Schulformen anhand des neuen Feldes "Position", diese komfortabel für Sie einzustellen.
 --   | ALLE   | MAGELLAN: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
 
 ## 4. Daten erstellen
 
 !!! info "Hinweis"
-
- Bitte achten Sie darauf, dass Sie für das Erstellen der Daten in MAGELLAN den aktuellsten Zeitraum geöffnet haben.
+     Bitte achten Sie darauf, dass Sie für das Erstellen der Daten in MAGELLAN den aktuellsten Zeitraum geöffnet haben.
 
 Die Daten erstellen Sie wie folgt:
 

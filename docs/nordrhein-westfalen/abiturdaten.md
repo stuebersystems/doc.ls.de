@@ -4,9 +4,9 @@
 
 [Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
 
-Schulform                                          | MAGELLAN | Beschreibung
--------------------------------------------------- | -------- | ------------
-`Schüler > Abschluss > Abschluss 1 > Abschlussart` | **Für Berufskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` und dessen Gliederung einer der folgenden lautet: D01, D02, D05, D06.
+Schulform | Beschreibung
+-- | --
+`Schüler > Abschluss > Abschluss 1 > Abschlussart`<br/>`MAGELLAN > Abitur > Prüfung > Status` | **Für Berufskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` (Gliederungswerte: D01, D02, D05, D06) und der Eingabe unter `Schüler > Abschluss > Abschluss 1 > Abschlussart`.
 
 ## Dateneingabe
 
@@ -62,7 +62,7 @@ Datenfeld         | MAGELLAN: Schüler > Laufbahn > Abschluss > Abschluss 1 > Ab
 Beschreibung      | Geben Sie bei bestandenem Abitur hier die Abiturnote mit genau einer Nachkommastelle ein. Nutzer des Abiturmoduls müssen hier keinen Eintrag machen, wenn im Abiturmodul eine Abiturnote vorhanden ist.
 **Exportfeld**    | **Staatsang - Staatsangehörigkeit (Staatsangehörigkeiten)**
 Schulform         | Alle
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Staatsangeh. 1 [Staatsangehörigkeiten]
+Datenfeld         | MAGELLAN: Schüler > Daten 1 > Staatsangeh. 1 [Staatsangehörigkeiten]
 Beschreibung      | Wählen Sie die Staatsangehörigkeit des Schülers aus.
 **Exportfeld**    | **Pruefstatus**
 Schulform         | Alle

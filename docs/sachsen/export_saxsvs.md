@@ -11,13 +11,25 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
     Die XML-Knoten werden in der Dokumentation wie folgt benannt: `<Knotenname>`. Unterknoten können dann z.B. so aussehen `<saxsvs-bbs><schueler>`
 
+## Abgänger in SAXSVS-A
+
+SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die Aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die Abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres
+berücksichtigt.
+
+Wenn eines der folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SASXSVA-A Datei berücksichtigt:
+
+Feld in MAGELLAN                             | Art       | Beschreibung
+-------------------------------------------- | --------- | ------------
+Schüler > Daten 2 > Abgang > Abgangsart<br>Schüler Daten 2 > Abgang > Abgang am | Abgänger  | Beide Felder müssen gefüllt sein. Das AbgangAm muss innerhalb des vorigen Schuljahres liegen.
+Schüler > Laufbahn > Abschluss > Abschluss 1 | Abschluss | Das Feld müss gefüllt sein.
+
 ## Legende
 
 Erklärung zu einigen wenigen Abkürzungen bzw. erwähnenswerten Anmerkungen die in der Beschreibung verwendet werden.
 
 Benennung      | Beschreibung
 -------------- | ------------
-Werte          | Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>* Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>* „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>* Freitextfeld<br/>* Datum im Format YYYY-MM-DD<br/>* Zahlwert
+Werte          | Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>- Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>- „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>- Freitextfeld<br/>-Datum im Format YYYY-MM-DD<br/>- Zahlwert
 MI             | *Mindestvoraussetzung.* Diese Felder müssen gefüllt sein, da ansonsten der Import in SAXSVS grundsätzlich aufgrund von XML-Schemafehlern nicht durgeführt werden kann.
 OP             | *Optional Pflicht.* Wenn grundsätzliche Aussagen zutreffen und Sie Felder in MAGELLAN mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden. Beispiel: Abwesenheiten. Wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.
 GUID           | Ein *Globally Unique Identifier* ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter GUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.

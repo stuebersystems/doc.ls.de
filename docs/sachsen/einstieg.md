@@ -63,8 +63,7 @@ Für diese und zukünftige Weiterentwicklung der Schnittstelle muss die Lizenz e
 Dateiname    | Abkürzung | Kapitel                                                     | Lizenz | Inhalt
 ------------ | --------- | ----------------------------------------------------------- | ------ | ------
 SAXSVS.XML   | SAXSVS    | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs.md)   | 2020   | Aktuelle und abgegangene Schüler des laufenden Schuljahres
-
-[comment]: # (SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS-A.XML](export_saxsvs.md) | 2020   | Abgegangene Schüler am Schuljahresende)
+SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs.md#Abganger-in-SAXSVS-A) | 2020   | Abgegangene Schüler zum Schuljahresende des vorigen Schuljahres
 
 #### Voraussetzungen für den Export
 

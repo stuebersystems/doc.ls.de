@@ -6,16 +6,23 @@
 
 ## Prüfung von Schülerdaten
 
-Es wird geprüft, ob sich bereits ein Schüler mit gleicher GUID in MAGELLAN befindet. Wenn dies der Fall ist, wird dieser Schüler  erneut importiert. Der Nebenschüler (also der neu importierte) erhält den Eintrag der ID des Stammschülers (des bereits in der Datenbank existierenden) im Feld IDIntern, kann damit als Nebenschüler weitergeführt werden. Dies entspricht der Funktion Bewerberkopie in MAGELLAN.
+Beim Import wird eine zweistufige Prüfung durchgeführt.
 
-Es ist auch möglich, dass sich der zu importierende Schüler bereits in MAGELLAN befindet, es aber keine Übereinstimmung mit der GUID gibt.
+Stufe 1:
+Es wird geprüft, ob sich bereits ein Schüler mit gleicher GUID in MAGELLAN befindet. Wenn dies der Fall ist, wird dieser Schüler  nicht erneut importiert.
+
+Stufe 2:
+Es wird zusätzlich geprüft, ob sich der zu importierende Schüler bereits in MAGELLAN befindet, es aber keine Übereinstimmung mit der GUID gibt.
 
 Dieser Fall wird anhand folgender Felder geprüft:
 
-* Vorname
-* Nachname
-* Geburtsdatum
-* IDIntern
+* Vorname (muss identisch sein)
+* Nachname (muss identisch sein)
+* Geburtsdatum (muss identisch sein)
+* IDIntern (muss leer sein)
+
+Wir hier ein Schüler als bereits in MAGELLAN vorhanden erkannt, wird er importiert, erhält aber zusätzlich einen Eintrag im Feld IDIntern mit der ID des gefundenen Stammschülers. Dieser Schüler wird anschließend genau wie ein Nebenschüler behandelt, wird er im selben Zeitraum wie der Stammschüler eingeschult, ergeben sich zwei Schüler, die über die IDIntern verbunden sind, damit gleiche Stammdaten haben. Wird der Nebenschüler in einem anderen Halbjahr eingeschult, als der Stammschüler gefunden wurde, werden Neben- und Stammschüler zusammengeführt.
+
 
 !!! warning "Wichtig"
 

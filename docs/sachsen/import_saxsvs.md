@@ -21,6 +21,10 @@ Dieser Fall wird anhand folgender Felder geprüft:
 
     Wir gehen wie oben beschrieben vor, um den Import im Falle einer Neubewerbung eines Stammschülers zu ermöglichen. Sollten Sie versehentlich die Schüler erneut imporiert haben und keine Nebenlaufbahn des Schülers wünschen, löschen Sie die importierten Schüler bitte heraus.
 
+!!! info "Hinweis"
+
+    Ob in Ihrer Importdatei Schüler als bereits vorhanden erkannt werden, können Sie mithilfe der Opiton "Daten prüfen" durch den Importassistenen vorab prüfen lassen.
+
 ## Prüfung von Betriebedaten der Ausbildung
 
 ***Groß- und Kleinschreibung ist bei der Prüfung nicht relevant.***

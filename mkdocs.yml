@@ -49,7 +49,8 @@ plugins:
     
 # Extensions    
 markdown_extensions:
-    - admonition
+    - admonition    
+    - codehilite
   
 # Navigation  
 nav:
@@ -59,15 +60,18 @@ nav:
   - Schlüsselverzeichnisse: schluesselverzeichnisse.md
   - Datenprüfung: datenpruefung.md
   - DAVINCI Daten exportieren: dav.statistikdaten-exportieren.md
+  - Statistikdateien erzeugen: statistikdaten.erstellen.md
   - Legende: legende-statistikfelder.md
 - Bayern:
   - WinLD/AS: bayern/winld.md
 - Berlin:
-  - ABS/BBS: berlin/abs-bbs.md
+  - Übersicht: berlin/berlin.md
 - Brandenburg:
   - ABS/BBS: brandenburg/abs-bbs.md
 - Mecklenburg-Vorpommern:
-  - SIP: mecklenburg-vorpommern/sip.md
+  - Einstieg: mecklenburg-vorpommern/einstieg.md
+  - Daten exportieren: mecklenburg-vorpommern/export_sip.md
+  - Daten importieren: mecklenburg-vorpommern/import_sip.md
 - Niedersachsen:
   - ABS: niedersachsen/abs.md
   - BBS: niedersachsen/bbs.md
@@ -87,10 +91,10 @@ nav:
 - Saarland:
   - ABS/BBS: saarland/abs-bbs.md
 - Sachsen:
-  - Übersicht: sachsen/sachsen.md
-  - 1. Schlüsselpflege: sachsen/schluessel.md
-  - 2. Datenpflege: sachsen/datenpflege.md
-  - 3. XML-Datei erzeugen: sachsen/xml.erzeugen.md  
+  - Einstieg: sachsen/einstieg.md
+  - Schlüsselpflege: sachsen/schluessel.md
+  - Daten exportieren: sachsen/export_saxsvs.md
+  - Daten importieren: sachsen/import_saxsvs.md
 - Schleswig-Holstein:
   - Einstieg: schleswig-holstein/einstieg.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md

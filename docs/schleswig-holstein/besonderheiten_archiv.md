@@ -57,7 +57,7 @@ Wir haben im Administrator dazu eine Korrektur integriert. Bitte führen Sie fol
 
 ![Assistent zum Anpassen der Fächerschlüssel für SHL](../images/shl.umschluesseln.png)
 
-Gerade in diesem Fall, müssen deshalb Schlüssel bei logischen Änderungen manuell angepasst werden. Dies ist der Fall, wenn 
+Gerade in diesem Fall, müssen deshalb Schlüssel bei logischen Änderungen manuell angepasst werden. Dies ist der Fall, wenn
 
 1. Wenn im Katalog "Fächer" und "Kurse" der gleiche Schlüssel mit unterschiedlichen Bedeutungen vorhanden ist, dann muss der Schlüssel manuell hinzugefügt werden.
 2. Wenn ein Schlüssel nur noch in einem der beiden Kataloge verwendet wird, dann muss der Zusatz angepasst werden, damit Sie nicht versehentlich einen falschen Eintrag wählen.
@@ -298,7 +298,7 @@ Kurs und Fach | 999     | 999       | sonstiges Fach, sonstiger Kurs
   <tr>
     <td rowspan="2">04</td>
     <td>Sonderschullehrer/ -innen / Förderzentrumslehrer/-innen</td>
-    <td rowspan="2">Textänderung</td> 
+    <td rowspan="2">Textänderung</td>
   </tr>
   <tr>
     <td><strong>Zuvor:</strong> Sonderschullehrer/ -innen</td>
@@ -306,7 +306,7 @@ Kurs und Fach | 999     | 999       | sonstiges Fach, sonstiger Kurs
   <tr>
     <td rowspan="2">HSN</td>
     <td>Heimat- und Sachunterricht/td>
-    <td rowspan="2">Textänderung</td> 
+    <td rowspan="2">Textänderung</td>
   </tr>
   <tr>
     <td><strong>Zuvor:</strong> Sachunterricht,naturwissenschaftlich</td>
@@ -314,7 +314,7 @@ Kurs und Fach | 999     | 999       | sonstiges Fach, sonstiger Kurs
   <tr>
     <td rowspan="2">SBL</td>
     <td>Sonderpädagogische Lehrbefähigungen für Blinde / Blindenpädagogik</td>
-    <td rowspan="2">Textänderung</td> 
+    <td rowspan="2">Textänderung</td>
   </tr>
   <tr>
     <td><strong>Zuvor:</strong> Sonderpädagogische Lehrbefähigungen für Blinde/td>
@@ -324,16 +324,16 @@ Kurs und Fach | 999     | 999       | sonstiges Fach, sonstiger Kurs
 
 ### Zur Statistik 2015/2016
 
-Es könnte sein, dass Sie die Plausibilität **SA1110** verstärkt erhalten. 
+Es könnte sein, dass Sie die Plausibilität **SA1110** verstärkt erhalten.
 
-Dies liegt evtl. dran, dass Sie die Fremdsprachenschlüssel 011, 016, 022, 032, 045, 051, 600, 601, 602, 605 eingetragen haben. 
-Diese dienen aber nur für spezielle Zwecke, z.B. der Schlüssel 016 = Englisch (Nur bei übergreifendem Unterricht). 
+Dies liegt evtl. dran, dass Sie die Fremdsprachenschlüssel 011, 016, 022, 032, 045, 051, 600, 601, 602, 605 eingetragen haben.
+Diese dienen aber nur für spezielle Zwecke, z.B. der Schlüssel 016 = Englisch (Nur bei übergreifendem Unterricht).
 
-Durch die Zusammenfassung der Fächer und Schülerdatei muss nun die genaue Fremdsprache der Fremdsprachenfolge ausgegeben werden. Für Englisch 1. Fremdsprache wäre dies nun der Schlüssel 116 = Englisch 1. Fremdsprache. 
+Durch die Zusammenfassung der Fächer und Schülerdatei muss nun die genaue Fremdsprache der Fremdsprachenfolge ausgegeben werden. Für Englisch 1. Fremdsprache wäre dies nun der Schlüssel 116 = Englisch 1. Fremdsprache.
 
 ### UART – Unterrichtsarten in MAGELLAN
 
-Die für die Statistik abgefragten Schlüsselwerte können zu Teil nicht genutzt werden, weil MAGELLAN-interne Eingaben für den Zeugnisdruck oder die Zeugniserstellung erwartet werden. 
+Die für die Statistik abgefragten Schlüsselwerte können zu Teil nicht genutzt werden, weil MAGELLAN-interne Eingaben für den Zeugnisdruck oder die Zeugniserstellung erwartet werden.
 
 Die nachfolgende Tabelle zeigt Ihnen welche MAGELLAN-Eintragungen erkannt und in entsprechende Werte für die Statistikwerte gewandelt werden.
 
@@ -384,7 +384,7 @@ Kuerzel | Schluessel | Alte Bezeichnung                     | Neue Bezeichnung
 17      | 17         | Zugang aus einer Gemeinschaftsschule | Zugang aus einer Gemeinschaftsschule mit Oberstufe
 15      | 15         | -                                    | Zugang aus einer Gemeinschaftsschule ohne Oberstufe
 
-#### Weggefallene Felder, die nicht mehr erfragt werden.
+#### Weggefallene Felder, die nicht mehr erfragt werden
 
 Nur für die aktuellen Schüler der allgemeinbildenden Schule wird die Schulübergangsempfehlung der Grundschule (SAE) nicht mehr erfragt.
 
@@ -409,10 +409,10 @@ Dazu gehen Sie wie folgt vor:
 
 #### Erstmalig Statistik für Berufsbildende Schulen
 
-In diesem Jahr spielen wir erstmalig auch die Statistik für Berufsbildende Schulen aus. 
+In diesem Jahr spielen wir erstmalig auch die Statistik für Berufsbildende Schulen aus.
 Aus Gründen der Übersichtlichkeit werden die neu hinzugekommenen BBS Felder werden nicht gesondert farblich im Anhang dargestellt. Sie bekommen lediglich ein „*“ in der Spalte Statistikdatei.
 
-#### Statistikdatei „BM“ - Besondere Massnahmen.
+#### Statistikdatei „BM“ - Besondere Massnahmen
 
 Die Statistikdatei „Besondere Massnahmen“ wird vom Statistikamt ab diesem Jahr nicht mehr erfragt. Damit fallen auch alle Eingaben dazu in MAGELLAN und DAVINCI raus.
 

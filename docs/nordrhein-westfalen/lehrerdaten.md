@@ -2,7 +2,7 @@
 
 ## Voraussetzungen zum Export
 
-[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
 
 MAGELLAN benötigt zur Erzeugung der LEHRER.TXT Stundendaten aus DAVINCI 6.
 
@@ -25,27 +25,27 @@ So exportieren Sie in DAVINCI 6 die Statistikdaten zur Erzeugung der LEHRER.TXT 
 
 Art               | Inhalt
 ----------------- | ------
-**Statistikfeld** | **Schulnummer**
+**Exportfeld**    | **Schulnummer**
 Datenfeld         | MAGELLAN: Mandanten > Daten 1 > Schulnummer
 Beschreibung      | Tragen Sie Ihre 6-Stellige Schulnummer ein.
-**Statistikfeld** | **Lehrerabkürzung**
+**Exportfeld**    | **Lehrerabkürzung**
 Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Kürzel
 Beschreibung      | Tragen Sie für jeden Lehrer der Schule das 4-Stellige Lehrerkürzel (identisch zur LID 123) ein.
-**Statistikfeld** | **Pflichtstundensoll**
+**Exportfeld**    | **Pflichtstundensoll**
 Datenfeld         | DAVINCI:Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel] > Stunden
 Beschreibung      | Geben Sie die Pflichtstunden für jeden Lehrer in seiner Soll-Berechnung in den Stammdaten an. Kürzel/Schlüssel ist gleich PFLICHT.
-**Statistikfeld** | **Produktname**
+**Exportfeld**    | **Produktname**
 Datenfeld         | -
 Beschreibung      | Wir geben hier fest den Wert „MAGELLAN 7“ aus
-**Statistikfeld** | **Produktversion**
+**Exportfeld**    | **Produktversion**
 Datenfeld         | -
 Beschreibung      | Wir geben hier die aktuell installierte MAGELLAN 7 Version (Registry Wert) aus.
-**Statistikfeld** | **Satzart65 – Grund / Satzart65 – Stunden**
+**Exportfeld**    | **Satzart65 – Grund / Satzart65 – Stunden**
 Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel [Lehrer-Soll-Schluessel] > Stunden
 Beschreibung      | Geben Sie die Anrechnungsstunden für jeden Lehrer in seiner Soll-Berechnung an.   Kürzel/Schlüssel ist gleich ANR.
-**Statistikfeld** | **Satzart66 – Grund / Satzart66 – Stunden**
+**Exportfeld**    | **Satzart66 – Grund / Satzart66 – Stunden**
 Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel [Lehrer-Soll-Schluessel] > Stunden
 Beschreibung      | Geben Sie die Mehrarbeitsstunden für jeden Lehrer in seiner Soll-Berechnung an. Kürzel/Schlüssel ist gleich MEHR.
-**Statistikfeld** | **Satzart67 – Grund / Satzart67 – Stunden**
+**Exportfeld**    | **Satzart67 – Grund / Satzart67 – Stunden**
 Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel [Lehrer-Soll-Schluessel] > Stunden
 Beschreibung      | Geben Sie die Ermäßigungsstunden für jeden Lehrer in seiner Soll-Berechnung an. Kürzel/Schlüssel ist gleich ERM.

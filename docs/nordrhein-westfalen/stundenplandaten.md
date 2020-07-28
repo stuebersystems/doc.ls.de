@@ -10,7 +10,7 @@ In DAVINCI können Sie die Stundenplandaten in die Datei EXTERN.DAT für ASDPC e
 
 !!! info "Hinweis"
 
-   Für Erstellung der LEHRER.TXT aus MAGELLAN heraus ist NICHT die EXTERN.DAT die Grundlage, sondern die txt-Datei die durch dem „Allgemeinen Statistikexport“ erzeugt werden kann.
+   Für Erstellung der LEHRER.TXT aus MAGELLAN heraus ist NICHT die EXTERN.DAT die Grundlage, sondern die txt-Datei die durch dem „Allgemeinen Schnittstellenexport“ erzeugt werden kann.
 
 ## UVD.TXT
 
@@ -23,42 +23,42 @@ Die Dateien EXTERN.DAT und UVD.TXT werden alternativ verwendet. Eine gleichzeiti
 
 ## Dateneingabe
 
-### ABS-Statistik
+### ABS
 
-Die folgenden Angaben müssen in DAVINCI bei allgemeinbildenden Schulen gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DAVINCI bei allgemeinbildenden Schulen gemäß der offiziellen Vorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
 Art               | Inhalt
 ----------------- | ------
-**Statistikfeld** | **Klassenkürzel**
+**Exportfeld**    | **Klassenkürzel**
 Beschreibung      | Klassenkürzel im Stammdatenfenster auf Registerkarte „Klassen“, maximal 4stellig
-**Statistikfeld** | **Fachkürzel**
+**Exportfeld**    | **Fachkürzel**
 Beschreibung      | Spalte „Schlüssel“ im Stammdatenfenster auf Registerkarte „Fächer“, maximal 4stellig
-**Statistikfeld** | **Wochenstunden**
+**Exportfeld**    | **Wochenstunden**
 Beschreibung      | Spalte „Dauer/W“ in der Unterrichtsliste des Planungsfenster
-**Statistikfeld** | **Lehrerkürzel**
+**Exportfeld**    | **Lehrerkürzel**
 Beschreibung      | Lehrerkürzel im Stammdatenfenster auf Registerkarte „Lehrer“
-**Statistikfeld** | **Schülerzahl insgesamt**
+**Exportfeld**    | **Schülerzahl insgesamt**
 Beschreibung      | Spalte „Schüler“ in der Unterrichtsliste des Planungsfensters
-**Statistikfeld** | **Schülerzahl weiblich**
+**Exportfeld**    | **Schülerzahl weiblich**
 Beschreibung      | wird derzeit nicht unterstützt
-**Statistikfeld** | **Schülerzahl Fremde**
+**Exportfeld**    | **Schülerzahl Fremde**
 Beschreibung      | wird derzeit nicht unterstützt
 
-### BBS-Statistik
+### BBS
 
-Die folgenden Angaben müssen in DAVINCI bei Berufskollegs gemäß der offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DAVINCI bei Berufskollegs gemäß der offiziellen Vorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
 Art               | Inhalt
 ----------------- | ------
-**Statistikfeld** | **Klassenkürzel**
+**Exportfeld**    | **Klassenkürzel**
 Beschreibung      | Klassenkürzel im Stammdatenfenster auf Registerkarte „Klassen“, maximal 6stellig
-**Statistikfeld** | **Fachkürzel**
+**Exportfeld**    | **Fachkürzel**
 Beschreibung      | Spalte „Schlüssel“ im Stammdatenfenster auf Registerkarte „Fächer“, maximal 4stellig
-**Statistikfeld** | **Wochenstunden**
+**Exportfeld**    | **Wochenstunden**
 Beschreibung      | Spalte „Dauer/W“ in der Unterrichtsliste des Planungsfenster
-**Statistikfeld** | **Lehrerkürzel**
+**Exportfeld**    | **Lehrerkürzel**
 Beschreibung      | Lehrerkürzel im Stammdatenfenster auf Registerkarte „Lehrer“
-**Statistikfeld** | **Schülerzahl insgesamt**
+**Exportfeld**    | **Schülerzahl insgesamt**
 Beschreibung      | Spalte „Schüler“ in der Unterrichtsliste des Planungsfensters
 
 ## EXTERN.DAT erzeugen

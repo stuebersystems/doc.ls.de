@@ -1,26 +1,29 @@
-# Schleswig-Holstein - Einstieg in die die Landesstatistik
+# Schleswig-Holstein
 
-Dieses Kapitel beschreibt für Allgemeinbildende in Schleswig-Holstein die benötigten Schritte zum Erstellen der Schnittstellendateien zur elektronischen Landesstatistik im Statistik-Online-Verfahren für das Schuljahr 2019/2020.
+Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein die benötigten Schritte zum Erstellen der Schnittstellendateien zur elektronischen Landesstatistik im Statistik-Online-Verfahren für das Schuljahr 2020/2021.
+
+!!! warning "Wichtig"
+
+    Bitte beachten Sie, mit dem kommenden MAGELLAN 7 Serviceupdate 7.1.11 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen. 
 
 !!! info "Hinweis"
-     Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein,
-     bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.
+     Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein, bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.
 
 ## Einführung
 
-Auf Basis der erfassten Daten in MAGELLAN und DAVINCI können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen.
+Auf Basis der erfassten Daten in MAGELLAN und DAVINCI können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen. Voraussetzung dafür ist eine Lizenz für das jeweilige Statistikjahr.
 Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von MAGELLAN 7 unterstützt werden:
 
  Datei                  | Kürzel | Unterstützt   | Schulart  | Inhalt
  ---------------------- | ------ | ------------- | --------- | ------
- XXX_DATLD_JJJJMMTT.TXT | LD     | X | ABS / BBS | Die Leitdatei enthält Daten zu Ihrer Schule.
- XXX_DATLE_JJJJMMTT.TXT | LE     | X | ABS / BBS | Die Lehrerdatei enthält Daten zum Lehrer im aktuellen Schuljahr.
- XXX_DATSA_JJJJMMTT.TXT | SA     | X | ABS       | Die Schülerdatei enthält Daten der Schüler und gegebenen Fächer im aktuellen Schuljahr.
- XXX_DATEA_JJJJMMTT.TXT | EA     | X | ABS       | Die Entlassenendatei entält Daten der entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
- XXX_DATSB_JJJJMMTT.TXT | SB     | - | BBS       | Die Schülerdatei enthält Daten der Schüler im aktuellen Schuljahr.
- XXX_DATEB_JJJJMMTT.TXT | EB     | - | BBS       | Die Entlassenendatei entält Daten der entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
- XXX_DATFB_JJJJMMTT.TXT | FB     | - | BBS       | Die Fächerdatei entält Daten der gegebenen Fächer aktuellen Schuljahr.
- XXX_DATOS_JJJJMMTT.TXT | OS     | - | BBS       | Die Oberstufendatei enthält Daten zu den Kursen in der Oberstufe.
+ XXX_DATLD_JJJJMMTT.TXT | LD     | X             | ABS / BBS | Die Leitdatei enthält Daten zu Ihrer Schule.
+ XXX_DATLE_JJJJMMTT.TXT | LE     | X             | ABS / BBS | Die Lehrerdatei enthält Daten zum Lehrer im aktuellen Schuljahr.
+ XXX_DATSA_JJJJMMTT.TXT | SA     | X             | ABS       | Die Schülerdatei enthält Daten der Schüler und gegebenen Fächer im aktuellen Schuljahr.
+ XXX_DATEA_JJJJMMTT.TXT | EA     | X             | ABS       | Die Entlassenendatei entält Daten der entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
+ XXX_DATSB_JJJJMMTT.TXT | SB     | -             | BBS       | Die Schülerdatei enthält Daten der Schüler im aktuellen Schuljahr.
+ XXX_DATEB_JJJJMMTT.TXT | EB     | -             | BBS       | Die Entlassenendatei entält Daten der entlassenen Schüler im vorangegangenen und aktuellen Schuljahr.
+ XXX_DATFB_JJJJMMTT.TXT | FB     | -             | BBS       | Die Fächerdatei entält Daten der gegebenen Fächer aktuellen Schuljahr.
+ XXX_DATOS_JJJJMMTT.TXT | OS     | -             | BBS       | Die Oberstufendatei enthält Daten zu den Kursen in der Oberstufe.
 
 !!! info "Hinweis"
     Die Angabe `XXX` steht für die Schulnummer der Schule und `JJJJMMTT` für das Erstellungsdatum z.B. 20140826.
@@ -35,9 +38,9 @@ Notwendige Schritte:
 2. Schritt: Statistisch relevante Daten in DAVINCI bzw. MAGELLAN eingeben
 3. Schritt: Kurswahlen (nur für Gymnasien/Gesamtschulen mit Oberstufe)
 4. Schritt: Lehrer (Soll-Ist-Berechnung) von DAVINCI nach MAGELLAN übertragen
-5. Schritt: Statistikdaten aus DAVINCI exportieren
-6. Schritt: [Datenprüfung](https://doc.ls.stueber.de/datenpruefung/)
-7. Schritt: Statistikdaten erstellen
+5. Schritt: [Statistikdaten aus DAVINCI exportieren](../dav.statistikdaten-exportieren.md)
+6. Schritt: [Datenprüfung](../datenpruefung.md)
+7. Schritt: [Statistikdateien erzeugen](../statistikdaten.erstellen.md)
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
@@ -100,9 +103,15 @@ So exportieren Sie Daten aus DAVINCI:
 
 Es kann vorkommen, dass für den aktuellen Statistikzeitraum bestimmte Besonderheiten aufgrund von Schlüsseländerungen oder speziellen Schnittstellenänderungen ihre besondere Aufmerksamkeit benötigen. In einem solchen Falle stehen alle verfügbaren Informationen dazu in diesem Kapitel.
 
-### Zur Statistik 2019/2020
+### Zur Statistik 2020/2021
 
-Zur aktuellen Statistik existieren derzeit keine Besonderheiten.
+#### 15.06.2020
+
+Das Amt hat fälschlicherweise einen Schlüssel aus der Tabelle "GTB" für die Ganztagsbetreuung entfernt. Dieser fehlt ggf. auch in Ihrer MAGELLAN Installation im Schlüsselverzeichnis "Betreuungsformen" und müsste, sofern dieser für Sie relevant ist, manuell nachgetragen werden: 
+
+Kürzel     | Schlüssel | Bezeichnung                        | Gültig von
+---------- | --------- | ---------------------------------- | ----------
+Teilg. GTS | 4         | teilweise gebundene Ganztagsschule | 01.08.2012
 
 ## Statistikdateien
 
@@ -214,7 +223,7 @@ Beschreibung      | Der Statistikwert wird entweder direkt aus der Klassenstufe 
 **Statistikfeld** | **GS - Geschlecht**
 Statistikdateien  | SA
 Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geschlecht  
-Beschreibung      | Geben Sie hier das Geschlecht des Schülers ein.
+Beschreibung      | Geben Sie hier das Geschlecht des Schülers ein. Kein Eintrag ergibt Schlüssel 5 = Kein Eintrag ins Geburtsregister
 **Statistikfeld** | **GBDAT - Geburtsdatum**
 Statistikdateien  | SA, EA, SB, EB
 Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geboren am  
@@ -245,8 +254,8 @@ Datenfeld         | MAGELLAN: Schüler > Daten 1 > Konfession (Verzeichnisse > K
 Beschreibung      | Geben Sie hier die Konfession des Schülers ein.
 **Statistikfeld** | **GTBU - Ganztagbetrieb**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Extras > Betreuung > Ganztagbetrieb
-Beschreibung      | Geben Sie hier an, ob der Schüler am Ganztagsbetrieb teilnimmt.
+Datenfeld         | MAGELLAN: Schüler > Extras > Betreuung > Ganztagbetrieb<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Gebunden<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Offen
+Beschreibung      | Geben Sie hier mit dem Haken bei `Ganztagbetrieb` an, ob ein Schüler grundsätzlich am Ganztagsbetrieb teilnimmt. Wenn ja, muss ein Wert im Feld `Gebunden` oder `Offen` ausgewählt werden. Die Art der Werte ist egal. Je nachdem welches Feld gefüllt ist, wird folgender Wert ausgespielt:<br>Gebunden = 1 voll gebundene Ganztagsschule<br>Offen = 2 offene Ganztagsschule mit Genehmigung
 **Statistikfeld** | **JGSTUF - Jahrgangsstufe (JGSTUF)**
 Statistikdateien  | SA, EA, SB, EB, FB, OA
 Datenfeld         | MAGELLAN: Klassen > Zeiträume > Klassenstufe (Verzeichnisse > Klassenstufen)
@@ -366,7 +375,7 @@ Beschreibung      | Anzahl der Schüler bestimmter Fächer, siehe UART.Statistik
 **Statistikfeld** | **WEIBL - Anzahl weiblicher Schüler**
 Statistikdateien  | FB
 Datenfeld         | -
-Beschreibung      | Anzahl der weiblichen Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet. 
+Beschreibung      | Anzahl der weiblichen Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet.
 **Statistikfeld** | **PROFIL**
 Statistikdateien  | OB
 Datenfeld         | MAGELLAN: Schueler > Daten 3 > ProfilSchueler > Zeugnis > Faecher > Unterrichtsart  
@@ -415,7 +424,7 @@ Einige der Daten können aus der Stundenverwaltung DAVINCI stammen. Aus diesem G
 **Spalte**        | **Beschreibung**  
 ----------------- | ----------------
 **Statistikfeld** | **DSTNR Dienststellennummer**  
-Datenfeld         |Mandanten > Daten 1 > Schulnummer. 
+Datenfeld         |Mandanten > Daten 1 > Schulnummer.
 Beschreibung      |Geben Sie die vom Land vergebene Schulnummer an.
 **Statistikfeld** | **LENR Lehrernummer**  
 Datenfeld         | MAGELLAN: Lehrer > Daten 2 > StatistikNr.
@@ -434,7 +443,7 @@ Datenfeld         |  MAGELLAN: Lehrer > Daten 1 > Geburtsname
 Beschreibung      | Geben Sie hier den Geburtsnamen des Lehrers ein.
 **Statistikfeld** | **GS Geschlecht**  
 Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Geschlecht
-Beschreibung      | Wählen Sie hier das Geschlecht des Lehrers aus.
+Beschreibung      | Wählen Sie hier das Geschlecht des Lehrers aus. Schlüssel 5 = Kein Eintrag ins Geburtsregister
 **Statistikfeld** | **GGBDAT Geburtsdatum**  
 Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Geboren am
 Beschreibung      | Geben Sie hier das Geburtsdatum des Lehrers ein.
@@ -495,24 +504,4 @@ Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in 
 
 ### Weggefallene Statistikangaben
 
-<table class="table" style="color: red">
-<thead style="background-color:#CEE3F6; font-weight: bold">
-  <tr>
-    <th>Statistikfeld</th>
-    <th>BEH - Behinderung (BEH)</th>    
-  </tr>
-</thead>
-<tbody align=left style="background-color:#FFFFFF;">
-  <tr>
-    <td>Statistikdateien</td>
-    <td>SB, EB</td>
-  </tr>
-  <tr>
-    <td>Datenfeld</td>
-    <td>MAGELLAN: Schueler > Daten 4 > Sonstige Daten > Behinderung [Behinderungsarten]</td>
-  </tr>
-  <tr>
-    <td>Beschreibung</td>
-    <td>Geben Sie hier die Behinderung des Schülers ein.</td>
-  </tr>    
-</table>
+-

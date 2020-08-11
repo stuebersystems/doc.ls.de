@@ -25,7 +25,7 @@ Schüler > Laufbahn > Abschluss > Abschluss 1<br>Schüler > Laufbahn > Abschluss
 
 !!! tip "Tipp"
 
-    Um die Felder `Abschluss1` und `Abschlussdatum1` unter `Schüler > Laufbahn > Abschluss`zu füllen steht Ihnen eine Sammelzuweisung zur Verfügung.
+    Um die Felder `Abschluss1` und `Abschlussdatum1` unter `Schüler > Laufbahn > Abschluss`zu füllen, steht Ihnen eine Sammelzuweisung zur Verfügung.
 
 ## Legende
 

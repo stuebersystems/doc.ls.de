@@ -7,6 +7,7 @@
 Schulform | Beschreibung
 -- | --
 `Schüler > Abschluss > Abschluss 1 > Abschlussart`<br/>`MAGELLAN > Abitur > Prüfung > Status` | **Für Berufskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` (Gliederungswerte: D01, D02, D05, D06) und der Eingabe unter `Schüler > Abschluss > Abschluss 1 > Abschlussart`.
+`Daten2 > G8/G9`  |**Für Gymnasien**:<br/>Es werden Schüler ausgegeben, die in einer Klasse mit der Jahrgangsstufe 12 oder 13 sind und einen Eintrag unter `Daten2 > G8/G9` haben (G8 = 12 und G9 = Jahrgang 13). Zum Befüllen des Feldes `G8/G9` steht Ihnen die Sammelzuweisung im `Menü Schüler` auf der Registerkarte `Schüler` zur Verfügung.
 
 ## Dateneingabe
 

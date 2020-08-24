@@ -2,7 +2,7 @@
 
 ## Voraussetzungen zum Export
 
-[Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-für-alle-statistikdaten)
 
 Schulform | Beschreibung
 -- | --

@@ -211,7 +211,7 @@ Beschreibung      | Achten Sie bitte darauf, dass für alle aktuellen und auch d
 **Exportfeld**    | **VOgliederung**
 SF / ST           | Alle / ABG, AKT, BAG
 Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildungsgang [Bildgungsgänge]
-Beschreibung      | Wechseln Sie in den Vorjahreszeitraum und tragen Sie analog zum Exportfeld Gliederung den Bildungsgang ein.
+Beschreibung      | Wechseln Sie in den Vorjahreszeitraum und tragen Sie analog zum Exportfeld Gliederung den Bildungsgang für die Klasse und die Schüler ein. Zum Zuweisen des Bildungsgangs können Sie die Sammelzuweisung verwenden, es steht eine Option zum Anpassen der aktuellen Ausbildung zur Verfügung.
 **Exportfeld**    | VOfachklasse
 SF / ST           | Alle / ABG, AKT, BAG
 Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildgungsgang [Bildungsgänge]

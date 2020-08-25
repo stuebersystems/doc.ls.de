@@ -212,14 +212,14 @@ Beschreibung      | Achten Sie bitte darauf, dass für alle aktuellen und auch d
 SF / ST           | Alle / ABG, AKT, BAG
 Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildungsgang [Bildgungsgänge]
 Beschreibung      | Wechseln Sie in den Vorjahreszeitraum und tragen Sie analog zum Exportfeld Gliederung den Bildungsgang für die Klasse und die Schüler ein. Zum Zuweisen des Bildungsgangs können Sie die Sammelzuweisung verwenden, es steht eine Option zum Anpassen der aktuellen Ausbildung zur Verfügung.
-**Exportfeld**    | VOfachklasse
+**Exportfeld**    | **VOfachklasse**
 SF / ST           | Alle / ABG, AKT, BAG
 Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildgungsgang [Bildungsgänge]
 Beschreibung      | Wechseln Sie in den Vorjahreszeitraum und tragen Sie analog zum Exportfeld Fachklasse den Bildungsgang ein.
 **Exportfeld**    | **VOOrgForm**
 SF / ST           | Alle / ABG, AKT, BAG
 Datenfeld         | MAGELLAN: Klassen > Daten > Organisation [Organisationen]
-Beschreibung      | Wechseln Sie in den Vorjahreszeitraum und tragen Sie analog zum Exportfeld OrgForm die Organisation der Klasse ein.
+Beschreibung      |echseln Sie in den Vorjahreszeitraum und tragen Sie analog zum Exportfeld Gliederung den Bildungsgang für die Klasse und die Schüler ein. Zum Zuweisen des Bildungsgangs können Sie die Sammelzuweisung verwenden, es steht eine Option zum Anpassen der aktuellen Ausbildung zur Verfügung.
 **Exportfeld**    | **VOKlassenart**
 SF / ST           | ABS / ABG, AKT, BAG
 Datenfeld         | MAGELLAN: Klassen > Merkmale > Merkmal S3 [Verzeichnisse > Merkmale > Klassen]

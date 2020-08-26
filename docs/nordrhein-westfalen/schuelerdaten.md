@@ -170,8 +170,7 @@ Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Sch
 **Exportfeld**    | **LSSchulnummer - Schulnummer der letzten Schule**
 SF / ST           | Alle / NZG, NZS
 Datenfeld         | MAGELLAN:<br/>Schulen > Daten > Schulnummer<br/>Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schule<br/>Schüler > Zugang/Abgang > Herkunftsschule
-Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulnummer der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulnummer des Mandanten ausgegeben.
-Tragen Sie bei den Schulen die Herkunftsschulen der Schüler mit deren Schulnummer ein.<br/>Wählen Sie unter Bereits besuchte Schulen die Schule aus.<br/>ählen Sie unter Herkunftsschule die eingetragene Schule aus.
+Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulnummer der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulnummer des Mandanten ausgegeben.<br/>Tragen Sie bei den Schulen die Herkunftsschulen der Schüler mit deren Schulnummer ein.<br/>Wählen Sie unter Bereits besuchte Schulen die Schule aus.<br/>ählen Sie unter Herkunftsschule die eingetragene Schule aus.
 **Exportfeld**    | **LSGliederung - Schulgliederung der letzten Schulen**
 SF / ST           | Alle / NZG
 Datenfeld         | MAGELLAN: Schüler > Daten 2 > Höchster Abschluss BBS > Bildungsgang[Bildungsgänge]<br/>
@@ -259,7 +258,8 @@ Beschreibung      | Wird nicht erfasst.
 **Exportfeld**    | **Versetzung**
 SF / ST           | Alle
 Datenfeld         | MAGELLAN:<br/>Schüler > Laufbahn > Allgemein > Versetzt<br/>Schüler > Laufbahn > Allgemein > Versetzungsart [Versetzungsarten]
-Beschreibung      | Sie können einen Schüler als `Versetzt` oder `Nicht Versetzt` über das Feld `Versetzt` angeben. Ist diese Feld leer oder Sie haben zusätzlich im Feld `Versetzungsart` einen Wert ausgewählt, dann wird dieses für die Versetzung ausgelesen.
+Beschreibung      | Sie können einen Schüler als `Versetzt` oder `Nicht Versetzt` über das Feld `Versetzt` angeben. Ist diese Feld leer oder Sie haben zusätzlich im Feld `Versetzungsart` einen Wert ausgewählt, dann wird dieses für die Versetzung ausgelesen.<br/><br/>Wo wird ausgelesen:<br/><br/>* Für Neuzugänge von anderen Schulen wird nichts ausgelesen<br/>* Für Neuzugänge der selben Schule wird das 2.HJ des vergangenen Jahres ausgelesen<br/>* Bei aktuellen Schülern wird der Eintrag das 2.HJ des vergangenen Jahres ausgelesen<br/>* Bei Abgängern aus dem vergangenen Schuljahr wird jeweils aus dem Abgangshalbjahre gelesen<br/>* Bei Abgängern aus dem aktuellen Schuljahr wird das 2.HJ des vergangenen Jahres ausgelesen
+
 **Exportfeld**    | **JahrZuzug**
 SF / ST           | -
 Datenfeld         | -

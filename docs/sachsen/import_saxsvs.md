@@ -150,7 +150,7 @@ Gemeinde | PLZ, Ort|-
 Staatsang1 | 'an_staatsang_1'| 'Staatsangehoerigkeiten'
 Staatsang2 | 'an_staatsang_2'| 'Staatsangehoerigkeiten'
 NichtDeutscheHerkunft | 'an_migr_grund'|- 
-Einschulmerkmal3|`al_laufb_kl`|-
+Einschulmerkmal3|'al_laufb_kl'|-
 EinschulungAntrag | 'al_ausgen'|-
 FFoerderung | 'al_laufb_bgut'|-
 FSP1 | 'al_fremd_fs1'| 'Faecher'

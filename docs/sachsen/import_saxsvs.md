@@ -93,7 +93,7 @@ Import von                   | Meldung
 **Betriebe**                 | Es ist ein Fehler beim Einfügen des Betriebs für den Schüler "Max Mustermann" aufgetreten.<br>Der Betrieb "Musterbetrieb" konnte nicht importiert werden. Der Datensatz wird übersprungen und der Vorgang wird fortgesetzt.<br><br>Fehler: `Eine Systemfehlermeldung` | Der Betrieb konnte nicht nach MAGELLAN eingespielt werden. Die Fehlermeldung sollte einen Hinweis auf den Grund geben.
 **Betriebe**                 | Es ist ein Fehler beim Einfügen des Betriebs für den Schüler "Max Mustermann" aufgetreten.<br>Die Id des Betriebs "Musterbetrieb" wurde nicht zurückgeliefert.
 **Schüler**                  | Es ist ein Fehler beim Einfügen des Schülers "Max Mustermann" aufgetreten.<br>Der Schüler konnte nicht importiert werden. Der Schüler wird übersprungen und der Vorgang wird fortgesetzt.
-**Schüler-Förderung**        | Es ist ein Fehler beim Einfügen der Schüler-Förderung für den Schüler "Max Mustermann" aufgetreten.<br>Die Förderung:<br>- Bedarf: Ein Förderbedarf'<br>- Schwerpunkt1: Förderschwerpunkg 1<br>- Schwerpunkt2: Förderschwerpunkt 2<br>- Behinderung: Behinderungsart<br>konnte nicht importiert werden. Der Datensatz wird übersprungen und der Vorgang wird fortgesetzt.';
+**Schüler-Förderung**        | Es ist ein Fehler beim Einfügen der Schüler-Förderung für den Schüler "Max Mustermann" aufgetreten.<br>Die Förderung:<br>- Bedarf: Ein Förderbedarf`<br>- Schwerpunkt1: Förderschwerpunkg 1<br>- Schwerpunkt2: Förderschwerpunkt 2<br>- Behinderung: Behinderungsart<br>konnte nicht importiert werden. Der Datensatz wird übersprungen und der Vorgang wird fortgesetzt.`;
 **Sorgeberechtigte**         | Es ist ein Fehler beim Einfügen des Sorgeberechtigten für den Schüler "Max Mustermann" aufgetreten.<br>Der/Die Sorgeberechtigte "Maria Mustermann" konnte nicht importiert werden. Der Datensatz wird übersprungen und der Vorgang wird fortgesetzt.
 **Schüler-Sorgeberechtigte** | Es ist ein Fehler beim Einfügen des Schueler-Sorgeberechtigten für den Schüler "Max Mustermann" aufgetreten. Der/Die Sorgeberechtigte "Maria Mustermann" konnte nicht importiert werden. Der Datensatz wird übersprungen und der Vorgang wird fortgesetzt.
 **Schüler-Ausbildung**       | Es ist ein Fehler beim Einfügen der Schüler-Ausbildung für den Schüler "Max Mustermann" aufgetreten.<br>Die Ausbildung "`Bildungsgang`" konnte nicht importiert werden. Der Datensatz wird übersprungen und der Vorgang wird fortgesetzt.
@@ -124,7 +124,7 @@ Starten Sie den Import oder die Prüfung per Klick auf `Fertigstellen`!
 
 Sollte Ihnen in der Auswahl im Exportassistenten nicht der Punkt `SAXSVS` gezeigt werden, ist vermutlich im Willkommensassistenten nicht die Bundeslandauswahl "Sachsen" getroffen worden.
 
-### So geht's
+### So geht`s
 
 1. Schließen Sie bitte MAGELLAN und starten Sie bitte den MAGELLAN ADMINISTRATOR und wechseln in den Menüpunkt `Datenbankverbindungen`.
 2. Klicken Sie doppelt auf Ihre Verbindungszeile, es öffnet sich das Fenster `Verbindungsdetails`.
@@ -136,38 +136,38 @@ Sollte Ihnen in der Auswahl im Exportassistenten nicht der Punkt `SAXSVS` gezeig
 
 Feld in MAGELLAN|Feld in der Schnittstelle|Verzeichnis
 --|--|--
-Vorname|'an_vname'|-
-Nachname | 'an_name'|-
-Geburtsname | 'an_gebname'|-
-Geburtsdatum | 'an_gebdat'|-
-Geburtsort | 'an_gebort'|-
-PLZ | 'an_plz'|-
-Ort | 'an_ort'|-
-Ortsteil | 'an_ortsteil-
-Strasse | 'an_strasse'|-
-Land | 'an_staat'|-
-Gemeinde | PLZ, Ort|-
-Staatsang1 | 'an_staatsang_1'| 'Staatsangehoerigkeiten'
-Staatsang2 | 'an_staatsang_2'| 'Staatsangehoerigkeiten'
-NichtDeutscheHerkunft | 'an_migr_grund'|- 
-Einschulmerkmal3|'al_laufb_kl'|-
-EinschulungAntrag | 'al_ausgen'|-
-FFoerderung | 'al_laufb_bgut'|-
-FSP1 | 'al_fremd_fs1'| 'Faecher'
-FSP2 | 'al_fremd_fs2'| 'Faecher'
-FSP3 | 'al_fremd_fs3'| 'Faecher'
-FHAbschlussABSSchulform | 'av_abs_schart'|  'SchulformenHerkunft'
-FHAbschlussABS | 'av_abs_zeugnis'|  'AbschluesseExtern'
-FHAbschlussBBSSchulform | 'av_bbs_schart'|  'SchulformenHerkunft'
-FHAbschlussBBS | 'av_bbs_zeugnis'|  'AbschluesseExtern'
-FMerkmalU2 | 'an_migr_dat'|- 
-FMerkmalS1 | 'al_status'| 'SchuelerMerkmale'
+`MAGELLAN > Schüler > Daten 1 > Vorname|`an_vname`|-|
+`MAGELLAN > Schüler > Daten 1 > Nachname` | `an_name`|-
+`MAGELLAN > Schüler > Daten 1 > Geburtsname` | `an_gebname`|-
+`MAGELLAN > Schüler > Daten 1 > Geburtsdatum` | `an_gebdat`|-
+`MAGELLAN > Schüler > Daten 1 > Geburtsort` | `an_gebort`|-
+`MAGELLAN > Schüler > Daten 1 > PLZ` | `an_plz`|-
+`MAGELLAN > Schüler > Daten 1 > Ort` | `an_ort`|-
+`MAGELLAN > Schüler > Daten 1 > Ortsteil` | `an_ortsteil` |-
+`MAGELLAN > Schüler > Daten 1 > Strasse` | `an_strasse`|-
+`MAGELLAN > Schüler > Daten 1 > Land` | `an_staat`|-
+`MAGELLAN > Schüler > Daten 1 > Gemeinde` | `PLZ, Ort`|-
+`MAGELLAN > Schüler > Daten 1 > Staatsang1` | `an_staatsang_1`| `Staatsangehoerigkeiten`
+`MAGELLAN > Schüler > Daten 1 > Staatsang2` | `an_staatsang_2`| `Staatsangehoerigkeiten`
+`MAGELLAN > Schüler > Daten 1 > NichtDeutscheHerkunft` | `an_migr_grund`|- 
+`MAGELLAN > Bewerber > Daten 1 >Einschulmerkmal3`|`al_laufb_kl`|-
+`MAGELLAN > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme` | `al_ausgen`|-
+FFoerderung | `al_laufb_bgut`|-
+`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache 1` | `al_fremd_fs1`| `Faecher`
+`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache 2` | `al_fremd_fs2`| `Faecher`
+`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache 3`| `al_fremd_fs3`| `Faecher`
+FHAbschlussABSSchulform | `av_abs_schart`|  `SchulformenHerkunft`
+FHAbschlussABS | `av_abs_zeugnis`|  `AbschluesseExtern`
+FHAbschlussBBSSchulform | `av_bbs_schart`|  `SchulformenHerkunft`
+FHAbschlussBBS | `av_bbs_zeugnis`|  `AbschluesseExtern`
+FMerkmalU2 | `an_migr_dat`|- 
+FMerkmalS1 | `al_status`| `SchuelerMerkmale`
 
 ### Daten4 > Beeinträchtigungen und Fördermaßnahmen
 
 Feld in MAGELLAN|Feld in der Schnittstelle|Verzeichnis
 --|--|--
-Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>als eine Zeile|'af_behart'=> Behinderung/Diagnose<br/>'al_mfoerdersw'=>Förderschwerpunkt1<br/>'an_migr_daz3'=>Fördermaßnahme/Bedarf|'Behinderungsarten'<br/>'FoerderSchwerpunkte'<br/>`J` ergibt `DAZ-3`
+Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>als eine Zeile|`af_behart`=> Behinderung/Diagnose<br/>`al_mfoerdersw`=>Förderschwerpunkt1<br/>`an_migr_daz3`=>Fördermaßnahme/Bedarf|`Behinderungsarten`<br/>`FoerderSchwerpunkte`<br/>`J` ergibt `DAZ-3`
 Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>als eine Zeile|`af_schwaeche` => Förderschwerpunkt2<br/>`af_schwaeche_dat`=>Von|`FoerderSchwerpunkte`
 Daten4 > Beeinträchtigungen und Fördermaßnahmen<br/>(ggfs. als mehrere Zeilen)|Bedarf=> `af_int`<br/>Schwerpunkt1=>`af_int_foerdersw`<br/>Von =>`af_int_von`<br/>Bis =>`af_int_bis`<br/>tunden1 =>`af_int_rs_std`<br/>Stunden2 =>`af_int_fs_std`| SopaedFoerderungen<br/>FoerderSchwerpunkte<br/>-<br/>-<br/>-<br/>-
 

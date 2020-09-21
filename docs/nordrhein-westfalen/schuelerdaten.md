@@ -102,8 +102,13 @@ Datenfeld         | MAGELLAN: `Klassen > Zeiträume > Klassenstufe`[Klassenstufe
 Beschreibung      | Wählen Sie die Klassenstufe der Klasse aus.
 **Exportfeld**    | **Foerderschwerp**
 SF / ST           | Alle
+<<<<<<< HEAD
 Datenfeld         | MAGELLAN:<br/>`Klassen > Daten > Schwerpunkt1 und Schwerpunkt2`[Förderungen]<br/>`Schueler > Daten 4 > Beinträchtigung und Fördermaßnahmen > Schwerpunkt1 und Schwerpunkt2`[Förderungen]<br>>`Schueler > Daten 4 > Beinträchtigung und Fördermaßnahmen > Von-Datum`
 Beschreibung      | Es werden die eingetragenen Förderschwerpunkte der Klasse ausgelesen, wenn keine Einträge beim Schüler gemacht wurden. In der Liste der Fördermaßnahmen beim Schüler wird der erste Datensatz ausgelesen, dessen Von- Datum, in den entsprechenden Zeitraum passen, sortiert nach der eingetragenen Position!! <br/><br/>**Folgende Von-Bis-Daten werden ausgegeben:**<br/>Das Fördermaßnahmen-Von-Datum muss kleiner oder gleich dem Zeitraum-Von-Datum sein.<br/><br/>**WICHTIG**: Die Schlüssel für den 2. Förderschwerpunkt haben im Kürzel den Wert "_2" stehen und nur diese dürfen dafür genutzt werden. Alle anderen sind Schlüssel für den 1. Förderschwerpunkt.
+=======
+Datenfeld         | MAGELLAN:<br/>`Klassen > Daten > Schwerpunkt1 und Schwerpunkt2`[Förderungen]<br/>`Schueler > Daten 4 > Beinträchtigung und Fördermaßnahmen > Schwerpunkt1 und Schwerpunkt2`[Förderungen]<br>>`Schueler > Daten 4 > Beinträchtigung und Fördermaßnahmen > Von und Bis-Daten`
+Beschreibung      | Es werden die eingetragenen Förderschwerpunkte der Klasse ausgelesen, wenn keine Einträge beim Schüler gemacht wurden. In der Liste der Fördermaßnahmen beim Schüler wird der erste Datensatz ausgelesen, dessen Von- und Bis- Daten, in den entsprechenden Zeitraum passen, sortiert nach der eingetragenen Position!! <br/><br/>**Folgende Von-Bis-Daten werden ausgegeben:**<br/>Das Fördermaßnahmen-Von-Datum muss kleiner oder gleich dem Zeitraum-Von-Datum sein.<br/>Das Bis-Datum muss nicht erfasst werden.<br/><br/>**WICHTIG**: Die Schlüssel für den 2. Förderschwerpunkt haben im Kürzel den Wert "_2" stehen und nur diese dürfen dafür genutzt werden. Alle anderen sind Schlüssel für den 1. Förderschwerpunkt.
+>>>>>>> 36a544dd66dac09a58753ea73b66165e283de949
 **Exportfeld**    | **Schwerstbeh - Schwerstbehindert**
 SF / ST           | Alle
 Datenfeld         | MAGELLAN: `Schüler > Daten 4 > Beinträchtigung und Fördermaßnahmen > Förderbedarf`[Förderbedarf]
@@ -305,8 +310,8 @@ Datenfeld         | MAGELLAN: `Schüler > Statistik > Merkmal S2` [Merkmale]
 Beschreibung      | Wählen Sie aus, ob der Schüler von einem Ausbildungsbetrieb oder einem Träger ausgebildet wird.
 **Exportfeld**    | **Betreuung**
 SF / ST           | G, GY, GE / Alle
-Datenfeld         | MAGELLAN: `Schüler > Extras > Betreuungsarten > Innerschulisch 1` [Betreuungen innerschulisch (Schüler)]
-Beschreibung      | Wählen Sie die Betreuungsmaßnahme der Nachmittags/Ganztagsbetreuung aus. Ist den Schülern kein Wert zugewiesen wird standardmäßig `-1` ausgegeben.
+Datenfeld         | MAGELLAN: Schüler > Extras > Betreuungsarten > Innerschulisch 1 [Betreuungen innerschulisch (Schüler)]
+Beschreibung      | Wählen Sie die Betreuungsmaßnahme der Nachmittags/Ganztagsbetreuung aus. 
 **Exportfeld**    | **BKAZVO**
 SF / ST           | BK, SB / NZG
 Datenfeld         | MAGELLAN: `Schüler > Statistik > Merkmal T1`

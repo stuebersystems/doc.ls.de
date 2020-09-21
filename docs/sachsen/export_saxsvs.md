@@ -21,7 +21,11 @@ Wenn eines der folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SA
 Feld in MAGELLAN                             | Art       | Beschreibung
 -------------------------------------------- | --------- | ------------
 Schüler > Daten 2 > Abgang > Abgangsart<br>Schüler Daten 2 > Abgang > Abgang am | Abgänger  | Beide Felder müssen gefüllt sein. Das AbgangAm muss innerhalb des vorigen Schuljahres liegen.
-Schüler > Laufbahn > Abschluss > Abschluss 1<br>Schüler > Laufbahn > Abschluss > Abschlussdatum1 | Abschluss | Beide Felder müssen gefüllt sein.
+Schüler > Laufbahn > Abschluss > Abschluss 1<br>Schüler > Laufbahn > Abschluss > Abschlussdatum1 | Abschluss | Beide Felder müssen gefüllt sein. Das Abschlussdatum1 muss innerhalb des vorigen Schuljahres liegen.
+
+!!! warning "Wichtig"
+
+    Die Einträge in den Datums-Feldern **AbgangAm** (`Daten2 > Abgang`) und **Abschlussdatum1** (`Laufbahn > Abschluss`) müssen innerhalb der Von- und Bis-Daten des jeweiligen Zeitraumes liegen.
 
 !!! tip "Tipp"
 

@@ -6,11 +6,17 @@
 
 ## Prüfung von Schülerdaten
 
-Wir erläutern nachstehend unser Vorgehen beim Import von Schülern aus einer aus SaxSVS erzeugten Datei. Wechselt ein Schüler die Schule, wird dieser Wechsel innerhalb von SaxSVS vorgenommen, die neue GUID wird dabei innerhalb von SaxSVS erzeugt.
+Wir erläutern nachstehend unser Vorgehen beim Import von Schülern aus einer aus SaxSVS erzeugten Datei. 
 
-Diese GUID kennzeichnet nicht den Schüler, sondern wird für den Schüler in Verbindung mit seiner Ausbildung vergeben. Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler einen neue GUID. Diese GUID ist in MAGELLAN in der Oberfläche nicht sichtbar.
+Jeder Schüler hat eine sogenannte GUID, die den Schüler und seine Ausbildung kennzeichnet.
 
-!!! warning "Wichtig"
+Diese **GUID** kennzeichnet nicht den Schüler (gibt es auch in MAGELLAN, wird aber nicht im Zusammenspiel mit SaxSVS verwendet), sondern wird für den Schüler in Verbindung mit seiner Ausbildung vergeben. 
+
+Ein Beispiel:
+
+Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler eine neue GUID - diese wird innerhalb von SaxSVS vergeben, nicht in MAGELLAN. 
+
+!!! danger "Achtung"
 
     Damit die importierten Schüler beim späteren Übertrag nach SaxSVS wiedererkannt werden können, darf die GUID nicht innerhalb von MAGELLAN geändert werden. Wird die GUID auf der Ausbildungskarte geändert, wird der Schüler als weiterer Datensatz nach SaxSVS übergeben, als Ergebnis erscheint der Schüler in SaxSVS doppelt.
 

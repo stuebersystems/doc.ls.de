@@ -112,7 +112,7 @@ Fehlen diese Angaben, wird der Schüler nicht importiert.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<schueler extern_id>`
-**Beschreibung** | GUID des Schülers.
+**Beschreibung** | GUID des Schülers für seine Ausbildung.
 **Feld**         | `<an_vname>`
 **Beschreibung** | Vorname des Schülers.
 **Feld**         | `<an_name>`

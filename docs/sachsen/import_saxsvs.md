@@ -6,17 +6,6 @@
 
 ## Prüfung von Schülerdaten
 
-Wir erläutern nachstehend unser Vorgehen beim Import von Schülern aus einer aus SaxSVS erzeugten Datei. 
-
-Erst einmal allgemein: Jeder Schüler hat eine sogenannte GUID, die den Schüler mit seiner Ausbildung kennzeichnet. Wechselt der Schüler in einen anderen Bildungsgang (Beispiel: vom Bäcker zum Erzieher), wird auch die GUID geändert.
-
-Ein Beispiel:
-Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler eine neue GUID - **diese wird innerhalb von SaxSVS vergeben, nicht in MAGELLAN**. 
-
-!!! danger "Achtung"
-
-    Damit die importierten Schüler beim späteren Übertrag nach SaxSVS wiedererkannt werden können, darf die GUID nicht innerhalb von MAGELLAN geändert werden. Wird die GUID auf der Ausbildungskarte geändert, wird der Schüler als weiterer Datensatz nach SaxSVS übergeben, als Ergebnis erscheint der Schüler in SaxSVS doppelt.
-
 Beim Import wird eine zweistufige Prüfung durchgeführt.
 
 Stufe 1:
@@ -40,7 +29,18 @@ Wird ein Schüler als bereits in MAGELLAN vorhanden erkannt, wird er importiert,
 
 !!! info "Hinweis"
 
-    Ob in Ihrer Importdatei Schüler als bereits vorhanden erkannt werden, können Sie mithilfe der Opiton "Daten prüfen" durch den Importassistenen vorab prüfen lassen.
+    Ob in Ihrer Importdatei Schüler als bereits vorhanden erkannt werden, können Sie mithilfe der Option "Daten prüfen" durch den Importassistenen vorab prüfen lassen.
+
+### GUID - Was muss bei importierten Schülern beachtet werden
+
+Erst einmal allgemein: Jeder Schüler hat eine sogenannte GUID, die den Schüler mit seiner Ausbildung kennzeichnet. Wechselt der Schüler in einen anderen Bildungsgang (Beispiel: vom Bäcker zum Erzieher), wird auch die GUID geändert.
+
+Ein Beispiel:
+Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler eine neue GUID - **diese wird innerhalb von SaxSVS vergeben, nicht in MAGELLAN**. 
+
+!!! danger "Achtung"
+
+    Damit die importierten Schüler beim späteren Übertrag nach SaxSVS wiedererkannt werden können, darf die GUID nicht innerhalb von MAGELLAN geändert werden. Wird die GUID auf der Ausbildungskarte geändert, wird der Schüler als weiterer Datensatz nach SaxSVS übergeben, als Ergebnis erscheint der Schüler in SaxSVS doppelt.
 
 ## Prüfung von Betriebedaten der Ausbildung
 

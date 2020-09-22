@@ -6,6 +6,14 @@
 
 ## Prüfung von Schülerdaten
 
+Wir erläutern nachstehend unser Vorgehen beim Import von Schülern aus einer aus SaxSVS erzeugten Datei. Wechselt ein Schüler die Schule, wird dieser Wechsel innerhalb von SaxSVS vorgenommen, die neue GUID wird dabei innerhalb von SaxSVS erzeugt.
+
+Diese GUID kennzeichnet nicht den Schüler, sondern wird für den Schüler in Verbindung mit seiner Ausbildung vergeben. Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler einen neue GUID. Diese GUID ist in MAGELLAN in der Oberfläche nicht sichtbar.
+
+!!! warning "Wichtig"
+
+    Damit die importierten Schüler beim späteren Übertrag nach SaxSVS wiedererkannt werden können, darf die GUID nicht innerhalb von MAGELLAN geändert werden. Wird die GUID auf der Ausbildungskarte geändert, wird der Schüler als weiterer Datensatz nach SaxSVS übergeben, als Ergebnis erscheint der Schüler in SaxSVS doppelt.
+
 Beim Import wird eine zweistufige Prüfung durchgeführt.
 
 Stufe 1:
@@ -21,8 +29,7 @@ Dieser Fall wird anhand folgender Felder geprüft:
 * Geburtsdatum (muss identisch sein)
 * IDIntern (muss leer sein)
 
-Wir hier ein Schüler als bereits in MAGELLAN vorhanden erkannt, wird er importiert, erhält aber zusätzlich einen Eintrag im Feld IDIntern mit der ID des gefundenen Stammschülers. Dieser Schüler wird anschließend genau wie ein Nebenschüler behandelt, wird er im selben Zeitraum wie der Stammschüler eingeschult, ergeben sich zwei Schüler, die über die IDIntern verbunden sind, damit gleiche Stammdaten haben. Wird der Nebenschüler in einem anderen Halbjahr eingeschult, als der Stammschüler gefunden wurde, werden Neben- und Stammschüler zusammengeführt.
-
+Wird ein Schüler als bereits in MAGELLAN vorhanden erkannt, wird er importiert, erhält aber zusätzlich einen Eintrag im Feld IDIntern mit der ID des gefundenen Stammschülers. Dieser Schüler wird anschließend genau wie ein Nebenschüler behandelt, wird er im selben Zeitraum wie der Stammschüler eingeschult, ergeben sich zwei Schüler, die über die IDIntern verbunden sind, damit gleiche Stammdaten haben. Wird der Nebenschüler in einem anderen Halbjahr eingeschult, als der Stammschüler gefunden wurde, werden Neben- und Stammschüler zusammengeführt.
 
 !!! warning "Wichtig"
 

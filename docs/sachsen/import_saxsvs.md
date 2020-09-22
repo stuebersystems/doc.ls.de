@@ -8,13 +8,10 @@
 
 Wir erläutern nachstehend unser Vorgehen beim Import von Schülern aus einer aus SaxSVS erzeugten Datei. 
 
-Jeder Schüler hat eine sogenannte GUID, die den Schüler und seine Ausbildung kennzeichnet.
-
-Diese **GUID** kennzeichnet nicht den Schüler (gibt es auch in MAGELLAN, wird aber nicht im Zusammenspiel mit SaxSVS verwendet), sondern wird für den Schüler in Verbindung mit seiner Ausbildung vergeben. 
+Erst einmal allgemein: Jeder Schüler hat eine sogenannte GUID, die den Schüler mit seiner Ausbildung kennzeichnet. Wechselt der Schüler in einen anderen Bildungsgang (Beispiel: vom Bäcker zum Erzieher), wird auch die GUID geändert.
 
 Ein Beispiel:
-
-Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler eine neue GUID - diese wird innerhalb von SaxSVS vergeben, nicht in MAGELLAN. 
+Absolviert ein Schüler eine Ausbildung als Bäcker an Schule 1 und wechselt anschließend für eine Ausbildung als Erzieher an Schule 2, erhält der Schüler eine neue GUID - **diese wird innerhalb von SaxSVS vergeben, nicht in MAGELLAN**. 
 
 !!! danger "Achtung"
 

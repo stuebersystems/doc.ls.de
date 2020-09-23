@@ -16,17 +16,20 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die Aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die Abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres
 berücksichtigt.
 
-Wenn eines der folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SASXSVA-A Datei berücksichtigt:
+Wenn eines der folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SAXSVS-A Datei berücksichtigt:
 
 Feld in MAGELLAN                             | Art       | Beschreibung
 -------------------------------------------- | --------- | ------------
-Schüler > Daten 2 > Abgang > Abgangsart<br>Schüler Daten 2 > Abgang > Abgang am | Abgänger  | Beide Felder müssen gefüllt sein. Das AbgangAm muss innerhalb des vorigen Schuljahres liegen.
-Schüler > Laufbahn > Abschluss > Abschluss 1<br>Schüler > Laufbahn > Abschluss > Abschlussdatum1 | Abschluss | Beide Felder **müssen** gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)! Das Abschlussdatum1 muss innerhalb des vorigen Schuljahres liegen.
+Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | Abgänger  | Beide Felder müssen gefüllt sein. 
+Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Abschluss > **Abschlussdatum1** | Abschluss | Beide Felder **müssen** gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)! Das `Abschlussdatum1` muss innerhalb des vorigen Schuljahres liegen.
 
 !!! danger "Achtung"
 
-    Die Einträge in den Datums-Feldern **AbgangAm** (`Daten2 > Abgang`) und **Abschlussdatum1** (`Laufbahn > Abschluss`) müssen innerhalb der Von- und Bis-Daten des jeweiligen Zeitraumes liegen. Liegt das `Abschlussdatum1` in einem anderen Zeitraum als das Datum aus dem Feld `AbgangAm`, werden Fehlermeldungen ausgegeben.
-    Bitte beachten Sie auch, dass die Von- und Bis-Daten im Zeitraumverzeichnis Ihrer Datenbank dem Standard 01.08-31.01 und 01.02-31.07 entsprechen müssen!
+    Drei Bedingungen müssen für die Datumswerte erfüllt werden:
+    
+    1. Die Datumswerte aus `AbgangAm` und `Abschlussdatum1` müssen im selben Zeitraum liegen.
+    2. Die Datumseinträge müssen dem vergangenen Schuljahr entsprechen.
+    3. Die Von- und Bis-Daten der Zeiträume (`Extras > Schlüsselverzeichnisse > Zeiträume`) müssen 01.08-31.01 oder 01.02-31.07 sein.
 
 !!! tip "Tipp"
 

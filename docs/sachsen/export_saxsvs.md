@@ -13,8 +13,8 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
 ## Abgänger in SAXSVS-A
 
-SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die Aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die Abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres
-berücksichtigt.
+SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres berücksichtigt.
+
 
 Wenn eines der folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SAXSVS-A Datei berücksichtigt:
 
@@ -133,7 +133,11 @@ Dies ergibt sich aus folgenden Regeln:
 
 !!! danger "Achtung"
 
-    Wann wird die GUID erzeugt: <br/> * Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt. <br/> *  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben. <br/> * Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll. <br/> * Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
+    Wann wird die GUID erzeugt: 
+    1. Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
+    2.  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
+    3.  Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll.
+    4.  Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
 
 Ein Schüler ohne GUID wird vom Export ausgeschlossen!
 

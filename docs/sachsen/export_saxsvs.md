@@ -25,11 +25,10 @@ Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Absch
 
 !!! danger "Achtung"
 
-    Drei Bedingungen müssen für die Datumswerte erfüllt werden:
+    Zwei Bedingungen müssen für die Datumswerte erfüllt werden:
     
-    1. Die Datumswerte aus `AbgangAm` und `Abschlussdatum1` müssen im selben Zeitraum liegen.
-    2. Die Datumseinträge müssen dem vergangenen Schuljahr entsprechen.
-    3. Die Von- und Bis-Daten der Zeiträume (`Extras > Schlüsselverzeichnisse > Zeiträume`) müssen 01.08-31.01 oder 01.02-31.07 sein.
+    1. Die Datumswerte aus `AbgangAm` und `Abschlussdatum1` müssen im selben Zeitraum des vergangenen Schuljahres liegen.
+    2. Die Von- und Bis-Daten der Zeiträume (`Extras > Schlüsselverzeichnisse > Zeiträume`) müssen 01.08-31.01 oder 01.02-31.07 sein.
 
 !!! tip "Tipp"
 

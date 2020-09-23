@@ -34,6 +34,8 @@ Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Absch
 
     Um die Felder `Abschluss1` und `Abschlussdatum1` unter `Schüler > Laufbahn > Abschluss`zu füllen, steht Ihnen eine Sammelzuweisung zur Verfügung.
 
+## Aktuelle Schüler in SAXSVS
+
 ## Legende
 
 Erklärung zu einigen wenigen Abkürzungen bzw. erwähnenswerten Anmerkungen die in der Beschreibung verwendet werden.

@@ -558,6 +558,10 @@ Titel            | Inhalt
 
 Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
 
+!!! danger "Achtung"
+
+    Wenn die Gemeindekennziffer des Betriebes gefüllt ist, füllen wir automatisch das Feld Land mit `De`. Ist das Feld `Land` und das Feld 'Gemeinde' leer, wird in der Prüfung eine Fehlermeldung ausgegeben.
+
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP

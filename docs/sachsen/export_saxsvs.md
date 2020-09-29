@@ -325,7 +325,7 @@ Wird ausgegeben, wenn der Schüler im Ausland wohnt.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_staat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. Der auszugebende Wert wird berechnet. Aktuell berechnen wir folgende Länder:<br/>PL = Polen<br/>CZ = Tschechiche Republik<br/>CH = Schweiz.<br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. <br/>MAGELLAN setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
 **Feld**         | `<an_plz>` - OP
 **Beschreibung** | `MAGELLAN > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
 **Feld**         | `<an_ort>` - OP
@@ -393,7 +393,7 @@ Titel            | Inhalt
 **Feld**         | `<sorgeberechtigte><as_name>` - OP
 **Beschreibung** | `Sorgeberechtigte > Nachname`<br/>Nachname des Sorgeberechtigten.
 **Feld**         | `<sorgeberechtigter><as_staat>` - OP
-**Beschreibung** | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>Mögliche Einträge: D (De, Deu), PL, CZ oder CH.<br/>Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support.
+**Beschreibung** | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>MAGELLAN setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>AT=Österreich (151)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support.
 **Feld**         | `<sorgeberechtigter><as_land>`
 **Beschreibung** | `Sorgeberechtigte > Gemeindekennziffer`<br/>Das Wohnbundesland des Sorgeberechtigten (wenn in Deutschland lebend wird aus der Gemeindekennziffer errechnet.
 **Feld**         | `<sorgeberechtigter><as_plz>`

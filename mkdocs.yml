@@ -22,6 +22,9 @@ theme:
         primary: 'blue'
         accent: 'deep orange'
     font: false
+    features:
+        - navigation.tabs
+        - navigation.instant
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
     include_search_page: false

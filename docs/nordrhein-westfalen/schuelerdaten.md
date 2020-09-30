@@ -171,23 +171,23 @@ Beschreibung      | Der Schüler muss eine aktuelle Ausbildung eingetragen haben
 **Exportfeld**    | **LSSchulform - Schulform der letzten Schule**
 SF / ST           | Alle / NZG, NZS
 Datenfeld         | MAGELLAN:<br/>`Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schule`<br/>`Zugang/Abgang > Bereits besuchte Schulen > Schulform`[Schulformen]<br/>`Schüler > Zugang/Abgang > Herkunftsschule`
-Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulform der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulform des Mandanten ausgegeben.
+Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulform der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulform des Mandanten ausgegeben. <br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSSchulnummer - Schulnummer der letzten Schule**
 SF / ST           | Alle / NZG, NZS
 Datenfeld         | MAGELLAN:<br/>`Schulen > Daten > Schulnummer`<br/>`Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schule`<br/>`Schüler > Zugang/Abgang > Herkunftsschule`
-Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulnummer der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulnummer des Mandanten ausgegeben.<br/>Tragen Sie bei den Schulen die Herkunftsschulen der Schüler mit deren Schulnummer ein.<br/>Wählen Sie unter Bereits besuchte Schulen die Schule aus.<br/>Wählen Sie unter Herkunftsschule die eingetragene Schule aus.
+Beschreibung      | Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulnummer der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulnummer des Mandanten ausgegeben.<br/>Tragen Sie bei den Schulen die Herkunftsschulen der Schüler mit deren Schulnummer ein.<br/>Wählen Sie unter Bereits besuchte Schulen die Schule aus.<br/>Wählen Sie unter Herkunftsschule die eingetragene Schule aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSGliederung - Schulgliederung der letzten Schulen**
 SF / ST           | Alle / NZG
 Datenfeld         | MAGELLAN: `Schüler > Daten 2 > Höchster Abschluss BBS > Bildungsgang`[Bildungsgänge]<br/>
-Beschreibung      | Die mitgebrachte Schulgliederung tragen Sie über die dazugehörige Fachklasse über den Höchsten berufsbildenden Bildungsgang ein. Die Berechnung des Schlüssels erfolgt wie bei der Gliederung.
+Beschreibung      | Die mitgebrachte Schulgliederung tragen Sie über die dazugehörige Fachklasse über den Höchsten berufsbildenden Bildungsgang ein. Die Berechnung des Schlüssels erfolgt wie bei der Gliederung.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSFachklasse**
 SF / ST           | Alle / NZG
 Datenfeld         | MAGELLAN: `Schüler > Daten 2 > Höchster Abschluss BBS > Bildungsgang `[Bildungsgänge]
-Beschreibung      | Die mitgebrachte Fachklasse tragen Sie über den Höchsten berufsbildenden Bildungsgang ein. Die Berechnung des Schlüssels erfolgt wie bei der Fachklasse.
+Beschreibung      | Die mitgebrachte Fachklasse tragen Sie über den höchsten berufsbildenden Bildungsgang ein. Die Berechnung des Schlüssels erfolgt wie bei der Fachklasse.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSKlassenart**
 SF / ST           | ABS / NZG, NZS
 Datenfeld         | MAGELLAN: `Schüler > Zugang/Abgang > Bereits besuchte Schule > Herkunftsart` [Herkunftsarten]
-Beschreibung      | Tragen Sie die Art der Klasse an der letzten Schule, z.B. Regelklasse ein.
+Beschreibung      | Tragen Sie die Art der Klasse an der letzten Schule, z.B. Regelklasse ein.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSReformpdg**
 SF / ST           | -
 Datenfeld         | -
@@ -199,15 +199,15 @@ Beschreibung      | Geben Sie für die Herkunfsschule den Schulbesuch bis an.
 **Exportfeld**    | **LSJahrgang**
 SF / ST           | Alle / NZG
 Datenfeld         | MAGELLAN:<br/>`Schüler > Zugang/Abgang > Bereits besuchte Schulen > Letzte Klassenstufe` [Klassenstufen]<br/>`Schüler > Zugang/Abgang > Herkunftsschule`
-Beschreibung      | Wählen Sie für die Herkunfsschule die Letzte Klassenstufe aus.
+Beschreibung      | Wählen Sie für die Herkunfsschule die Letzte Klassenstufe aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSQual**
 SF / ST           | Alle / NZG
 Datenfeld         | MAGELLAN: `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss` [Abschlüsse (Extern)]
-Beschreibung      | Grundsätzlich berechnet ASDPC den Höchsten allgemeinbildenden Abschluss aus dem Statistikfeld LSQual und Zeugnis, wobei LSQual eigentlich den letzten höchsten ABS Abschluss darstellt, z.B. aus einer anderen Schule. In MAGELLAN tragen Sie den höchsten Abschluss ABS nur an einer Stelle ein, auch wenn dieser an Ihrer eigenen Schule erworben wurde.
+Beschreibung      | Grundsätzlich berechnet ASDPC den Höchsten allgemeinbildenden Abschluss aus dem Statistikfeld LSQual und Zeugnis, wobei LSQual eigentlich den letzten höchsten ABS Abschluss darstellt, z.B. aus einer anderen Schule. In MAGELLAN tragen Sie den höchsten Abschluss ABS nur an einer Stelle ein, auch wenn dieser an Ihrer eigenen Schule erworben wurde.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **LSVersetz**
 SF / ST           | Alle / NZG
 Datenfeld         | MAGELLAN:<br/>`Schüler > Zugang/Abgang > Bereits besuchte Schulen > Unterlagen`[ Herkunftsunterlagen]<br/>`Schüler > Zugang/Abgang > Herkunftsschule`
-Beschreibung      | Wählen Sie für die Herkunftsschule als Versetzungsart die Unterlagen aus.
+Beschreibung      | Wählen Sie für die Herkunftsschule als Versetzungsart die Unterlagen aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 **Exportfeld**    | **VOklasse**
 SF / ST           | Alle / ABG, AKT, BAG
 Datenfeld         | MAGELLAN: `Klassen > Daten > Statistikkürzel`

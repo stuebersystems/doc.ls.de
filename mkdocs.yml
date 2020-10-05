@@ -97,7 +97,7 @@ nav:
   - Schlüsselpflege: sachsen/schluessel.md
   - Daten exportieren: sachsen/export_saxsvs.md
   - Daten importieren: sachsen/import_saxsvs.md
-- Schleswig-Holstein:
+- SHL:
   - Einstieg: schleswig-holstein/einstieg.md
   - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
   - Aktuelle Version: schleswig-holstein/changelog.md

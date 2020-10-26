@@ -73,6 +73,11 @@ SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs
 
 Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
 
+Titel            | Inhalt
+---------------- | ------
+**Feld**         | ``Klassen > Daten > Statistikkürzel``
+**Beschreibung** | Bitte geben Sie in diesem Feld das Klassenkürzel ein. Schüler aus Klassen ohne Statisitkkürzel werden für den Export nicht berücksichtigt.
+
 Ohne Angaben zur **Ausbildung** beim Schüler wird der Schüler nicht in die XML-Datei gespielt und Sie erhalten einen entsprechenden Hinweis beim Durchlauf.
 Alle folgenden Felder der Ausbildung `müssen` gepflegt sein, sind damit `Pflichtfelder`. Dies gilt auch für Schüler die in SAXSVS zum Löschen markiert werden sollen.
 

@@ -17,11 +17,11 @@ SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätz
 
 Wenn eine der beiden folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SAXSVS-A Datei berücksichtigt:
 
-Feld in MAGELLAN                             | Art       | Beschreibung
--------------------------------------------- | --------- | ------------
-Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | Abgänger  | Schüler ist ausgeschult und beide Felder müssen gefüllt sein.
+Feld in MAGELLAN                             | Beschreibung
+-------------------------------------------- | ------------
+Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | **Abgänger**<br>Schüler ist ausgeschult und beide Felder müssen gefüllt sein.
  | **ODER** |  
-Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Abschluss > **Abschlussdatum1** | Abschluss | Schüler ist ausgeschult und beide Felder müssen gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)!
+Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Abschluss > **Abschlussdatum1** | **Abschluss**<br> Schüler ist ausgeschult und beide Felder müssen gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)!
 
 !!! danger "Achtung"
 

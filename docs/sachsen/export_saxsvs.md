@@ -19,9 +19,9 @@ Wenn eine der beiden folgenden Vorgaben erfüllt ist, dann wird ein Schüler in 
 
 Feld in MAGELLAN                             | Art       | Beschreibung
 -------------------------------------------- | --------- | ------------
-Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | Abgänger  | Beide Felder müssen gefüllt sein.
+Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | Abgänger  | Schüler ist ausgeschult und beide Felder müssen gefüllt sein.
  | **ODER** |  
-Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Abschluss > **Abschlussdatum1** | Abschluss | Beide Felder müssen gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)!
+Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Abschluss > **Abschlussdatum1** | Abschluss | Schüler ist ausgeschult und beide Felder müssen gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)!
 
 !!! danger "Achtung"
 

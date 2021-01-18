@@ -2,7 +2,7 @@
 
 1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/sachsen/einstieg/#voraussetzungen-fur-den-export))
 2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in MAGELLAN.
-3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](saxsvs_xml.erzeugen.md), wie Sie den Export durchführen.
+3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](exportdatei_erzeugen.md), wie Sie den Export durchführen.
 
 Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in MAGELLAN eingepflegt werden.
 Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.

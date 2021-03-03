@@ -2,7 +2,7 @@
 
 1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/sachsen/einstieg/#voraussetzungen-fur-den-export))
 2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in MAGELLAN.
-3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](saxsvs_xml.erzeugen.md), wie Sie den Export durchführen.
+3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](exportdatei_erzeugen.md), wie Sie den Export durchführen.
 
 Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in MAGELLAN eingepflegt werden.
 Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
@@ -13,15 +13,28 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
 ## Abgänger in SAXSVS-A
 
-SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die Aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die Abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres
-berücksichtigt.
+SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres berücksichtigt.
 
-Wenn eines der folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SASXSVA-A Datei berücksichtigt:
+Wenn eine der beiden folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SAXSVS-A Datei berücksichtigt:
 
-Feld in MAGELLAN                             | Art       | Beschreibung
--------------------------------------------- | --------- | ------------
-Schüler > Daten 2 > Abgang > Abgangsart<br>Schüler Daten 2 > Abgang > Abgang am | Abgänger  | Beide Felder müssen gefüllt sein. Das AbgangAm muss innerhalb des vorigen Schuljahres liegen.
-Schüler > Laufbahn > Abschluss > Abschluss 1 | Abschluss | Das Feld müss gefüllt sein.
+Feld in MAGELLAN                             | Beschreibung
+-------------------------------------------- | ------------
+Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | **Abgänger**<br>Schüler ist ausgeschult und beide Felder müssen gefüllt sein.
+ | **ODER** |  
+Schüler > Laufbahn > Abschluss > **Abschluss 1**<br>Schüler > Laufbahn > Abschluss > **Abschlussdatum1** | **Abschluss**<br> Schüler ist ausgeschult und beide Felder müssen gefüllt sein - auch bei Schülern ohne Abschluss (Abgangszeugnis)!
+
+!!! danger "Achtung"
+
+    Zwei Bedingungen müssen für die Datumswerte erfüllt werden:
+    
+    1. Sollten Sie beide Datumsfelder befüllen, müssen beide Datumswerte aus `AbgangAm` oder `Abschlussdatum1` im selben Zeitraum des vergangenen Schuljahres liegen.
+    2. Die Von- und Bis-Daten der Zeiträume (`Extras > Schlüsselverzeichnisse > Zeiträume`) müssen 01.08-31.01 oder 01.02-31.07 sein.
+
+!!! tip "Tipp"
+
+    Um die Felder `Abschluss1` und `Abschlussdatum1` unter `Schüler > Laufbahn > Abschluss`zu füllen, steht Ihnen eine Sammelzuweisung zur Verfügung.
+
+## Aktuelle Schüler in SAXSVS
 
 ## Legende
 
@@ -121,7 +134,11 @@ Dies ergibt sich aus folgenden Regeln:
 
 !!! danger "Achtung"
 
-    Wann wird die GUID erzeugt: <br/> * Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt. <br/> *  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben. <br/> * Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll. <br/> * Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
+    Wann wird die GUID erzeugt: 
+    1. Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
+    2.  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
+    3.  Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll.
+    4.  Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
 
 Ein Schüler ohne GUID wird vom Export ausgeschlossen!
 
@@ -198,12 +215,12 @@ Titel            | Inhalt
 **Feld**         | `<al_laufb_bem>`
 **Beschreibung** | `Nicht unterstützt`<br/>Ein Freitextfeld zur Laufbahn.
 **Feld**         | `<al_laufb_neuanf>`
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang. Neuanfänger ist:<br />* ein Schüler im AJ1, wenn er die Ausbildung beginnt (Normalfall)<br />* ein Schüler im AJ2, wenn er sofort in das 2. AJ einsteigt (die Klasse ist aber schon ein Jahr in Beschulung) -> das trifft bspw. zu, wenn ein Schüler vorher Gym gemacht hat und da wird manchmal (Antrag bei der Kammer) das erste AJ erlassen<br />* ein Schüler im AJ3, wenn er eine artähnliche Ausbildung macht (sicher ein Sonderfall) -> ein Schüler lernt Restaurantkaufmann und macht eine zusätzliche Ausbildung als Hotelkaufmann (dieser Sachverhalt ist keine Stufenausbildung)<br />* ein Schüler, der eine Ausbildung fertig hat (bspw. BVJ) und nun eine Ausbildung macht<br /><br />Neuanfänger ist nicht:<br />* ein Schüler im AJ1, wenn er die Ausbildung ein 2. Mal beginnt -> Ausbildung beginnt, Schülerin macht Erziehungsurlaub ab Oktober und fängt im Folgejahr noch einmal mit AJ1 an, eigentlich keine neue UUID erforderlich<br />* ein Schüler im AJ2, wenn er artähnlich wechselt<br/> -> Neue Kennziffer -> das trifft bspw. zu, wenn ein Schüler von Fleischer auf Fleischfachverkäufer wechselt (keine neue UUID)<br />* ein Schüler, der im AJ1 Schulpflichterfüller war und innerhalb des Jahres nichts gefunden hat und noch ein Jahr Schulpflichterfüller ist (der bekommt aber auch eine neue Kennziffer) (keine neue UUID)<br />* ein Schüler im AJ3, der eine aufgesetzte Ausbildung macht -> ein Schüler lernt Verkäufer (2 Jahre) und macht anschließend die Ausbildung zum Einzelhandelskaufmann im AJ3 -> er bekommt eine neue Kennziffer, der erste Abschluss muss gezählt werden, deshalb eine neue UUID, aber er darf das Merkmal Neuanfänger nicht bekommen (Festlegung vom SMK)<br />* ein Schüler im AJ2, der innerhalb von Dubas (Beruf mit Abitur) lernt -> im ersten Jahr ist er Schüler des BGY, ab dem 2. AJ ist er Schüler der Schulart BS/BS, hat eine neue Kennziffer, aber keine neue UUID und der Abschluss des AJ1 wird nicht gezählt<br /><br />Und dann gibt es noch einen besonderen Sonderfall:<br />Ein Schüler soll verkürzt lernen. Er macht<br />* das AJ1 komplett<br />* das AJ2 und AJ3 parallel<br />Der Schüler hat im AJ1 einen Datensatz. Damit er gleichzeitig in AJ2 und AJ3 gezählt wird, muss er mit Beginn des AJ2 geklont werden. Damit ist der eine Schüler aus dem AJ1 jetzt zweimal da (auch namentlich, da er ja in beiden Klassen gezählt werden muss) -> Schüler ist beide Male kein Neuanfänger, obwohl er einmal neu angelegt wird.<br /><br />Sie haben die Möglichkeit die Option direkt auf der Karte unter `Schüler > Ausbildung` für den jeweiligen Ausbildungsdatensatz zu aktivieren oder zu deaktivieren. Alternativ können Sie hierfür auf die Sammelzuweisung für eine Gruppe von Schülern verwenden.
+**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang. Neuanfänger ist:<br/>* ein Schüler im AJ1, wenn er die Ausbildung beginnt (Normalfall)<br/>* ein Schüler im AJ2, wenn er sofort in das 2. AJ einsteigt (die Klasse ist aber schon ein Jahr in Beschulung) -> das trifft bspw. zu, wenn ein Schüler vorher Gym gemacht hat und da wird manchmal (Antrag bei der Kammer) das erste AJ erlassen<br/>* ein Schüler im AJ3, wenn er eine artähnliche Ausbildung macht (sicher ein Sonderfall) -> ein Schüler lernt Restaurantkaufmann und macht eine zusätzliche Ausbildung als Hotelkaufmann (dieser Sachverhalt ist keine Stufenausbildung)<br />* ein Schüler, der eine Ausbildung fertig hat (bspw. BVJ) und nun eine Ausbildung macht<br /><br />Neuanfänger ist nicht:<br />* ein Schüler im AJ1, wenn er die Ausbildung ein 2. Mal beginnt -> Ausbildung beginnt, Schülerin macht Erziehungsurlaub ab Oktober und fängt im Folgejahr noch einmal mit AJ1 an, eigentlich keine neue UUID erforderlich<br />* ein Schüler im AJ2, wenn er artähnlich wechselt<br/> -> Neue Kennziffer -> das trifft bspw. zu, wenn ein Schüler von Fleischer auf Fleischfachverkäufer wechselt (keine neue UUID)<br />* ein Schüler, der im AJ1 Schulpflichterfüller war und innerhalb des Jahres nichts gefunden hat und noch ein Jahr Schulpflichterfüller ist (der bekommt aber auch eine neue Kennziffer) (keine neue UUID)<br />* ein Schüler im AJ3, der eine aufgesetzte Ausbildung macht -> ein Schüler lernt Verkäufer (2 Jahre) und macht anschließend die Ausbildung zum Einzelhandelskaufmann im AJ3 -> er bekommt eine neue Kennziffer, der erste Abschluss muss gezählt werden, deshalb eine neue UUID, aber er darf das Merkmal Neuanfänger nicht bekommen (Festlegung vom SMK)<br />* ein Schüler im AJ2, der innerhalb von Dubas (Beruf mit Abitur) lernt -> im ersten Jahr ist er Schüler des BGY, ab dem 2. AJ ist er Schüler der Schulart BS/BS, hat eine neue Kennziffer, aber keine neue UUID und der Abschluss des AJ1 wird nicht gezählt<br /><br />Und dann gibt es noch einen besonderen Sonderfall:<br />Ein Schüler soll verkürzt lernen. Er macht<br />* das AJ1 komplett<br />* das AJ2 und AJ3 parallel<br />Der Schüler hat im AJ1 einen Datensatz. Damit er gleichzeitig in AJ2 und AJ3 gezählt wird, muss er mit Beginn des AJ2 geklont werden. Damit ist der eine Schüler aus dem AJ1 jetzt zweimal da (auch namentlich, da er ja in beiden Klassen gezählt werden muss) -> Schüler ist beide Male kein Neuanfänger, obwohl er einmal neu angelegt wird.<br /><br />Sie haben die Möglichkeit die Option direkt auf der Karte unter `Schüler > Ausbildung` für den jeweiligen Ausbildungsdatensatz zu aktivieren oder zu deaktivieren. Alternativ können Sie hierfür auf die Sammelzuweisung für eine Gruppe von Schülern verwenden.
 **Abbildung**    | <img src=/assets/images/sachsen/neuanf.png>
 **Feld**         | `<al_laufb_bgut>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.
 **Feld**         | `<al_fremd_fs1>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>1. Fremdsprache des Schülers.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>1. Fremdsprache des Schülers.<br/><br/>Es wird unterschieden zwischen:<br/>1. Abgängerdatei (Quelle: `Daten3 > Fremdsprachenfolge`)<br/>2. Aktueller Schülerdatei (Quelle:Vergleich zwischen den `Schüler > Zeugnis Fächer` des 1. und ggfs. 2.Halbjahres und den Einträgen unter `Daten3 > Fremdsprachenfolge`)<br/><br/>Rufen Sie die Erstellung der Statistikdatei für aktuelle Schüler aus dem zweiten Halbjahr auf, vergleichen wir im ersten Schritt die Fachdaten des 1.Halbjahres mit der Fremdsprachenfolge. Werden passende Einträge gefunden, werden diese gemerkt und die Fachdaten des 2.Halbjahres mit der Fremdsprachenfolge verglichen. Werden weitere passende Einträge gefunden, werden die Treffer (Beispiel: Eng als 1.Fremdsprache unter `Daten3` und auch Eng unter `Schüler > Zeugnis > Fächer`) aus dem 1. und dem 2. Durchlauf als Fremdsprachen ausgespielt.
 **Feld**         | `<al_fremd_fs2>` - OP
 **Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache`<br/>2. Fremdsprache des Schülers.
 **Feld**         | `<al_fremd_fs3>` - OP
@@ -211,7 +228,7 @@ Titel            | Inhalt
 **Feld**         | `<al_ausgen>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.
 **Feld**         | `<al_mfoerdersw>`
-**Beschreibung** | `MAGELLAN > Klassen > Daten > Einzelintegration / Förderklasse`<br/>`MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Bei der Förderung wird zwischen Schülern unterschieden, die in einer Förderklasse eingeschult sind und damit speziellen rechtlichen Vorgaben unterliegen (Förderstunden, Gelder etc.) und allen anderen Schülern mit Förderbedarf. Die Ausgabe für die Schnittstelle ändert sich dementsprechend. Bei Schülern die in einer Förderklasse eingeschult sind, geben Sie bei der Klasse an, dass es sich um eine Förderklasse handelt. Der Förderschwerpunkt hingegen wird wie auch bei allen anderen Schülern direkt beim Schüler eingetragen und entsprechend ausgewertet.<br/> **Wichtig**: Wenn Sie das Häckchen bei der Klasse vergessen, geht der Export von einer individuellen Förderung aus und prüft dann auch die Werte für Regelstunden etc. Die kann dann zu Fehlern führen. Lesen Sie dazu den Abschnitt `Förderungen`.
+**Beschreibung** | `MAGELLAN > Klassen > Daten > Einzelintegration / Förderklasse`<br/>`MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Bei der Förderung wird zwischen Schülern unterschieden, die in einer Förderklasse eingeschult sind und damit speziellen rechtlichen Vorgaben unterliegen (Förderstunden, Gelder etc.) und allen anderen Schülern mit Förderbedarf. Die Ausgabe für die Schnittstelle ändert sich dementsprechend. Bei Schülern die in einer Förderklasse eingeschult sind, geben Sie bei der Klasse an, dass es sich um eine Förderklasse handelt. Der Förderschwerpunkt hingegen wird wie auch bei allen anderen Schülern direkt beim Schüler eingetragen und entsprechend ausgewertet.<br/><br/>**Wichtig**:<br/><br/>Förderklasse<br/>--------<br/>Ist der Schüler in einer Förderklasse (Häkchen gesetzt unter `MAGELLAN > Klassen > Daten > Einzelintegration/Förderklasse`) dürfen unter `Daten4 > Förderungen` **keine Förderstundenwerte** erfasst werden. <br/><br/>Keine Förderklasse<br/>--------<br/> Bei Schülern, die nicht in einer speziellen Förderklasse sind (kein Häkchen unter `MAGELLAN > Klassen > Daten > Einzelintegration/Förderklasse`) **müssen die Förderstundenwerte gefüllt** werden.
 **Feld**         | `<af_behart>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Behinderung`<br/>Behinderungsart des Schülers. Dabei wird die Liste der Förderungen sortiert nach Position durchlaufen und der erste gefüllte Eintrag unter `Behinderung` ausgelesen.
 
@@ -308,7 +325,7 @@ Wird ausgegeben, wenn der Schüler im Ausland wohnt.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_staat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. Der auszugebende Wert wird berechnet. Aktuell berechnen wir folgende Länder:<br/>PL = Polen<br/>CZ = Tschechiche Republik<br/>CH = Schweiz.<br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. <br/>MAGELLAN setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
 **Feld**         | `<an_plz>` - OP
 **Beschreibung** | `MAGELLAN > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
 **Feld**         | `<an_ort>` - OP
@@ -376,7 +393,7 @@ Titel            | Inhalt
 **Feld**         | `<sorgeberechtigte><as_name>` - OP
 **Beschreibung** | `Sorgeberechtigte > Nachname`<br/>Nachname des Sorgeberechtigten.
 **Feld**         | `<sorgeberechtigter><as_staat>` - OP
-**Beschreibung** | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>Mögliche Einträge: D (De, Deu), PL, CZ oder CH.<br/>Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support.
+**Beschreibung** | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>MAGELLAN setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>AT=Österreich (151)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support.
 **Feld**         | `<sorgeberechtigter><as_land>`
 **Beschreibung** | `Sorgeberechtigte > Gemeindekennziffer`<br/>Das Wohnbundesland des Sorgeberechtigten (wenn in Deutschland lebend wird aus der Gemeindekennziffer errechnet.
 **Feld**         | `<sorgeberechtigter><as_plz>`
@@ -540,6 +557,10 @@ Titel            | Inhalt
 `<adresse_deutschland>`
 
 Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
+
+!!! danger "Achtung"
+
+    Wenn die Gemeindekennziffer des Betriebes gefüllt ist, füllen wir automatisch das Feld Land mit `De`. Ist das Feld `Land` und das Feld 'Gemeinde' leer, wird in der Prüfung eine Fehlermeldung ausgegeben.
 
 Titel            | Inhalt
 ---------------- | ------

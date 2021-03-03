@@ -69,9 +69,14 @@ SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs
 
 !!! warning "Wichtig"
 
-    SAXSVS benötigt Daten aus dem aktuellen Schuljahr. Aus MAGELLAN Sicht können dies max. Daten aus dem 1. HJ und 2. HJ sein. Das aktuelle Schuljahr berechnet sich anhand des Exportdatums. Wenn sich der Export im 1.HJ befindet so werden Sie in der Exportdatei auch nur Daten aus dem 1. HJ des aktuellen Schuljahres finden. Wenn der Export im 2. HJ ausgeführt wird, so werden Sie in der Exportdatei Daten aus beiden Halbjahren finden.
+    SAXSVS benötigt Daten aus dem aktuellen Schuljahr. Aus MAGELLAN Sicht können dies max. Daten aus dem 1. HJ und 2. HJ sein. Das aktuelle Schuljahr berechnet sich anhand des Exportdatums und der Von- und Bis-Daten des MAGELLAN-Zeitraums (1.HJ vom 01.08-31.01 und 2.HJ vom 01.02 -31.07). Wenn sich der Export im 1.HJ befindet so werden Sie in der Exportdatei auch nur Daten aus dem 1. HJ des aktuellen Schuljahres finden. Wenn der Export im 2. HJ ausgeführt wird, so werden Sie in der Exportdatei Daten aus beiden Halbjahren finden.
 
-Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
+Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. **Ist einer der Felder nicht gefüllt wird der Export nicht durchgeführt.**
+
+Titel            | Inhalt
+---------------- | ------
+**Feld**         | ``Klassen > Daten > Statistikkürzel``
+**Beschreibung** | Bitte geben Sie in diesem Feld das Klassenkürzel ein. Schüler aus Klassen ohne Statisitkkürzel werden für den Export nicht berücksichtigt.
 
 Ohne Angaben zur **Ausbildung** beim Schüler wird der Schüler nicht in die XML-Datei gespielt und Sie erhalten einen entsprechenden Hinweis beim Durchlauf.
 Alle folgenden Felder der Ausbildung `müssen` gepflegt sein, sind damit `Pflichtfelder`. Dies gilt auch für Schüler die in SAXSVS zum Löschen markiert werden sollen.
@@ -112,7 +117,7 @@ Fehlen diese Angaben, wird der Schüler nicht importiert.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<schueler extern_id>`
-**Beschreibung** | GUID des Schülers.
+**Beschreibung** | GUID des Schülers für seine Ausbildung.
 **Feld**         | `<an_vname>`
 **Beschreibung** | Vorname des Schülers.
 **Feld**         | `<an_name>`
@@ -143,6 +148,13 @@ Staatsangehörigkeiten | `<an_staatsang_1 extern_id>`<br>`<an_staatsang_2 extern
   
 ### Besonderheiten
 
-#### 2020/2021
+#### 2021/2022
 
--
+##### Fremdsprachen
+
+Es wird unterschieden zwischen
+
+1. Ausspielen abgegangene Schülerdatei (Quelle: `Daten3 > Fremdsprachenfolge`)
+2. Ausspielen aktuelle Schülerdatei (Quelle:Vergleich zwischen den `Schüler > Zeugnis Fächer` des 1. und ggfs. 2.Halbjahres und den Einträgen unter `Daten3 > Fremdsprachenfolge`)
+
+Rufen Sie die Erstellung der Statistikdatei für aktuelle Schüler aus dem zweiten Halbjahr auf, vergleichen wir im ersten Schritt die Fachdaten des 1.Halbjahres mit der Fremdsprachenfolge. Werden passende Einträge gefunden, werden diese gemerkt und die Fachdaten des 2.Halbjahres mit der Fremdsprachenfolge verglichen. Werden weitere passende Einträge gefunden, werden die Treffer (Beispiel: Eng als 1.Fremdsprache unter `Daten3` und auch Eng unter `Schüler > Zeugnis > Fächer`) aus dem 1. und dem 2. Durchlauf als Fremdsprachen ausgespielt.

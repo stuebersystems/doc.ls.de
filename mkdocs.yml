@@ -22,6 +22,9 @@ theme:
         primary: 'blue'
         accent: 'deep orange'
     font: false
+    features:
+        - navigation.tabs
+        - navigation.instant
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
     include_search_page: false
@@ -61,42 +64,42 @@ nav:
   - DAVINCI Daten exportieren: dav.statistikdaten-exportieren.md
   - Statistikdateien erzeugen: statistikdaten.erstellen.md
   - Legende: legende-statistikfelder.md
-- Bayern:
-  - WinLD/AS: bayern/winld.md
-- Berlin:
-  - Übersicht: berlin/berlin.md
-- Brandenburg:
-  - ABS/BBS: brandenburg/abs-bbs.md
-- Mecklenburg-Vorpommern:
-  - Einstieg: mecklenburg-vorpommern/einstieg.md
-  - Daten exportieren: mecklenburg-vorpommern/export_sip.md
-  - Daten importieren: mecklenburg-vorpommern/import_sip.md
-- Niedersachsen:
-  - ABS: niedersachsen/abs.md
-  - BBS: niedersachsen/bbs.md
-- Nordrhein-Westfalen:
-  - Einstieg: nordrhein-westfalen/einstieg.md
-  - SIM.TXT: nordrhein-westfalen/schuelerdaten.md
-  - LEHRER.TXT: nordrhein-westfalen/lehrerdaten.md
-  - ABI.TXT: nordrhein-westfalen/abiturdaten.md
-  - EXTERN.DAT: nordrhein-westfalen/stundenplandaten.md
-  - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
-  - Aktuelle Version: nordrhein-westfalen/changelog.md
-- Rheinland-Pfalz:
-  - ABS/BBS: rheinland-pfalz/abs-bbs.md
-  - Schüler-/Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md
-  - Lehrerdaten: rheinland-pfalz/lehrerdaten.md
-  - Aktuelle Version: rheinland-pfalz/changelog.md
-- Saarland:
-  - ABS/BBS: saarland/abs-bbs.md
-- Sachsen:
-  - Einstieg: sachsen/einstieg.md
-  - Schlüsselpflege: sachsen/schluessel.md
-  - Daten exportieren: sachsen/export_saxsvs.md
-  - Daten importieren: sachsen/import_saxsvs.md
-- Schleswig-Holstein:
-  - Einstieg: schleswig-holstein/einstieg.md
-  - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
-  - Aktuelle Version: schleswig-holstein/changelog.md
-- Thüringen:
-  - ABS/BBS: thueringen/abs-bbs.md
+  - Bayern:
+    - WinLD/AS: bayern/winld.md
+  - Berlin:
+    - Übersicht: berlin/berlin.md
+  - Brandenburg:
+    - ABS/BBS: brandenburg/abs-bbs.md
+  - Mecklenburg-Vorpommern:
+    - Einstieg: mecklenburg-vorpommern/einstieg.md
+    - Daten exportieren: mecklenburg-vorpommern/export_sip.md
+    - Daten importieren: mecklenburg-vorpommern/import_sip.md
+  - Niedersachsen:
+    - ABS: niedersachsen/abs.md
+    - BBS: niedersachsen/bbs.md
+  - Nordrhein-Westfalen:
+    - Einstieg: nordrhein-westfalen/einstieg.md
+    - SIM.TXT: nordrhein-westfalen/schuelerdaten.md
+    - LEHRER.TXT: nordrhein-westfalen/lehrerdaten.md
+    - ABI.TXT: nordrhein-westfalen/abiturdaten.md
+    - EXTERN.DAT: nordrhein-westfalen/stundenplandaten.md
+    - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
+    - Aktuelle Version: nordrhein-westfalen/changelog.md
+  - Rheinland-Pfalz:
+    - ABS/BBS: rheinland-pfalz/abs-bbs.md
+    - Schüler-/Klassendaten: rheinland-pfalz/schuler-und-klassendaten.md
+    - Lehrerdaten: rheinland-pfalz/lehrerdaten.md
+    - Aktuelle Version: rheinland-pfalz/changelog.md
+  - Saarland:
+    - ABS/BBS: saarland/abs-bbs.md
+  - Sachsen:
+    - Einstieg: sachsen/einstieg.md
+    - Schlüsselpflege: sachsen/schluessel.md
+    - Daten exportieren: sachsen/export_saxsvs.md
+    - Daten importieren: sachsen/import_saxsvs.md
+  - Schleswig-Holstein:
+    - Einstieg: schleswig-holstein/einstieg.md
+    - Besonderheiten (Archiv): schleswig-holstein/besonderheiten_archiv.md
+    - Aktuelle Version: schleswig-holstein/changelog.md
+  - Thüringen:
+    - ABS/BBS: thueringen/abs-bbs.md

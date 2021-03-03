@@ -1,6 +1,6 @@
 # Schnittstellendatei aus MAGELLAN erzeugen
 
-Das Ergebnis des Eports ist die bereits im [Einstieg](einstieg.md#einfuhrung) erwähnte XML-Datei.
+Das Ergebnis des Exports ist die bereits im [Einstieg](einstieg.md#einfuhrung) erwähnte XML-Datei.
 
 ## Statistikdaten erstellen
 
@@ -37,7 +37,7 @@ Vermutlich wurde bei der Einrichtung von MAGELLAN im Willkommensassistenten bei 
 Beim Klick auf `Weiter` im Exportassistenten erscheint daraufhin die Meldung `Geben Sie bitte mind. einen Zeitraum an`
 ```
 
-Das Schuljahr konnte nicht ermittelt werden. Die geschieht, wenn Sie zum aktuellen Datum keinen passenden Zeitraum in MAGELLAN angelegt haben.
+Das Schuljahr konnte nicht ermittelt werden. Dies geschieht, wenn Sie zum aktuellen Datum keinen passenden Zeitraum in MAGELLAN angelegt haben.
 
 #### So geht's
 

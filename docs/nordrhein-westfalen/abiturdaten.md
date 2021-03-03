@@ -2,11 +2,12 @@
 
 ## Voraussetzungen zum Export
 
-[Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/abs-bbs/#voraussetzungen-für-alle-statistikdaten)
+[Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-für-alle-statistikdaten)
 
 Schulform | Beschreibung
 -- | --
 `Schüler > Abschluss > Abschluss 1 > Abschlussart`<br/>`MAGELLAN > Abitur > Prüfung > Status` | **Für Berufskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` (Gliederungswerte: D01, D02, D05, D06) und der Eingabe unter `Schüler > Abschluss > Abschluss 1 > Abschlussart`.
+`Daten3 > G8/G9`  |**Für Gymnasien**:<br/>Es werden Schüler ausgegeben, die in einer Klasse mit der Jahrgangsstufe 12 oder 13 sind (`Klassen > Zeiträume > Jahrgang`) und einen Eintrag unter `Daten3 > G8/G9` haben (G8 = 12 und G9 = Jahrgang 13). Zum Befüllen des Feldes `G8/G9` steht Ihnen die Sammelzuweisung im `Menü Schüler` auf der Registerkarte `Schüler` zur Verfügung. Sind G8 als auch G9 Schüler in einer Klasse muss die Klassenstufe (Schlüssel) Q2 unter `Klassen > Zeiträume > Klassenstufe` angegeben werden.
 
 ## Dateneingabe
 

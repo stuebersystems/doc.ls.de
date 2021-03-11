@@ -148,6 +148,13 @@ Staatsangehörigkeiten | `<an_staatsang_1 extern_id>`<br>`<an_staatsang_2 extern
   
 ### Besonderheiten
 
-#### 2020/2021
+#### 2021/2022
 
--
+##### Fremdsprachen
+
+Es wird unterschieden zwischen
+
+1. Ausspielen abgegangene Schülerdatei (Quelle: `Daten3 > Fremdsprachenfolge`)
+2. Ausspielen aktuelle Schülerdatei (Quelle:Vergleich zwischen den `Schüler > Zeugnis Fächer` des 1. und ggfs. 2.Halbjahres und den Einträgen unter `Daten3 > Fremdsprachenfolge`)
+
+Rufen Sie die Erstellung der Statistikdatei für aktuelle Schüler aus dem zweiten Halbjahr auf, vergleichen wir im ersten Schritt die Fachdaten des 1.Halbjahres mit der Fremdsprachenfolge. Werden passende Einträge gefunden, werden diese gemerkt und die Fachdaten des 2.Halbjahres mit der Fremdsprachenfolge verglichen. Werden weitere passende Einträge gefunden, werden die Treffer (Beispiel: Eng als 1.Fremdsprache unter `Daten3` und auch Eng unter `Schüler > Zeugnis > Fächer`) aus dem 1. und dem 2. Durchlauf als Fremdsprachen ausgespielt.

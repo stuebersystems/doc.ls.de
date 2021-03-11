@@ -75,8 +75,9 @@ nav:
     - Daten exportieren: mecklenburg-vorpommern/export_sip.md
     - Daten importieren: mecklenburg-vorpommern/import_sip.md
   - Niedersachsen:
-    - ABS: niedersachsen/abs.md
-    - BBS: niedersachsen/bbs.md
+    - Einstieg: niedersachsen/einstieg.md
+    - KLIMP.TXT: niedersachsen/klimp.md
+    - RELIMP.TXT: niedersachsen/relimp.md
   - Nordrhein-Westfalen:
     - Einstieg: nordrhein-westfalen/einstieg.md
     - SIM.TXT: nordrhein-westfalen/schuelerdaten.md

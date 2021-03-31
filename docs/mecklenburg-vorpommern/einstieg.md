@@ -37,7 +37,7 @@ Für Sie als Schule bedeutet dies: Sie müssen die exportierte XML-Datei über d
 
 ### Schlüsselpflege
 
-[Schlüsselpflege (Einlesen, kontrollieren und ggfs. anpassen der Statistikschlüssel)](schluessel.md)
+[Schlüsselpflege (Einlesen, kontrollieren und ggfs. anpassen der Statistikschlüssel)](schluesselverzeichnisse.md)
 
 ### Export
 

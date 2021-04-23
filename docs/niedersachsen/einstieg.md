@@ -1,6 +1,6 @@
 # Niedersachsen
 
-Das Programm izn-Stabil gestattet für Allgemeinbildende Schulen in Schleswig-Holstein die Übernahme von Daten aus Schulverwaltungsprogrammen und zwar für die Bereiche Klassendaten, Stunden der Lehrkräfte, Kurse aus der gymnasialen Oberstufe (Sekundarbereich II - SEKII) und Daten der Absolventen.
+Das Programm izn-Stabil gestattet für Allgemeinbildende Schulen in Niedersachsen die Übernahme von Daten aus Schulverwaltungsprogrammen und zwar für die Bereiche Klassendaten, Stunden der Lehrkräfte, Kurse aus der gymnasialen Oberstufe (Sekundarbereich II - SEKII) und Daten der Absolventen.
 
 Diese Dokumentation beschreibt die für Niedersächsische Schulen spezifischen Funktionen in MAGELLAN in Ergänzung zur allgemeinen MAGELLAN-Dokumentation.
 

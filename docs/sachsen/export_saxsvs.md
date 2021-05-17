@@ -448,7 +448,17 @@ Titel            | Inhalt
 **Feld**         | `<af_int_raum>`
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Raumbedingungen.
 
-### Vorbildung ABS
+### Vorbildung ABS und BBS
+
+!!! info "Wichtig"
+
+    Schüler, die im vergangenen Jahr einen Abschluss an Ihrer Schule absolvierten und im aktuellen Schuljahr einen neuen Bildungsgang belegen, werden in der Abgängerdatei und in der Datei der aktuellen Schüler ausgegeben. Da in beiden Dateien Daten über die bisher erworbenen Abschlüsse ABS oder BBS und die Abschlussschulformen erwartet werden, gibt es unter `Schüler > Daten2` getrennte Felder. 
+    
+    Bitte erfassen Sie in den Feldern unter "Höchster Abschluss ABS/BBS (mitgebracht)" die Daten, die der Schüler aus Sicht des Vorjahres mit an die Schule brachte oder zuvor erworben hatte. 
+    
+    Bitte erfassen Sie in den neuen Feldern unter "Höchster Abschluss ABS/BBS (erworben)" ggfs. Abschlüsse, die der Schüler inzwischen an Ihrer Schule erworben hat. 
+    
+    Wir geben für die Abgängerdatei die Einträge aus dem Bereich "Höchster Abschluss ABS/BBS (mitgebracht)" aus. Für die Datei der aktuellen Schüler geben wir die Daten aus dem Bereich "Höchster Abschluss ABS/BBS (erworben)" aus, steht dort kein Wert, werden die Inhalte aus den Feldern "Höchster Abschluss ABS/BBS (mitgebracht)" ausgespielt.
 
 `<saxsvs-bbs><schueler><abs>`
 
@@ -460,8 +470,6 @@ Titel            | Inhalt
 **Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss ABS > Schulform`<br/>Schulform der Schule, an dem der höchste Abschluss erworben wurde, z.B. 062 = Abendgymnasium.
 **Feld**         | `<av_abs_zeugnis>` - OP
 **Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss`<br/>Höchster allgemeinbildender Abschluss, z.B. 06 = Allgemeine Hochschulreife.
-
-### Vorbildung BBS  
 
 `<saxsvs-bbs><schueler><bbs>`
 

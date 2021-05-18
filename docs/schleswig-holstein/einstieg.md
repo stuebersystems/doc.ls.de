@@ -1,10 +1,10 @@
 # Schleswig-Holstein
 
-Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein die benötigten Schritte zum Erstellen der Schnittstellendateien zur elektronischen Landesstatistik im Statistik-Online-Verfahren für das Schuljahr 2020/2021.
+Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein die benötigten Schritte zum Erstellen der Schnittstellendateien zur elektronischen Landesstatistik im Statistik-Online-Verfahren für das Schuljahr 2021/2022.
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie, mit dem kommenden MAGELLAN 7 Serviceupdate 7.1.11 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen. 
+    Bitte beachten Sie, mit dem kommenden MAGELLAN 8 Serviceupdate 8.0.XX steht die überarbeitete Schnittstelle zur Verfügung.
 
 !!! info "Hinweis"
      Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein, bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.
@@ -12,7 +12,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein d
 ## Einführung
 
 Auf Basis der erfassten Daten in MAGELLAN und DAVINCI können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen. Voraussetzung dafür ist eine Lizenz für das jeweilige Statistikjahr.
-Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von MAGELLAN 7 unterstützt werden:
+Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von MAGELLAN 8 unterstützt werden:
 
  Datei                  | Kürzel | Unterstützt   | Schulart  | Inhalt
  ---------------------- | ------ | ------------- | --------- | ------
@@ -26,9 +26,9 @@ Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche vo
  XXX_DATOS_JJJJMMTT.TXT | OS     | -             | BBS       | Die Oberstufendatei enthält Daten zu den Kursen in der Oberstufe.
 
 !!! info "Hinweis"
-    Die Angabe `XXX` steht für die Schulnummer der Schule und `JJJJMMTT` für das Erstellungsdatum z.B. 20140826.
+    Die Angabe `XXX` steht für die Schulnummer der Schule und `JJJJMMTT` für das Erstellungsdatum z.B. 20210904.
 
-    Ist beispielsweise die Lehrerdatei am 29.08.2015 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20140829.TXT.
+    Ist beispielsweise die Lehrerdatei am 05.09.2021 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20210905.TXT.
 
 Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 
@@ -103,11 +103,15 @@ So exportieren Sie Daten aus DAVINCI:
 
 Es kann vorkommen, dass für den aktuellen Statistikzeitraum bestimmte Besonderheiten aufgrund von Schlüsseländerungen oder speziellen Schnittstellenänderungen ihre besondere Aufmerksamkeit benötigen. In einem solchen Falle stehen alle verfügbaren Informationen dazu in diesem Kapitel.
 
+### Zur Statistik 2021/2022
+
+-
+
 ### Zur Statistik 2020/2021
 
 #### 15.06.2020
 
-Das Amt hat fälschlicherweise einen Schlüssel aus der Tabelle "GTB" für die Ganztagsbetreuung entfernt. Dieser fehlt ggf. auch in Ihrer MAGELLAN Installation im Schlüsselverzeichnis "Betreuungsformen" und müsste, sofern dieser für Sie relevant ist, manuell nachgetragen werden: 
+Das Amt hat fälschlicherweise einen Schlüssel aus der Tabelle "GTB" für die Ganztagsbetreuung entfernt. Dieser fehlt ggf. auch in Ihrer MAGELLAN Installation im Schlüsselverzeichnis "Betreuungsformen" und müsste, sofern dieser für Sie relevant ist, manuell nachgetragen werden:
 
 Kürzel     | Schlüssel | Bezeichnung                        | Gültig von
 ---------- | --------- | ---------------------------------- | ----------
@@ -342,8 +346,8 @@ Datenfeld         | MAGELLAN: Schüler > Daten 2 > Höchster Abschluss BBS > Abs
 Beschreibung      | Geben Sie hier den höchsten erreichten berufsbezogenen Abschluss ein.
 **Statistikfeld** | **WIEDH - Wiederholer**
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Allgemein > Wiederholer
-Beschreibung      | Haken Sie das Feld „Wiederholer“ an, wenn der Schüler ein Wiederholer ist. Der statistische Wert wird automatisch berechnet.  
+Datenfeld         | MAGELLAN: Schüler > Laufbahn > Allgemein > Wiederholer<br> Schüler > Laufbahn > Allgemein > Wiederholungsart
+Beschreibung      | Haken Sie das Feld „Wiederholer“ an, wenn der Schüler ein Wiederholer ist. **2021/22-NEU: Geben Sie eine "Freiwillige Wiederholung aufgrund der Coronapandemie" in der Wiederholungsart an.
 **Statistikfeld** | **ZUSKURS - Zusatzkurs (ZUSKURS)**
 Statistikdateien  | SB, EB
 Datenfeld         | MAGELLAN: Schüler > Statistik > Merkmal S2 (Verzeichnisse > Merkmale (Schüler) - Bereich S2)

@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein d
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie, mit dem kommenden MAGELLAN 8 Serviceupdate 8.0.XX steht die überarbeitete Schnittstelle zur Verfügung.
+    Bitte beachten Sie, mit dem kommenden MAGELLAN 8 Serviceupdate 8.0.6 steht die überarbeitete Schnittstelle zur Verfügung.
 
 !!! info "Hinweis"
      Sollten **Berufsbildende Schulen** Schulen an der Umsetzung der elektronischen Landesstatistik in Schleswig-Holstein interessiert sein, bitten wir Sie sich unter office@stueber.de bei STÜBER SYSTEMS zu melden.

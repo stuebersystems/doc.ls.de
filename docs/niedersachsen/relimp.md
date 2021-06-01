@@ -2,10 +2,11 @@
 
 ## Wichtige Informationen
 
-1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/niedersachsen/einstieg/#voraussetzungen-fur-den-export))
+1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/niedersachsen/einstieg/#voraussetzungen-fur-den-export)
 2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben.
 3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](exportdatei_erzeugen.md), wie Sie den Export durchführen.
 4. Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
+5.Lesen Sie im Kapitel [Statistikdaten aus DAVINCI exportieren](davinciexportdatei_erzeugen.md), wie Sie den Export durchführen. 
 
 Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in MAGELLAN eingepflegt werden.
 

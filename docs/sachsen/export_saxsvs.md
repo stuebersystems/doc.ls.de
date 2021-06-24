@@ -13,7 +13,7 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
 ## Abgänger in SAXSVS-A
 
-SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres berücksichtigt.
+SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätze. Neben der *SAXSVS.xml* Datei, die aktuelle und abgegangene Schüler des laufenden Schuljahres berücksichtigt, kann die Schnittstelle auch die *SAXSVS-A.XML* Datei erzeugen, die abgegangene Schüler und/oder Schüler mit Abschluss zum Schuljahresende des vorigen Schuljahres (i.d.R. umfasst ein Schuljahr 2 Halbjahre und geht von September bis Ausgust)berücksichtigt.
 
 Wenn eine der beiden folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SAXSVS-A Datei berücksichtigt:
 

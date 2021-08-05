@@ -71,6 +71,11 @@ SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs
 
     SAXSVS benötigt Daten aus dem aktuellen Schuljahr. Aus MAGELLAN Sicht können dies max. Daten aus dem 1. HJ und 2. HJ sein. Das aktuelle Schuljahr berechnet sich anhand des Exportdatums und der Von- und Bis-Daten des MAGELLAN-Zeitraums (1.HJ vom 01.08-31.01 und 2.HJ vom 01.02 -31.07). Wenn sich der Export im 1.HJ befindet so werden Sie in der Exportdatei auch nur Daten aus dem 1. HJ des aktuellen Schuljahres finden. Wenn der Export im 2. HJ ausgeführt wird, so werden Sie in der Exportdatei Daten aus beiden Halbjahren finden.
 
+!!! warning "Wichtig"
+
+    Beim Export der Abgängerdatei wird das vorangegangene Schuljahr ermittelt. Dazu zeigt der Assistent unter ' Export > Export > SAXSVS > SAX-SVS Abschlüsse/Abgänger  (BBS) > Weiter` im Feld `Stichtag` das Systemdatum an. Dieses Datum wird im neuen 1.Schulhalbjahr vermutet, von diesem Datum ausgehend wird das vorangegangene Schuljahr ermittelt. 
+    Ab Version 8.0.11: Sollte das Systemdatum noch dem laufenden Schuljahr, also ein Termin vor dem 01.08 sein, können Sie den Stichtag auch manuell an passen.
+
 Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. **Ist einer der Felder nicht gefüllt wird der Export nicht durchgeführt.**
 
 Titel            | Inhalt

@@ -6,7 +6,7 @@ Hier finden Sie die jeweils aktuellste Version zur ASDPC-Schnittstelle **inklusi
 
 Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht sein, dann zeigt der Link des Schnittstellenpakets auf unsere Downloadseite.
 
-### Schnittstellenpaket - XX.XX.2020
+### Schnittstellenpaket - 25.08.2021
 
 [Downloadlink](https://my.hidrive.com/share/neqlm8tqnv)
 
@@ -16,12 +16,11 @@ Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht
 
 #### Aktuelle Änderungen
 
-* FIX: ABI.TXT - Ausgabe der Abiturnote im Format n.n (Punkt)
-* FIX: ABI.TXT - Zeugnis wird jetzt korrekt, entsprechend der Dokumentation ausgespielt.
+* FIX: SIM.TXT - Ausgabe der VOfachklasse
 
 ---
 
-#### Letztes Serviceupdate - XX.XX.2020
+#### Letztes Serviceupdate - 8.0.11 802 (12.08.2021)
 
 * FIX: -
 
@@ -38,7 +37,7 @@ Was soll getauscht werden | Anmerkungen
 **Pfade in MAGELLAN**     | Die entsprechenden Pfade zu Ihren Dokumenten, Skripten und Importdateien können Sie im MAGELLAN-Administrator unter `Server-Verwaltung > Verbindungen verwalten > Starten > Verbindung markieren > Bearbeiten > Unterkarte Datenordner` einsehen.
 **Schlüssel**             | Dateien mit der Endung **\*.keys** sind Ihre Schlüsseldateien für den Import der aktuellen Statistikschlüssel. Diese gehören auf den Serverrechner in den dortigen Unterordner Importe\Nordrhein-Westfalen.<br><br>Fügen Sie diese Dateien dort ein und überschreiben Sie ggf. bereits existierende Schlüsseldateien. Anschließend lesen Sie die Schlüssel über den MAGELLAN-Administrator unter `Datenimporte > Schlüsselverzeichnisse importieren > Nordrhein-Westfalen > Ihre Schulart` ein. Sie können alle Schlüsseldateien importieren oder auch nur eine Datei, dazu ändern Sie "alle Kataloge" ab und wählen gezielt die gewünschte Importdatei.
 **Skripte**               | **\*.dws oder \*.int**  Dateien mit der Endung **\*.dws oder \*.int** gehören auf den Serverrechner in den dortigen Unterordner Skripte \(**Achtung**: Nicht in den Bundesland-Unterordner, sondern direkt in den Skripteordner\).<br/><br/>**\*.xml** Dateien mit der Endung **\*.xml** gehören auf den Serverrechner in den dortigen Unterordner Skripte\Nordrhein-Westfalen. Bitte beachten Sie, dass die Dateien mit diesem Schritt lediglich hinterlegt sind und erst noch in Ihren Datenbank importiert werden müssen. Eine Anleitung zum Schlüsselimport finden Sie [hier](https://doc.ls.stueber.de/schluesselverzeichnisse/).
-**Magellan.exe**          | Das Nutzen einer neuen Magellan.exe setzt mindestens die aktuellste Version voraus. Das letzte und aktuelle Serviceupdate finden Sie in unseren [Downloads](http://magellan.stueber.de/download.php).<b/r><br/>Nehmen Sie die Arbeiten mit der Schnittstelle in der Schule an der aktuellen Datenbank vor oder in einer zweiten Umgebung, also zum Beispiel auf einem Extrarechner, auf den die Datenbank übertragen wird? Wenn Sie es im Schulnetzwerk machen, dann müssten bitte die Rechner alle \(erst der Server, dann die Arbeitsplätze\) auf die aktuelle Version aktualisiert werden, anschließend fügen Sie diese Magellan.exe auf dem Rechner ins Programmverzeichnis ein, auf dem Sie die Schnittstelle ausführen möchten. Nutzen Sie ein Zweitsystem aktualisieren Sie diesen Rechner und ersetzen dann bitte die Magellan.exe mit der neuen Datei.<br/><br/>Die Magellan.exe finden Sie bei 64-Bit Betriebssystemen unter `C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 7`, bei 32 Bit Betriebssystemen unter `C:\Programme\Stueber Systems\MAGELLAN 7`.
+**Magellan.exe**          | Das Nutzen einer neuen Magellan.exe setzt mindestens die aktuellste Version voraus. Das letzte und aktuelle Serviceupdate finden Sie in unseren [Downloads](http://magellan.stueber.de/download.php).<b/r><br/>Nehmen Sie die Arbeiten mit der Schnittstelle in der Schule an der aktuellen Datenbank vor oder in einer zweiten Umgebung, also zum Beispiel auf einem Extrarechner, auf den die Datenbank übertragen wird? Wenn Sie es im Schulnetzwerk machen, dann müssten bitte die Rechner alle \(erst der Server, dann die Arbeitsplätze\) auf die aktuelle Version aktualisiert werden, anschließend fügen Sie diese Magellan.exe auf dem Rechner ins Programmverzeichnis ein, auf dem Sie die Schnittstelle ausführen möchten. Nutzen Sie ein Zweitsystem aktualisieren Sie diesen Rechner und ersetzen dann bitte die Magellan.exe mit der neuen Datei.<br/><br/>Die Magellan.exe finden Sie bei 64-Bit Betriebssystemen unter `C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 8`, bei 32 Bit Betriebssystemen unter `C:\Programme\Stueber Systems\MAGELLAN 8`.
 
 ---
 

@@ -244,7 +244,7 @@ SF / ST           | Alle / ABG
 Datenfeld         | MAGELLAN: `Schüler > Zugang/Abgang > Abgang am`
 Beschreibung      | Geben Sie das Abgangsdatum des Schülers ein, wenn es sich um einen Abgänger handelt.
 **Exportfeld**    | **Zeugnis**
-SF / ST           | Alle / ABG
+SF / ST           | Alle / ABG, BAG
 Datenfeld         | MAGELLAN:<br/>`Schüler > Laufbahn > Abschluss > Abschluss 1`[Abschlüsse (Intern)]<br/>`Schüler > Zugang/Abgang > Abgang`
 Beschreibung      | Wählen Sie für Abgänger den Abschluss bzw. die Abgangsart des Schülers aus. Je nach schulischem Alltag, können Sie die Werte unter Abschlüsse oder Abgang erfassen. Es wird vorrangig der Abschluss gesetzt. Wenn dieser nicht eingetragen ist, wird der Abgang für den Export erfasst.
 **Exportfeld**    | **Schulpflichterf - Erfüllung der Vollzeitschulpflicht**

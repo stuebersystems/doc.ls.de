@@ -17,8 +17,10 @@ Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht
 #### Aktuelle Änderungen
 
 * FIX: SIM.TXT - Ausgabe der VOfachklasse
-* CHANGE: [NRW]: Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
-* FIX: [NRW]: Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
+* CHANGE:SIM.TXT - Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
+* FIX: SIM.TXT - Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
+* FIX: SIM.TXT - Ausgabe Zeugnis für BAG 
+
 ---
 
 #### Letztes Serviceupdate - 8.0.11 802 (12.08.2021)

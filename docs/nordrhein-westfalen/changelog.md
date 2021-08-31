@@ -6,7 +6,7 @@ Hier finden Sie die jeweils aktuellste Version zur ASDPC-Schnittstelle **inklusi
 
 Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht sein, dann zeigt der Link des Schnittstellenpakets auf unsere Downloadseite.
 
-### Schnittstellenpaket - 25.08.2021
+### Schnittstellenpaket - 31.08.2021
 
 [Downloadlink](https://my.hidrive.com/share/neqlm8tqnv)
 
@@ -17,7 +17,8 @@ Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht
 #### Aktuelle Änderungen
 
 * FIX: SIM.TXT - Ausgabe der VOfachklasse
-
+* CHANGE: [NRW]: Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
+* FIX: [NRW]: Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
 ---
 
 #### Letztes Serviceupdate - 8.0.11 802 (12.08.2021)

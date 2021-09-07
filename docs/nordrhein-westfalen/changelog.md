@@ -6,7 +6,7 @@ Hier finden Sie die jeweils aktuellste Version zur ASDPC-Schnittstelle **inklusi
 
 Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht sein, dann zeigt der Link des Schnittstellenpakets auf unsere Downloadseite.
 
-### Schnittstellenpaket - 31.08.2021
+### Schnittstellenpaket - 07.09.2021
 
 [Downloadlink](https://my.hidrive.com/share/neqlm8tqnv)
 
@@ -20,6 +20,7 @@ Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht
 * CHANGE:SIM.TXT - Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
 * FIX: SIM.TXT - Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
 * FIX: SIM.TXT - Ausgabe Zeugnis für BAG 
+* FIX. ABI.TXT - Ausgabe von Daten korrigiert
 
 ---
 

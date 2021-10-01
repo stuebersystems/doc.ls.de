@@ -339,16 +339,15 @@ Titel            | Inhalt
 
 `<saxsvs-bbs><schueler><sorgeberechtigte>`
 
-Wird ausgegeben, wenn der Schüler Sorgeberechtigte eingetragen hat und der Schüler noch nicht volljährig ist. Wir berechnen die Volljährigkeit anhand des Geburtsdatums und Ihrer Angabe des Stichtages im Statistikassitenten.
+Wird ausgegeben, wenn der Schüler Familienmitglieder mit gültigem Verhältnis, ggfs. Geschlecht (siehe Tabelle) eingetragen hat und der Schüler noch nicht volljährig ist. Wir berechnen die Volljährigkeit anhand des Geburtsdatums und Ihrer Angabe des Stichtages im Statistikassistenten.
 SAXSVS erlaubt die Angabe von bis zu vier Sorgeberechtigten.
-In MAGELLAN verwalten wir Familienmitglieder. Diese können `Schüler`, `Lehrer`, `Personen` und `Sorgeberechtigte` sein. Die Personendaten
-werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schüler wird unter `Schüler > Daten 1 > Familie` angegeben.
+In MAGELLAN verwalten wir Familienmitglieder. Diese können `Schüler`, `Lehrer`, `Personen` und `Sorgeberechtigte` sein. Die Personendaten werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schüler wird unter `Schüler > Daten 1 > Familie` angegeben.
 
 !!! warning "Wichtig"
 
     Für den Export nach SAXSVS setzen wir die MAGELLAN-Sorgeberechtigten-Verhältnisse in Schlüssel um. 
     Für einige unserer Verhältnisse gibt es Entsprechungen als Schlüssel, für einige leider nicht. 
-    Diese Verhältnisse (Eltern, Erziehungsberechtigte(r), Sorgeberechtigte(r), Ansprechpartner(in), Eheleute, Verhältnis1 - Verhältnis10) dürfen nicht verwendet werden.
+    Diese Verhältnisse (Eltern, Erziehungsberechtigte(r), Sorgeberechtigte(r), Ansprechpartner(in), Eheleute, Verhältnis1 - Verhältnis10) geben wir wenn Sie als Sorgeberechtigt gekennzeichnet sind, entsprechend des Geschlechts als Mutter oder Vater mit aus.
 
 Schlüssel in SAXSVS | Verhältnis in MAGELLAN
 --------------------|-----------------------
@@ -365,12 +364,25 @@ Schlüssel in SAXSVS | Verhältnis in MAGELLAN
 120                 | Erzieher
 140                 | Notfall
 150                 | Gasteltern
-keine Entsprechung  | Eltern
-keine Entsprechung  | Erziehungsberechtigte(r)
-keine Entsprechung  | Sorgeberechtigte(r)
-keine Entsprechung  | Ansprechpartner(in)
-keine Entsprechung  | Eheleute
-keine Entsprechung  | Verhältnis1 - Verhältnis10
+10                  | Eltern (Geschlecht des Sorgeberechtigten männlich)
+20                  | Eltern (Geschlecht des Sorgeberechtigten weiblich)
+10                  | Erziehungsberechtigte(r) (Geschlecht des Sorgeberechtigten männlich)
+20                  | Erziehungsberechtigte(r) (Geschlecht des Sorgeberechtigten weiblich)
+10                  | Sorgeberechtigte(r) (Geschlecht des Sorgeberechtigten männlich)
+20                  | Sorgeberechtigte(r) (Geschlecht des Sorgeberechtigten weiblich)
+nicht ausgebbar     | Ansprechpartner(in)
+nicht ausgebbar     | Eheleute (Geschlecht des Sorgeberechtigten männlich)
+nicht ausgebbar     | Verhältnis1 - Verhältnis10 (Geschlecht des Sorgeberechtigten männlich)
+
+!!! warning "Wichtig!"
+
+    Bitte beachten Sie, wird für die Sorgeberechtigten mit den nachfolgenden Verhältnissen keine Geschlecht vergeben, kann kein Verhältnis mit ausgegeben werden: 
+
+    * Eltern
+    * Erziehungsberechtigte(r)
+    * Sorgeberechtigte(r)
+    
+    Einträge, die als Verhältnis `Ansprechpartner(in)`, `Eheleute` oder einen der individualisierbaren Einträge `Verhältnis1 - Verhältnis10` zugewiesen haben, werden nicht in die XML-Datei übergeben.
 
 Wenn Sie in der folgenden Auflistung **Person > ...** lesen, dann ist damit die entsprechende Ansicht `Schüler`, `Lehrer`, `Personen` oder `Sorgeberechtigte` gemeint, je nachdem welchen Personentyp Sie in MAGELLAN als Familienmitglied angegeben haben.
 

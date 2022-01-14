@@ -178,11 +178,12 @@ Kennziffer | Bildungsgang                                  |Schulart | Zeitform
 
 Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 
-#### Fremdsprachen 
+#### Fremdsprachen
 
 (ab MAGELLAN 9)
 
 Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird. 
+Was als fremdsprachlicher Unterricht zählt wir hier beschrieben: [https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Welche_Sch.C3.BCler_werden_f.C3.BCr_die_fremdsprachliche_Ausbildung_gez.C3.A4hlt.3F_.28Tabelle:_aktuelle_Sch.C3.BCler.29](https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Welche_Sch.C3.BCler_werden_f.C3.BCr_die_fremdsprachliche_Ausbildung_gez.C3.A4hlt.3F_.28Tabelle:_aktuelle_Sch.C3.BCler.29)
 
 Unter `Schüler > Daten3 > Fremdsprachen` gibt es das Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt `1. Halbjahr` oder `2. Halbjahr`) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
 
@@ -198,6 +199,35 @@ Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
 2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
 
 [![Kontrollübersicht Klassen][1]][1]
+
+#### Neuanfänger
+
+Quelle: [https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Wer_z.C3.A4hlt_in_Ph.C3.B6nix_als_Neuanf.C3.A4nger.3F](https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Wer_z.C3.A4hlt_in_Ph.C3.B6nix_als_Neuanf.C3.A4nger.3F)
+
+|Fallbeispiel|	Neuanfänger	|Begründung|
+|--|--|--|
+|ein Schüler besucht nach dem BVJ eine Ausbildung	|ja	|* es wird das Zeugnis von der ersten Ausbildung benötigt<br/>* Schüler lernt in einer neuen Schulart|
+|ein Schüler wird nach dem BGJ (oder EQ) in eine Ausbildung übernommen|	ja	|* es wird das Zeugnis von der ersten Ausbildung benötigt<br/>* Schüler lernt in einer neuen Schulart|
+|ein Schüler lernt nach einer erfolgreichen Ausbildung (bspw. Verkäufer) in einer Stufenausbildung weiter (bspw. Einzelhandelskaufmann)|ja|* es wird das Zeugnis von der ersten Ausbildung benötigt<br/>* zählt als eine Ausbildung|
+|ein Schüler lernt innerhalb einer Ausbildung an einem anderen BSZ weiter (Umzug, Fachklassenbildung, ...)|	nein|	* der Schüler hat noch kein Abschlusszeugnis<br/>* zählt als eine Ausbildung|
+|ein Schüler wechselt innerhalb der Ausbildung aus gesundheitlichen oder betrieblichen Gründen in einen anderen (ähnlich gelagerten) Bildungsgang (BSP: Koch in Restaurantfachmann oder umgekehrt)|	nein|* es gibt noch keinen vorherigen phönixrelevanten Abschluss<br/>* diese beiden Berufe haben die gleiche Grundausbildung|
+|ein Schüler wechselt innerhalb der Ausbildung aus gesundheitlichen oder betrieblichen Gründen in einen anderen (artfremden) Bildungsgang (BSP: Einzelhandelskaufmann in Elektroniker oder umgekehrt)	|ja	|	* es gibt noch keinen vorherigen phönixrelevanten Abschluss<br/>* diese beiden Berufe haben nicht die gleiche Grundausbildung|
+|ein Schüler beginnt eine Ausbildung im BGJ, wechselt aber vor dem Stichtag im Oktober in eine andere Ausbildung (BSP: Beginn einer dualen Ausbildung)	|ja	|* es wird die Ausbildung zum Stichtag (im Oktober) gezählt<br/>* für Phönix ist die erste Ausbildung (im BGJ) uninteressant|
+|ein Schüler wechselt nach dem AJ1 innerhalb von DuBAS in einen neuen Bildungsgang (Spezialisierung)|	nein|* die Spezialisierung gehört zur eigentlichen Ausbildung|
+|ein Schüler besucht das kBVJ	|ja	|	* beide Ausbildungsjahre (ABS und BBS) werden als eigenständige Abschnitte betrachtet|
+
+#### al_abschl_dat
+
+Um das Abschlussdatum auszugeben, fragen wir der Reihe nach die folgenden Felder ab, das erste gefüllte Feld wird ausgewertet.
+
+Reihenfolge|Feld
+--|--
+1.|`Schüler > Laufbahn > Abschluss > Abschluss1Datum`
+2.|`Schüler > Daten2 > Abgang am`
+3.|'Schüler > Ausbildung > aktuelle Ausbildung editieren > Ausbildung bis'
+
+Wird kein Datum gefunden, wird eine Meldung erzeugt.
+Das erste gefundene Datum wird geprüft, ist es korrekt (nicht älter als 4 Jahre, ausgehend vom Beginn des aktuellen Jahres)
 
 Titel            | Inhalt
 ---------------- | ------
@@ -228,7 +258,7 @@ Titel            | Inhalt
 **Feld**         | `<al_zeitform>` - MI
 **Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Organisation`<br/>Die Zeitform des Schülers im Bildungsgang.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
 **Feld**         | `<al_abschl_dat>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.
+**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat)!
 **Feld**         | `<al_laufb_kl>` - OP
 **Beschreibung** | `MAGELLAN > Schüler > Klasse`<br/>Die aktuelle Klasse des Schülers. Eine Klasse hat der Schüler sobald die Einschulung erfolgt ist. Das Klassenkürzel wird für die aktuelle Klasse  aus dem Feld `Statistikkürzel` ausgelesen.
 **Feld**         | `<al_laufb_von>` - OP
@@ -238,7 +268,7 @@ Titel            | Inhalt
 **Feld**         | `<al_laufb_bem>`
 **Beschreibung** | `Nicht unterstützt`<br/>Ein Freitextfeld zur Laufbahn.
 **Feld**         | `<al_laufb_neuanf>`
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang. Neuanfänger ist:<br/>* ein Schüler im AJ1, wenn er die Ausbildung beginnt (Normalfall)<br/>* ein Schüler im AJ2, wenn er sofort in das 2. AJ einsteigt (die Klasse ist aber schon ein Jahr in Beschulung) -> das trifft bspw. zu, wenn ein Schüler vorher Gym gemacht hat und da wird manchmal (Antrag bei der Kammer) das erste AJ erlassen<br/>* ein Schüler im AJ3, wenn er eine artähnliche Ausbildung macht (sicher ein Sonderfall) -> ein Schüler lernt Restaurantkaufmann und macht eine zusätzliche Ausbildung als Hotelkaufmann (dieser Sachverhalt ist keine Stufenausbildung)<br />* ein Schüler, der eine Ausbildung fertig hat (bspw. BVJ) und nun eine Ausbildung macht<br /><br />Neuanfänger ist nicht:<br />* ein Schüler im AJ1, wenn er die Ausbildung ein 2. Mal beginnt -> Ausbildung beginnt, Schülerin macht Erziehungsurlaub ab Oktober und fängt im Folgejahr noch einmal mit AJ1 an, eigentlich keine neue UUID erforderlich<br />* ein Schüler im AJ2, wenn er artähnlich wechselt<br/> -> Neue Kennziffer -> das trifft bspw. zu, wenn ein Schüler von Fleischer auf Fleischfachverkäufer wechselt (keine neue UUID)<br />* ein Schüler, der im AJ1 Schulpflichterfüller war und innerhalb des Jahres nichts gefunden hat und noch ein Jahr Schulpflichterfüller ist (der bekommt aber auch eine neue Kennziffer) (keine neue UUID)<br />* ein Schüler im AJ3, der eine aufgesetzte Ausbildung macht -> ein Schüler lernt Verkäufer (2 Jahre) und macht anschließend die Ausbildung zum Einzelhandelskaufmann im AJ3 -> er bekommt eine neue Kennziffer, der erste Abschluss muss gezählt werden, deshalb eine neue UUID, aber er darf das Merkmal Neuanfänger nicht bekommen (Festlegung vom SMK)<br />* ein Schüler im AJ2, der innerhalb von Dubas (Beruf mit Abitur) lernt -> im ersten Jahr ist er Schüler des BGY, ab dem 2. AJ ist er Schüler der Schulart BS/BS, hat eine neue Kennziffer, aber keine neue UUID und der Abschluss des AJ1 wird nicht gezählt<br /><br />Und dann gibt es noch einen besonderen Sonderfall:<br />Ein Schüler soll verkürzt lernen. Er macht<br />* das AJ1 komplett<br />* das AJ2 und AJ3 parallel<br />Der Schüler hat im AJ1 einen Datensatz. Damit er gleichzeitig in AJ2 und AJ3 gezählt wird, muss er mit Beginn des AJ2 geklont werden. Damit ist der eine Schüler aus dem AJ1 jetzt zweimal da (auch namentlich, da er ja in beiden Klassen gezählt werden muss) -> Schüler ist beide Male kein Neuanfänger, obwohl er einmal neu angelegt wird.<br /><br />Sie haben die Möglichkeit die Option direkt auf der Karte unter `Schüler > Ausbildung` für den jeweiligen Ausbildungsdatensatz zu aktivieren oder zu deaktivieren. Alternativ können Sie hierfür auf die Sammelzuweisung für eine Gruppe von Schülern verwenden.
+**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger)! 
 **Abbildung**    | <img src=/assets/images/sachsen/neuanf.png>
 **Feld**         | `<al_laufb_bgut>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.

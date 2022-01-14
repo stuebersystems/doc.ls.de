@@ -178,6 +178,27 @@ Kennziffer | Bildungsgang                                  |Schulart | Zeitform
 
 Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 
+#### Fremdsprachen 
+
+(ab MAGELLAN 9)
+
+Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird. 
+
+Unter `Schüler > Daten3 > Fremdsprachen` gibt es das Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt `1. Halbjahr` oder `2. Halbjahr`) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
+
+Diesen Eintrag können Sie auch per Sammelzuweisung (`Schüler > Schüler > Sammelzuweisung`) verteilen.
+<br/>Beispiele:
+
+Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
+--|--|--
+1.Halbjahr oder 2. Halbjahr| `Leer`|leer
+1.Halbjahr|`2.Halbjahr`|leer
+2.Halbjahr|`1.Halbjahr`|leer
+1.Halbjahr|`1.Halbjahr` oder `Schuljahr`|Fremdsprache
+2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
+
+[![Kontrollübersicht Klassen][1]][1]
+
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<schueler extern_id>` - MI
@@ -461,27 +482,6 @@ Titel            | Inhalt
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Angabe einer zusätzlichen Lehrkraft.
 **Feld**         | `<af_int_raum>`
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Raumbedingungen.
-
-### Fremdsprachen 
-
-(ab MAGELLAN 9)
-
-Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird. 
-
-Unter `Schüler > Daten3 > Fremdsprachen` gibt es das Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt `1. Halbjahr` oder `2. Halbjahr`) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
-
-Diesen Eintrag können Sie auch per Sammelzuweisung (`Schüler > Schüler > Sammelzuweisung`) verteilen.
-<br/>Beispiele:
-
-Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
---|--|--
-1.Halbjahr oder 2. Halbjahr| `Leer`|leer
-1.Halbjahr|`2.Halbjahr`|leer
-2.Halbjahr|`1.Halbjahr`|leer
-1.Halbjahr|`1.Halbjahr` oder `Schuljahr`|Fremdsprache
-2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
-
-[![Kontrollübersicht Klassen][1]][1]
 
 ### Vorbildung ABS und BBS
 

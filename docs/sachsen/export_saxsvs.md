@@ -182,8 +182,9 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 
 (ab MAGELLAN 9)
 
-Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird. 
-Was als fremdsprachlicher Unterricht zählt wir hier beschrieben: [https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Welche_Sch.C3.BCler_werden_f.C3.BCr_die_fremdsprachliche_Ausbildung_gez.C3.A4hlt.3F_.28Tabelle:_aktuelle_Sch.C3.BCler.29](https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Welche_Sch.C3.BCler_werden_f.C3.BCr_die_fremdsprachliche_Ausbildung_gez.C3.A4hlt.3F_.28Tabelle:_aktuelle_Sch.C3.BCler.29)
+Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird.
+
+Was als fremdsprachlicher Unterricht zählt wird hier beschrieben: [https://www.saxsvs-bbs.de / Häufig gestellte Fragen / fremdsprachliche Ausbildung](https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Welche_Sch.C3.BCler_werden_f.C3.BCr_die_fremdsprachliche_Ausbildung_gez.C3.A4hlt.3F_.28Tabelle:_aktuelle_Sch.C3.BCler.29)
 
 Unter `Schüler > Daten3 > Fremdsprachen` gibt es das Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt `1. Halbjahr` oder `2. Halbjahr`) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
 
@@ -202,7 +203,7 @@ Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
 
 #### Neuanfänger
 
-Quelle: [https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Wer_z.C3.A4hlt_in_Ph.C3.B6nix_als_Neuanf.C3.A4nger.3F](https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Wer_z.C3.A4hlt_in_Ph.C3.B6nix_als_Neuanf.C3.A4nger.3F)
+Quelle: [https://www.saxsvs-bbs.de / Häufig gestellte Fragen / Neuanfänger](https://www.saxsvs-bbs.de/index.php/H%C3%A4ufig_gestellte_Fragen#Wer_z.C3.A4hlt_in_Ph.C3.B6nix_als_Neuanf.C3.A4nger.3F)
 
 |Fallbeispiel|	Neuanfänger	|Begründung|
 |--|--|--|
@@ -227,7 +228,7 @@ Reihenfolge|Feld
 3.|'Schüler > Ausbildung > aktuelle Ausbildung editieren > Ausbildung bis'
 
 Wird kein Datum gefunden, wird eine Meldung erzeugt.
-Das erste gefundene Datum wird geprüft, ist es korrekt (nicht älter als 4 Jahre, ausgehend vom Beginn des aktuellen Jahres)
+Das erste gefundene Datum wird geprüft, ist es korrekt (nicht älter als 4 Jahre, ausgehend vom Beginn des aktuellen Jahres), wird es ausgespielt.
 
 Titel            | Inhalt
 ---------------- | ------

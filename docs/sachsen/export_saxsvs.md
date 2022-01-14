@@ -222,11 +222,11 @@ Titel            | Inhalt
 **Feld**         | `<al_laufb_bgut>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.
 **Feld**         | `<al_fremd_fs1>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache > erteilt`<br/>1. Fremdsprache des Schülers
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache > erteilt`<br/>1. Fremdsprache des Schülers<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung)!
 **Feld**         | `<al_fremd_fs2>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache > erteilt`<br/>2. Fremdsprache des Schülers.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache > erteilt`<br/>2. Fremdsprache des Schülers.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung)!
 **Feld**         | `<al_fremd_fs3>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache > erteilt`<br/>3. Fremdsprache des Schülers.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache > erteilt`<br/>3. Fremdsprache des Schülers.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung)!
 **Feld**         | `<al_ausgen>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.
 **Feld**         | `<al_mfoerdersw>`

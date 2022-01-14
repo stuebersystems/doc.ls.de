@@ -1,5 +1,7 @@
 # Export von Daten für SaxSVS aus MAGELLAN
 
+[1]:/assets/images/sachsen/911.png
+
 1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/sachsen/einstieg/#voraussetzungen-fur-den-export))
 2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in MAGELLAN.
 3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](exportdatei_erzeugen.md), wie Sie den Export durchführen.
@@ -76,7 +78,7 @@ Schüler, die aus anderen Gründen nicht nach SAXSVS übergeben werden sollen. B
 
 Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das Verzeichnis `BS_SchuelerMerkmale.keys` erneut oder legen unter `Extras > Schlüsselverzeichnisse > Merkmale (Schüler)` eine Schlüsselzeile entsprechend der nachfolgenden Abbildung an. Der Wert kann auch per Sammelzuweisung verteilt werden.
 
-![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](/assets/images/sachsen/kein.saxsvs.png)
+![MAGELLAN 9 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](/assets/images/sachsen/kein.saxsvs.png)
 
 #### Schüler zum Löschen vorsehen
 
@@ -135,8 +137,8 @@ Dies ergibt sich aus folgenden Regeln:
 !!! danger "Achtung"
 
     Wann wird die GUID erzeugt: 
-    1. Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 7 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
-    2.  Für einen neu in Magellan 7 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
+    1. Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 9 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
+    2.  Für einen neu in MAGELLAN 9 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
     3.  Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll.
     4.  Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
 
@@ -153,7 +155,7 @@ Ein Schüler ohne GUID wird vom Export ausgeschlossen!
 2. Markieren Sie die Gruppe von Schülern, für die die gleichen Eigenschaften vergeben werden sollen.
 3. Klicken Sie `Weiter` bis zur dritten Karte, hier können Ausbildungsinformationen neu oder ergänzend zugewiesen werden.<br/>Wichtig: bitte wählen Sie `Neue Ausbildung anlegen` oder `ggfs. aktuelle Ausbildung bearbeiten`!
 
-![MAGELLAN 7 > Menü Schüler > Tab Schüler> Sammelzuweisung](/assets/images/sachsen/sammelzuweisung01.png)
+![MAGELLAN > Menü Schüler > Tab Schüler> Sammelzuweisung](/assets/images/sachsen/sammelzuweisung01.png)
 
 ##### Berufliches Gymnasium - Oberstufenschüler
 
@@ -220,11 +222,11 @@ Titel            | Inhalt
 **Feld**         | `<al_laufb_bgut>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.
 **Feld**         | `<al_fremd_fs1>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>1. Fremdsprache des Schülers.<br/><br/>Es wird unterschieden zwischen:<br/>1. Abgängerdatei (Quelle: `Daten3 > Fremdsprachenfolge`)<br/>2. Aktueller Schülerdatei (Quelle:Vergleich zwischen den `Schüler > Zeugnis Fächer` des 1. und ggfs. 2.Halbjahres und den Einträgen unter `Daten3 > Fremdsprachenfolge`)<br/><br/>Rufen Sie die Erstellung der Statistikdatei für aktuelle Schüler aus dem zweiten Halbjahr auf, vergleichen wir im ersten Schritt die Fachdaten des 1.Halbjahres mit der Fremdsprachenfolge. Werden passende Einträge gefunden, werden diese gemerkt und die Fachdaten des 2.Halbjahres mit der Fremdsprachenfolge verglichen. Werden weitere passende Einträge gefunden, werden die Treffer (Beispiel: Eng als 1.Fremdsprache unter `Daten3` und auch Eng unter `Schüler > Zeugnis > Fächer`) aus dem 1. und dem 2. Durchlauf als Fremdsprachen ausgespielt.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache > erteilt`<br/>1. Fremdsprache des Schülers
 **Feld**         | `<al_fremd_fs2>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache`<br/>2. Fremdsprache des Schülers.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache > erteilt`<br/>2. Fremdsprache des Schülers.
 **Feld**         | `<al_fremd_fs3>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache`<br/>3. Fremdsprache des Schülers.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache > erteilt`<br/>3. Fremdsprache des Schülers.
 **Feld**         | `<al_ausgen>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.
 **Feld**         | `<al_mfoerdersw>`
@@ -459,6 +461,25 @@ Titel            | Inhalt
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Angabe einer zusätzlichen Lehrkraft.
 **Feld**         | `<af_int_raum>`
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Raumbedingungen.
+
+### Fremdsprachen (ab MAGELLAN 9)
+
+Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird. 
+
+Unter `Schüler > Daten3 > Fremdsprachen` gibt es das Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt `1. Halbjahr` oder `2. Halbjahr`) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
+
+Diesen Eintrag können Sie auch per Sammelzuweisung (`Schüler > Schüler > Sammelzuweisung`) verteilen.
+<br/>Beispiele:
+
+Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
+--|--|--
+1.Halbjahr oder 2. Halbjahr| `Leer`|leer
+1.Halbjahr|`2.Halbjahr`|leer
+2.Halbjahr|`1.Halbjahr`|leer
+1.Halbjahr|`1.Halbjahr` oder `Schuljahr`|Fremdsprache
+2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
+
+[![Kontrollübersicht Klassen][1]][1]
 
 ### Vorbildung ABS und BBS
 

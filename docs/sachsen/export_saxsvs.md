@@ -462,7 +462,9 @@ Titel            | Inhalt
 **Feld**         | `<af_int_raum>`
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Raumbedingungen.
 
-### Fremdsprachen (ab MAGELLAN 9)
+### Fremdsprachen 
+
+(ab MAGELLAN 9)
 
 Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird. 
 

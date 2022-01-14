@@ -258,7 +258,7 @@ Titel            | Inhalt
 **Feld**         | `<al_zeitform>` - MI
 **Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Organisation`<br/>Die Zeitform des Schülers im Bildungsgang.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
 **Feld**         | `<al_abschl_dat>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat)!
+**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat](https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat)!
 **Feld**         | `<al_laufb_kl>` - OP
 **Beschreibung** | `MAGELLAN > Schüler > Klasse`<br/>Die aktuelle Klasse des Schülers. Eine Klasse hat der Schüler sobald die Einschulung erfolgt ist. Das Klassenkürzel wird für die aktuelle Klasse  aus dem Feld `Statistikkürzel` ausgelesen.
 **Feld**         | `<al_laufb_von>` - OP
@@ -268,7 +268,7 @@ Titel            | Inhalt
 **Feld**         | `<al_laufb_bem>`
 **Beschreibung** | `Nicht unterstützt`<br/>Ein Freitextfeld zur Laufbahn.
 **Feld**         | `<al_laufb_neuanf>`
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger)! 
+**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger](https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger)! 
 **Abbildung**    | <img src=/assets/images/sachsen/neuanf.png>
 **Feld**         | `<al_laufb_bgut>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.

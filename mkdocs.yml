@@ -71,6 +71,7 @@ nav:
     - Schlüsselverzeichnisse: berlin/02.schluesselverzeichnisse.md
     - Abiturdatenerfassung: berlin/03.stat.abidaten.md
     - Schülerdaten: berlin/04.stat.schuelerdaten.md
+    - CSV-Export: berlin/05.schuelerdatencsv.md
   - Brandenburg:
     - ABS/BBS: brandenburg/abs-bbs.md
   - Mecklenburg-Vorpommern:

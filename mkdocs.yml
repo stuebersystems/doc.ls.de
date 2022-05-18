@@ -67,7 +67,10 @@ nav:
   - Bayern:
     - WinLD/AS: bayern/winld.md
   - Berlin:
-    - Übersicht: berlin/berlin.md
+    - Einstieg: berlin/01.stat.einstieg.md
+    - Schlüsselverzeichnisse: berlin/02.schluesselverzeichnisse.md
+    - Abiturdatenerfassung: berlin/03.stat.abidaten.md
+    - Schülerdaten: berlin/04.stat.schuelerdaten.md
   - Brandenburg:
     - ABS/BBS: brandenburg/abs-bbs.md
   - Mecklenburg-Vorpommern:

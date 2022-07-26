@@ -6,12 +6,17 @@ STÜBER SYSTEMS bietet Ihnen die Möglichkeit, Daten für die SIP-Schnittstelle 
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie, mit dem kommenden MAGELLAN 7 Serviceupdate 7.1.11 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen. 
+    Bitte beachten Sie, mit dem MAGELLAN 9 Serviceupdate 9.0.4 stehen überarbeitete Schnittstellen zur Verfügung. Wir stellen mit der Veröffentlichung unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen. 
 
 ## Einführung
 
 Die SIP-MV Schnittstelle wird über zwei definierte Schnittstellendateien im XML-Format bedient. Eine für die Richtung MAGELLAN -> SIP, eine weitere für die Richtung SIP -> MAGELLAN.
 In den nachfolgenden Abschnitten beschreiben wir die Voraussetzungen und Schritte zur Erstellung der jeweiligen Schnittstellendatei, bzw. zum Import von Daten aus einer Schnittstellendatei.
+
+## Lizenz
+
+Bitte beachten Sie, seit MAGELLAN 7 haben wir unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
+**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von MAGELLAN verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
 
 ### Das XML-Dateiformat
 
@@ -43,7 +48,7 @@ Für Sie als Schule bedeutet dies: Sie müssen die exportierte XML-Datei über d
 
 Dateiname         | Abkürzung | Kapitel                                 | Lizenz | Inhalt
 ----------------- | --------- | --------------------------------------- | ------ | ------
-xxxxx_[DATUM].xml | SIP       | [Datenpflege zum Export](export_sip.md) | 2020   | Aktuelle und historische Daten des laufenden und davor liegenden Schulhalbjahres
+xxxxx_[DATUM].xml | SIP       | [Datenpflege zum Export](export_sip.md) | YYYY (aktuelles Jahr)  | Aktuelle und historische Daten des laufenden und davor liegenden Schulhalbjahres
 
 #### Voraussetzungen für den Export
 
@@ -64,7 +69,7 @@ Titel            | Inhalt
 
 Dateiname         | Abkürzung | Kapitel                                 | Lizenz | Inhalt
 ----------------- | --------- | --------------------------------------- | ------ | ------
-xxxxx_[DATUM].xml | SIP       | [Import aus SIP](import_sip.md)         | 2020   | IDs zum Synchronisieren mit MAGELLAN
+xxxxx_[DATUM].xml | SIP       | [Import aus SIP](import_sip.md)         | YYYY (aktuelles Jahr) | IDs zum Synchronisieren mit MAGELLAN
 
 #### Voraussetzungen für den Import
 
@@ -89,4 +94,4 @@ Titel            | Inhalt
 
 ### Besonderheiten
 
-#### 2020/2021
+keine

@@ -1,4 +1,4 @@
-# ASDPC-Schnittstelle 2020/21
+# ASDPC-Schnittstelle
 
 Hier finden Sie die jeweils aktuellste Version zur ASDPC-Schnittstelle **inklusiver aller kurzfristig veröffentlichten Korrekturen während einer Statistikphase**.
 

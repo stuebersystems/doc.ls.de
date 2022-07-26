@@ -12,6 +12,11 @@ Diese Dokumentation beschreibt die für Niedersächsische Schulen spezifischen F
 
 Die Schnittstelle zu izn-Stabil wird über definierte Schnittstellendateien im Textformat bedient. Diese Dateien werden aus MAGELLAN heraus exportiert und dienen dem Import nach izn-Stabil. In den nachfolgenden Abschnitten beschreiben wir die Voraussetzungen und Schritte zur Erstellung der jeweiligen Schnittstellendatei.
 
+## Lizenz
+
+Bitte beachten Sie, seit MAGELLAN 7 haben wir unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
+**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von MAGELLAN verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
+
 ## Aufbau der Exportdateien
 
 izn-Stabil benutzt ein Textformat in dem die Daten zeilenweise pro Klasse und Jahrgang und Stellenweise pro Informationseinheit gespeichert werden.
@@ -28,8 +33,8 @@ Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche vo
 
 Dateiname   | Abkürzung | Unterstützt | Kapitel                                                | Lizenz | Inhalt
 ----------- | --------- | ----------- | ------------------------------------------------------ | ------ | ------
-KLIMP.TXT   | KLIMP     | X           | [Datenpflege zum Export der KLIMP.TXT](https://doc.ls.stueber.de/niedersachsen/klimp/))   | 2021   | Daten der Klassen
-RELIMP.TXT* | RELIMP    | X           | [Datenpflege zum Export der RELIMP.XML](https://doc.ls.stueber.de/niedersachsen/relimp/) | 2021   | Religionsunterricht (Lerngruppen und Stunden), Informationen über die eingerichteten Lerngruppen und die erteilten Stunden Religionsunterricht bzw. Unterricht Werte und Normen
+KLIMP.TXT   | KLIMP     | X           | [Datenpflege zum Export der KLIMP.TXT](https://doc.ls.stueber.de/niedersachsen/klimp/))   | 2022   | Daten der Klassen
+RELIMP.TXT* | RELIMP    | X           | [Datenpflege zum Export der RELIMP.XML](https://doc.ls.stueber.de/niedersachsen/relimp/) | 2022   | Religionsunterricht (Lerngruppen und Stunden), Informationen über die eingerichteten Lerngruppen und die erteilten Stunden Religionsunterricht bzw. Unterricht Werte und Normen
 SEK2IMP     | SEK2IMP   | -           | -                                                      | -      | Daten der gymnasialen Oberstufe
 LVIMP       | LVIMP     | -           | -                                                      | -      | Informationen über die Unterrichtseinsätze der Lehrkräfte. Die Erfahrungen der Schulen bei den letzten Erhebungen haben gezeigt, dass es günstiger ist, das Lehrkräfteverzeichnis vollständig in izn-Stabil zu bearbeiten.
 
@@ -50,6 +55,6 @@ Titel            | Inhalt
 
 ### Besonderheiten
 
-#### 2021/2022
+#### 2022/2022
 
 keine

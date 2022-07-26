@@ -13,7 +13,7 @@ amtliche Statistik Niedersachsen (IZN-Stabil) erzeugt werden. Zusätzlich ist Su
 
 ## Grundsätzlich
 
-Mit DAVINCI und MAGELLAN können Sie alle Datensätze erstellen, die für die Erhebung der amtlichen Landsschulstatistik 2004/2005 benötigt werden.  Wenn Sie nur DAVINCI besitzen, können Sie nur einen Teil der Statistik erzeugen.Mit DAVINCI bzw.
+Mit DAVINCI und MAGELLAN können Sie alle Datensätze erstellen, die für die Erhebung der amtlichen Landsschulstatistik benötigt werden.  Wenn Sie nur DAVINCI besitzen, können Sie nur einen Teil der Statistik erzeugen.Mit DAVINCI bzw.
 
 !!! info "Hinweis"
 
@@ -38,9 +38,9 @@ Die Schüler-, Abgänger und Lehrerdaten werden aus DAVINCI und MAGELLAN erzeugt
 
 Die grundlegende Vorgehensweise zum Erstellen der Statistik ist die folgende:
 
-1. Überprüfen Sie in MAGELLAN, ob Sie alle Daten richtig eingetragen haben bzw. tragen Sie noch fehlende Angaben nach. Dies gilt sowohl für den aktuellen Zeitraum (1. Halbjahr 2004/2005) als auch für die vorangegangenen Zeiträume seit der Vorjahresstatistik (1. und 2. Halbjahr 2003/2004).
+1. Überprüfen Sie in MAGELLAN, ob Sie alle Daten richtig eingetragen haben bzw. tragen Sie noch fehlende Angaben nach. Dies gilt sowohl für den aktuellen Zeitraum (1. Halbjahr) als auch für die vorangegangenen Zeiträume seit der Vorjahresstatistik (1. und 2. Halbjahr ).
 2. Überprüfen Sie in DAVINCI, ob Lehrer, Klassen und Fächer mit MAGELLAN abgeglichen worden sind. Überprüfen Sie, ob bei allen Lehrern die Soll-Berechnung richtig erfasst wurde.
-3. Übertragen Sie in MAGELLAN die Daten des aktuellen Zeitraums (1. Halbjahr 2004/2005) und der vorangegangenen Zeiträume (1. und 2. Halbjahr 2003/2004) in das MAGELLAN-Datawarehouse.
+3. Übertragen Sie in MAGELLAN die Daten des aktuellen Zeitraums (1. Halbjahr) und der vorangegangenen Zeiträume (1. und 2. Halbjahr) in das MAGELLAN-Datawarehouse.
 4. Übertragen Sie in DAVINCI die Daten der aktuellen Stundenplandatei in das MAGELLAN-Datawarehouse.
 5. Starten Sie den MAGELLAN-DWH-Explorer und erstellen Sie dort die mit Hilfe des Statistikassistenten für Niedersachsen BBS die geforderten Dateien für BBS-Planung.
 6. Importieren Sie die Dateien in BBS-Planung.
@@ -130,7 +130,7 @@ Stelle 8| Besonderheiten des Bildungsganges|
 
 ## Abgängerdaten
 
-Diese Angaben beziehen sich auf das vorangegangene Schuljahr 2003/2004. Es werden dazu alle Schüler des 1. und 2. Halbjahres 2003/2004 berücksichtigt.
+Diese Angaben beziehen sich auf das vorangegangene Schuljahr. Es werden dazu alle Schüler des 1. und 2. Halbjahres berücksichtigt.
 
 ### Angaben bei Klassen
 
@@ -175,7 +175,7 @@ Sprache bzw. Sprachengruppe bei überwiegend nichtdeutscher Verkehrssprache in d
 
 ## Lehrerdaten
 
-Diese Angaben beziehen sich auf das aktuelle Schulhalbjahr (1. HJ. 2002/2003).
+Diese Angaben beziehen sich auf das aktuelle Schulhalbjahr (1. HJ. des aktuell laufenden Schuljahres).
 
 ### Angaben in MAGELLAN
 
@@ -236,7 +236,7 @@ Sie können alle Daten direkt aus MAGELLAN heraus in das MAGELLAN-Datawarehouse 
 4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum aus.
 5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
-Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktuellen Zeitraum (1. Halbjahr 2004/2005) als auch aus den beiden vorangegangenen Zeiträumen (1. und 2. Halbjahr 2003/2004) zu übertragen.
+Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktuellen Zeitraum (1. Halbjahr) als auch aus den beiden vorangegangenen Zeiträumen (1. und 2. Halbjahr) zu übertragen.
 
 ### Übertrag aus DAVINCI in das Datawarehouse
 
@@ -245,7 +245,7 @@ Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktu
 1. Starten Sie DAVINCI-Stundenplan mit Ihrer Plandatei.
 2. Wählen Sie Extras und dann Archivieren.
 3. Bestätigen Sie die Sicherheitsabfrage. Die Daten werden jetzt in eine Schuldatentransferdatei exportiert, anschließend wird der Importassistent für das MAGELLAN-Datawarehouse gestartet. Sie müssen sich jetzt bei MAGELLAN mit Ihrer Kennung und Ihrem Kennwort anmelden.
-4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum aus. Für die Statistik wäre dies der Zeitraum ab 01.08.2004.
+4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum aus.
 5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
  
 ## Datenüberprüfung im Datawarehouse
@@ -274,7 +274,7 @@ Mit Hilfe des MAGELLAN DWH Explorer können Sie auf das MAGELLAN Datawarehouse z
 
 Wert|Hinweis
 --|--
-Abgängerzeitraum| Der Abgängerzeitraum  definiert den Zeitraum, auf den sich das letzte Schuljahr bezieht. Dieser Zeitraum sollte den gesamten Zeitraum des letzten Schuljahres (1. und 2. Halbjahr 2003/2004) umfassen.
+Abgängerzeitraum| Der Abgängerzeitraum  definiert den Zeitraum, auf den sich das letzte Schuljahr bezieht. Dieser Zeitraum sollte den gesamten Zeitraum des letzten Schuljahres (1. und 2. Halbjahr) umfassen.
 Erhebungszeitpunkt|Der Erhebungszeitpunkt definiert den Stichtag, auf den sich die Statistik bezieht. Dieses Datum ist für die aktuellen Daten anzugeben und sollte in der vom Statistikamt vorgegebenen Woche liegen.
 
 ### Dateiimport in BBS-Planung

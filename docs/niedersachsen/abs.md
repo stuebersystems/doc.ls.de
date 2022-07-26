@@ -10,10 +10,9 @@ amtliche Statistik Niedersachsen (IZN-Stabil) erzeugt werden. Zusätzlich ist Su
     In der MAGELLAN 6 wurde die Schnittstellendatei aus dem MAGELLAN Datawarehouse heraus erzeugt. 
     Ab Version 7 wird die Schnittstellendatei direkt aus MAGELLAN erzeugt.
 
-
 ## Grundsätzliches
 
-Mit DAVINCI und MAGELLAN können Sie die Datensätze erstellen, die für die Erhebung der amtlichen Landesschulstatistik 2014/2015 für allgemeinbildendende Schulen in Niedersachsen benötigt werden. Wenn Sie nur MAGELLAN besitzen, können Sie nur die Klassendatei für den Import nach izn-Stabil erzeugen.
+Mit DAVINCI und MAGELLAN können Sie die Datensätze erstellen, die für die Erhebung der amtlichen Landesschulstatistik für allgemeinbildendende Schulen in Niedersachsen benötigt werden. Wenn Sie nur MAGELLAN besitzen, können Sie nur die Klassendatei für den Import nach izn-Stabil erzeugen.
 
 !!! info "Hinweis"
 
@@ -65,7 +64,7 @@ So übertragen Sie MAGELLAN-Daten in das Datawarehouse:
 1. Wählen Sie in MAGELLAN die Ansicht Datawarehouse aus.
 2. Klicken Sie dort unterhalb von Extras auf Starten.
 3. Der Importassistent für das MAGELLAN-Datawarehouse wird gestartet. Sie müssen sich jetzt erneut an der MAGELLAN Datenbank mit der Administrator- Kennung und Kennwort anmelden.
-4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und Zeitraum aus. Für die Erhebung im Februar 2016 wäre dies der Zeitraum des 2. Halbjahres 2015/2016.
+4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und Zeitraum aus. Für die Erhebung im Februar wäre dies der Zeitraum des 2. Halbjahres des neuen Schuljahres.
 5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
 So archivieren Sie DAVINCI-Daten ins Datawarehouse:
@@ -73,7 +72,7 @@ So archivieren Sie DAVINCI-Daten ins Datawarehouse:
 1. Starten Sie DAVINCI-Stundenplan mit Ihrer Plandatei.
 2. Wählen Sie Extras und dann Archivieren aus.
 3. Bestätigen Sie die Sicherheitsabfrage. Die Daten werden jetzt in eine Schuldatentransferdatei exportiert, anschließend wird der Importassistent für das MAGELLAN-Datawarehouse gestartet. Sie müssen sich jetzt in MAGELLAN mit der Administrator- Kennung und Kennwort anmelden.
-4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und Zeitraum aus. Für die Statistik wäre dies der Zeitraum ab 01.08.2016 bis zum 31.01.2017. 
+4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und Zeitraum aus.
 5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
 
 Nutzen Sie nur MAGELLAN für die Statistik, so entfällt der Schritt der Archivierung der DAVINCI-Daten ins Datawarehouse.
@@ -99,23 +98,24 @@ Jetzt können die Statistikdaten mittels des MAGELLAN DWH Explorer erstellt werd
 1. Starten Sie den MAGELLAN DWH Explorer über den Punkt Programme |STÜBER SYSTEMS| MAGELLAN DWH Explorer.
 2. Wählen Ansicht und dann Statistiken.
 3. Wählen Sie unter Landesstatistik die Option Statistik für Niedersachsen (ABS) aus.
-4. Wählen Sie im Dialogfenster Exportiere nach izn-Stabil einen Exportordner für die zu exportierenden Dateien, einen Mandanten und geben Sie den Zeitraum der Statistikerhebung (z.B. 01.02.2014 bis 31.07.2014) ein. Klicken Sie dann auf OK.
+4. Wählen Sie im Dialogfenster Exportiere nach izn-Stabil einen Exportordner für die zu exportierenden Dateien, einen Mandanten und geben Sie den Zeitraum der Statistikerhebung ein. Klicken Sie dann auf OK.
 5. Die Daten werden jetzt in die Dateien LVIMP.TXT, KLIMP.TXT und RELIMP.TXT in den zuvor angegebenen Ordner exportiert.
 
 Wie Sie diese Dateien nach izn-Stabil importieren können, entnehmen Sie bitte der Dokumentation zu izn-Stabil bzw. der Online-Hilfe zu izn-Stabil.
 
 Wenn Sie nur eine Lizenz von MAGELLAN besitzen, dürfen Sie nur die Datei KLIMP.TXT nach izn-Stabil importieren.
 
-# Besonderheiten
+## Besonderheiten
 
-## 2016/2017
+### 2016/2017
 
-### Verzeichnis Staatsangehörigkeiten
+#### Verzeichnis Staatsangehörigkeiten
+
 Schlüssel Alt |Schlüssel Neu|Bezeichnung |Änderung
 --|--|--|--
 133 |170|Serbien|Schlüssel
 
-## Allgemeine Daten
+### Allgemeine Daten
 
 !!! info "Hinweis"
 
@@ -125,7 +125,7 @@ Datenfeld in MAGELLAN/DAVINCI  |Beschreibung |Statistikdatei| Typ
 --|--|--|--
 MAGELLAN:Mandanten > Daten 1 > Schulnummer| Geben Sie hier Ihre 5-stellige Schulnummer ein. |Alle Statistikdateien| P
 
-## Schüler- und Klassendaten
+### Schüler- und Klassendaten
 
 !!! info "Hinweis"
 
@@ -157,7 +157,7 @@ MAGELLAN: Schüler > Zeugnis > Fächer > Fach|Geben Sie hier pro Schüler die un
 DAVINCI-Stundenplan Veranstaltungsliste|Die Anzahl der Lerngruppen und deren jeweilige Stunden für die Fächer Philosophie, evangelischen, katholischen, islamischen, konfessionell-kooperativen Religionsunterricht bzw. Unterricht Werte und Normen ergibt sich aus der Veranstaltungsliste in DAVINCI.|RELIMP.TXT|B
 
 ## Lehrerdaten
-
+#
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
@@ -174,11 +174,11 @@ DAVINCI Stundenplan  Lehrer > Soll-Berechnung   Arbeitskonto|Geben Sie das Arbei
 DAVINCI Stundenplan  Lehrer > Soll-Berechnung  Ausgleich Arbeitskonto|Geben Sie den evtl. Ausgleich für das Arbeitszeitkonto für jeden Lehrer in seiner Soll-Berechnung an. Grundlage ist der entsprechende Soll-Ist-Schlüssel (Kürzel = „Ausgl“).|LVIMP.TXT|B
 DAVINCI Stundenplan  Lehrer > Veranstaltungsliste  Stunden pro Schulgliederung|Die Unterrichtsstunden pro Schulgliederung ergeben sich aus der Veranstaltungsliste des Lehrers. Der Plan muss dazu nicht gesetzt sein.|LVIMP.TXT|P
 
-## Schülerdaten
+### Schülerdaten
 
-Diese Angaben beziehen sich auf das aktuelle Schulhalbjahr (1. HJ. 2004/2005).
+Diese Angaben beziehen sich auf das aktuelle Schulhalbjahr.
 
-### Angaben beim Mandanten
+#### Angaben beim Mandanten
 
 Die folgenden Angaben müssen beim Mandanten in MAGELLAN gemacht werden, damit die Schülerdatei SIL.TXT erzeugt werden kann.
 
@@ -186,7 +186,7 @@ Angabe gemäß Statistik |Angabe in MAGELLAN
 --|--
 Schulnummer| Ansicht/Mandant/Schulnummer
 
-### Angaben bei Schülern
+#### Angaben bei Schülern
 
 Die folgenden Angaben müssen bei Schülern in MAGELLAN gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Schülerdatei SIL.TXT erzeugt werden kann.
 

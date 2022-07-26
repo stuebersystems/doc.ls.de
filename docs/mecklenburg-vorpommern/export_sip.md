@@ -62,7 +62,7 @@ In der XML-Datei sieht das wie folgt aus:
   <Version>2.05.001</Version>
   <ExportSystem>SIP</ExportSystem>
   <Umfang>GESAMT</Umfang>
-  <ErstelltAm>15.04.2020</ErstelltAm>
+  <ErstelltAm>15.04.2022</ErstelltAm>
   <Schule>Hier kommen dann die exportierten Daten...</Schule>
 </Kopf>
 ```

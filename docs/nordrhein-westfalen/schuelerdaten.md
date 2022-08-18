@@ -75,7 +75,7 @@ Titel            | Inhalt
 Feld             | **Bezugsjahr** (Alle)
 Beschreibung     | `Exportmodul > Erhebungsjahr` (Alle)<br/>Geben Sie im Dialogfenster bei der Ausführung des Exports das Erhebungsdatum ein. Das Datum wird auch dazu<br/>benötigt um das Erhebungsjahr auszulesen.
 Feld             | **Status - Schülerstatus** (Alle)
-Beschreibung     | `Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]`<br/>`Schüler > Zugang/Abgang > Abgang [Abgangsarten]`<br>Der Schülerstatus ergibt sich anhand des Schülertyps un dem angegebenen Abschluss bzw. Abgang des Schülers.<br/>Neuzugang, Neuzugang an gleicher Sxhule, Eingeschult = 2 (Aktiv)<br/>Bildungsgang abgeschlossen = 8 (Abschluss)<br/>Abgänger = 8 (Abgang mit Abschluss) oder wenn kein Abschluss bzw. Abschluss oder Abgang = 0A sind = 9 (Abgang ohne Abschluss)
+Beschreibung     | `Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]`<br/>`Schüler > Daten2 > Abgang [Abgangsarten]`<br>Der Schülerstatus ergibt sich anhand des Schülertyps un dem angegebenen Abschluss bzw. Abgang des Schülers.<br/>Neuzugang, Neuzugang an gleicher Sxhule, Eingeschult = 2 (Aktiv)<br/>Bildungsgang abgeschlossen = 8 (Abschluss)<br/>Abgänger = 8 (Abgang mit Abschluss) oder wenn kein Abschluss bzw. Abschluss oder Abgang = 0A sind = 9 (Abgang ohne Abschluss)
 Feld             | **LfdNr** (Alle)
 Beschreibung     | `Wird beim Export berechnet.`<br>Laufende Nummer pro Schüler, die beim Export erzeugt und hochgezählt wird.<br/>***Achtung***: Es handelt sich hierbei nicht um die Schüler.ID aus MAGELLAN.
 Feld             | **Klasse** (Alle)
@@ -115,7 +115,7 @@ Beschreibung     |  `Schüler > Daten 1 > Rel.-Abmeldung bis`<br>Die Anmeldung z
 Feld             | **Reliabmeldung** (Alle)
 Beschreibung     | `Schüler > Daten 1 > Rel.-Abmeldung Von`<br>Geben Sie im Vom-Feld die Abmeldung vom Religionsunterricht an.
 Feld             | **Aufnahmedatum** (Alle)
-Beschreibung     | `Schüler > Zugang/Abgang > ZugangAm`<br>Geben Sie das Zugangsdatum des Schülers an der Schule an.
+Beschreibung     | `Schüler > Daten2 > ZugangAm`<br>Geben Sie das Zugangsdatum des Schülers an der Schule an.
 Feld             | **Labk** (Alle)
 Beschreibung     | `Lehrer > Daten 1 > Kürzel`<br/>`Klassen > Zeiträume > Klassenleiter 1`<br>Tragen Sie für jeden Lehrer der Schule das 4-Stellige Lehrerkürzel (Abkürzung des Lehrers in der LID) ein.<br/>Geben Sie für jede Klasse des Exports den Klassenlehrer an.
 Feld             | **Ausbildort** (Alle)
@@ -123,25 +123,25 @@ Beschreibung     |  Wird nicht erfasst, da es z.zt. nicht von der ASDPC-Schnitts
 Feld             | **Betriebsort** (BK, SB / Alle)
 Beschreibung     | `Betriebe > Daten 1 > Ort`<br/>`Betriebe > Daten 1 > Land`<br/>`Betriebe > Daten 1 > Gemeinde`<br/>`Schüler > Ausbildung > Aktuelle Ausbildung (mit Ausbildungsbetrieb)`<br>Der Schüler muss eine aktuelle Ausbildung eingetragen haben und einen Ausbildungsbetrieb. Diese Betrieb sollte die oben genannten Felder eingetragen haben. Lesen Sie dazu auch die Berechnung des Wohnortes beim Schüler. Die Berechnung der Ausgabe ist identisch.
 Feld             | **LSSchulform - Schulform der letzten Schule** (Alle / NZG, NZS)
-Beschreibung     | `Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schule`<br/>`Zugang/Abgang > Bereits besuchte Schulen > Schulform [Schulformen]`<br/>`Schüler > Zugang/Abgang > Herkunftsschule`<br>Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulform der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulform des Mandanten ausgegeben. <br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
+Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Schule`<br/>`Zugang/Abgang > Bereits besuchte Schulen > Schulform [Schulformen]`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulform der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulform des Mandanten ausgegeben. <br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSSchulnummer - Schulnummer der letzten Schule** (Alle / NZG, NZS)
-Beschreibung     | `Schulen > Daten > Schulnummer`<br/>`Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schule`<br/>`Schüler > Zugang/Abgang > Herkunftsschule`<br>Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulnummer der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulnummer des Mandanten ausgegeben.<br/>Tragen Sie bei den Schulen die Herkunftsschulen der Schüler mit deren Schulnummer ein.<br/>Wählen Sie unter Bereits besuchte Schulen die Schule aus.<br/>Wählen Sie unter Herkunftsschule die eingetragene Schule aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
+Beschreibung     | `Schulen > Daten > Schulnummer`<br/>`Schüler > Daten2 > Bereits besuchte Schulen > Schule`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Wird der Schüler als `Neuzugang` erkannt, dann wird die Schulnummer der Herkunftsschule ausgegeben.<br/>Wird der Schüler als `Neuzugang an gleicher Schule` erkannt, dann wird die Schulnummer des Mandanten ausgegeben.<br/>Tragen Sie bei den Schulen die Herkunftsschulen der Schüler mit deren Schulnummer ein.<br/>Wählen Sie unter Bereits besuchte Schulen die Schule aus.<br/>Wählen Sie unter Herkunftsschule die eingetragene Schule aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSGliederung - Schulgliederung der letzten Schulen** (Alle / NZG)
 Beschreibung     | `Schüler > Daten 2 > Höchster Abschluss BBS > Bildungsgang [Bildungsgänge]`<br/>Die mitgebrachte Schulgliederung tragen Sie über die dazugehörige Fachklasse über den Höchsten berufsbildenden Bildungsgang ein. Die Berechnung des Schlüssels erfolgt wie bei der Gliederung.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSFachklasse** (Alle / NZG)
 Beschreibung     | `Schüler > Daten 2 > Höchster Abschluss BBS > Bildungsgang [Bildungsgänge]`<br>Die mitgebrachte Fachklasse tragen Sie über den höchsten berufsbildenden Bildungsgang ein. Die Berechnung des Schlüssels erfolgt wie bei der Fachklasse.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSKlassenart** (ABS / NZG, NZS)
-Beschreibung     | `Schüler > Zugang/Abgang > Bereits besuchte Schule > Herkunftsart [Herkunftsarten]`<br>Tragen Sie die Art der Klasse an der letzten Schule, z.B. Regelklasse ein.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
+Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schule > Herkunftsart [Herkunftsarten]`<br>Tragen Sie die Art der Klasse an der letzten Schule, z.B. Regelklasse ein.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSReformpdg**
 Beschreibung     | Wird nicht erfasst.
 Feld             | **LSSchulentl** (Alle / NZG)
-Beschreibung     | `Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulbesuch bis`<br/>`Schüler > Zugang/Abgang > Herkunftsschule`<br>Geben Sie für die Herkunfsschule den Schulbesuch bis an.
+Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Schulbesuch bis`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Geben Sie für die Herkunfsschule den Schulbesuch bis an.
 Feld             | **LSJahrgang** (Alle / NZG)
-Beschreibung     | `Schüler > Zugang/Abgang > Bereits besuchte Schulen > Letzte Klassenstufe [Klassenstufen]`<br/>`Schüler > Zugang/Abgang > Herkunftsschule`<br>Wählen Sie für die Herkunfsschule die Letzte Klassenstufe aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
+Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Letzte Klassenstufe [Klassenstufen]`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Wählen Sie für die Herkunfsschule die Letzte Klassenstufe aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSQual** (Alle / NZG, NZS)
 Beschreibung     | `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]`<br>Grundsätzlich berechnet ASDPC den Höchsten allgemeinbildenden Abschluss aus dem Statistikfeld LSQual und Zeugnis, wobei LSQual eigentlich den letzten höchsten ABS Abschluss darstellt, z.B. aus einer anderen Schule. In MAGELLAN tragen Sie den höchsten Abschluss ABS nur an einer Stelle ein, auch wenn dieser an Ihrer eigenen Schule erworben wurde.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen) ausgegeben.
 Feld             | **LSVersetz** (Alle / NZG)
-Beschreibung     | `Schüler > Zugang/Abgang > Bereits besuchte Schulen > Unterlagen [ Herkunftsunterlagen]`<br/>`Schüler > Zugang/Abgang > Herkunftsschule`<br>Wählen Sie für die Herkunftsschule als Versetzungsart die Unterlagen aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
+Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Unterlagen [ Herkunftsunterlagen]`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Wählen Sie für die Herkunftsschule als Versetzungsart die Unterlagen aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **VOklasse** (Alle / ABG, AKT, BAGn NZS)
 Beschreibung     | `Klassen > Daten > Statistikkürzel`<br>Achten Sie bitte darauf, dass für alle aktuellen und auch die Vorjahresklassen ein Statistikkürzel unter `Klassen > Daten > Statistikkürzel` erfasst wurde.
 Feld             | **VOfachklasse** (Alle / ABG, AKT, BAG, NZS)
@@ -159,9 +159,9 @@ Beschreibung     | `Schüler > Daten 4 > Förderbedarf [Förderbedarf]`<br>Wähl
 Feld             | **VOReformpdg**
 Beschreibung     | Wird nicht erfasst.
 Feld             | **Entldatum - Datum der Entlassung** (Alle / ABG)
-Beschreibung     | `Schüler > Zugang/Abgang > Abgang am`<br>Geben Sie das Abgangsdatum des Schülers ein, wenn es sich um einen Abgänger handelt.
+Beschreibung     | `Schüler > Daten2 > Abgang am`<br>Geben Sie das Abgangsdatum des Schülers ein, wenn es sich um einen Abgänger handelt.
 Feld             | **Zeugnis** (Alle / ABG, BAG, NZS)
-Beschreibung     | `Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]`<br/>`Schüler > Zugang/Abgang > Abgang`<br>Wählen Sie für Abgänger den Abschluss bzw. die Abgangsart des Schülers aus. Je nach schulischem Alltag, können Sie die Werte unter Abschlüsse oder Abgang erfassen. Es wird vorrangig der Abschluss gesetzt. Wenn dieser nicht eingetragen ist, wird der Abgang für den Export erfasst.
+Beschreibung     | `Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]`<br/>`Schüler > Daten2 > Abgang`<br>Wählen Sie für Abgänger den Abschluss bzw. die Abgangsart des Schülers aus. Je nach schulischem Alltag, können Sie die Werte unter Abschlüsse oder Abgang erfassen. Es wird vorrangig der Abschluss gesetzt. Wenn dieser nicht eingetragen ist, wird der Abgang für den Export erfasst.
 Feld             | **Schulpflichterf - Erfüllung der Vollzeitschulpflicht** (ABS / Alle)
 Beschreibung     | `Schüler  > Zeugnis > Details > Schulbesuchsjahr`<br>Ist das Schulbesuchsjahr > 9 dann wird der Schüler mit dem Merkmal `Vollzeitschulpflicht erfüllt` ausgegeben.
 Feld             | **Schulwechselform**
@@ -187,7 +187,7 @@ Beschreibung     | `Schüler > Daten 2 > Verkehrssprache`<br>Geben Sie hier eine
 Feld             | **Einschulungsart** (G / Alle)
 Beschreibung     | `Schüler > Statistik > Merkmal S1 [Merkmale]`<br>Wählen Sie hier die Einschulungsart des Schülers aus.
 Feld             | **Grundschulempfehlung** (GE, GY / Alle)
-Beschreibung     | `Schüler > Zugang/Abgang > Zugang > Empfehlung [Empfehlungen (Bewerbung)]`<br>Geben Sie hier die Empfehlung der Primarschulen an.
+Beschreibung     | `Schüler > Daten2 > Zugang > Empfehlung [Empfehlungen (extern)]`<br>Geben Sie hier die Empfehlung der Primarschulen an.
 Feld             | **Massnahmentraeger** (Alle)
 Beschreibung     | `Schüler > Statistik > Merkmal S2 [Merkmale]`<br>Wählen Sie aus, ob der Schüler von einem Ausbildungsbetrieb oder einem Träger ausgebildet wird.
 Feld             | **Betreuung** (G, GY, GE / Alle)

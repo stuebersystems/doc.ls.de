@@ -187,7 +187,7 @@ Beschreibung     | `Schüler > Daten 2 > Verkehrssprache`<br>Geben Sie hier eine
 Feld             | **Einschulungsart** (G / Alle)
 Beschreibung     | `Schüler > Statistik > Merkmal S1 [Merkmale]`<br>Wählen Sie hier die Einschulungsart des Schülers aus.
 Feld             | **Grundschulempfehlung** (GE, GY / Alle)
-Beschreibung     | `Schüler > Daten2 > Zugang > Empfehlung [Empfehlungen (extern)]`<br>Geben Sie hier die Empfehlung der Primarschulen an.
+Beschreibung     | `Schüler > Daten2 > Zugang > Empfehlung [Empfehlungen (extern)]`<br>Geben Sie hier die Empfehlung der Primarschulen an. Vorausgesetzt wird der Eintrag der Mandantenschulform (GY,GE).
 Feld             | **Massnahmentraeger** (Alle)
 Beschreibung     | `Schüler > Statistik > Merkmal S2 [Merkmale]`<br>Wählen Sie aus, ob der Schüler von einem Ausbildungsbetrieb oder einem Träger ausgebildet wird.
 Feld             | **Betreuung** (G, GY, GE / Alle)

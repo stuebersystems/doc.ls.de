@@ -4,15 +4,17 @@ Hier finden Sie die jeweils aktuellste Version der Landesstatistik **inklusiver 
 
 Für die Statistik benötigen Sie mindestens die Versionen MAGELLAN 8.0.X (XX.XX.2021) und DAVINCI 6.X.XX (XX.XX.2021)
 
-## [**Downloadlink**](https://my.hidrive.com/share/)
+## [**Downloadlink**](https://my.hidrive.com/share/329e.t1a8q)
 
 ## aktuelle Änderungen
+
++ CHANGE: Schlüsselverzeichniss Lehrämter geänderter Schlüssel
 
 !!! info "Hinweis"
 
      Eine Anleitung zum Austausch der einzelnen Dateien finden Sie im Abschnitt ["Wie genau tauscht man die Dateien aus?"](#wie-genau-tauscht-man-die-dateien-aus)!
 
-## Aktuellste Ausgabe ist die 8.0.X (XX.XX.2021)
+## Aktuellste Ausgabe ist die 9.0.6 (19.08.2022)
 
 Diese Ausgabe beinhaltet alle vorangegangenen Änderungen
 

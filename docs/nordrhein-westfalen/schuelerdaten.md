@@ -1,4 +1,4 @@
-# Schüler- und Klassendaten der SIM.TXT
+# Schüler- und Klassendaten der SIM.TXTMAGELLAN
 
 [Beachten Sie bitte die Mindesteingaben für die Schnittstelle!](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-fur-alle-statistikdaten)
 
@@ -201,7 +201,7 @@ Beschreibung     | `Klassen > Daten > Schwerpunkt1 und Schwerpunkt2 [Förderunge
 Feld             | **Berufsabschluss** (BK, SB, WB / Alle)
 Beschreibung     | `Schüler > Statistik > Merkmal S1 [Merkmale]`<br>Wählen Sie aus, ob bereits eine abgeschlossene Berufsausbildung vorliegt.
 Feld             | **Produktname** (Alle)
-Beschreibung     | Das Feld wird für den Import nach ASDPC nicht benötigt, soll aber beim Support helfen. Wir geben hier fest den Wert „MAGELLAN 8“ und die aktuell installierte MAGELLAN 8 Version (Registry Wert) aus.
+Beschreibung     | Das Feld wird für den Import nach ASDPC nicht benötigt, soll aber beim Support helfen. Wir geben hier fest den Wert Ihrer eingesetzten MAGELLAN-Ausgabe entsprechend des Registryeintrages aus.
 Feld             | **Produktversion** (Alle)
 Beschreibung     | Das Feld wird für für den Import nach ASDPC nicht benötigt, soll aber beim Support helfen. <br/>Wir geben hier die berechnete Datensatzart (z.B. Neuzugang, Eingeschult, etc.) für die Zeile aus.
 Feld             | **Adressenmerkmal**

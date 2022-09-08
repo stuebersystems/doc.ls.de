@@ -6,7 +6,7 @@ Hier finden Sie die jeweils aktuellste Version zur ASDPC-Schnittstelle **inklusi
 
 Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht sein, dann zeigt der Link des Schnittstellenpakets auf unsere Downloadseite.
 
-### Schnittstellenpaket - 07.09.2021
+### Schnittstellenpaket - 08.09.2022
 
 [Downloadlink](https://my.hidrive.com/share/neqlm8tqnv)
 
@@ -16,17 +16,14 @@ Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht
 
 #### Aktuelle Änderungen
 
-* FIX: SIM.TXT - Ausgabe der VOfachklasse
-* CHANGE:SIM.TXT - Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
-* FIX: SIM.TXT - Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
-* FIX: SIM.TXT - Ausgabe Zeugnis für BAG 
-* FIX. ABI.TXT - Ausgabe von Daten korrigiert
+* FIX: NRW => SIM.TXT ist ein Schüler zugleich Nebenschüler und Stammschüler wird er in der SIM.txt mit zwei Datensätzen mit den unterschiedlichen KLassen ausgegeben
 
 ---
 
-#### Letztes Serviceupdate - 8.0.11 802 (12.08.2021)
+#### Letztes Serviceupdate - 9.0.7 (23.08.2022)
 
-* FIX: -
+* FIX: NRW => Ausspielen der Grundschulempfehlung für GE und GY korrigiert
+* NEW: NRW ABS => Neuer Katalog: AS_Bewerbungsempfehlungen.keys
 
 ---
 

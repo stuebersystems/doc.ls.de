@@ -26,9 +26,9 @@ Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund 
 
 - Schüler werden aus allen drei Schulhalbjahren ausgelesen
 - Der Schüler ist in MAGELLAN auf `Ausgeschult` gesetzt oder
-- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt und
+- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt und<br>
   - `Schüler > Daten 2 > Abgang > Abgangsart` oder
-  - `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist auf den Wert ***0A*** gesetzt.
+  - `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist ein   Wert eingetragen
 
 #### Bildungsgang abgeschlossen (BAG)
 

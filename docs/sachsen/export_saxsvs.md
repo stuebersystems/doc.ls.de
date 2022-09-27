@@ -311,11 +311,11 @@ Wird angegeben, wenn ein Schüler nicht deutscher Herkunft ist.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_migr_grund>` - OP|
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > NdH`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn der Schüler nicht deutscher Herkunft ist, und somit einen Migrationshintergrund hat.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > NdH`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn der Schüler nicht deutscher Herkunft ist, und somit einen Migrationshintergrund hat.
 **Feld**         | `<an_migr_dat>`
 **Beschreibung** | `MAGELLAN > Schüler > Statistik > Merkmal U2`<br/>Datum des Migrationsgespräches, also nicht des Zuzugs nach Deutschland.
 **Feld**         | `<an_migr_daz>`
-**Beschreibung** | `MAGELLAN > Schüler > Förderung > Bedarf`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn es sich um einen Schüler mit besonderer Bildungsempfehlung handelt und Deutsch als Zweitsprache, da nicht Muttersprache, unterrichtet bekommt. In MAGELLAN müssen Sie dazu im Förderbedarf den Wert `DAZ-3` auswählen.
+**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Beeinträchtigungen und Fördermaßnahmen > Fördermaßnahme/Bedarf`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn es sich um einen Schüler mit besonderer Bildungsempfehlung handelt und Deutsch als Zweitsprache, da nicht Muttersprache, unterrichtet bekommt. In MAGELLAN müssen Sie dazu im `Fördermaßnahme/Bedarf` den Wert `DAZ-3` auswählen.
 
 ### Adresse  
 

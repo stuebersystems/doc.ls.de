@@ -126,6 +126,8 @@ Kuerzel | Schluessel | Bezeichnung
 KL11    | 12         | Klassenstufe 11
 JG12    | 13         | Jahrgangsstufe 12
 JG13    | 14         | Jahrgangsstufe 13
+VKA     | 500        | Vorstufe Migranten
+BGJ     | 502        | Berufsgrundbildungsjahr
 AJ1     | 510        | Ausbildungsjahr 1
 AJ2     | 520        | Ausbildungsjahr 2
 AJ3     | 530        | Ausbildungsjahr 3

@@ -317,6 +317,10 @@ Titel            | Inhalt
 **Feld**         | `<an_migr_daz>`
 **Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Beeinträchtigungen und Fördermaßnahmen > Fördermaßnahme/Bedarf`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn es sich um einen Schüler mit besonderer Bildungsempfehlung handelt und Deutsch als Zweitsprache, da nicht Muttersprache, unterrichtet bekommt. In MAGELLAN müssen Sie dazu im `Fördermaßnahme/Bedarf` den Wert `DAZ-3` auswählen.
 
+!!! warning "Wichtig!"
+
+    Der Wert für DAZ-3 wird nur ausgespielt, wenn auch unter MerkmalU2 das Datum für das Migrationsgespräch gesetzt wurde.
+
 ### Adresse  
 
 `<saxsvs-bbs><schueler><adresse>`

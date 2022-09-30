@@ -177,9 +177,9 @@ Beschreibung     | Wird lt. Schnittstellenbeschreibung nicht benötigt, wenn das
 Feld             | **zugezogen** (Alle)
 Beschreibung     | `Schüler > Daten 1 > Geburtsland [Staatsangehörigkeiten]`<br/>`Schüler > Daten 2 > In Deutschland seit`<br>Der Schüler gilt als zugezogen, wenn das Feld „Geburtsland“ nicht einer der Werte D, DE, DEU, 0 oder 000 für Deutschland eingetragen hat; oder das Feld „In Deutschland seit“ ein Zuzugsdatum nach Deutschland enthält.
 Feld             | **GeburtslandMutter**
-Beschreibung     | Wird lt. Schnittstellenbeschreibung nicht benötigt, wenn das Exportfeld „Elternteilzugezogen“ ausgewertet wird.
+Beschreibung     | `Schüler > Daten 1 > Familie > Verhältnis`<br/>`Sorgeberechtigte > Daten > Geburtsland [Staatsangehörigkeiten]`<br/>Verwenden Sie im Verhälnis den Wert ``Mutter`` und füllen Sie das Feld Geburtsland.<br/> Schnittstellenbeschreibung nicht benötigt, wenn das Exportfeld „Elternteilzugezogen“ ausgewertet wird.
 Feld             | **GeburtslandVater**
-Beschreibung     | Wird lt. Schnittstellenbeschreibung nicht benötigt, wenn das Exportfeld „Elternteilzugezogen“ ausgewertet wird.
+Beschreibung     | `Schüler > Daten 1 > Familie > Verhältnis`<br/>`Sorgeberechtigte > Daten > Geburtsland [Staatsangehörigkeiten]`<br/>Verwenden Sie im Verhälnis den Wert ``Vater`` und füllen Sie das Feld Geburtsland.<br/> Wird lt. Schnittstellenbeschreibung nicht benötigt, wenn das Exportfeld „Elternteilzugezogen“ ausgewertet wird.
 Feld             | **Elternteilzugezogen** (Alle)
 Beschreibung     | `Schüler > Daten 2 > NdH`<br>Es ist zwar möglich bei den Sorgeberechtigten das Geburtsland anzugeben, der Einfachheit halber, lesen wir das NdH-Feld aus Markieren Sie das Feld „NdH“, wenn mindestens ein Elternteil nach Deutschland zugezogen ist.
 Feld             | **Verkehrssprache** (Alle)

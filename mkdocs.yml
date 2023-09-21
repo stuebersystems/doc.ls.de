@@ -86,7 +86,7 @@ nav:
     - Einstieg: nordrhein-westfalen/einstieg.md
     - SIM.TXT: nordrhein-westfalen/schuelerdaten.md
     - LEHRER.TXT: nordrhein-westfalen/lehrerdaten.md
-    - ABI.TXT: nordrhein-westfalen/abiturdaten2.md
+    - ABI.TXT: nordrhein-westfalen/abiturdaten.md
     - EXTERN.DAT: nordrhein-westfalen/stundenplandaten.md
     - GPC Datenerhebung BBS: nordrhein-westfalen/gpc-datenerhebung-bbs.md
     - Aktuelle Version: nordrhein-westfalen/changelog.md

@@ -64,10 +64,12 @@ Jede Schnittstellendatei wird in einem einzelnen Kapitel behandelt, die Links zu
 
 Damit die Dateien korrekt erstellt und gefüllt werden können, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
 
-Feld | Datei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
----- | ----- | ----------------------------- | ------------
-\-   | ALLE  | MAGELLAN: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule. <br/>Bei Berufskollegs = BK. <br/>**NEU:**<br/>MAGELLAN benötigt jeweils die Hauptschulform, für die Ihre Statistik gelten soll. Diese Schulform sollte als erste erscheinen. MAGELLAN beinhaltet die Möglichkeit die Mandanten-Schulformen anhand des neuen Feldes "Position", diese komfortabel für Sie einzustellen.
-\-   | ALLE  | MAGELLAN: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
+| Datei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
+| ----- | ----------------------------- | ------------
+| ALLE  | MAGELLAN: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule. <br/>Bei Berufskollegs = BK. <br/>**NEU:**<br/>MAGELLAN benötigt jeweils die Hauptschulform, für die Ihre Statistik gelten soll. Diese Schulform sollte als erste erscheinen. MAGELLAN beinhaltet die Möglichkeit die Mandanten-Schulformen anhand des neuen Feldes "Position", diese komfortabel für Sie einzustellen.
+| ALLE  | MAGELLAN: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
+|ALLE| `MAGELLAN > Klassen > Daten > Statistikkürzel`| Bitte übernehmen Sie in dieses Feld bitte den Eintrag aus dem Feld Kürzel. Für die Statistik werden nur Schüler berücksichtigt, die in einer Klasse sind, die diesen Eintrag hat. Bitte kontrollieren Sie, dass auch für die Klassen der vorangegangenen relevanten Zeiträume dieser Wert gefüllt ist.
+
 
 ## 4. Daten erstellen
 

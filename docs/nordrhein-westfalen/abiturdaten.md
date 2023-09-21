@@ -2,9 +2,12 @@
 
 ## Voraussetzungen zum Export
 
+Nachstehend beschreiben wir die Angaben, die für ein Ausspielen der Abiturienten mindestens vorausgesetzt werden, die vollständige Liste aller Eintragungen finden Sie im Abschnitt [https://doc.ls.stueber.de/nordrhein-westfalen/abiturdaten/#dateneingabe](https://doc.ls.stueber.de/nordrhein-westfalen/abiturdaten/#dateneingabe).
+
 Schulform | Beschreibung
 -- | --
-`Schüler > Abschluss > Abschluss 1 > Abschlussart`<br/>`MAGELLAN > Abitur > Prüfung > Status` | **Für Berufs- und Weiterbildungskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. <br/>Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` (Gliederungswerte: D01, D02, D05, D06) und der Eingabe unter `Schüler > Abschluss > Abschluss 1 > Abschlussart`.<br/><br/>Bitte beachten Sie zusätzlich die [Mindestangaben](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-fur-alle-daten)!
+`Schüler > Abschluss > Abschluss 1 > Abschlussart`<br/>`MAGELLAN > Abitur > Prüfung > Status` | **Für Berufskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. <br/>Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` (Gliederungswerte: D01, D02, D05, D06) und der Eingabe unter `Schüler > Abschluss > Abschluss 1 > Abschlussart`. <br/>Bitte beachten Sie auch, dass die Klassenstufe unter Klassen > Zeiträume für die Abschlussklassen mit dem Wert `Q2` gefüllt werden muss.<br/><br/>Bitte beachten Sie zusätzlich die [Mindestangaben](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-fur-alle-daten)!
+`Schüler > Abschluss > Abschluss 1 > Abschlussart`<br/>`MAGELLAN > Abitur > Prüfung > Status` | **Für Weiterbildungskollegs**:<br/>Es werden nur Schüler berücksichtigt, die das Abitur bestanden und dementsprechend, das Exportfeld `Pruefstatus` auf Wert 1 gesetzt haben. <br/>Das Feld berechnet sich gemäß der Eingaben in `MAGELLAN > Abitur > Prüfung > Status` (Gliederungswerte: D01, D02, D05, D06) und der Eingabe unter `Schüler > Abschluss > Abschluss 1 > Abschlussart`.<br/>Bitte beachten Sie auch, dass die Klassenstufe unter Klassen > Zeiträume für die Abschlussklassen mit dem Wert `Q2` gefüllt werden muss.Es werden Schüler ausgegeben, die in einer Klasse mit der Jahrgangsstufe 12 oder 13 sind (`Klassen > Zeiträume > Jahrgang`) und einen Eintrag unter `Daten3 > G8/G9` haben (G8 = 12 und G9 = Jahrgang 13). <br/>Zum Befüllen des Feldes `G8/G9` steht Ihnen die Sammelzuweisung im `Menü Schüler` auf der Registerkarte `Schüler` zur Verfügung. <br/>Sind G8 als auch G9 Schüler in einer Klasse muss die Klassenstufe (Schlüssel) Q2 unter `Klassen > Zeiträume > Klassenstufe` angegeben werden.<br/><br/>Bitte beachten Sie zusätzlich die [Mindestangaben](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-fur-alle-daten)!
 `Daten3 > G8/G9`  |**Für Gymnasien**:<br/>Es werden Schüler ausgegeben, die in einer Klasse mit der Jahrgangsstufe 12 oder 13 sind (`Klassen > Zeiträume > Jahrgang`) und einen Eintrag unter `Daten3 > G8/G9` haben (G8 = 12 und G9 = Jahrgang 13). <br/>Zum Befüllen des Feldes `G8/G9` steht Ihnen die Sammelzuweisung im `Menü Schüler` auf der Registerkarte `Schüler` zur Verfügung. <br/>Sind G8 als auch G9 Schüler in einer Klasse muss die Klassenstufe (Schlüssel) Q2 unter `Klassen > Zeiträume > Klassenstufe` angegeben werden.<br/><br/>Bitte beachten Sie zusätzlich die [Mindestangaben](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/#voraussetzungen-fur-alle-daten)!
 
 ## Dateneingabe
@@ -40,19 +43,19 @@ Schulform         | BK
 Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geschlecht
 Beschreibung      | Wählen Sie das Geschlecht des Schülers aus. ***WICHTIG***: Ab diesem Jahr wird auch offiziell das Geschlecht D = DIVERS vom Amt unterstützt. Zusätzlich ist auch noch der Schlüssel 6 = `Ohne Eintrag (im Geburtsregister)` mit dabei. Dieser Schlüssel wird auch MAGELLAN 7 ausgespielt, wenn das Geschlecht keinen Eintrag enthält.
 **Exportfeld**    | **LK1**
-Schulform         | GE, GY
+Schulform         | GE, GY, WB
 Datenfeld         | MAGELLAN: Abitur > Qualifikation > Spalte "Fachstatus" [Fachstatus]
 Beschreibung      | Als LK1 wird das Fach erkannt, das mit dem Fachstatus 1PF markiert wurde. Sie können das Fach hier mit dme Fachstatus markieren oder unter `Schüler > Zeugnis > Fächer` und diese Daten dann per Synchronisation in das Modul Abitur übertragen.
 **Exportfeld**    | **LK2**
-Schulform         | GE, GY
+Schulform         | GE, GY, WB
 Datenfeld         | MAGELLAN: Abitur > Qualifikation > Spalte "Fachstatus" [Fachstatus]
 Beschreibung      | Als LK2 wird das Fach erkannt, das mit dem Fachstatus 2PF markiert wurde. Sie können das Fach hier mit dme Fachstatus markieren oder unter `Schüler > Zeugnis > Fächer` und diese Daten dann per Synchronisation in das Modul Abitur übertragen.
 **Exportfeld**    | **GKS**
-Schulform         | GE, GY
+Schulform         | GE, GY, WB
 Datenfeld         | MAGELLAN: Abitur > Qualifikation > Spalte "Fachstatus" [Fachstatus]
 Beschreibung      | Als GKS wird das Fach erkannt, das mit dem Fachstatus 3PF markiert wurde. Sie können das Fach hier mit dme Fachstatus markieren oder unter `Schüler > Zeugnis > Fächer` und diese Daten dann per Synchronisation in das Modul Abitur übertragen.
 **Exportfeld**    | **GKM**
-Schulform         | GE, GY
+Schulform         | GE, GY, WB
 Datenfeld         | MAGELLAN: Abitur > Qualifikation > Spalte "Fachstatus" [Fachstatus]
 Beschreibung      | Als GKM wird das Fach erkannt, das mit dem Fachstatus 4PF markiert wurde. Sie können das Fach hier mit dme Fachstatus markieren oder unter `Schüler > Zeugnis > Fächer` und diese Daten dann per Synchronisation in das Modul Abitur übertragen.
 **Exportfeld**    | **Abiturnote**

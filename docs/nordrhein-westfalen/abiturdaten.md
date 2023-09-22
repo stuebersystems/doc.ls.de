@@ -23,17 +23,17 @@ Schulform         | WB
 Datenfeld         | MAGELLAN: Klassen > Daten 1 > Schulart [Schularten]
 Beschreibung      | Die Schulart der Klasse gibt an, ob es sich um ein Abendgymnasium, Abendrealschule oder Kolleg handelt. Geben Sie den entsprechenden Wert an.
 **Exportfeld**    | **Gliederung**
-Schulform         | BK, GY, GE
+Schulform         | BK, GY, GE, WB
 Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildgungsgang [Bildgungsgänge]<br/>Schüler > Daten 3 > Verschiedenes > G8/G9
-Beschreibung      | ***ABS***: Gymnasien/Gesamtschulen geben hier im Feld "G8/G9" an, ob es sich um ein G8 oder G9 Bildungsgang handelt. Kein Wert bedeutet = G01 (Aufbaugymnasium).<br/><br/>***BBS***: Da die Schulgliederung von der Fachklasse abhängig ist, wird diese anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
+Beschreibung      | ***ABS***: Gymnasien/Gesamtschulen und Weiterbildungskollegs geben hier im Feld "G8/G9" an, ob es sich um ein G8 oder G9 Bildungsgang handelt. Kein Wert bedeutet = G01 (Aufbaugymnasium).<br/><br/>***BBS***: Da die Schulgliederung von der Fachklasse abhängig ist, wird diese anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
 **Exportfeld**    | **Fachklasse**
 Schulform         | BK
 Datenfeld         | MAGELLAN:<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Aktuelle Ausbildung > Bildgungsgang [Bildgungsgänge]
 Beschreibung      | Die Schulgliederung wird anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung, alles danach ergibt die Fachklasse. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
 **Exportfeld**    | **Zeugnis**
 Schulform         | BK
-Datenfeld         | MAGELLAN:<br/>Schüler > Laufbahn > Abschluss > Abschluss 1[Abschlüsse (Intern)]<br/>Schüler > Zugang/Abgang > Abgang
-Beschreibung      | Wählen Sie für Abgänger den Abschluss bzw. die Abgangsart des Schülers aus. Je nach schulischem Alltag, können Sie die Werte unter Abschlüsse oder Abgang erfassen. Es wird vorrangig der Abschluss gesetzt. Wenn dieser nicht eingetragen ist, wird der Abgang für den Export erfasst. ***Wichtig:*** Es sind nur Abgangsarten/Abschlüsse mit Abitur oder fachgebundenem Abitur zulässig.
+Datenfeld         | MAGELLAN:<br/>Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]<br/>Schüler > Zugang/Abgang > Abgang
+Beschreibung      | Wählen Sie für Abgänger den Abschluss bzw. die Abgangsart des Schülers aus. Je nach schulischem Alltag, können Sie die Werte unter Abschlüsse oder Abgang erfassen. Es wird vorrangig der Abschluss gesetzt. Wenn dieser nicht eingetragen ist, wird der Abgang für den Export erfasst.<br/>***Wichtig:*** Es sind nur Abgangsarten/Abschlüsse mit Abitur oder fachgebundenem Abitur zulässig.
 **Exportfeld**    | **Geburtsdatum**
 Schulform         | Alle
 Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geburtsdatum
@@ -41,7 +41,7 @@ Beschreibung      | Geben Sie das Geburtsdatum des Schülers ein.
 **Exportfeld**    | **Geschlecht**
 Schulform         | BK
 Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geschlecht
-Beschreibung      | Wählen Sie das Geschlecht des Schülers aus. ***WICHTIG***: Ab diesem Jahr wird auch offiziell das Geschlecht D = DIVERS vom Amt unterstützt. Zusätzlich ist auch noch der Schlüssel 6 = `Ohne Eintrag (im Geburtsregister)` mit dabei. Dieser Schlüssel wird auch MAGELLAN 7 ausgespielt, wenn das Geschlecht keinen Eintrag enthält.
+Beschreibung      | Wählen Sie das Geschlecht des Schülers aus. <br/>***WICHTIG***: Ab diesem Jahr wird auch offiziell das Geschlecht D = DIVERS vom Amt unterstützt. Zusätzlich ist auch noch der Schlüssel 6 = `Ohne Eintrag (im Geburtsregister)` mit dabei. Dieser Schlüssel wird auch MAGELLAN 10 ausgespielt, wenn das Geschlecht keinen Eintrag enthält.
 **Exportfeld**    | **LK1**
 Schulform         | GE, GY, WB
 Datenfeld         | MAGELLAN: Abitur > Qualifikation > Spalte "Fachstatus" [Fachstatus]

@@ -70,7 +70,6 @@ Damit die Dateien korrekt erstellt und gefüllt werden können, müssen in MAGEL
 | ALLE  | MAGELLAN: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
 |ALLE| `MAGELLAN > Klassen > Daten > Statistikkürzel`| Bitte übernehmen Sie in dieses Feld bitte den Eintrag aus dem Feld Kürzel. Für die Statistik werden nur Schüler berücksichtigt, die in einer Klasse sind, die diesen Eintrag hat. Bitte kontrollieren Sie, dass auch für die Klassen der vorangegangenen relevanten Zeiträume dieser Wert gefüllt ist.
 
-
 ## 4. Daten erstellen
 
 !!! info "Hinweis"

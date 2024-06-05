@@ -72,6 +72,7 @@ nav:
     - Abiturdatenstatistik: berlin/03.stat.abidaten.md
     - Schülerdatenstatistik: berlin/04.stat.schuelerdaten.md
     - Schülerexport (csv): berlin/05.schuelerdatencsv.md
+    - Schülerimport (LUSD): berlin/06.lusd.md    
   - Brandenburg:
     - ABS/BBS: brandenburg/abs-bbs.md
   - Mecklenburg-Vorpommern:

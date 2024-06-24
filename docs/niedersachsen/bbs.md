@@ -3,13 +3,9 @@
 
 ## Lizenz und Version
 
-Für das Erzeugen der Schnittstellendatei wird die jährliche Lizenz für das Modul "Modul LANDESSTATISTIK Niedersachsen BBS" benötigt. Damit können die Daten für die
-amtliche Statistik Niedersachsen (IZN-Stabil) erzeugt werden. Zusätzlich ist Support zum Modul und das jeweilige Jahr enthalten.
+Für das Erzeugen der Schnittstellendatei wird die jährliche Lizenz für das Modul "Modul LANDESSTATISTIK Niedersachsen BBS" benötigt. Damit können die Daten für die amtliche Statistik Niedersachsen (IZN-Stabil) erzeugt werden. Zusätzlich ist Support zum Modul und das jeweilige Jahr enthalten.
 
-!!! danger "Achtung"
 
-    In der MAGELLAN 6 wurde die Schnittstellendatei aus dem MAGELLAN Datawarehouse heraus erzeugt. 
-    Ab Version 7 wird die Schnittstellendatei direkt aus MAGELLAN erzeugt.
 
 ## Grundsätzlich
 

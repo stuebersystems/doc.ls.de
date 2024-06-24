@@ -108,7 +108,7 @@ Titel            | Inhalt
 
 Dateiname    | Abkürzung | Kapitel                                 | Lizenz | Inhalt
 ------------ | --------- | --------------------------------------- | ------ | ------
-SAXSVS.XML   | SAXSVS    | [Import SAXSVS.XML](import_saxsvs.md)   | 2020   | Vagabunden
+SAXSVS.XML   | SAXSVS    | [Import SAXSVS.XML](import_saxsvs.md)   | 2024   | Vagabunden
 
 #### Voraussetzungen für den Import
 

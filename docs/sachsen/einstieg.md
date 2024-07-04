@@ -1,19 +1,19 @@
 # Sachsen
 
 SaxSVS-BBS ist eine Webanwendung für statistische Betrachtungen an sächsischen Berufsbildenden Schulen. Alle schulischen Statistiken werden über diese Webanwendung
-erstellt. Da in SaxSVS nicht alle Bereiche abgedeckt werden können, soll eine Schnittstelle eine doppelte Eingabe der Schülerdaten zwischen MAGELLAN und SaxSVS überflüssig machen.
+erstellt. Da in SaxSVS nicht alle Bereiche abgedeckt werden können, soll eine Schnittstelle eine doppelte Eingabe der Schülerdaten zwischen Magellan und SaxSVS überflüssig machen.
 Die Schnittstelle basiert auf festgelegten Schlüsseln, die an die amtliche Schulstatistik Phönix angelehnt sind.
 
-Diese Dokumentation beschreibt die für Sächsische Schulen spezifischen Funktionen in MAGELLAN in Ergänzung zur allgemeinen MAGELLAN-Dokumentation.
+Diese Dokumentation beschreibt die für Sächsische Schulen spezifischen Funktionen in Magellan in Ergänzung zur allgemeinen Magellan-Dokumentation.
 
 ## Lizenz
 
-Bitte beachten Sie, seit MAGELLAN 7 haben wir unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
-**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von MAGELLAN verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
+Bitte beachten Sie, seit Magellan 7 haben wir unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der Magellan Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den Magellan Support- und Softwarepflegevertrag ersetzen.
+**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von Magellan verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
 
 ## Einführung
 
-Die SaxSVS-BBS Schnittstelle wird über eine definierte Schnittstellendatei im XML-Format bedient. Diese Datei dient sowohl dem Export als auch dem Import von und nach MAGELLAN, sowie SaxSVS-BBS.
+Die SaxSVS-BBS Schnittstelle wird über eine definierte Schnittstellendatei im XML-Format bedient. Diese Datei dient sowohl dem Export als auch dem Import von und nach Magellan, sowie SaxSVS-BBS.
 In den nachfolgenden Abschnitten beschreiben wir die Voraussetzungen und Schritte zur Erstellung der jeweiligen Schnittstellendatei, bzw. zum Import von Daten aus einer Schnittstellendatei.
 
 ### Das XML-Dateiformat
@@ -48,9 +48,9 @@ Um die fertige XML-Datei mit der Schemadatei prüfen zu können, benötigen Sie 
 
 ### Lizenz
 
-Die Lizenz zum Ausspielen der Schnittstellendatei aus MAGELLAN wurde erstmalig 2018 vom Kultusministerium für die teilnehmenden Berufsschulen zur Verfügung gestellt und beinhaltet lediglich das Ausspielen der zum Zeitpunkt 2018 definierten Schnittstelle.
+Die Lizenz zum Ausspielen der Schnittstellendatei aus Magellan wurde erstmalig 2018 vom Kultusministerium für die teilnehmenden Berufsschulen zur Verfügung gestellt und beinhaltet lediglich das Ausspielen der zum Zeitpunkt 2018 definierten Schnittstelle.
 
-Im Laufe der Entwicklung wurden 2019 weitere Anforderungen an die Schnittstelle gestellt, wie dem Import der Daten nach MAGELLAN 7.
+Im Laufe der Entwicklung wurden 2019 weitere Anforderungen an die Schnittstelle gestellt, wie dem Import der Daten nach Magellan 7.
 Für diese und zukünftige Weiterentwicklung der Schnittstelle muss die Lizenz entsprechend jährlich erneuert werden. Die Lizenz enthält somit die Pflege, Weiterentwicklung und den entsprechenden Support der Schnittstelle für jeweils ein Jahr.
 
 ## Notwendige Schritte
@@ -70,14 +70,14 @@ SAXSVS-A.XML | SAXSVSA   | [Datenpflege zum Export der SAXSVS.XML](export_saxsvs
 
 !!! warning "Wichtig"
 
-    SAXSVS benötigt Daten aus dem aktuellen Schuljahr. Aus MAGELLAN Sicht können dies max. Daten aus dem 1. HJ und 2. HJ sein. Das aktuelle Schuljahr berechnet sich anhand des Exportdatums und der Von- und Bis-Daten des MAGELLAN-Zeitraums (1.HJ vom 01.08-31.01 und 2.HJ vom 01.02 -31.07). Wenn sich der Export im 1.HJ befindet so werden Sie in der Exportdatei auch nur Daten aus dem 1. HJ des aktuellen Schuljahres finden. Wenn der Export im 2. HJ ausgeführt wird, so werden Sie in der Exportdatei Daten aus beiden Halbjahren finden.
+    SAXSVS benötigt Daten aus dem aktuellen Schuljahr. Aus Magellan Sicht können dies max. Daten aus dem 1. HJ und 2. HJ sein. Das aktuelle Schuljahr berechnet sich anhand des Exportdatums und der Von- und Bis-Daten des Magellan-Zeitraums (1.HJ vom 01.08-31.01 und 2.HJ vom 01.02 -31.07). Wenn sich der Export im 1.HJ befindet so werden Sie in der Exportdatei auch nur Daten aus dem 1. HJ des aktuellen Schuljahres finden. Wenn der Export im 2. HJ ausgeführt wird, so werden Sie in der Exportdatei Daten aus beiden Halbjahren finden.
 
 !!! warning "Wichtig"
 
     Beim Export der Abgängerdatei wird das vorangegangene Schuljahr ermittelt. Dazu zeigt der Assistent unter ' Export > Export > SAXSVS > SAX-SVS Abschlüsse/Abgänger  (BBS) > Weiter` im Feld `Stichtag` das Systemdatum an. Dieses Datum wird im neuen 1.Schulhalbjahr vermutet, von diesem Datum ausgehend wird das vorangegangene Schuljahr ermittelt. 
     Ab Version 8.0.11: Sollte das Systemdatum noch dem laufenden Schuljahr, also ein Termin vor dem 01.08 sein, können Sie den Stichtag auch manuell an passen.
 
-Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. **Ist einer der Felder nicht gefüllt wird der Export nicht durchgeführt.**
+Damit die Schnittstellendatei korrekt erstellt und gefüllt werden kann, müssen in Magellan bestimmte Datenfelder immer gefüllt werden. **Ist einer der Felder nicht gefüllt wird der Export nicht durchgeführt.**
 
 Titel            | Inhalt
 ---------------- | ------
@@ -92,7 +92,7 @@ Titel            | Inhalt
 **Feld**         | -
 **Beschreibung** | `Schüler > Ausbildung > Aktuelle Ausbildung`<br/>Sie müssen dem Schüler für den zu exportierenden Zeitraum eine aktuelle Ausbildung zuweisen. Schüler ohne eine aktuelle Ausbildung im Exportzeitraum werden <b>nicht berücksichtigt</b>.
 **Feld**         | `<schueler extern_id>`
-**Beschreibung** | `Schüler > Ausbildung > GUID`<br/>Wenn Sie  zum ersten mal in MAGELLAN 7 den Export durchlaufen, dann existieren noch keine GUIDs für bestehende aktuelle Ausbildungen. Diese werden dann angelegt und in der Datenbank gespeichert.
+**Beschreibung** | `Schüler > Ausbildung > GUID`<br/>Wenn Sie  zum ersten mal in Magellan 7 den Export durchlaufen, dann existieren noch keine GUIDs für bestehende aktuelle Ausbildungen. Diese werden dann angelegt und in der Datenbank gespeichert.
 **Feld**         |  `<al_kennziffer extern_id>`
 **Beschreibung** | `Schüler > Ausbildung > Bildungsgang`<br/>Der Bildungsgang bzw. Beruf des Schülers in der aktuell eingestellten Ausbildung.
 **Feld**         | `<al_schulart extern_id>`
@@ -112,8 +112,8 @@ SAXSVS.XML   | SAXSVS    | [Import SAXSVS.XML](import_saxsvs.md)   | 2024   | Va
 
 #### Voraussetzungen für den Import
 
-Damit die Schnittstellendatei korrekt eingelesen und die Daten nach MAGELLAN importiert werden können, muss die Schnittstellendatei einige Mindestangaben enthalten.
-In MAGELLAN müssen bereits die Schlüssel in den Katalogen vorhanden sein, auf die in der Schnittstellendatei verwiesen wird.
+Damit die Schnittstellendatei korrekt eingelesen und die Daten nach Magellan importiert werden können, muss die Schnittstellendatei einige Mindestangaben enthalten.
+In Magellan müssen bereits die Schlüssel in den Katalogen vorhanden sein, auf die in der Schnittstellendatei verwiesen wird.
 Fehlen diese Angaben, wird der Schüler nicht importiert.
 
 !!! warning "Wichtig"

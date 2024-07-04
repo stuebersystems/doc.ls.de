@@ -1,14 +1,14 @@
-# Statistikdaten aus DAVINCI exportieren
+# Statistikdaten aus DaVinci exportieren
 
-Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
+Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DaVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in Magellan verwendet.
 
 !!! warning "Wichtig"
 
-    Ob Sie für Ihr Bundesland DAVINCI-Daten benötigen, lesen Sie bitte in den jeweiligen Abschnitten zur Statistik in Ihrem Bundesland in diesem Dokument.
+    Ob Sie für Ihr Bundesland DaVinci-Daten benötigen, lesen Sie bitte in den jeweiligen Abschnitten zur Statistik in Ihrem Bundesland in diesem Dokument.
 
-So exportieren Sie Daten aus DAVINCI:
+So exportieren Sie Daten aus DaVinci:
 
-1. Starten Sie DAVINCI.
+1. Starten Sie DaVinci.
 2. Klicken Sie dort im Menü ```Plan``` auf ```Importieren und Exportieren```.
 3. Wählen Sie unter Export den Punkt ```Statistikdaten exportieren``` aus und klicken Sie aur ```Weiter```.
 4. Wählen Sie Ihr Bundesland aus  und klicken Sie auf ```Weiter```.
@@ -18,8 +18,8 @@ Klicken Sie auf ```OK```. Die Daten werden jetzt in die angegebene Datei exporti
 
 !!! info "Hinweis"
 
-    Die so erzeugte Textdateien werden beim Erstellen der Statisktikdatei aus MAGELLAN heraus verwendet. Im Statistikassistenten (`MAGELLAN > Extras > Exporte`) kann in der Zeile `daVinci-Dateien` auf Ihre aus DAVINCI exportierte Datei vewiesen werden (siehe Abbildung unten). 
+    Die so erzeugte Textdateien werden beim Erstellen der Statisktikdatei aus Magellan heraus verwendet. Im Statistikassistenten (`Magellan > Extras > Exporte`) kann in der Zeile `daVinci-Dateien` auf Ihre aus DaVinci exportierte Datei vewiesen werden (siehe Abbildung unten). 
 
     Diese Daten sind nicht für jede Region oder jede Schulart Voraussetzung, bitte lesen Sie im jeweiligen Bundeslandabschnitt nach, ob die vorstehenden Schritte notwendig sind.
 
-![Auf die DAVINCI-Dateien verweisen](/assets/images/01.png)
+![Auf die DaVinci-Dateien verweisen](/assets/images/01.png)

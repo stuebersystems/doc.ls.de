@@ -35,7 +35,7 @@ Schlüssel | Bezeichnung                                                        
 
 ### Verzeichnis Fächer (ABS/BBS) korrigieren
 
-Das Statistikamt hält für die Statistik zwei Kataloge "Fächer" und "Kurse" bereit. In MAGELLAN werden   "Fächer" plus Eigenschaften verwaltet werden, es gibt also kein Verzeichnis der Kurse, da ein Fach mit Eigenschaften wie einer Unterrichtsart, einem Fachstatus, einer Kursnummer usw zum Kurs wird.
+Das Statistikamt hält für die Statistik zwei Kataloge "Fächer" und "Kurse" bereit. In Magellan werden   "Fächer" plus Eigenschaften verwaltet werden, es gibt also kein Verzeichnis der Kurse, da ein Fach mit Eigenschaften wie einer Unterrichtsart, einem Fachstatus, einer Kursnummer usw zum Kurs wird.
 
 !!! info "Hinweis"
     Beide Kataloge werden über das **Verzeichnis Fächer** vereint. Zur Zusammenlegung und Differenzierung der Schlüssel, die als Fächer und Kurse genutzt werden, erhalten die Schlüssel beim Import im Feld "Kürzel" und "Schlüssel" ein "F" oder "K" und in der Bezeichnung den Zusatz "(Fach)" oder "(Kurs)".
@@ -44,7 +44,7 @@ Bei Schlüssel die in beiden Katalogen existieren, wird kein Zusatz angehangen.
 
 #### Problem
 
-Der Importmechanismus in MAGELLAN erlaubt keinen Import bereits vorhandener Schlüssel, sowie Aktualisierungen von Bezeichnungen, da diese die Bedeutung eines Schlüssel verändern können und damit Probleme in der Logik bei der Verwendung der Schlüssel in MAGELLAN auftreten können. Weiterhin werden bereits verwendete Einträge nicht gelöscht. Was die Wiederverwendung einen Schlüssels nicht erlaubt,
+Der Importmechanismus in Magellan erlaubt keinen Import bereits vorhandener Schlüssel, sowie Aktualisierungen von Bezeichnungen, da diese die Bedeutung eines Schlüssel verändern können und damit Probleme in der Logik bei der Verwendung der Schlüssel in Magellan auftreten können. Weiterhin werden bereits verwendete Einträge nicht gelöscht. Was die Wiederverwendung einen Schlüssels nicht erlaubt,
 wenn diese dadurch eine andere Bedeutung bekäme.
 
 #### Lösung
@@ -52,8 +52,8 @@ wenn diese dadurch eine andere Bedeutung bekäme.
 Wir haben im Administrator dazu eine Korrektur integriert. Bitte führen Sie folgende Schritte nacheinander aus.
 
 1. Stellen Sie sicher, dass die aktuelle Version (mindestens die 6.0.179) auf Ihrem Server und auf Ihrem Client installiert sind, nur dann stehen Ihnen die aktuellen Kataloge und die Korrekturfunktion zur Verfügung.
-2. Importieren Sie die Schlüsselkataloge über `MAGELLAN ADMINISTRATOR > Datenimporte > Schlüsselverzeichnisse importieren > Schleswig-Holstein und "allgemeinbildende Schule"`.
-3. Rufen Sie den Punkt `MAGELLAN ADMINISTRATOR > Datenbankpflege > Datenbank überprüfen` auf und wählen aus der Liste der möglichen Funktionen `SHL: Fächerschlüssel anpassen` aus.
+2. Importieren Sie die Schlüsselkataloge über `Magellan Administrator > Datenimporte > Schlüsselverzeichnisse importieren > Schleswig-Holstein und "allgemeinbildende Schule"`.
+3. Rufen Sie den Punkt `Magellan Administrator > Datenbankpflege > Datenbank überprüfen` auf und wählen aus der Liste der möglichen Funktionen `SHL: Fächerschlüssel anpassen` aus.
 
 ![Assistent zum Anpassen der Fächerschlüssel für SHL](../images/shl.umschluesseln.png)
 
@@ -71,7 +71,7 @@ Beispiel:
   Bezeichnung im Fach: "Orchester/Chor"
   Bezeichnung im Kurs: "Religion"
 
-Zwar wird lt. dem Amt der Schlüssel 040 nicht mehr als Fach "Orchester/Chor" verwendet, wenn Sie diesen aber bereits in MAGELLAN verwendet haben, kann er nicht vom Importmechanismus gelöscht und durch den neuen ersetzt werden.
+Zwar wird lt. dem Amt der Schlüssel 040 nicht mehr als Fach "Orchester/Chor" verwendet, wenn Sie diesen aber bereits in Magellan verwendet haben, kann er nicht vom Importmechanismus gelöscht und durch den neuen ersetzt werden.
 
 ### Liste der manuell zu korrigierenden Schlüssel
 
@@ -331,11 +331,11 @@ Diese dienen aber nur für spezielle Zwecke, z.B. der Schlüssel 016 = Englisch 
 
 Durch die Zusammenfassung der Fächer und Schülerdatei muss nun die genaue Fremdsprache der Fremdsprachenfolge ausgegeben werden. Für Englisch 1. Fremdsprache wäre dies nun der Schlüssel 116 = Englisch 1. Fremdsprache.
 
-### UART – Unterrichtsarten in MAGELLAN
+### UART – Unterrichtsarten in Magellan
 
-Die für die Statistik abgefragten Schlüsselwerte können zu Teil nicht genutzt werden, weil MAGELLAN-interne Eingaben für den Zeugnisdruck oder die Zeugniserstellung erwartet werden.
+Die für die Statistik abgefragten Schlüsselwerte können zu Teil nicht genutzt werden, weil Magellan-interne Eingaben für den Zeugnisdruck oder die Zeugniserstellung erwartet werden.
 
-Die nachfolgende Tabelle zeigt Ihnen welche MAGELLAN-Eintragungen erkannt und in entsprechende Werte für die Statistikwerte gewandelt werden.
+Die nachfolgende Tabelle zeigt Ihnen welche Magellan-Eintragungen erkannt und in entsprechende Werte für die Statistikwerte gewandelt werden.
 
 !!! info "Hinweis"
   Ist die Unterrichtsart leer, nicht der Fachstatus WahlPF oder Freiw gewählt, oder entspricht keinem der nachfolgenden Werte, wird generell der Wert P für Pflichtfach ausgegeben. Es ist kein gesonderter Eintrag für die Unterrichtsart Pflicht notwendig.
@@ -390,7 +390,7 @@ Nur für die aktuellen Schüler der allgemeinbildenden Schule wird die Schulübe
 
 ### Zur Statistik 2013/2014
 
-Gastschüler werden aus der Statistik ausgeschlossen, wenn Sie in MAGELLAN den entsprechenden Schüler unter `Schüler > Daten 3 > Verschiedenes > Gastschüler` als Gastschüler markieren.
+Gastschüler werden aus der Statistik ausgeschlossen, wenn Sie in Magellan den entsprechenden Schüler unter `Schüler > Daten 3 > Verschiedenes > Gastschüler` als Gastschüler markieren.
 
 ### Zur Statistik 2012/2013
 
@@ -400,7 +400,7 @@ Die bereits unter `Schüler > Laufbahn > Empfehlung` eingetragen Werte können �
 
 Dazu gehen Sie wie folgt vor:
 
-1. Starten die den MAGELLAN-Administrator.
+1. Starten die den Magellan-Administrator.
 2. Wählen Sie „Datenbankpflege“.
 3. Klicken Sie bei „Datenbank prüfen“ auf die Schaltfläche „Start“.
 4. Wählen Sie „Empfehlungen umkopieren“ und klicken Sie dann auf OK.
@@ -414,7 +414,7 @@ Aus Gründen der Übersichtlichkeit werden die neu hinzugekommenen BBS Felder we
 
 #### Statistikdatei „BM“ - Besondere Massnahmen
 
-Die Statistikdatei „Besondere Massnahmen“ wird vom Statistikamt ab diesem Jahr nicht mehr erfragt. Damit fallen auch alle Eingaben dazu in MAGELLAN und DAVINCI raus.
+Die Statistikdatei „Besondere Massnahmen“ wird vom Statistikamt ab diesem Jahr nicht mehr erfragt. Damit fallen auch alle Eingaben dazu in Magellan und DaVinci raus.
 
 Die Bezeichnungen der Schlüssel werden aus Gründen der Eindeutigkeit von Schlüsseln nicht geändert. Von Zeit zu Zeit erhalten bestehende Schlüssel neue Bedeutungen und es wird lediglich die Bezeichnung verändert. Solche Schlüssel müssen von Ihnen manuell verändert werden.
 

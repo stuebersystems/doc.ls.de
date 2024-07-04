@@ -1,12 +1,12 @@
-# Export von Daten für SaxSVS aus MAGELLAN
+# Export von Daten für SaxSVS aus Magellan
 
 [1]:/assets/images/sachsen/911.png
 
 1. [Beachten Sie bitte die Mindesteingaben für den Export](https://doc.ls.stueber.de/sachsen/einstieg/#voraussetzungen-fur-den-export))
-2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in MAGELLAN.
-3. Lesen Sie im Kapitel [Schnittstellendatei aus MAGELLAN erzeugen](exportdatei_erzeugen.md), wie Sie den Export durchführen.
+2. Lesen Sie dieses Kapitel gut durch, die meisten Probleme berufen sich auf fehlende oder falsche Eingaben in Magellan.
+3. Lesen Sie im Kapitel [Schnittstellendatei aus Magellan erzeugen](exportdatei_erzeugen.md), wie Sie den Export durchführen.
 
-Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in MAGELLAN eingepflegt werden.
+Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in Magellan eingepflegt werden.
 Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
 !!! warning "Wichtig"
@@ -19,7 +19,7 @@ SAXSVS möchte zu unterschiedlichen Zeiten unterschiedlich gefilterte Datensätz
 
 Wenn eine der beiden folgenden Vorgaben erfüllt ist, dann wird ein Schüler in der SAXSVS-A Datei berücksichtigt:
 
-Feld in MAGELLAN                             | Beschreibung
+Feld in Magellan                             | Beschreibung
 -------------------------------------------- | ------------
 Schüler > Daten 2 > Abgang > **Abgangsart**<br>Schüler Daten 2 > Abgang > **Abgang am** | **Abgänger**<br>Schüler ist ausgeschult und beide Felder müssen gefüllt sein.
  | **ODER** |  
@@ -46,7 +46,7 @@ Benennung      | Beschreibung
 -------------- | ------------
 Werte          | Die Schnittstelle erwartet zumeist einen der folgenden Wertetypen:<br/>- Ein Wert aus einem Katalog, z.B. 20, 60 etc. meistens eine Zahl die im Kontext der Werteliste eine entsprechende Bedeutung hat<br/>- „Ja“/“Nein“ – Trifft, oder trifft nicht zu<br/>- Freitextfeld<br/>-Datum im Format YYYY-MM-DD<br/>- Zahlwert
 MI             | *Mindestvoraussetzung.* Diese Felder müssen gefüllt sein, da ansonsten der Import in SAXSVS grundsätzlich aufgrund von XML-Schemafehlern nicht durgeführt werden kann.
-OP             | *Optional Pflicht.* Wenn grundsätzliche Aussagen zutreffen und Sie Felder in MAGELLAN mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden. Beispiel: Abwesenheiten. Wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.
+OP             | *Optional Pflicht.* Wenn grundsätzliche Aussagen zutreffen und Sie Felder in Magellan mit Werten füllen, dann sind die Felder mit OP für diesen Bereich als Pflichtfelder zu sehen und müssen eingetragen werden. Beispiel: Abwesenheiten. Wenn Sie eine Abwesenheit mit Grund eintragen, muss auch das Von-Datum gefüllt werden, da ansonsten auch wieder ein XML-Schemafehler vorliegt.
 GUID           | Ein *Globally Unique Identifier* ist eine Zahl mit 128 Bit (16 Bytes). Die GUID stellt eine Implementierung des Universally-Unique-Identifier-Standards (UUID) dar. Die Absicht hinter GUIDs ist, Informationen in verteilten Systemen ohne zentrale Koordination eindeutig kennzeichnen zu können. Zusammenfassend, ein starker eindeutiger Wert, über Systemgrenzen hinweg.
 
 ## Aufbau der Schnittstelle
@@ -68,7 +68,7 @@ Sie haben die Möglichkeit grundsätzlich Schüler von der Schnittstelle auszusc
 
 #### Gastschüler ausschließen
 
-Schüler, die von einer anderen Schule (die Stammschule) an SAXSVS übergeben werden, aber in Ihrem System aufgrund eines Gastaufenthaltes in MAGELLAN eingepflegt sind,
+Schüler, die von einer anderen Schule (die Stammschule) an SAXSVS übergeben werden, aber in Ihrem System aufgrund eines Gastaufenthaltes in Magellan eingepflegt sind,
 können als Gastschüler markiert und somit aus dem Export ausgeschlossen werden.
 Einen Gastschüler markieren Sie mit dem gleichnamigen Häkchen unter `Schüler > Daten 3 > Verschiedenes > Gastschüler`.
 
@@ -78,7 +78,7 @@ Schüler, die aus anderen Gründen nicht nach SAXSVS übergeben werden sollen. B
 
 Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das Verzeichnis `BS_SchuelerMerkmale.keys` erneut oder legen unter `Extras > Schlüsselverzeichnisse > Merkmale (Schüler)` eine Schlüsselzeile entsprechend der nachfolgenden Abbildung an. Der Wert kann auch per Sammelzuweisung verteilt werden.
 
-![MAGELLAN 9 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](/assets/images/sachsen/kein.saxsvs.png)
+![Magellan 9 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](/assets/images/sachsen/kein.saxsvs.png)
 
 #### Schüler zum Löschen vorsehen
 
@@ -116,8 +116,8 @@ dienststelle="Mandanten.Schulnummer">
 Feld in Schnittstelle       | Beschreibung
 --------------------------- | ------------
 `<saxsvs-bbs zeit>`         | Für dieses Feld wird automatisch ein aktueller Datums-/Zeitstempel beim Export eingefügt.
-`<saxsvs-bbs schuljahr>`    | `MAGELLAN > Verzeichnisse > Zeitraeume > Von`<br/> Aus dem Eintrag wird der geforderte Wert im Format `JJJJ/JJJJ` gebildet, als Beispiel: 2019/2020
-`<saxsvs-bbs dienststelle>` | `MAGELLAN > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt
+`<saxsvs-bbs schuljahr>`    | `Magellan > Verzeichnisse > Zeitraeume > Von`<br/> Aus dem Eintrag wird der geforderte Wert im Format `JJJJ/JJJJ` gebildet, als Beispiel: 2019/2020
+`<saxsvs-bbs dienststelle>` | `Magellan > Mandanten > Daten 1 > Schulnummer`<br/>7-stellige Dienststellennummer vom Amt
 
 #### Schüler  
 
@@ -130,15 +130,15 @@ mit den Elternknoten benannt.
 Ein Schülerknoten enthält alle Informationen die zum Schüler gehören und wird erzeugt, wenn der Schülerdatensatz Bestandteil des Exportes ist.
 Dies ergibt sich aus folgenden Regeln:
 
-1. Ein Schüler in MAGELLAN ist nicht gleich ein Schüler in SAXSVS. Der Schüler in MAGELLAN macht sich anhand seiner MAGELLAN-ID und dem Mandanten in dem er sich befindet eindeutig.
+1. Ein Schüler in Magellan ist nicht gleich ein Schüler in SAXSVS. Der Schüler in Magellan macht sich anhand seiner Magellan-ID und dem Mandanten in dem er sich befindet eindeutig.
    Dies ist in SAXSVS nicht so. Dort kann ein Schüler aufgrund seiner sich ändernden Ausbildungsumstände mehrfach vorhanden sein.
    Dazu nutzt SAXSVS eine GUID für jeden Schülerdatensatz, die sich ändert, wenn sich die Ausbildungsumstände entsprechend ändern, dass ein weiterer Datensatz nach SAXSVS gespielt werden muss.
 
 !!! danger "Achtung"
 
     Wann wird die GUID erzeugt: 
-    1. Bei Ausbildungsdatensätzen, die aus MAGELLAN 6 nach MAGELLAN 9 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
-    2.  Für einen neu in MAGELLAN 9 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
+    1. Bei Ausbildungsdatensätzen, die aus Magellan 6 nach Magellan 9 übernommen wurden, gibt es noch keine GUID. Beim ersten Export nach SAXSVS wird für diese Datensätze die GUID angelegt.
+    2.  Für einen neu in Magellan 9 angelegten ersten Ausbildungsdatensatz wird automatisch eine GUID vergeben.
     3.  Wird für eine bestehenden Schüler eine weitere Ausbildung vergeben, muss entschieden werden, ob dieselbe GUID weiterverwendet werden soll oder eine neue GUID vergeben werden soll.
     4.  Wann eine neue GUID benötigt wird, muss der Kunde über Schulungen von den SAXSVS Verantwortlichen beantwortet bekommen.
 
@@ -155,7 +155,7 @@ Ein Schüler ohne GUID wird vom Export ausgeschlossen!
 2. Markieren Sie die Gruppe von Schülern, für die die gleichen Eigenschaften vergeben werden sollen.
 3. Klicken Sie `Weiter` bis zur dritten Karte, hier können Ausbildungsinformationen neu oder ergänzend zugewiesen werden.<br/>Wichtig: bitte wählen Sie `Neue Ausbildung anlegen` oder `ggfs. aktuelle Ausbildung bearbeiten`!
 
-![MAGELLAN > Menü Schüler > Tab Schüler> Sammelzuweisung](/assets/images/sachsen/sammelzuweisung01.png)
+![Magellan > Menü Schüler > Tab Schüler> Sammelzuweisung](/assets/images/sachsen/sammelzuweisung01.png)
 
 ##### Berufliches Gymnasium - Oberstufenschüler
 
@@ -180,7 +180,7 @@ Hier stehen alle Werte die nicht in besonderen XML-Knoten untergliedert sind.
 
 #### Fremdsprachen
 
-(ab MAGELLAN 9)
+(ab Magellan 9)
 
 Die Fremdsprachenfolge soll nur ausgegeben werden, wenn sie auch aktuell erteilt wird.
 
@@ -233,58 +233,58 @@ Das erste gefundene Datum wird geprüft, ist es korrekt (nicht älter als 4 Jahr
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<schueler extern_id>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > ID`<br/>Die ID des Schülers.
+**Beschreibung** | `Magellan > Schüler > ID`<br/>Die ID des Schülers.
 **Feld**         | `<an_vname>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Vorname`<br/>Vorname des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Vorname`<br/>Vorname des Schülers.
 **Feld**         | `<an_name>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Nachname`<br/>Nachname des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Nachname`<br/>Nachname des Schülers.
 **Feld**         | `<an_gebname>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Geburtsname`<br/>Geburtsname des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Geburtsname`<br/>Geburtsname des Schülers.
 **Feld**         | `<an_gebdat>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Geburtsdatum`<br/>Geburtsdatum des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Geburtsdatum`<br/>Geburtsdatum des Schülers.
 **Feld**         | `<an_gebort>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Geburtsort`<br/>Geburtsort des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Geburtsort`<br/>Geburtsort des Schülers.
 **Feld**         | `<an_geschlecht>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Geschlecht`<br/>Geschlecht des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Geschlecht`<br/>Geschlecht des Schülers.
 **Feld**         | `<an_staatsang_1>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Staatsangeh. 1`<br/>1. Staatsangehörigkeit des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Staatsangeh. 1`<br/>1. Staatsangehörigkeit des Schülers.
 **Feld**         | `<an_staatsang_2>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Staatsangeh. 2`<br/>2. Staatsangehörigkeit des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Staatsangeh. 2`<br/>2. Staatsangehörigkeit des Schülers.
 **Feld**         | `<al_kennziffer>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Bildungsgang`<br/>Bildungsgang des Schülers.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
+**Beschreibung** | `Magellan > Schüler > Ausbildung > Bildungsgang`<br/>Bildungsgang des Schülers.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
 **Feld**         | `<al_schulart>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Schulform`<br/>Schulform des Schülers im Bildungsgang.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
+**Beschreibung** | `Magellan > Schüler > Ausbildung > Schulform`<br/>Schulform des Schülers im Bildungsgang.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
 **Feld**         | `<al_status>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Statistik > Merkmale > Merkmal S1`<br/>Status des Schüler lt. Schnittstelle.<br />Wenn kein Wert angegeben, dann wird der Status automatisch als 1 = Schüler in der Schnittstelle ausgegeben.
+**Beschreibung** | `Magellan > Schüler > Statistik > Merkmale > Merkmal S1`<br/>Status des Schüler lt. Schnittstelle.<br />Wenn kein Wert angegeben, dann wird der Status automatisch als 1 = Schüler in der Schnittstelle ausgegeben.
 **Feld**         | `<al_zeitform>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Organisation`<br/>Die Zeitform des Schülers im Bildungsgang.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
+**Beschreibung** | `Magellan > Schüler > Ausbildung > Organisation`<br/>Die Zeitform des Schülers im Bildungsgang.<br />Lesen Sie dazu den obigen Abschnitt [Mindestvoraussetzung für den Export](einstieg.md#voraussetzungen-fur-den-export).
 **Feld**         | `<al_abschl_dat>` - MI
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat](https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat)!
+**Beschreibung** | `Magellan > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`<br/>Das voraussichtliche Enddatum der Ausbildung.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat](https://doc.ls.stueber.de/sachsen/export_saxsvs/#al_abschl_dat)!
 **Feld**         | `<al_laufb_kl>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Klasse`<br/>Die aktuelle Klasse des Schülers. Eine Klasse hat der Schüler sobald die Einschulung erfolgt ist. Das Klassenkürzel wird für die aktuelle Klasse  aus dem Feld `Statistikkürzel` ausgelesen.
+**Beschreibung** | `Magellan > Schüler > Klasse`<br/>Die aktuelle Klasse des Schülers. Eine Klasse hat der Schüler sobald die Einschulung erfolgt ist. Das Klassenkürzel wird für die aktuelle Klasse  aus dem Feld `Statistikkürzel` ausgelesen.
 **Feld**         | `<al_laufb_von>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Allgemein > Zugang`<br/>Das Zugangsdatum der Laufbahn, damit Zugang zur Klasse.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Allgemein > Zugang`<br/>Das Zugangsdatum der Laufbahn, damit Zugang zur Klasse.
 **Feld**         | `<al_laufb_bis>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Allgemein > Abgang`<br/>Das Abgangsdatum der Laufbahn, damit Abang aus Klasse.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Allgemein > Abgang`<br/>Das Abgangsdatum der Laufbahn, damit Abang aus Klasse.
 **Feld**         | `<al_laufb_bem>`
 **Beschreibung** | `Nicht unterstützt`<br/>Ein Freitextfeld zur Laufbahn.
 **Feld**         | `<al_laufb_neuanf>`
-**Beschreibung** | `MAGELLAN > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger](https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger)! 
+**Beschreibung** | `Magellan > Schüler > Ausbildung > Neuanfänger`<br/>Neuanfänger im Bildungsgang.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger](https://doc.ls.stueber.de/sachsen/export_saxsvs/#neuanfanger)! 
 **Abbildung**    | <img src=/assets/images/sachsen/neuanf.png>
 **Feld**         | `<al_laufb_bgut>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Finanzielle Förderung > Förderung`<br/>Innanspruchnahme des Bildungsgutschein vom Arbeitsamt.
 **Feld**         | `<al_fremd_fs1>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 1. Fremdsprache > erteilt`<br/>1. Fremdsprache des Schülers<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen)!
+**Beschreibung** | `Magellan > Schüler > Daten 3 > 1. Fremdsprache`<br/>`Magellan > Schüler > Daten 3 > 1. Fremdsprache > erteilt`<br/>1. Fremdsprache des Schülers<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen)!
 **Feld**         | `<al_fremd_fs2>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 2. Fremdsprache > erteilt`<br/>2. Fremdsprache des Schülers.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen)!
+**Beschreibung** | `Magellan > Schüler > Daten 3 > 2. Fremdsprache`<br/>`Magellan > Schüler > Daten 3 > 2. Fremdsprache > erteilt`<br/>2. Fremdsprache des Schülers.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen)!
 **Feld**         | `<al_fremd_fs3>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache`<br/>`MAGELLAN > Schüler > Daten 3 > 3. Fremdsprache > erteilt`<br/>3. Fremdsprache des Schülers.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen)!
+**Beschreibung** | `Magellan > Schüler > Daten 3 > 3. Fremdsprache`<br/>`Magellan > Schüler > Daten 3 > 3. Fremdsprache > erteilt`<br/>3. Fremdsprache des Schülers.<br/>Bitte beachten Sie dazu die Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#forderung](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen)!
 **Feld**         | `<al_ausgen>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Überweisung > Einschulantrag/Ausnahme`<br/>Ausnahmegenehmigung zum Besuch einer anderen Schule, als die vom Amt vorgesehene.
 **Feld**         | `<al_mfoerdersw>`
-**Beschreibung** | `MAGELLAN > Klassen > Daten > Einzelintegration / Förderklasse`<br/>`MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Bei der Förderung wird zwischen Schülern unterschieden, die in einer Förderklasse eingeschult sind und damit speziellen rechtlichen Vorgaben unterliegen (Förderstunden, Gelder etc.) und allen anderen Schülern mit Förderbedarf. Die Ausgabe für die Schnittstelle ändert sich dementsprechend. Bei Schülern die in einer Förderklasse eingeschult sind, geben Sie bei der Klasse an, dass es sich um eine Förderklasse handelt. Der Förderschwerpunkt hingegen wird wie auch bei allen anderen Schülern direkt beim Schüler eingetragen und entsprechend ausgewertet.<br/><br/>**Wichtig**:<br/><br/>Förderklasse<br/>--------<br/>Ist der Schüler in einer Förderklasse (Häkchen gesetzt unter `MAGELLAN > Klassen > Daten > Einzelintegration/Förderklasse`) dürfen unter `Daten4 > Förderungen` **keine Förderstundenwerte** erfasst werden. <br/><br/>Keine Förderklasse<br/>--------<br/> Bei Schülern, die nicht in einer speziellen Förderklasse sind (kein Häkchen unter `MAGELLAN > Klassen > Daten > Einzelintegration/Förderklasse`) **müssen die Förderstundenwerte gefüllt** werden.
+**Beschreibung** | `Magellan > Klassen > Daten > Einzelintegration / Förderklasse`<br/>`Magellan > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Bei der Förderung wird zwischen Schülern unterschieden, die in einer Förderklasse eingeschult sind und damit speziellen rechtlichen Vorgaben unterliegen (Förderstunden, Gelder etc.) und allen anderen Schülern mit Förderbedarf. Die Ausgabe für die Schnittstelle ändert sich dementsprechend. Bei Schülern die in einer Förderklasse eingeschult sind, geben Sie bei der Klasse an, dass es sich um eine Förderklasse handelt. Der Förderschwerpunkt hingegen wird wie auch bei allen anderen Schülern direkt beim Schüler eingetragen und entsprechend ausgewertet.<br/><br/>**Wichtig**:<br/><br/>Förderklasse<br/>--------<br/>Ist der Schüler in einer Förderklasse (Häkchen gesetzt unter `Magellan > Klassen > Daten > Einzelintegration/Förderklasse`) dürfen unter `Daten4 > Förderungen` **keine Förderstundenwerte** erfasst werden. <br/><br/>Keine Förderklasse<br/>--------<br/> Bei Schülern, die nicht in einer speziellen Förderklasse sind (kein Häkchen unter `Magellan > Klassen > Daten > Einzelintegration/Förderklasse`) **müssen die Förderstundenwerte gefüllt** werden.
 **Feld**         | `<af_behart>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Behinderung`<br/>Behinderungsart des Schülers. Dabei wird die Liste der Förderungen sortiert nach Position durchlaufen und der erste gefüllte Eintrag unter `Behinderung` ausgelesen.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Behinderung`<br/>Behinderungsart des Schülers. Dabei wird die Liste der Förderungen sortiert nach Position durchlaufen und der erste gefüllte Eintrag unter `Behinderung` ausgelesen.
 
 ### Abwesenheiten
 
@@ -298,9 +298,9 @@ Dazu markieren Sie den Schüler und klicken im `Kontextmenü (Rechte Maustaste) 
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_abw_grund>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Abwesenheiten > Grund`<br/>Grund der Abwesenheit, z.B. 60 = Elternzeit.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Abwesenheiten > Grund`<br/>Grund der Abwesenheit, z.B. 60 = Elternzeit.
 **Feld**         | `<an_abw_dat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Abwesenheiten > Von`<br/>Abwesend seit Datum.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Abwesenheiten > Von`<br/>Abwesend seit Datum.
 
 ### Migration  
 
@@ -311,11 +311,11 @@ Wird angegeben, wenn ein Schüler nicht deutscher Herkunft ist.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_migr_grund>` - OP|
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > NdH`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn der Schüler nicht deutscher Herkunft ist, und somit einen Migrationshintergrund hat.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > NdH`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn der Schüler nicht deutscher Herkunft ist, und somit einen Migrationshintergrund hat.
 **Feld**         | `<an_migr_dat>`
-**Beschreibung** | `MAGELLAN > Schüler > Statistik > Merkmal U2`<br/>Datum des Migrationsgespräches, also nicht des Zuzugs nach Deutschland.
+**Beschreibung** | `Magellan > Schüler > Statistik > Merkmal U2`<br/>Datum des Migrationsgespräches, also nicht des Zuzugs nach Deutschland.
 **Feld**         | `<an_migr_daz>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Beeinträchtigungen und Fördermaßnahmen > Fördermaßnahme/Bedarf`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn es sich um einen Schüler mit besonderer Bildungsempfehlung handelt und Deutsch als Zweitsprache, da nicht Muttersprache, unterrichtet bekommt. In MAGELLAN müssen Sie dazu im `Fördermaßnahme/Bedarf` den Wert `DAZ-3` auswählen.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Beeinträchtigungen und Fördermaßnahmen > Fördermaßnahme/Bedarf`<br/>Es handelt sich um ein Ja/Nein Wert. Ja, wenn es sich um einen Schüler mit besonderer Bildungsempfehlung handelt und Deutsch als Zweitsprache, da nicht Muttersprache, unterrichtet bekommt. In Magellan müssen Sie dazu im `Fördermaßnahme/Bedarf` den Wert `DAZ-3` auswählen.
 
 !!! warning "Wichtig!"
 
@@ -329,7 +329,7 @@ Die Adresse ist ein Pflichtknoten für die Mindestimplementation. Hier wird die 
 Die Schnittstelle unterscheidet dabei, ob der Schüler den Wohnsitz in Sachsen, außerhalb Sachsens in Deutschland oder im Ausland hat.
 Lesen Sie bitte auch die Unterabschnitte der Adresse an, da je nach Wohnsitz andere Felder Pflicht sind. Z.B. ist der Eintrag von `Land` für im Ausland lebende Schüler zwingend erforderlich, um den Knoten `<an_staat>` mit dem entsprechenden Land zu füllen.
 
-Zur Unterscheidung in MAGELLAN werden die Einträge in `Gemeinde` und `Land` wie folgt bewertet.
+Zur Unterscheidung in Magellan werden die Einträge in `Gemeinde` und `Land` wie folgt bewertet.
 
 Eintrag                                                        | Bedeutung
 -------------------------------------------------------------- | ---------
@@ -347,13 +347,13 @@ Wird ausgegeben, wenn der Schüler im Bundesland Sachsen wohnt.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_plz>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
 **Feld**         | `<an_ort>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Ort`<br/>Wohnort.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Ort`<br/>Wohnort.
 **Feld**         | `<an_ortsteil>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Ortsteil`<br/>Ortsteil des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Ortsteil`<br/>Ortsteil des Wohnortes.
 **Feld**         | `<an_strasse>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.
 
 #### Adresse Deutschland  
 
@@ -364,15 +364,15 @@ Wird ausgegeben, wenn der Schüler in Deutschland wohnt, aber nicht im Bundeslan
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_land>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Gemeinde`<br/>Bundesland des Wohnortes. Wird anhand des Gemeindeschlüssels ermittelt.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Gemeinde`<br/>Bundesland des Wohnortes. Wird anhand des Gemeindeschlüssels ermittelt.
 **Feld**         | `<an_plz>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
 **Feld**         | `<an_ort>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Ort`<br/>Wohnort.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Ort`<br/>Wohnort.
 **Feld**         | `<an_ortsteil>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Ortsteil`<br/>Ortsteil des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Ortsteil`<br/>Ortsteil des Wohnortes.
 **Feld**         | `<an_strasse>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.
 
 #### Adresse Ausland  
 
@@ -383,15 +383,15 @@ Wird ausgegeben, wenn der Schüler im Ausland wohnt.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<an_staat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. <br/>MAGELLAN setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes. <br/>Magellan setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
 **Feld**         | `<an_plz>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > PLZ`<br/>Postleitzahl des Wohnortes.
 **Feld**         | `<an_ort>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Ort`<br/>Wohnort.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Ort`<br/>Wohnort.
 **Feld**         | `<an_ortsteil>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Ortsteil`<br/>Ortsteil des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Ortsteil`<br/>Ortsteil des Wohnortes.
 **Feld**         | `<an_strasse>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Straße`<br/>Straße des Wohnortes.
 
 ### Sorgeberechtigte  
 
@@ -399,15 +399,15 @@ Titel            | Inhalt
 
 Wird ausgegeben, wenn der Schüler Familienmitglieder mit gültigem Verhältnis, ggfs. Geschlecht (siehe Tabelle) eingetragen hat und der Schüler noch nicht volljährig ist. Wir berechnen die Volljährigkeit anhand des Geburtsdatums und Ihrer Angabe des Stichtages im Statistikassistenten.
 SAXSVS erlaubt die Angabe von bis zu vier Sorgeberechtigten.
-In MAGELLAN verwalten wir Familienmitglieder. Diese können `Schüler`, `Lehrer`, `Personen` und `Sorgeberechtigte` sein. Die Personendaten werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schüler wird unter `Schüler > Daten 1 > Familie` angegeben.
+In Magellan verwalten wir Familienmitglieder. Diese können `Schüler`, `Lehrer`, `Personen` und `Sorgeberechtigte` sein. Die Personendaten werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schüler wird unter `Schüler > Daten 1 > Familie` angegeben.
 
 !!! warning "Wichtig"
 
-    Für den Export nach SAXSVS setzen wir die MAGELLAN-Sorgeberechtigten-Verhältnisse in Schlüssel um. 
+    Für den Export nach SAXSVS setzen wir die Magellan-Sorgeberechtigten-Verhältnisse in Schlüssel um. 
     Für einige unserer Verhältnisse gibt es Entsprechungen als Schlüssel, für einige leider nicht. 
     Diese Verhältnisse (Eltern, Erziehungsberechtigte(r), Sorgeberechtigte(r), Ansprechpartner(in), Eheleute, Verhältnis1 - Verhältnis10) geben wir wenn Sie als Sorgeberechtigt gekennzeichnet sind, entsprechend des Geschlechts als Mutter oder Vater mit aus.
 
-Schlüssel in SAXSVS | Verhältnis in MAGELLAN
+Schlüssel in SAXSVS | Verhältnis in Magellan
 --------------------|-----------------------
 20                  | Mutter
 10                  | Vater
@@ -442,9 +442,9 @@ nicht ausgebbar     | Verhältnis1 - Verhältnis10 (Geschlecht des Sorgeberechti
     
     Einträge, die als Verhältnis `Ansprechpartner(in)`, `Eheleute` oder einen der individualisierbaren Einträge `Verhältnis1 - Verhältnis10` zugewiesen haben, werden nicht in die XML-Datei übergeben.
 
-Wenn Sie in der folgenden Auflistung **Person > ...** lesen, dann ist damit die entsprechende Ansicht `Schüler`, `Lehrer`, `Personen` oder `Sorgeberechtigte` gemeint, je nachdem welchen Personentyp Sie in MAGELLAN als Familienmitglied angegeben haben.
+Wenn Sie in der folgenden Auflistung **Person > ...** lesen, dann ist damit die entsprechende Ansicht `Schüler`, `Lehrer`, `Personen` oder `Sorgeberechtigte` gemeint, je nachdem welchen Personentyp Sie in Magellan als Familienmitglied angegeben haben.
 
-Wenn wir im folgenden die MAGELLAN Personenangaben zur Ansicht "Sorgeberechtigte" machen, dann kann damit auch Lehrer oder Personen gemeint sein.
+Wenn wir im folgenden die Magellan Personenangaben zur Ansicht "Sorgeberechtigte" machen, dann kann damit auch Lehrer oder Personen gemeint sein.
 
 Titel            | Inhalt
 ---------------- | ------
@@ -463,7 +463,7 @@ Titel            | Inhalt
 **Feld**         | `<sorgeberechtigte><as_name>` - OP
 **Beschreibung** | `Sorgeberechtigte > Nachname`<br/>Nachname des Sorgeberechtigten.
 **Feld**         | `<sorgeberechtigter><as_staat>` - OP
-**Beschreibung** | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>MAGELLAN setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>AT=Österreich (151)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support.
+**Beschreibung** | `Sorgeberechtigte > Land`<br/>Wohnland des Sorgeberechtigten. <br/>Magellan setzt aus den folgenden Länderkürzeln die Schlüsselnummer für die Übergabe in die XML-Datei um.<br/><br/>Mögliche Einträge:<br/>D/De/Deu=Deutschland (000)<br/>PL=Polen (152)<br/>CZ=Tschechische Republik (164)<br/>AT=Österreich (151)<br/>CH=Schweiz (158)<br/><br/>Sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.Sollten weitere Einträge erforderlich sein, wenden Sie sich bitte an den Support.
 **Feld**         | `<sorgeberechtigter><as_land>`
 **Beschreibung** | `Sorgeberechtigte > Gemeindekennziffer`<br/>Das Wohnbundesland des Sorgeberechtigten (wenn in Deutschland lebend wird aus der Gemeindekennziffer errechnet.
 **Feld**         | `<sorgeberechtigter><as_plz>`
@@ -502,17 +502,17 @@ Wird ausgegeben, wenn der Schüler eine Integrationsform eingetragen hat.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<af_int>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Maßnahme/Bedarf`<br/>Integrationsform des Schülers, z.B. 50 = Inkl.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Maßnahme/Bedarf`<br/>Integrationsform des Schülers, z.B. 50 = Inkl.
 **Feld**         | `<af_int_von>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Von`<br/>Anfangsdatum der Förderung.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Von`<br/>Anfangsdatum der Förderung.
 **Feld**         | `<af_int_bis>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Bis`<br/>Enddatum der Förderung.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Bis`<br/>Enddatum der Förderung.
 **Feld**         | `<af_int_rs_std>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Stunden 1`<br/>Die Förderstunden in der Regelschule, gemäß Bescheid des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Stunden 1`<br/>Die Förderstunden in der Regelschule, gemäß Bescheid des Schülers.
 **Feld**         | `<af_int_fs_std>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Stunden 2`<br/>Die Förderstunden in der Förderschule, gemäß Bescheid des Schülers.
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Stunden 2`<br/>Die Förderstunden in der Förderschule, gemäß Bescheid des Schülers.
 **Feld**         | `<af_int_foerdersw>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Hauptförderschwerpunkt, z.B. 16 = geistige Entwicklung
+**Beschreibung** | `Magellan > Schüler > Daten 4 > Förderungen > Förderschwerpunkt 1`<br/>Hauptförderschwerpunkt, z.B. 16 = geistige Entwicklung
 **Feld**         | `<af_int_zlk>`
 **Beschreibung** | `Nicht unterstützt`<br/>Freitext - Angabe einer zusätzlichen Lehrkraft.
 **Feld**         | `<af_int_raum>`
@@ -537,9 +537,9 @@ Wird ausgegeben, wenn beim Schüler der Höchste allgemeinbildende Abschluss ang
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<av_abs_schart>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss ABS > Schulform`<br/>Schulform der Schule, an dem der höchste Abschluss erworben wurde, z.B. 062 = Abendgymnasium.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Höchster Abschluss ABS > Schulform`<br/>Schulform der Schule, an dem der höchste Abschluss erworben wurde, z.B. 062 = Abendgymnasium.
 **Feld**         | `<av_abs_zeugnis>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss`<br/>Höchster allgemeinbildender Abschluss, z.B. 06 = Allgemeine Hochschulreife.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss`<br/>Höchster allgemeinbildender Abschluss, z.B. 06 = Allgemeine Hochschulreife.
 
 `<saxsvs-bbs><schueler><bbs>`
 
@@ -548,9 +548,9 @@ Wird ausgegeben, wenn beim Schüler der Höchste berufsbildenden Abschluss angeg
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<av_bbs_schart>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss BBS > Schulform`<br/>Schulform der Schule, an dem der höchste Abschluss erworben wurde, z.B. 115 = Berufsvorbereitungsjahr.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Höchster Abschluss BBS > Schulform`<br/>Schulform der Schule, an dem der höchste Abschluss erworben wurde, z.B. 115 = Berufsvorbereitungsjahr.
 **Feld**         | `<av_bbs_zeugnis>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss`<br/>Höchster berufsbildender Abschluss, z.B. 00 = noch kein Abschluss an einer berufsbildenden Schule.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss`<br/>Höchster berufsbildender Abschluss, z.B. 00 = noch kein Abschluss an einer berufsbildenden Schule.
 
 ### Ende der Ausbildung  
 
@@ -571,11 +571,11 @@ Im Falle eines Abschlusses wird der Knoten `<absch>` gefüllt.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<absch_art>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Abschluss > Abschluss 1`<br/>Beendigungsart bei Abschluss der Ausbildung, z.B. 030 = Abschlusszeugnis.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Abschluss > Abschluss 1`<br/>Beendigungsart bei Abschluss der Ausbildung, z.B. 030 = Abschlusszeugnis.
 **Feld**         | `<absch_art_dat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Abschluss > Abschluss 1 Datum`<br/>Abschlussdatum.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Abschluss > Abschluss 1 Datum`<br/>Abschlussdatum.
 **Feld**         | `<absch_art_zusatz>`
-**Beschreibung** | `MAGELLAN > Schüler > Laufbahn > Abschluss 1 > Abschlussart`<br/>Zusätzliche erworbener Schulabschluss, z.B. 030 = Fachhochschulreife.
+**Beschreibung** | `Magellan > Schüler > Laufbahn > Abschluss 1 > Abschlussart`<br/>Zusätzliche erworbener Schulabschluss, z.B. 030 = Fachhochschulreife.
 
 #### Abbruch  
 
@@ -590,27 +590,27 @@ Im Falle eines Abbruches wird der Knoten `<abbruch>` gefüllt.
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<abbruch>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Abgang > Abgangsart`<br/>Beendigungsart bei Abbruch der Ausbildung, z.B. 110 = Schulwechsel in Sachsen (an öffentliche Schule).
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Abgang > Abgangsart`<br/>Beendigungsart bei Abbruch der Ausbildung, z.B. 110 = Schulwechsel in Sachsen (an öffentliche Schule).
 **Feld**         | `<abbruch_dat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Abgang > Abgang am`<br/>Abbruchsdatum.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Abgang > Abgang am`<br/>Abbruchsdatum.
 **Feld**         | `<bzsort_neu>`
-**Beschreibung** | `MAGELLAN > Schüler > Daten 2 > Abgang > Übergang an Schule`<br/>`MAGELLAN > Schulen > Daten > Schulnummer`<br/>Bei Wechsel auf eine andere Schule, wird hier die vom Amt vergebene 7-stellige Dienststellennummer der neuen Schule erwartet. In MAGELLAN geben Sie die Schule an, an die der Schüler wechselt. In der Ansicht `Schulen` muss für die entsprechende Schule die Schulnummer eingetragen sein.
+**Beschreibung** | `Magellan > Schüler > Daten 2 > Abgang > Übergang an Schule`<br/>`Magellan > Schulen > Daten > Schulnummer`<br/>Bei Wechsel auf eine andere Schule, wird hier die vom Amt vergebene 7-stellige Dienststellennummer der neuen Schule erwartet. In Magellan geben Sie die Schule an, an die der Schüler wechselt. In der Ansicht `Schulen` muss für die entsprechende Schule die Schulnummer eingetragen sein.
 
-### Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb)  
+### Einstellungsbetrieb (Magellan Ausbildungsbetrieb)  
 
 `<saxsvs-bbs><schueler><aau_einbetr>`
 
-Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Vertrag abgeschlossen wird. In MAGELLAN ist dies der Ausbildungsbetrieb.
+Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Vertrag abgeschlossen wird. In Magellan ist dies der Ausbildungsbetrieb.
 Wie beim Wohnort des Schülers wird die Adresse unterschieden in Adresse in Sachsen, restliches Deutschland und Ausland.
 
 Titel                  | Inhalt
 ---------------------- | ------
-**Ausbildungsbetrieb** | `MAGELLAN > Schüler > Ausbildung > Betrieb [Ausbildungsbetrieb]`
+**Ausbildungsbetrieb** | `Magellan > Schüler > Ausbildung > Betrieb [Ausbildungsbetrieb]`
 **Beschreibung**       | Wählen Sie bei der aktuellen Ausbildung den Betrieb aus, der als Einstellungsbetrieb gelten soll.<br/>Alle weiteren Informationen berufen sich auf den ausgewählten Betrieb.
 
 !!! info "Hinweis"
 
-    In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (MAGELLAN-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (MAGELLAN-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
+    In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (Magellan-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (Magellan-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
 
 #### Adresse Sachsen
 
@@ -621,19 +621,19 @@ Wird ausgegeben, wenn sich der Einstellungsbetrieb im Bundesland Sachsen befinde
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Name 1`<br/>Name des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Name 1`<br/>Name des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 **Feld**         | `<plz>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 **Feld**         | `<ort>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Ort`<br/>Ort des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Ort`<br/>Ort des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 **Feld**         | `<str>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 
 ### Adresse Deutschland  
 
 `<adresse_deutschland>`
 
-Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
+Wird ausgegeben, wenn sich der Einstellungsbetrieb (Magellan Ausbildungsbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
 
 !!! danger "Achtung"
 
@@ -642,50 +642,50 @@ Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb)
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Name 1`<br/>Name des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Name 1`<br/>Name des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 **Feld**         | `<land>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Gemeinde`<br/>Bundesland des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb). Wird anhand des Gemeindeschlüssels ermittelt.
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Gemeinde`<br/>Bundesland des Einstellungsbetriebes (Magellan Ausbildungsbetrieb). Wird anhand des Gemeindeschlüssels ermittelt.
 **Feld**         | `<plz>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 **Feld**         | `<ort>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Ort`<br/>Ort des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Ort`<br/>Ort des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 **Feld**         | `<str>`
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes (MAGELLAN Ausbildungsbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes (Magellan Ausbildungsbetrieb).
 
 ### Adresse Ausland  
 
 `<adresse_ausland>`
 
-Wird ausgegeben, wenn sich der Einstellungsbetrieb (MAGELLAN Ausbildungsbetrieb) im Ausland befindet.
+Wird ausgegeben, wenn sich der Einstellungsbetrieb (Magellan Ausbildungsbetrieb) im Ausland befindet.
 
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Name 1`<br/>Name des Einstellungsbetriebes.
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Name 1`<br/>Name des Einstellungsbetriebes.
 **Feld**         | `<an_staat>` - OP
-**Beschreibung** | `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes, z.B. PL = Polen.<br /> Der auszugebende Wert wird berechnet. Aktuell berechnen wir nur Polen, sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
+**Beschreibung** | `Magellan > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes, z.B. PL = Polen.<br /> Der auszugebende Wert wird berechnet. Aktuell berechnen wir nur Polen, sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
 **Feld**         | `<plz>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Einstellungsbetriebes.
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Einstellungsbetriebes.
 **Feld**         | `<ort>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Ort`<br/>Ort des Einstellungsbetriebes.
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Ort`<br/>Ort des Einstellungsbetriebes.
 **Feld**         | `<str>`
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes.
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Straße`<br/>Straße des Einstellungsbetriebes.
 
-## Ausbildungsbetrieb (MAGELLAN Praxisbetrieb)  
+## Ausbildungsbetrieb (Magellan Praxisbetrieb)  
 
 `<saxsvs-bbs><schueler><aau_ausbetr>`
 
-Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Schüler ausgebildet wird. Dies ist überwiegend gleich dem Einstellungsbetrieb, aber in einigen Fällen, kann dies abweichen. In MAGELLAN ist dies der Praxisbetrieb.
+Im Falle einer betrieblichen Ausbildung wird hier der Betrieb angegeben, bei dem der Schüler ausgebildet wird. Dies ist überwiegend gleich dem Einstellungsbetrieb, aber in einigen Fällen, kann dies abweichen. In Magellan ist dies der Praxisbetrieb.
 Wie beim Wohnort des Schülers wird die Adresse unterschieden in Adresse in Sachsen, restliches Deutschland und Ausland.
 
 Titel             | Inhalt
 ----------------- | ------
-**Praxisbetrieb** | `MAGELLAN > Schüler > Ausbildung > Praxisbetrieb`
+**Praxisbetrieb** | `Magellan > Schüler > Ausbildung > Praxisbetrieb`
 **Beschreibung**  | Wählen Sie bei der aktuellen Ausbildung den Betrieb aus, der als Praxisbetrieb gelten soll.<br/>Alle weiteren Informationen berufen sich auf den ausgewählten Betrieb.
 
 !!! info "Hinweis"
 
-    In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (MAGELLAN-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (MAGELLAN-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
+    In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (Magellan-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (Magellan-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
 
 ### Adresse Sachsen
 
@@ -696,48 +696,48 @@ Wird ausgegeben, wenn sich der Ausbildungsbetrieb im Bundesland Sachsen befindet
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Name 1`<br/>Name des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Name 1`<br/>Name des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<plz>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<ort>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Ort`<br/>Ort des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Ort`<br/>Ort des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<str>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 
 ### Adresse Deutschland
 
 `<adresse_deutschland>`
 
-Wird ausgegeben, wenn sich der Ausbildungsbetrieb (MAGELLAN Praxisbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
+Wird ausgegeben, wenn sich der Ausbildungsbetrieb (Magellan Praxisbetrieb) in Deutschland, aber nicht im Bundesland Sachsen befindet.
 
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Name 1`<br/>Name des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Name 1`<br/>Name des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<land>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Gemeinde`<br/>Bundesland des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb). Wird anhand des Gemeindeschlüssels ermittelt.
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Gemeinde`<br/>Bundesland des Ausbildungsbetriebes (Magellan Praxisbetrieb). Wird anhand des Gemeindeschlüssels ermittelt.
 **Feld**         | `<plz>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<ort>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Ort`<br/>Ort des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Ort`<br/>Ort des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<str>`
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 
 ### Adresse Ausland
 
 `<adresse_ausland>`
 
-Wird ausgegeben, wenn sich der Ausbildungsbetrieb (MAGELLAN Praxisbetrieb) im Ausland befindet.
+Wird ausgegeben, wenn sich der Ausbildungsbetrieb (Magellan Praxisbetrieb) im Ausland befindet.
 
 Titel            | Inhalt
 ---------------- | ------
 **Feld**         | `<bez>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Name 1`<br/>Name des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Name 1`<br/>Name des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<an_staat>` - OP
-**Beschreibung** || `MAGELLAN > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes, z.B. PL = Polen.<br /> Der auszugebende Wert wird berechnet. Aktuell berechnen wir nur Polen, sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
+**Beschreibung** || `Magellan > Schüler > Daten 1 > Land`<br/>Länderkürzel des Landes, z.B. PL = Polen.<br /> Der auszugebende Wert wird berechnet. Aktuell berechnen wir nur Polen, sollten Sie weitere Werte benötigen, wird um entsprechende Rückmeldung im Support gebeten.
 **Feld**         | `<plz>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > PLZ`<br/>Postleitzahl des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<ort>` - OP
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Ort`<br/>Ort des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Ort`<br/>Ort des Ausbildungsbetriebes (Magellan Praxisbetrieb).
 **Feld**         | `<str>`
-**Beschreibung** | `MAGELLAN > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (MAGELLAN Praxisbetrieb).
+**Beschreibung** | `Magellan > Betriebe > Daten 1 > Straße`<br/>Straße des Ausbildungsbetriebes (Magellan Praxisbetrieb).

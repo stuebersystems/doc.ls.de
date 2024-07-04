@@ -13,17 +13,17 @@ Relevante Schlüssel für SaxSVS kommen vom Ministerium. Alle anderen werden von
 Katalog                        | Verzeichnis            | Schulart | Eingabe relevant für
 ------------------------------ | ---------------------- | -------- | --------------------
 00_Behinderungsarten.keys      | Behinderungsarten      | ABS/BBS  | SaxSVS
-00_Fachstati.keys              | Fachstati              | ABS/BBS  | MAGELLAN
-00_Faecher.keys                | Fächer                 | ABS/BBS  | MAGELLAN
+00_Fachstati.keys              | Fachstati              | ABS/BBS  | Magellan
+00_Faecher.keys                | Fächer                 | ABS/BBS  | Magellan
 00_FoerderSchwerpunkte.keys    | Förderschwerpunkte     | ABS/BBS  | SaxSVS
 00_Foerderungen.keys           | Förderungen            | ABS/BBS  | SaxSVS
-00_Klassenstufen.keys          | Klassenstufen          | ABS/BBS  | MAGELLAN
-00_Konfessionen.keys           | Konfessionen           | ABS/BBS  | MAGELLAN
-00_Noten.keys                  | Noten                  | ABS/BBS  | MAGELLAN
-00_Sprachreferenzen.keys       | Sprachreferenzen       | ABS/BBS  | MAGELLAN
+00_Klassenstufen.keys          | Klassenstufen          | ABS/BBS  | Magellan
+00_Konfessionen.keys           | Konfessionen           | ABS/BBS  | Magellan
+00_Noten.keys                  | Noten                  | ABS/BBS  | Magellan
+00_Sprachreferenzen.keys       | Sprachreferenzen       | ABS/BBS  | Magellan
 00_Staatsangehoerigkeiten.keys | Staatsangehörigkeiten  | ABS/BBS  | SaxSVS
-00_Unterrichtsarten.keys       | Unterrichtsarten       | ABS/BBS  | MAGELLAN
-AS_SchulformenHerkunft.keys    | Schulformen (Herkunft) | ABS      | MAGELLAN
+00_Unterrichtsarten.keys       | Unterrichtsarten       | ABS/BBS  | Magellan
+AS_SchulformenHerkunft.keys    | Schulformen (Herkunft) | ABS      | Magellan
 BS_Abgangsarten.keys           | Abgangsarten           | BBS      | SaxSVS
 BS_AbschluesseExtern.keys      | Abschlüsse (Extern)    | BBS      | SaxSVS
 BS_AbschluesseIntern.keys      | Abschlüsse (Intern)    | BBS      | SaxSVS
@@ -40,13 +40,13 @@ BS_SopaedFoerderungen.keys     | Förderbedarf           | BBS      | SaxSVS
 
 Bitte importieren Sie die Schlüssel nach anstehender Anleitung!
 
-1. Stellen Sie sicher, dass Sie die aktuellste Ausgabe von MAGELLAN 7 einsetzen!
-2. Öffnen Sie das Modul MAGELLAN- Administrator und wählen die Ansicht `Datenaustausch > Kataloge (Schlüsselverzeichnisse)importieren`.
+1. Stellen Sie sicher, dass Sie die aktuellste Ausgabe von Magellan 7 einsetzen!
+2. Öffnen Sie das Modul Magellan- Administrator und wählen die Ansicht `Datenaustausch > Kataloge (Schlüsselverzeichnisse)importieren`.
 3. Wählen Sie Sachsen, Ihre Schulart und Ihren Mandanten aus und importieren einen ausgewählten oder alle mitgelieferten Kataloge.
 
-![Import der mitgelieferten MAGELLAN-Schlüssel](/assets/images/sachsen/schluesselimport.png)
+![Import der mitgelieferten Magellan-Schlüssel](/assets/images/sachsen/schluesselimport.png)
 
-Wenn Sie MAGELLAN im Alltag einsetzen haben Sie bereits Schlüssel in Ihrer Datenbank verwendet, für die Sie eigene oder keine Werte in der Spalte `Schlüssel` eingetragen haben.
+Wenn Sie Magellan im Alltag einsetzen haben Sie bereits Schlüssel in Ihrer Datenbank verwendet, für die Sie eigene oder keine Werte in der Spalte `Schlüssel` eingetragen haben.
 Durch diese eigenen Werte haben wir nicht die Möglichkeit beim Import der neuen Schlüssel diese mit Ihren Schlüsseln abzugleichen.
 Es muss mindestens beim ersten Statistikdurchlauf (ab dem nächsten Jahr können dann Schlüssel erkannt werden) ein manuelle Nacharbeit erfolgen. Bitte lesen Sie dazu den nächsten Abschnitt!
 
@@ -59,7 +59,7 @@ Beim Import der Schlüssel gibt es einen Ablauf, der gewähren soll, dass die Wa
 ### Einleseprozess
 
 1. Alle noch nie verwendeten Schlüsselzeilen werden gelöscht.<br/>Übrig bleiben nur die Zeilen, die Sie bereits einmal verwendet haben.<br/>Diese Zeilen können jetzt für die Statistik richtig oder auch verkehrt sein.
-2. Alle übrigen Zeilen werden als inaktive Schlüssel gekennzeichnet.<br/>***Zur Erklärung***: Jedes Verzeichnis hat die Spalten `von` und `bis`. In diesen Spalten kann man ein Datum eintragen, das wird bei der Anzeige mit dem ausgewählten Zeitraum in MAGELLAN verglichen und der Schlüssel wird demnach mit unterschiedlich farbigem Symbol in der Programmoberfläche gezeigt. Inaktive Schlüssel werden zusätzlich ans Ende der Liste sortiert.
+2. Alle übrigen Zeilen werden als inaktive Schlüssel gekennzeichnet.<br/>***Zur Erklärung***: Jedes Verzeichnis hat die Spalten `von` und `bis`. In diesen Spalten kann man ein Datum eintragen, das wird bei der Anzeige mit dem ausgewählten Zeitraum in Magellan verglichen und der Schlüssel wird demnach mit unterschiedlich farbigem Symbol in der Programmoberfläche gezeigt. Inaktive Schlüssel werden zusätzlich ans Ende der Liste sortiert.
 3. Als nächstes wird ein Schlüssel aus dem Importkatalog anhand seines Schlüsselwerts (Inhalt der Spalte `Schlüssel` und/oder `Kürzel`) mit den im Verzeichnis noch enthaltenen Schlüsseln verglichen. Werden Zeilen erkannt (gleicher Schlüsselwert), wird der Schlüssel (oder werden die Schlüssel, es dürfen auch mehrere Zeilen existieren) wieder aktiviert, das heißt der oder die Schlüsselzeilen werden als aktive Schlüssel dargestellt.<br/>Ist keine Zeile mit dem verglichenen Schlüssel im Verzeichnis vorhanden, wird die Schlüsselzeile im Verzeichnis mit angelegt - ist aber bislang nirgendwo im Programm mit einem Datensatz verbunden.
 
 ### Ihre Schlüsselwerte an Vorgaben des Ministeriums anpassen

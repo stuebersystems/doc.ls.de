@@ -1,16 +1,16 @@
 # Stundenplandaten \(EXTERN.DAT\)
 
-In DAVINCI können Sie die Stundenplandaten in die Datei EXTERN.DAT für ASDPC exportieren. Als Voraussetzung für einen erfolgreichen Export müssen Sie bestimmte Angaben in DAVINCI machen, die nachfolgend beschrieben sind. Für eine erfolgreiche Übernahme der Daten aus DAVINCI nach ASDPC müssen Sie wie folgt vorgehen.
+In DaVinci können Sie die Stundenplandaten in die Datei EXTERN.DAT für ASDPC exportieren. Als Voraussetzung für einen erfolgreichen Export müssen Sie bestimmte Angaben in DaVinci machen, die nachfolgend beschrieben sind. Für eine erfolgreiche Übernahme der Daten aus DaVinci nach ASDPC müssen Sie wie folgt vorgehen.
 
 ## Folgende Schritt sind auszuführen
 
-1. Geben Sie die notwendigen Daten in DAVINCI an.
+1. Geben Sie die notwendigen Daten in DaVinci an.
 2. Erzeugen Sie die Exportdatei EXTERN.DAT.
 3. Importieren Sie die Daten in ASDPC.
 
 !!! info "Hinweis"
 
-   Für Erstellung der LEHRER.TXT aus MAGELLAN heraus ist NICHT die EXTERN.DAT die Grundlage, sondern die txt-Datei die durch dem „Allgemeinen Schnittstellenexport“ erzeugt werden kann.
+   Für Erstellung der LEHRER.TXT aus Magellan heraus ist NICHT die EXTERN.DAT die Grundlage, sondern die txt-Datei die durch dem „Allgemeinen Schnittstellenexport“ erzeugt werden kann.
 
 ## UVD.TXT
 
@@ -19,13 +19,13 @@ Die Dateien EXTERN.DAT und UVD.TXT werden alternativ verwendet. Eine gleichzeiti
 
 !!! warning "Wichtig"
 
-     Es wird nur eine der beiden Dateien (UVD.TXT, EXTERN.DAT) benötigt. DAVINCI kann die EXTERN.DAT erzeugen.
+     Es wird nur eine der beiden Dateien (UVD.TXT, EXTERN.DAT) benötigt. DaVinci kann die EXTERN.DAT erzeugen.
 
 ## Dateneingabe
 
 ### ABS
 
-Die folgenden Angaben müssen in DAVINCI bei allgemeinbildenden Schulen gemäß der offiziellen Vorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DaVinci bei allgemeinbildenden Schulen gemäß der offiziellen Vorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
 Art               | Inhalt
 ----------------- | ------
@@ -46,7 +46,7 @@ Beschreibung      | wird derzeit nicht unterstützt
 
 ### BBS
 
-Die folgenden Angaben müssen in DAVINCI bei Berufskollegs gemäß der offiziellen Vorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
+Die folgenden Angaben müssen in DaVinci bei Berufskollegs gemäß der offiziellen Vorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel.
 
 Art               | Inhalt
 ----------------- | ------
@@ -63,7 +63,7 @@ Beschreibung      | Spalte „Schüler“ in der Unterrichtsliste des Planungsfe
 
 ## EXTERN.DAT erzeugen
 
-So exportieren Sie in DAVINCI 6 die Datei EXTERN.DAT:
+So exportieren Sie in DaVinci 6 die Datei EXTERN.DAT:
 
 1. Klicken Sie auf Plan > Importieren und Exportieren.
 2. Wählen Sie im Dialogfenster Import/Export-Assistent die Option Statistikdaten exportieren und klicken Sie dann auf `Weiter`.

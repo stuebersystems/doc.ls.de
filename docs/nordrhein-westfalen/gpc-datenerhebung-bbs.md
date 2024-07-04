@@ -4,18 +4,18 @@
 
 Mit dem IT-Programm GPC (Gesundheitsstatistik per PC) kann die Zahl der statistikrelevanten Krankentage aller Lehrkräfte mit einem Dienst- oder Arbeitsverhältnis zum Land NRW elektronisch erfasst werden und in den jährlichen Bericht der Landesregierung über den Krankenstand in der Landesverwaltung NRW für den Landtag NRW einfließen.
 
-## Statistikexport NRW GPC – Krankheitsstatistik mit DAVINCI
+## Statistikexport NRW GPC – Krankheitsstatistik mit DaVinci
 
-In DAVINCI können Sie den Statistikexport GPC durchführen. Als Voraussetzung für einen erfolgreichen Export müssen Sie bestimmte Angaben in DAVINCI machen, die nachfolgend beschrieben sind. 
+In DaVinci können Sie den Statistikexport GPC durchführen. Als Voraussetzung für einen erfolgreichen Export müssen Sie bestimmte Angaben in DaVinci machen, die nachfolgend beschrieben sind. 
 
-## Notwendige Angaben in DAVINCI
+## Notwendige Angaben in DaVinci
 
-Geben Sie die notwendigen Daten in DAVINCI an.
+Geben Sie die notwendigen Daten in DaVinci an.
 
 1. ``Stammdatenfenster > Lehrer``: Tragen Sie in Spalte "Geb.Datum" das Geburtsdatum Ihrer Lehrer ein.
 ![](/assets/images/Stammdaten.Lehrer.Gebdatum.png)
 
-2. In DAVINCI gibt es das neue Schlüsselverzeichnis „Lehrerfehlgrunddetails“.
+2. In DaVinci gibt es das neue Schlüsselverzeichnis „Lehrerfehlgrunddetails“.
 
 ![Schlüsselverzeichnis "Lehrerfehlgrunddetails"] (/assets/images/Lehrerfehlgrunddetails.png)
 
@@ -29,13 +29,13 @@ Folgende Lehrerfehlgrunddetails stehen Ihnen nach dem Import zur Verfügung:
 
 ![](/assets/images/Lehrerfehlgrunddetails02.png)
 
-Auf diese können Sie im "Fehlzeit"-Dialog im VERTRETUNGSPLAN zurückgreifen. Für Lehrer können Sie nun noch feiner bestimmen, was KRANK bedeutet, also z.B. KRANK mit Attest usw.. 
+Auf diese können Sie im "Fehlzeit"-Dialog im Vertretungsplan zurückgreifen. Für Lehrer können Sie nun noch feiner bestimmen, was KRANK bedeutet, also z.B. KRANK mit Attest usw.. 
 
 ![](/assets/images/Fehlzeit-Dialog.png)
 
-## Notwendige Daten aus DAVINCI erzeugen
+## Notwendige Daten aus DaVinci erzeugen
 
-So exportieren Sie in DAVINCI 6 die Daten
+So exportieren Sie in DaVinci 6 die Daten
 
 1. Klicken Sie auf ``Plan|Importieren und Exportieren``.
 2. Wählen Sie im Dialogfenster ``Import/Export-Assistent`` die Option ``Statistikdaten exportieren`` und klicken Sie dann auf Weiter.

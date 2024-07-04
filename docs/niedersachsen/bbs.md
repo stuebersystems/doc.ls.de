@@ -9,36 +9,36 @@ Für das Erzeugen der Schnittstellendatei wird die jährliche Lizenz für das Mo
 
 ## Grundsätzlich
 
-Mit DAVINCI und MAGELLAN können Sie alle Datensätze erstellen, die für die Erhebung der amtlichen Landsschulstatistik benötigt werden.  Wenn Sie nur DAVINCI besitzen, können Sie nur einen Teil der Statistik erzeugen.Mit DAVINCI bzw.
+Mit DaVinci und Magellan können Sie alle Datensätze erstellen, die für die Erhebung der amtlichen Landsschulstatistik benötigt werden.  Wenn Sie nur DaVinci besitzen, können Sie nur einen Teil der Statistik erzeugen.Mit DaVinci bzw.
 
 !!! info "Hinweis"
 
      Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-MAGELLAN können die folgenden Dateien erzeugt werden
+Magellan können die folgenden Dateien erzeugt werden
 
 Datei| Beschreibung |Voraussetzung
 --|--|--
-STD.TXT |Stundenplandaten |DAVINCI-Lizenz
-SIL.TXT |Aktuelle Schülerdaten |MAGELLAN- und DAVINCI-Lizenz
-ABL.TXT |Abgängerdaten |MAGELLAN- und DAVINCI-Lizenz
-LV.TXT| Lehrerdaten |MAGELLAN- und DAVINCI-Lizenz
+STD.TXT |Stundenplandaten |DaVinci-Lizenz
+SIL.TXT |Aktuelle Schülerdaten |Magellan- und DaVinci-Lizenz
+ABL.TXT |Abgängerdaten |Magellan- und DaVinci-Lizenz
+LV.TXT| Lehrerdaten |Magellan- und DaVinci-Lizenz
 
 Die erzeugten Dateien können dann vom Statistikprogramm BBS-Planung weiterverarbeitet werden.
 
 ## Allgemeines
 
-Die Schüler-, Abgänger und Lehrerdaten werden aus DAVINCI und MAGELLAN erzeugt. Dazu werden zunächst die Daten aus DAVINCI und MAGELLAN in das MAGELLAN-Datawarehouse übertragen. Von dort aus erstellen Sie dann die drei Dateien SIL.TXT, ABL.TXT und LV.TXT und diese später nach BBS-Planung zu importieren.
+Die Schüler-, Abgänger und Lehrerdaten werden aus DaVinci und Magellan erzeugt. Dazu werden zunächst die Daten aus DaVinci und Magellan in das Magellan-Datawarehouse übertragen. Von dort aus erstellen Sie dann die drei Dateien SIL.TXT, ABL.TXT und LV.TXT und diese später nach BBS-Planung zu importieren.
 
 ## Vorgehensweise
 
 Die grundlegende Vorgehensweise zum Erstellen der Statistik ist die folgende:
 
-1. Überprüfen Sie in MAGELLAN, ob Sie alle Daten richtig eingetragen haben bzw. tragen Sie noch fehlende Angaben nach. Dies gilt sowohl für den aktuellen Zeitraum (1. Halbjahr) als auch für die vorangegangenen Zeiträume seit der Vorjahresstatistik (1. und 2. Halbjahr ).
-2. Überprüfen Sie in DAVINCI, ob Lehrer, Klassen und Fächer mit MAGELLAN abgeglichen worden sind. Überprüfen Sie, ob bei allen Lehrern die Soll-Berechnung richtig erfasst wurde.
-3. Übertragen Sie in MAGELLAN die Daten des aktuellen Zeitraums (1. Halbjahr) und der vorangegangenen Zeiträume (1. und 2. Halbjahr) in das MAGELLAN-Datawarehouse.
-4. Übertragen Sie in DAVINCI die Daten der aktuellen Stundenplandatei in das MAGELLAN-Datawarehouse.
-5. Starten Sie den MAGELLAN-DWH-Explorer und erstellen Sie dort die mit Hilfe des Statistikassistenten für Niedersachsen BBS die geforderten Dateien für BBS-Planung.
+1. Überprüfen Sie in Magellan, ob Sie alle Daten richtig eingetragen haben bzw. tragen Sie noch fehlende Angaben nach. Dies gilt sowohl für den aktuellen Zeitraum (1. Halbjahr) als auch für die vorangegangenen Zeiträume seit der Vorjahresstatistik (1. und 2. Halbjahr ).
+2. Überprüfen Sie in DaVinci, ob Lehrer, Klassen und Fächer mit Magellan abgeglichen worden sind. Überprüfen Sie, ob bei allen Lehrern die Soll-Berechnung richtig erfasst wurde.
+3. Übertragen Sie in Magellan die Daten des aktuellen Zeitraums (1. Halbjahr) und der vorangegangenen Zeiträume (1. und 2. Halbjahr) in das Magellan-Datawarehouse.
+4. Übertragen Sie in DaVinci die Daten der aktuellen Stundenplandatei in das Magellan-Datawarehouse.
+5. Starten Sie den Magellan-DWH-Explorer und erstellen Sie dort die mit Hilfe des Statistikassistenten für Niedersachsen BBS die geforderten Dateien für BBS-Planung.
 6. Importieren Sie die Dateien in BBS-Planung.
 
 ## Statistikschlüssel aktualisieren
@@ -47,18 +47,18 @@ Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEM
 
 ## Stundenplandaten
 
-Die Stundenplandaten werden ausschließlich von DAVINCI erzeugt. Dazu exportiert DAVINCI Daten aus der aktuellen Stundenplandatei in die Datei STD.TXT, die Sie dann in BBS-Planung einlesen können.
+Die Stundenplandaten werden ausschließlich von DaVinci erzeugt. Dazu exportiert DaVinci Daten aus der aktuellen Stundenplandatei in die Datei STD.TXT, die Sie dann in BBS-Planung einlesen können.
 
 ## Notwendige Angaben für die Statistik
 
-Die folgenden Angaben müssen in DAVINCI gemäß den offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel. 
+Die folgenden Angaben müssen in DaVinci gemäß den offiziellen Statistikvorgaben gemacht werden. Bitte beachten Sie unbedingt die maximal zulässige Länge für Klassen-, Lehrer- und Fachkürzel. 
 
 
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-Angabe gemäß Statistik |Angabe in DAVINCI
+Angabe gemäß Statistik |Angabe in DaVinci
 --|--
 Schulnummer |Wird im Dialogfenster „Exportieren“ abgefragt
 Klassenkürzel| Klassenkürzel im Stammdatenfenster auf Registerkarte „Klassen“
@@ -70,9 +70,9 @@ Qualifizierung der Unterrichtsstunde |siehe folgendes Kapitel
 
 ## Qualifizierung der Unterrichtsstunden
 
-Unterrichtsstunden müssen korrekt qualifiziert werden. Sie müssen dazu die laut Statistik vorgegebenen Angaben in  den Schlüsselverzeichnissen „Unterrichtsarten“ und „Fachstati“ in DAVINCI machen (klicken Sie in DAVINCI auf „Extras > Schlüsselverzeichnisse“). Entscheidend ist dabei jeweils der Schlüssel. Er wird exportiert, nicht das Kürzel! Der Schlüssel muss gemäß der Ausfüllanleitung eingegeben werden. 
+Unterrichtsstunden müssen korrekt qualifiziert werden. Sie müssen dazu die laut Statistik vorgegebenen Angaben in  den Schlüsselverzeichnissen „Unterrichtsarten“ und „Fachstati“ in DaVinci machen (klicken Sie in DaVinci auf „Extras > Schlüsselverzeichnisse“). Entscheidend ist dabei jeweils der Schlüssel. Er wird exportiert, nicht das Kürzel! Der Schlüssel muss gemäß der Ausfüllanleitung eingegeben werden. 
 
-Folgende Unterrichtsarten werden von DAVINCI benutzt: 
+Folgende Unterrichtsarten werden von DaVinci benutzt: 
 
 Unterrichtsart Schlüssel| wird exportiert als 
 --|--
@@ -82,9 +82,9 @@ GK |GK
 FP |FP
 
 Alle übrigen Qualifizierungen müssen als Fachstati eingegeben werden. Der Schlüssel muss gemäß der Ausfüllanleitung eingegeben werden.
-##Stunden-Datensätze aus DAVINCI exportieren
+##Stunden-Datensätze aus DaVinci exportieren
 
-So exportieren Sie in DAVINCI die Stunden-Datensätze
+So exportieren Sie in DaVinci die Stunden-Datensätze
 
 1. Klicken Sie auf Extras|Exportieren. Das Dialogfenster Exportieren öffnet sich.
 2. Geben Sie den Namen der Exportdatei an. Die Datei sollte die Endung .STD haben.
@@ -102,14 +102,14 @@ Die erzeugte Statistikdatei STD.TXT muss nach BBS-Planung importiert werden. Daz
 
 ## Klassendaten
 
-Die folgenden Angaben müssen bei Klassen in MAGELLAN gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Schülerdatei SIL.TXT erzeugt werden kann.
+Die folgenden Angaben müssen bei Klassen in Magellan gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Schülerdatei SIL.TXT erzeugt werden kann.
 
 
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-Angabe gemäß Statistik |Angabe in MAGELLAN|Anmerkung
+Angabe gemäß Statistik |Angabe in Magellan|Anmerkung
 --|--|--
 Klassenkürzel |Ansicht > Klassen > Daten1 > Statistikkürzel|
 Schulform |Ansicht > Klassen > Schulform|
@@ -130,9 +130,9 @@ Diese Angaben beziehen sich auf das vorangegangene Schuljahr. Es werden dazu all
 
 ### Angaben bei Klassen
 
-Die folgenden Angaben müssen bei Klassen in MAGELLAN gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Abgängerdatei ABL.TXT erzeugt werden kann.
+Die folgenden Angaben müssen bei Klassen in Magellan gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Abgängerdatei ABL.TXT erzeugt werden kann.
 
-Angabe gemäß Statistik |Angabe in MAGELLAN
+Angabe gemäß Statistik |Angabe in Magellan
 --|--
 Schulform |Ansicht > Klassen > Schulform
 Beruf der Schüler |Ansicht > Klassen > Beruf (nur wenn nicht bei Beruf des Schülers eingetragen)
@@ -146,9 +146,9 @@ Organisation| Ansicht > Klassen > Daten1 > Organisation
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-Die folgenden Angaben müssen bei Schülern in MAGELLAN gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Abgängerdatei ABL.TXT erzeugt werden kann.
+Die folgenden Angaben müssen bei Schülern in Magellan gemäß den offiziellen Statistikvorgaben gemacht werden, damit die Abgängerdatei ABL.TXT erzeugt werden kann.
 
-Angabe gemäß Statistik|Angabe in MAGELLAN
+Angabe gemäß Statistik|Angabe in Magellan
 --|--
 Geburtsdatum|Ansicht > Schüler > Daten1 > Geburtsdatum
 Geschlecht|Ansicht > Schüler > Daten1 > Geschlecht
@@ -173,16 +173,16 @@ Sprache bzw. Sprachengruppe bei überwiegend nichtdeutscher Verkehrssprache in d
 
 Diese Angaben beziehen sich auf das aktuelle Schulhalbjahr (1. HJ. des aktuell laufenden Schuljahres).
 
-### Angaben in MAGELLAN
+### Angaben in Magellan
 
 
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-Die folgenden Angaben müssen bei Lehrern in MAGELLAN gemacht werden, damit die Lehrerdatei LV.TXT erzeugt werden kann.
+Die folgenden Angaben müssen bei Lehrern in Magellan gemacht werden, damit die Lehrerdatei LV.TXT erzeugt werden kann.
 
-Angabe gemäß Statistik|Angabe in MAGELLAN
+Angabe gemäß Statistik|Angabe in Magellan
 --|--
 Stammschule|Ansicht > Lehrer > Merkmale > Merkmal A3 mit den Werten<br>1=Stammschule<br>2=Nebenschule
 Nach- und Vorname|Ansicht > Lehrer > Daten1 > Nachname bzw. Vorname
@@ -202,14 +202,14 @@ Abordnungsstelle 1|Ansicht > Lehrer > Daten 3 > Abordnung 1
 Abordnungsstelle 2|Ansicht > Lehrer > Daten 3 > Abordnung 2
 Funktionsstelle|Ansicht > Lehrer > Merkmale > MerkmalA2
 
-### Angaben in DAVINCI
+### Angaben in DaVinci
 
 
 !!! info "Hinweis"
 
     Die Legende zu den nachstehenden Tabellen finden Sie [HIER](https://doc.ls.stueber.de/legende-statistikfelder/).
 
-Die folgenden Angaben müssen bei der Lehrer-Soll-Berechnung pro Lehrer in DAVINCI gemacht werden, damit die Lehrerdatei LV.TXT erzeugt werden kann.
+Die folgenden Angaben müssen bei der Lehrer-Soll-Berechnung pro Lehrer in DaVinci gemacht werden, damit die Lehrerdatei LV.TXT erzeugt werden kann.
 
 Eingabe|Anmerkung
 --|--
@@ -222,33 +222,33 @@ Mehr- oder Minderstunden|Geben Sie die Mehr- oder Minderstunden für jeden Lehre
 
 ## Übertrag ins Datawarehouse
 
-### Übertrag aus MAGELLAN ins Datawarehouse
+### Übertrag aus Magellan ins Datawarehouse
 
-Sie können alle Daten direkt aus MAGELLAN heraus in das MAGELLAN-Datawarehouse übertragen.
+Sie können alle Daten direkt aus Magellan heraus in das Magellan-Datawarehouse übertragen.
 
-1. Wählen Sie in MAGELLAN die Ansicht Datawarehouse aus.
+1. Wählen Sie in Magellan die Ansicht Datawarehouse aus.
 2. Klicken Sie dort unterhalb von Extras auf Starten.
-3. Der Importassistent für das MAGELLAN-Datawarehouse wird gestartet. Sie müssen sich jetzt erneut bei MAGELLAN mit Ihrer Kennung und Ihrem Kennwort anmelden.
+3. Der Importassistent für das Magellan-Datawarehouse wird gestartet. Sie müssen sich jetzt erneut bei Magellan mit Ihrer Kennung und Ihrem Kennwort anmelden.
 4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum aus.
-5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
+5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das Magellan Datawarehouse übertragen.
 
 Sie müssen diesen Vorgang mehrfach ausführen, um die Daten sowohl aus dem aktuellen Zeitraum (1. Halbjahr) als auch aus den beiden vorangegangenen Zeiträumen (1. und 2. Halbjahr) zu übertragen.
 
-### Übertrag aus DAVINCI in das Datawarehouse
+### Übertrag aus DaVinci in das Datawarehouse
 
-Über die Archivierungsfunktion in DAVINCI-Stundenplan werden die Daten der aktuellen DAVINCI-Plandatei in das MAGELLAN Datawarehouse übertragen.
+Über die Archivierungsfunktion in DaVinci-Stundenplan werden die Daten der aktuellen DaVinci-Plandatei in das Magellan Datawarehouse übertragen.
 
-1. Starten Sie DAVINCI-Stundenplan mit Ihrer Plandatei.
+1. Starten Sie DaVinci-Stundenplan mit Ihrer Plandatei.
 2. Wählen Sie Extras und dann Archivieren.
-3. Bestätigen Sie die Sicherheitsabfrage. Die Daten werden jetzt in eine Schuldatentransferdatei exportiert, anschließend wird der Importassistent für das MAGELLAN-Datawarehouse gestartet. Sie müssen sich jetzt bei MAGELLAN mit Ihrer Kennung und Ihrem Kennwort anmelden.
+3. Bestätigen Sie die Sicherheitsabfrage. Die Daten werden jetzt in eine Schuldatentransferdatei exportiert, anschließend wird der Importassistent für das Magellan-Datawarehouse gestartet. Sie müssen sich jetzt bei Magellan mit Ihrer Kennung und Ihrem Kennwort anmelden.
 4. Klicken Sie auf Weiter und wählen Sie den passenden Mandanten und  Zeitraum aus.
-5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das MAGELLAN Datawarehouse übertragen.
+5. Klicken Sie auf Weiter und dann auf Starten. Die Daten werden jetzt in das Magellan Datawarehouse übertragen.
  
 ## Datenüberprüfung im Datawarehouse
 
-Mit Hilfe des MAGELLAN DWH Explorer können Sie sich den Inhalt des MAGELLAN Datawarehouse anzeigen lassen. Gehen Sie dabei wie folgt vor:
+Mit Hilfe des Magellan DWH Explorer können Sie sich den Inhalt des Magellan Datawarehouse anzeigen lassen. Gehen Sie dabei wie folgt vor:
 
-1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf MAGELLAN DWH Explorer.
+1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf Magellan DWH Explorer.
 2. Wählen Sie die Ansicht Datenbestand aus.
 3. Wählen Sie den passenden Mandanten aus und tragen Sie einen passenden Zeitpunkt ein. Möchten Sie Sie die Abgänger aus dem alten Schuljahr betrachten, so tragen Sie als Zeitpunkt beispielsweise den letzten Schultag ein. Möchten Sie die aktuellen Schuldaten betrachten, wählen beispielsweise das heutige Datum.
 
@@ -256,9 +256,9 @@ Sie können nun durch Wechseln der Registerkarten, die eingetragenen Klassen, Sc
 
 ## Dateiexport aus dem Datawarehouse
 
-Mit Hilfe des MAGELLAN DWH Explorer können Sie auf das MAGELLAN Datawarehouse zugreifen und die geforderten Dateien SIL.TXT, ABL.TXT und LV.TXT für BBS-Planung erzeugen.  Gehen Sie dabei wie folgt vor:
+Mit Hilfe des Magellan DWH Explorer können Sie auf das Magellan Datawarehouse zugreifen und die geforderten Dateien SIL.TXT, ABL.TXT und LV.TXT für BBS-Planung erzeugen.  Gehen Sie dabei wie folgt vor:
 
-1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf MAGELLAN DWH Explorer.
+1. Klicken Sie auf Start, dann auf Programme, dann auf STÜBER SYSTEMS und dann auf Magellan DWH Explorer.
 2. Wählen Sie die Ansicht Auswertungen aus.
 3. Wählen Sie unter Landesstatistik die Option Statistikformat für Niedersachsen (BBS) aus und klicken Sie auf Starten.
 4. Folgen Sie nun den Anweisungen des Assistenten. Sie müssen dabei den Mandanten auswählen, welche Dateien Sie erstellen möchten (SIL.TXT, ABL.TXT bzw. LV.TXT), den Erhebungszeitpunkt bzw. den Abgängerzeitraum sowie den Ordner, in dem die Dateien erzeugt werden soll.

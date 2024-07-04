@@ -1,32 +1,32 @@
 # Schlüsselverzeichnisse
 
-Die für die jeweiligen Landesstatistiken oder für die Arbeit in DAVINCI und MAGELLAN notwendigen Schlüssel werden als Dateien mit der Endung .KEYS per Serviceupdate von STÜBER SYSTEMS zur Verfügung gestellt.
-In einigen Bundesländern gibt es darüber hinaus Import für Betriebe und Schulen, die über das MAGELLAN-Importformat eingelesen werden können.
+Die für die jeweiligen Landesstatistiken oder für die Arbeit in DaVinci und Magellan notwendigen Schlüssel werden als Dateien mit der Endung .KEYS per Serviceupdate von STÜBER SYSTEMS zur Verfügung gestellt.
+In einigen Bundesländern gibt es darüber hinaus Import für Betriebe und Schulen, die über das Magellan-Importformat eingelesen werden können.
 
 !!! warning "Wichtig"
 
-    Stellen Sie bitte vor dem Import der Schlüsselverzeichnisse sicher, dass die aktuellsten Versionen von MAGELLAN oder DAVINCI auf dem Server und den Arbeitsplatzrechnern installiert sind.
+    Stellen Sie bitte vor dem Import der Schlüsselverzeichnisse sicher, dass die aktuellsten Versionen von Magellan oder DaVinci auf dem Server und den Arbeitsplatzrechnern installiert sind.
 
-## DAVINCI-Import
+## DaVinci-Import
 
-Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinterlegt. Um die Inhalte dieser Dateien in DAVINCI nutzen zu können, führen Sie bitte die nachfolgenden Schritte aus:
+Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinterlegt. Um die Inhalte dieser Dateien in DaVinci nutzen zu können, führen Sie bitte die nachfolgenden Schritte aus:
 
-1. Öffnen Sie DAVINCI und wechseln in die Ansicht `Extras > Schlüssel**Verzeichnis**  se`.
+1. Öffnen Sie DaVinci und wechseln in die Ansicht `Extras > Schlüssel**Verzeichnis**  se`.
 2. Rufen Sie per Doppelklick das zu füllende Schlüsselverzeichnis auf, im Beispiel haben wir die "Lehrer-Soll-Änderungsgründe" gewählt.
 3. Wählen Sie `Importieren`, verweisen Sie auf die entsprechende Importdatei und bestätigen den Dialog.
 
-![Import der mitgelieferten DAVINCI-Schlüssel](/assets/images/davinci.schluessel-importieren.png)
+![Import der mitgelieferten DaVinci-Schlüssel](/assets/images/davinci.schluessel-importieren.png)
 
-## MAGELLAN-Import
+## Magellan-Import
 
 ### Allgemeine Schlüsselverzeichnisse importieren
 
-Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinterlegt. Um die Inhalte dieser Dateien in MAGELLAN nutzen zu können, führen Sie bitte die nachfolgenden Schritte aus:
+Per Serviceupdate werden auf Ihrem Rechner importierbare Schlüsseldateien hinterlegt. Um die Inhalte dieser Dateien in Magellan nutzen zu können, führen Sie bitte die nachfolgenden Schritte aus:
 
-1. Öffnen Sie das Modul MAGELLAN- Administrator und wählen die Ansicht `Datenimporte > Schlüsselverzeichnisse` importieren.
+1. Öffnen Sie das Modul Magellan- Administrator und wählen die Ansicht `Datenimporte > Schlüsselverzeichnisse` importieren.
 2. Wählen Sie Ihr Bundesland, Ihre Schulart und Ihren Mandanten aus und importieren einen ausgewählten oder alle mitgelieferten Kataloge.
 
-![Import der mitgelieferten MAGELLAN-Schlüssel](/assets/images/magellan.schluessel-importieren.png)
+![Import der mitgelieferten Magellan-Schlüssel](/assets/images/magellan.schluessel-importieren.png)
 
 ### Postleitzahlverzeichnisse aktualisieren
 
@@ -42,7 +42,7 @@ Folgende Schritte sind notwendig:
 #### Postleitzahlverzeichnis importieren
 
 Prüfen Sie bitte, ob in Ihrem Schulnetzwerk mindestens die 6.5.23 eingesetzt wird.
-Öffnen Sie anschließend bitte im MAGELLAN-Administrator den Punkt `Datenimporte > Postleitzahlverzeichnis importieren`.
+Öffnen Sie anschließend bitte im Magellan-Administrator den Punkt `Datenimporte > Postleitzahlverzeichnis importieren`.
 Wählen Sie im Assistenten für `für folgendes Land` den Wert `Deutschland` aus und für `importiere folgenden Katalog` bitte `alle Kataloge`. Starten Sie den Assistenten über die Schaltfläche `Fertigstellen`.
 
 ![Importieren des Postleitzahlverzeichnisses](/assets/images/RLP_PLZ_importieren.png)
@@ -55,11 +55,11 @@ Wenn das Einlesen der Postleitzahlen abgeschlossen ist, müssen die neuen Eintr�
 
 #### Vollständigkeit der Gemeindekennziffern für Schüler überprüfen
 
-Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Postleitzahlverzeichnis keine Übereinstimmung festgestellt werden, bekommt der Schüler keine Gemeindekennziffer zugewiesen. In der Regel genügt die Korrektur des Schülerortes oder der Schüler-PLZ und ein erneuter Durchlauf des `Gemeinden synchronisieren`. Damit Sie einen Überblick haben, für welchen Schüler die Zuweisung nicht gelungen ist, finden Sie in `MAGELLAN > Mandanten > Mandant markieren > Drucken` den Prüfbericht "Mandant (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Rufen Sie pro Halbjahr diesen Bericht auf, es werden nur Schüler gezeigt, denen keine Gemeindekennziffer zugeordnet werden konnte.
+Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Postleitzahlverzeichnis keine Übereinstimmung festgestellt werden, bekommt der Schüler keine Gemeindekennziffer zugewiesen. In der Regel genügt die Korrektur des Schülerortes oder der Schüler-PLZ und ein erneuter Durchlauf des `Gemeinden synchronisieren`. Damit Sie einen Überblick haben, für welchen Schüler die Zuweisung nicht gelungen ist, finden Sie in `Magellan > Mandanten > Mandant markieren > Drucken` den Prüfbericht "Mandant (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Rufen Sie pro Halbjahr diesen Bericht auf, es werden nur Schüler gezeigt, denen keine Gemeindekennziffer zugeordnet werden konnte.
 
-## Übersicht der MAGELLAN-Schlüsselverzeichnisse
+## Übersicht der Magellan-Schlüsselverzeichnisse
 
-Nachfolgend finden Sie ein Übersicht alle MAGELLAN Schlüsselverzeichnisse tabellarisch aufgeführt.
+Nachfolgend finden Sie ein Übersicht alle Magellan Schlüsselverzeichnisse tabellarisch aufgeführt.
 
 ## Tabellenlegende
 
@@ -67,7 +67,7 @@ In der nachfolgend aufgelisteten Tabelle zur Statistik haben die Spalten folgend
 
 Spaltenname    | Bedeutung
 -------------- | --------
-Wegweiser      | Der Pfad in MAGELLAN zum einzugebenden Datenfeld, der auf die entsprechende Schlüsseltabelle verweist
+Wegweiser      | Der Pfad in Magellan zum einzugebenden Datenfeld, der auf die entsprechende Schlüsseltabelle verweist
 Mandantenbezug | Gibt an, ob die Tabelle nur pro Mandant (Mandantenbezug = Ja) oder für alle Mandanten der Datenbank (Mandantenbezug = Nein) gilt
 Import         | Gibt an, ob und wie das Schlüsselverzeichnis für einen Import berücksichtigt wird<br>* PLZ= Import über den Import des Postleitzahlenverzeichnis<br>* Katalog = Import über den Import der Schlüsselverzeichnisse<br>* Kein = Aktuell nicht für den Import vorgesehen
 Beschreibung   | Informationen darüber, wozu das Feld bei Einführung gedacht war und welche Verwendung es im Einsatz eventuell noch hat.
@@ -283,7 +283,7 @@ Mandantenbezug  | Nein
 Import          | Katalog
 **Verzeichnis** | **KlassenMerkmale**
 Wegweiser       | Klassen > Merkmale > Merkmal A1 – A6<br>Klassen > Merkmale > Merkmal S1 – S4
-Beschreibung    | Merkmal A1-A6 sind frei für die Schulen zu vergebende Merkmale.<br>Merkmal S1-S4 sind spezielle Statistikmerkmale, die zur Eingabe und Auswahl von Statistischen Daten genutzt werden, die in MAGELLAN nicht verwaltet werden.
+Beschreibung    | Merkmal A1-A6 sind frei für die Schulen zu vergebende Merkmale.<br>Merkmal S1-S4 sind spezielle Statistikmerkmale, die zur Eingabe und Auswahl von Statistischen Daten genutzt werden, die in Magellan nicht verwaltet werden.
 Mandantenbezug  | Nein
 Import          | Katalog
 **Verzeichnis** | **Konfessionen**
@@ -328,7 +328,7 @@ Mandantenbezug  | Nein
 Import          | Katalog
 **Verzeichnis** | **LehrerMerkmale**
 Wegweiser       | Lehrer > Merkmale > Merkmal A1-A6<br>Lehrer > Merkmale > Merkmal S1-S4
-Beschreibung    | Merkmal A1-A6 sind frei für die Schulen zu vergebende Merkmale.<br>Merkmal S1-S4 sind spezielle Statistikmerkmale, die zur Eingabe und Auswahl von Statistischen Daten genutzt werden, die in MAGELLAN nicht verwaltet werden
+Beschreibung    | Merkmal A1-A6 sind frei für die Schulen zu vergebende Merkmale.<br>Merkmal S1-S4 sind spezielle Statistikmerkmale, die zur Eingabe und Auswahl von Statistischen Daten genutzt werden, die in Magellan nicht verwaltet werden
 Mandantenbezug  | Ja
 Import          | Katalog
 **Verzeichnis** | **LehrerPruefungsbezuege**
@@ -423,7 +423,7 @@ Mandantenbezug  | Nein
 Import          | Katalog
 **Verzeichnis** | **SchuelerMerkmale**
 Wegweiser       | Schüler > Merkmale > Merkmal A1-A6
-Beschreibung    | Merkmal A1-A6 sind frei für die Schulen zu vergebende Merkmale.<br>Merkmal S1-S10 sind spezielle Statistikmerkmale, die zur Eingabe und Auswahl von Statistischen Daten genutzt werden, die in MAGELLAN nicht verwaltet werden.
+Beschreibung    | Merkmal A1-A6 sind frei für die Schulen zu vergebende Merkmale.<br>Merkmal S1-S10 sind spezielle Statistikmerkmale, die zur Eingabe und Auswahl von Statistischen Daten genutzt werden, die in Magellan nicht verwaltet werden.
 Mandantenbezug  | Nein
 Import          | Katalog
 **Verzeichnis** | **SchuelerProfile**
@@ -633,12 +633,12 @@ Mandantenbezug  | Ja
 Import          | Nein
 **Verzeichnis** | **MandantenMerkmale**
 Wegweiser       | Verzeichnisse > Merkmale (Mandanten)<br>Mandanten > Merkmale A1-A6
-Beschreibung    | Freie Merkmale für die es sonst keine Abbildung in MAGELLAN gibt.
+Beschreibung    | Freie Merkmale für die es sonst keine Abbildung in Magellan gibt.
 Mandantenbezug  | Nein
 Import          | Nein
 **Verzeichnis** | **Schulenmerkmale**
 Wegweiser       | Verzeichnisse > Merkmale (Schulen)<br>Schulen > Daten > Merkmale A1-A6
-Beschreibung    | Freie Merkmale für die es sonst keine Abbildung in MAGELLAN gibt.
+Beschreibung    | Freie Merkmale für die es sonst keine Abbildung in Magellan gibt.
 Mandantenbezug  | Nein
 Import          | Nein
 **Verzeichnis** | **Sopaedfoerderungen**
@@ -670,6 +670,6 @@ Folgende Schlüsselverzeichnisse enthalten Vorgaben:
 
 Verzeichnis         | Bedeutung
 ------------------- | ---------
-00_Fachstati        | enthält die Fachstatus zum Austausch mit DAVINCI
+00_Fachstati        | enthält die Fachstatus zum Austausch mit DaVinci
 00_Noten            | enthält die in Deutschland übliche Noten- und Punktgebung
 00_Unterrichtsarten | enthält die typischen Unterrichtsarten

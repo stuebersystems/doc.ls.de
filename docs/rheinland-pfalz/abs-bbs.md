@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen in 
 
 !!! warning "Wichtig"
 
-    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul MAGELLAN Landesstatistik 2019 und mindestens die MAGELLAN Version 6.5.38 - 673 vom 12.08.2019!
+    Zum Erstellen der Statistikdateien benötigen Sie eine Lizenz für das Modul Magellan Landesstatistik 2019 und mindestens die Magellan Version 6.5.38 - 673 vom 12.08.2019!
 
 Lesen Sie die Angaben und Vorgehensweise dieses Dokuments sehr genau und beachten Sie bitte alle Ihre Schulart betreffenden Aussagen.
 
@@ -12,7 +12,7 @@ Aktuelle Änderungen zur Statistik 2019/2020 sehen Sie [**hier!**](https://doc.l
 
 ## Einführung
 
-Das statistische Landesamt fordert die elektronische Landesstatistik im XML Dateiformat. Die statistischen Daten können in diesem Format aus MAGELLAN heraus erzeugt werden.
+Das statistische Landesamt fordert die elektronische Landesstatistik im XML Dateiformat. Die statistischen Daten können in diesem Format aus Magellan heraus erzeugt werden.
 Für Sie als Schule bedeutet dies: Sie müssen die folgenden XML-Dateien je nach Schulart an das Statistikamt in Bad Ems verschicken:
 
 | Schulart | Dateiname      |
@@ -28,25 +28,25 @@ Hierbei steht xxxxx für Ihre Schulnummer.
 Die Neuanlage- und Bewegungsdaten sind für alle Schulformen erforderlich und größtenteils identisch. Das Statistikamt fordert diese Daten aus dem aktuellen und den zwei vorangegangenen Halbjahren.
 
 Die Daten der SchuelerNeuanlage kommen aus dem aktuellen Halbjahr (1. Halbjahr 2019/2020). Für die Daten der SchuelerBewegung wird das gesamte vorangehende Schuljahr (1. und 2. Halbjahr 2018/2019) ausgewertet.
-Die Daten der LehrerNeuanlage dagegen werden zeitraumunabhängig herangezogen und werden nur für Berufsbildende Schulen aus MAGELLAN heraus erstellt. Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
+Die Daten der LehrerNeuanlage dagegen werden zeitraumunabhängig herangezogen und werden nur für Berufsbildende Schulen aus Magellan heraus erstellt. Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 
 !!! info "Hinweis"
 
     ABS-STATISTIK OHNE LEHRERANGABEN
     Für Allgemeinbildende Schulen sind im Schuljahr 2019/2020 keine Lehrerangaben notwendig, da die Lehrerdatei nur über die Excel-Datei der ADD erstellt wird.
 
-## DAVINCI-LIZENZ?
+## DaVinci-LIZENZ?
 
 Gymnasien/Gesamtschulen mit einer Oberstufe benötigen für die Landesstatistik jeweils das Stunden- und das Kursplanmodul von DAVINCD zur Vervollständigung der Statistikdaten.
-Berufsbildende Schulen benötigen für die Landesstatistik jeweils das Stundenplanmodul von DAVINCI zur Vervollständigung der Statistikdaten.
+Berufsbildende Schulen benötigen für die Landesstatistik jeweils das Stundenplanmodul von DaVinci zur Vervollständigung der Statistikdaten.
 Lesen Sie folgende Punkte aufmerksam durch. Punkte, die nur für Gymnasien/Gesamtschulen mit Oberstufe oder Berufsbildende Schulen interessant sind, werden gesondert ausgezeichnet.
 
 ## Notwendige Schritte
 
 1. Schritt: [Schlüsselverzeichnisse importieren, PLZs aktualisieren](https://doc.ls.stueber.de/schluesselverzeichnisse/).
-2. Schritt: Statistisch relevante Daten in DAVINCI bzw. MAGELLAN eingeben
-3. Schritt: Kurswahlen von DAVINCI nach MAGELLAN übertragen (nur für Gymnasien/Gesamtschulen mit Oberstufe)
-4. Schritt: Statistikdaten aus DAVINCI exportieren
+2. Schritt: Statistisch relevante Daten in DaVinci bzw. Magellan eingeben
+3. Schritt: Kurswahlen von DaVinci nach Magellan übertragen (nur für Gymnasien/Gesamtschulen mit Oberstufe)
+4. Schritt: Statistikdaten aus DaVinci exportieren
 5. Schritt: Statistikdaten erstellen.
 
 
@@ -66,7 +66,7 @@ Eine Anleitung zum Import finden Sie im Abschnitt [Schlüsselverzeichnisse](http
 
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang, in einer tabellarischen Übersicht.
 
-Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DAVINCI vornehmen. Genauere Informationen zu den Eingaben für DAVINCI finden Sie in der nachfolgenden tabellarischen Übersicht.
+Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DaVinci vornehmen. Genauere Informationen zu den Eingaben für DaVinci finden Sie in der nachfolgenden tabellarischen Übersicht.
 
 ### Für die Oberstufe bei Gymnasien/Gesamtschulen
 
@@ -76,13 +76,13 @@ Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DAVINCI vorn
 | Stammdaten > Fächer               | Für alle Fächer muss in der Spalte „Schlüssel“ der vom Statistikamt vorgeschriebene Schlüssel erfasst werden, z.B. „4“ für das Fach Deutsch. |
 | Veranstaltungsübersicht > Klassen | Für die MSS-Klassen müssen alle Leistungs- und Grundkurse vorhanden sein. Bei schulübergreifendem Unterricht muss im Feld Bemerkungen (siehe Statistikfeld KursArt im Anhang) die Schulnummer der unterrichtenden Schule eingetragen werden. Ist ihre Schule nicht die unterrichtende Schule muss der Kurs mit Dauer =“0“ in die Veranstaltungsübersicht der Klasse aufgenommen werden. |
 
-### Abgleich der IDs zwischen MAGELLAN und DAVINCI
+### Abgleich der IDs zwischen Magellan und DaVinci
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer.
+1. Öffnen Sie Magellan und wechseln Sie in die entsprechende Ansicht Schüler, Klassen oder Lehrer. Die Fächerliste finden unter Verzeichnisse, Fächer.
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht.
+3. Öffnen Sie DaVinci und wechseln Sie in die entsprechende Ansicht.
 4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der daVinci Ansicht und korrigieren Sie ggf. in daVinci.
 
 ## Für Berufsbildende Schulen
@@ -103,29 +103,29 @@ Einige Daten für die Statistik errechnen sich unmittelbar aus den Unterrichtsan
 | Soll-Änderung eines Fachs          | Errechnet sich aufgrund des Einträge in der Spalte Differenz der Stundentafel der Klasse für das entsprechende Fach. |
 | Soll-Änderungsgrund für die Klasse | Die Änderungsgründe sind ab der Statistik 2014/15 veranstaltungs- und nicht mehr klassenbasiert einzutragen. Wählen Sie dazu in der Veranstaltungskategorie (Veranstaltungsliste > Rechtsklick auf die Veranstaltung > Veranstaltung bearbeiten > Kategorie) den entsprechenden Schlüssel aus. Die Schlüssel (aus der Datei „25_RLP_Veranstaltungskategorien.keys“) können Sie unter Extras > Schlüsselverzeichnisse > Veranstaltungskategorien > Import in Ihre Plandatei importieren. |
 
-### Kurswahldaten und Lehrerdaten von DAVINCI nach MAGELLAN übertragen
+### Kurswahldaten und Lehrerdaten von DaVinci nach Magellan übertragen
 
-Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, so wie im [DAVINCI Handbuch](https://doc.davinci6.stueber.de/11.datenaustausch/magellan/#so-ubertragen-sie-daten-von-davinci-nach-magellan) beschrieben.
+Nachdem Sie die Statistikkontrolle durchgeführt haben und die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (für Allgemeinbildende Schulen mit Oberstufe) und Lehrerdaten übernehmen, so wie im [DaVinci Handbuch](https://doc.davinci6.stueber.de/11.datenaustausch/magellan/#so-ubertragen-sie-daten-von-davinci-nach-magellan) beschrieben.
 
 
 !!! warning "Wichtig"
 
-    Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
+    Bitte beachten Sie, dass Sie nur mit Kopien der DaVinci Datei und Magellan Datenbank arbeiten!
 
 ### Aufgestockte Grundkurse
 
-Wie Sie aufgestockte Grundkurse in DAVINCI eintragen können, beschreiben wir [hier](https://doc.davinci6.stueber.de/03.kursplan/spezielles/#aufgestockte-grundkurse).
+Wie Sie aufgestockte Grundkurse in DaVinci eintragen können, beschreiben wir [hier](https://doc.davinci6.stueber.de/03.kursplan/spezielles/#aufgestockte-grundkurse).
 
-### Statistikdaten aus DAVINCI exportieren
+### Statistikdaten aus DaVinci exportieren
 
 !!! warning "Wichtig"
 
-    Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
-    Ist Ihre Schule kein Gymnasium/keine Gesamtschule mit Oberstufe bzw. Berufsbildende Schule, so benötigen Sie keine DAVINCI-Daten für die Statistik.
+    Als allgemeinbildendes Gymnasium/Gesamtschule mit Oberstufe bzw. als Berufsbildende Schule müssen Sie aus DaVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in Magellan verwendet.
+    Ist Ihre Schule kein Gymnasium/keine Gesamtschule mit Oberstufe bzw. Berufsbildende Schule, so benötigen Sie keine DaVinci-Daten für die Statistik.
 
-So exportieren Sie Daten aus DAVINCI:
+So exportieren Sie Daten aus DaVinci:
 
-1. Starten Sie DAVINCI.
+1. Starten Sie DaVinci.
 2. Klicken Sie dort im Menü `Plan` auf `Importieren und Exportieren`.
 3. Wählen Sie unter Exportieren den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
 4. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
@@ -133,7 +133,7 @@ So exportieren Sie Daten aus DAVINCI:
 6. Wählen Sie unter Export den Punkt `Statistikdaten exportieren` aus und klicken Sie auf  `Weiter`.
 7. Wählen Sie Ihr Bundesland (`Statistik Rheinland-Pfalz (auch edoo.sys) exportieren`) aus  und klicken Sie auf `Weiter`.
 8. Geben Sie den Dateipfad und einen passenden Dateinamen ()Beispiel: mien.export.txtei zum Export der Statistikdaten an.
-9. Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert. Auf diese Datei verweisen Sie später aus dem Statistikassistenten von MAGELLAN.
+9. Klicken Sie auf `OK`. Die Daten werden jetzt in die angegebene Datei exportiert. Auf diese Datei verweisen Sie später aus dem Statistikassistenten von Magellan.
 
 !!! warning "Wichtig"
 
@@ -141,7 +141,7 @@ So exportieren Sie Daten aus DAVINCI:
 
 ## ABS: Wann wird die 2. Fremdsprache ausgegeben?
 
-Ob nur die erste Fremdsprache in die ABSNeuanlage-Datei übergeben wird oder auch weitere berechnet MAGELLAN anhand von Einträgen in verschiedene Felder. Geprüft werden folgende Felder:
+Ob nur die erste Fremdsprache in die ABSNeuanlage-Datei übergeben wird oder auch weitere berechnet Magellan anhand von Einträgen in verschiedene Felder. Geprüft werden folgende Felder:
 
 `Klasse > Zeiträume > Zeitraum > Klassenstufe`
 
@@ -169,7 +169,7 @@ In allen anderen Situationen wird die 2.Fremdsprache (und Folgesprachen!) nicht 
 
 Wie Sie wissen, müssen je nach Statistikdatei unterschiedliche Datenmengen ausgespielt werden. In den Neuzugangsdateien beispielsweise nur Neuzugänge, in den Bewegungsdaten Abgänger und in der BBS aber auch Schüler, die den Bildungsgang beenden aber in der Schule verbleiben.
 
-Dieser Abschnitt vermittelt Ihnen welche Werte in MAGELLAN abgefragt werden, damit die Daten in den entsprechenden Statistikdateien berücksichtigt werden.
+Dieser Abschnitt vermittelt Ihnen welche Werte in Magellan abgefragt werden, damit die Daten in den entsprechenden Statistikdateien berücksichtigt werden.
 
 | Operator | Bedeutung   |
 |----------|-------------|
@@ -195,7 +195,7 @@ Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn folgende
 
 #### ABS
 
-| Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
+| Datenfeld in Magellan                    | Beschreibung Magellan                    |
 |------------------------------------------|-----------------------------------------:|
 | Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. |
 | Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus. |
@@ -204,7 +204,7 @@ Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn folgende
 
 #### BBS
 
-| Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
+| Datenfeld in Magellan                    | Beschreibung Magellan                    |
 |------------------------------------------|------------------------------------------|
 | Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. |
 | Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus. |
@@ -242,7 +242,7 @@ Klassen und Schüler werden in der Statistikdatei berücksichtigt, wenn eins der
 
 #### ABS und BBS
 
-| Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
+| Datenfeld in Magellan                    | Beschreibung Magellan                    |
 |------------------------------------------|------------------------------------------|
 | Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein.
 Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus.
@@ -251,7 +251,7 @@ Klasse > Zeiträume > Zeitraum > **Klassenstufe**<br /><br />Klassen > Daten 1 >
 
 #### Nur BBS
 
-| Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
+| Datenfeld in Magellan                    | Beschreibung Magellan                    |
 |------------------------------------------|------------------------------------------|
 | Klassen > Daten > **Statistikkürzel**    | Es werden alle Schüler berücksichtigt, deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. |
 | Schüler > Statistik > **MerkmalS7**      | Um einzelne Schüler von der Statistik auszuschließen wählen Sie bitte den Wert „Ausschluss“ (Schlüsselwert „J“) aus. |
@@ -262,7 +262,7 @@ Klasse > Zeiträume > Zeitraum > **Klassenstufe**<br /><br />Klassen > Daten 1 >
 
 Lehrer werden in der Statistikdatei berücksichtigt, wenn folgende Kriterien zutreffen:
 
-| Datenfeld in MAGELLAN                    | Beschreibung MAGELLAN                    |
+| Datenfeld in Magellan                    | Beschreibung Magellan                    |
 |------------------------------------------|------------------------------------------|
 | Lehrer > **Status**<br/><br/> Lehrer > Daten 2 > **Abgangsart**<br /><br /> Lehrer > Daten 2 > **Zugang am**<br/><br/> Lehrer > Daten 2 > **Abgang am**<br/><br/> **Erhebungsdatum**<br/><br/> **Erhebungsdatum letzter Statistik** | Status = 1 aktiv, blaue Raute ODER Status = 0 inaktiv, graue Raute <br/> UND <br/> Abgang am <> leer <br/> UND <br/> Abgang am <= Erhebungsdatum <br/> UND <br/> Abgang am > Erhebungsdatum letzter Statistik <br/> UND <br/> Abgangsgrund <> leer |
 
@@ -273,10 +273,10 @@ Lehrer werden in der Statistikdatei berücksichtigt, wenn folgende Kriterien zut
 
 ### Für allgemeine Daten
 
-| Statistikfeld in der Statistikdatei | Datenfeld in MAGELLAN/DAVINCI            | Beschreibung        | Statistikdatei |
+| Statistikfeld in der Statistikdatei | Datenfeld in Magellan/DaVinci            | Beschreibung        | Statistikdatei |
 |-------------------------------------|------------------------------------------|------------------------------------------|----------------|
-| DateiKopf > **SchulNr**             | MAGELLAN: Mandanten > Daten 1 > Schulnummer | Geben Sie hier Ihre Schulnummer ein.     | Alle           |
-| DateiKopf > **ErhebungsJahr**       |                     | Das Erhebungsjahr wird automatisch beim Erstellen der Statistikdateien mit eingetragen und muss nicht in MAGELLAN eingegeben werden. | Alle           |
+| DateiKopf > **SchulNr**             | Magellan: Mandanten > Daten 1 > Schulnummer | Geben Sie hier Ihre Schulnummer ein.     | Alle           |
+| DateiKopf > **ErhebungsJahr**       |                     | Das Erhebungsjahr wird automatisch beim Erstellen der Statistikdateien mit eingetragen und muss nicht in Magellan eingegeben werden. | Alle           |
 
 ## Besonderheiten der Statistik nach Schuljahren
 
@@ -293,7 +293,7 @@ Einige Werte im Verzeichnis Postleitzahlen haben sich verändert, daher muss bit
 ##### Postleitzahlverzeichnis importieren
 
 Prüfen Sie bitte, ob in Ihrem Schulnetzwerk mindestens die 6.5.23 eingesetzt wird.
-Öffnen Sie anschließend bitte im MAGELLAN Administrator den Punkt `Datenimporte > Postleitzahlverzeichnis importieren`. 
+Öffnen Sie anschließend bitte im Magellan Administrator den Punkt `Datenimporte > Postleitzahlverzeichnis importieren`. 
 Wählen Sie im Assistenten für `für folgendes Land` den Wert `Rheinland-Pfalz` aus und für `importiere folgenden Katalog` bitte `alle Kataloge`. Starten Sie den Assistenten über die Schaltfläche `Fertigstellen`.
 
 ![Importieren des Postleitzahlverzeichnisses ](/assets/images/RLP_PLZ_importieren.png)
@@ -306,7 +306,7 @@ Wenn das Einlesen der Postleitzahlen abgeschlossen ist, müssen die neuen Eintr�
 
 ##### Vollständigkeit der Gemeindekennziffern für Schüler überprüfen
 
-Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Postleitzahlverzeichnis keine Übereinstimmung festgestellt werden, bekommt der Schüler keine Gemeindekennziffer zugewiesen. In der Regel genügt die Korrektur des Schülerortes oder der Schüler-PLZ und ein erneuter Durchlauf des `Gemeinden synchronisierens`. Damit Sie einen Überblick haben, für welchen Schüler die Zuweisung nicht gelungen ist, finden Sie in `MAGELLAN > Mandanden > Mandant markieren > Drucken ` den Prüfbericht "Mandant (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Rufen Sie pro Halbjahr diesen Bericht auf, es werden nur Schüler gezeigt, denen keine Gemeindekennziffer zugeordnet werden konnte.
+Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Postleitzahlverzeichnis keine Übereinstimmung festgestellt werden, bekommt der Schüler keine Gemeindekennziffer zugewiesen. In der Regel genügt die Korrektur des Schülerortes oder der Schüler-PLZ und ein erneuter Durchlauf des `Gemeinden synchronisierens`. Damit Sie einen Überblick haben, für welchen Schüler die Zuweisung nicht gelungen ist, finden Sie in `Magellan > Mandanden > Mandant markieren > Drucken ` den Prüfbericht "Mandant (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Rufen Sie pro Halbjahr diesen Bericht auf, es werden nur Schüler gezeigt, denen keine Gemeindekennziffer zugeordnet werden konnte.
 
 #### Verzeichnis Herkunftsarten (ABS)
 
@@ -357,7 +357,7 @@ Sollte anhand der Postleitzahl und des Ortes zwischen den Schülern und dem Post
 Schüler/innen, die im vergangenen Jahr den Bildungsgang 8610080 FS Sozialwesen
 Fr Sozialpädagogik besucht haben und in diesem Jahr ihr Berufspraktikum absolvie-
 ren, werden nicht ausgeschult. 
-Bitte ändern Sie den Bildungsgang unter `MAGELLAN > Schüler > Ausbildung > Bildungsgang`
+Bitte ändern Sie den Bildungsgang unter `Magellan > Schüler > Ausbildung > Bildungsgang`
 von 8610080 auf 8610081 geändert und Klassenstufen unter `Klasse > Zeiträume > Zeitraum > Klassenstufe` um 1 Jahr. Für die so markierten Schüler werden keine Neuzugangs- oder Vorbildungsdaten erzeugt.
 
 ##### Schüler, die den Bildungsgang abbrechen
@@ -384,7 +384,7 @@ Schulen Sie diese Schüer aus und vergeben unter `Schüler > Laufbahn > Abschlus
 
 Nur, wenn Sie noch nicht die neue Systematik der Berufskennziffern nutzen, sollten Sie diesen Abschnitt berücksichtigen!
 
-Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der Berufskennziffern, die aktuell enthaltenen Berufskennziffern in MAGELLAN ausgetauscht werden, bevor die neuen Statistikschlüssel auf dem üblichen Wege aktualisiert werden können.
+Für das Schuljahr 2014/2015 mussten aufgrund einer systematischen Änderung der Berufskennziffern, die aktuell enthaltenen Berufskennziffern in Magellan ausgetauscht werden, bevor die neuen Statistikschlüssel auf dem üblichen Wege aktualisiert werden können.
 
 1. Öffnen Sie Magellan-Administrator und wechseln Sie in die Ansicht `Datenbankpflege`.
 2. Klicken Sie auf `Starten` im `Datenbank überprüfen`.
@@ -405,11 +405,11 @@ Sie können den Schlüssel auch manuell anlegen, wechseln Sie dazu zm Punkt Verz
 
 ##### Neue Berufskennzahlen
 
-Durch die Umstellung der Berufskennzahlen in ein neues System, müssen alle bestehenden Berufsschlüssel in MAGELLAN ausgetauscht werden. Dies sollten Sie vor dem Import der neuen Schlüsselverzeichnisse gemacht haben. Bitte lesen Sie dazu den Abschnitt [Berufskennziffern austauschen](https://doc.ls.stueber.de/rlp/rheinland-pfalz_-_abs_und_bbs/#berufskennziffern-austauschen).
+Durch die Umstellung der Berufskennzahlen in ein neues System, müssen alle bestehenden Berufsschlüssel in Magellan ausgetauscht werden. Dies sollten Sie vor dem Import der neuen Schlüsselverzeichnisse gemacht haben. Bitte lesen Sie dazu den Abschnitt [Berufskennziffern austauschen](https://doc.ls.stueber.de/rlp/rheinland-pfalz_-_abs_und_bbs/#berufskennziffern-austauschen).
 
 ##### Kreisgebietsreform
 
-Ab diesem Jahr gibt es einen gesonderten Postleitzahlen-Import für Rheinland-Pfalz im MAGELLAN-Administrator unter Datenimport > Postleitzahlen importieren. Importieren Sie die aktuellen Postleitzahlen und anschließend das Gemeindeverzeichnis über die Auswahl Ihres Bundeslandes. Damit erhalten Sie die aktuellen Umschlüsselungen der Verbands-gemeinden durch die Kreisgebietsreform.
+Ab diesem Jahr gibt es einen gesonderten Postleitzahlen-Import für Rheinland-Pfalz im Magellan-Administrator unter Datenimport > Postleitzahlen importieren. Importieren Sie die aktuellen Postleitzahlen und anschließend das Gemeindeverzeichnis über die Auswahl Ihres Bundeslandes. Damit erhalten Sie die aktuellen Umschlüsselungen der Verbands-gemeinden durch die Kreisgebietsreform.
 
 !!! info "Hinweis"
 
@@ -418,7 +418,7 @@ Ab diesem Jahr gibt es einen gesonderten Postleitzahlen-Import für Rheinland-Pf
 | Feld                 | Was hat sich geändert                    | Datei                |
 |----------------------|------------------------------------------|----------------------|
 | Schueler > Neuzugang | Alle Schüler, die ein Zugangsdatum nach dem letzten Statistiktermin haben, werden als Neuzugang gekennzeichnet. | SchuelerBBSNeuanlage |
-| Klasse > Beruf       | wird für diese Datei nicht mehr abgefragt und somit wird klassenseitig für die Statistik kein Berufsschlüssel mehr benötigt. Aus diesem Grunde ändert sich die Logik für die Eingabe des Berufes in MAGELLAN wie folgt: Wenn die gesamte Klasse für einen Ausbildungsberuf bestimmt ist, dann tragen Sie den Beruf bei der Klasse ein. In Klassen mit gemischten Ausbildungsberufen, tragen Sie den überwiegenden Berufsschlüssel bei der Klassen und die Abweichungen erfassen Sie in den Ausbildungsdaten der Schüler. **Es wird Schüler vor Klasse geprüft.** Diese Logik ändert nichts daran, dass Berufe für die Statistik nur in bestimmten Schulformen tatsächlich ausgespielt werden. | SchuelerBBSNeuanlage |
+| Klasse > Beruf       | wird für diese Datei nicht mehr abgefragt und somit wird klassenseitig für die Statistik kein Berufsschlüssel mehr benötigt. Aus diesem Grunde ändert sich die Logik für die Eingabe des Berufes in Magellan wie folgt: Wenn die gesamte Klasse für einen Ausbildungsberuf bestimmt ist, dann tragen Sie den Beruf bei der Klasse ein. In Klassen mit gemischten Ausbildungsberufen, tragen Sie den überwiegenden Berufsschlüssel bei der Klassen und die Abweichungen erfassen Sie in den Ausbildungsdaten der Schüler. **Es wird Schüler vor Klasse geprüft.** Diese Logik ändert nichts daran, dass Berufe für die Statistik nur in bestimmten Schulformen tatsächlich ausgespielt werden. | SchuelerBBSNeuanlage |
 
 #### Besonderheiten Statistik 2013/2014
 
@@ -434,7 +434,7 @@ In den Schulabschlüssen (BP_AbschlussArt, BP_ZweitAbschluss, BP_Schulabschluss)
 
 Zum Schuljahr 2010/11 wurde der Schlüssel der Verbandsgemeinde für die Stadt Cochem geändert. Durch Einschluss der ehemaligen verbandsfreien Gemeinde Cochem in die Verbandsgemeinde Cochem-Land, wurde diese Änderung erforderlich. 
 
-Bitte ändern Sie in MAGELLAN unter Verzeichnisse > Postleitzahlen > Gemeinden (bitte oben rechts Rheinland-Pfalz wählen) in der Spalte "VG" den Wert für "Cochem, Stadt" von "00" auf "01".
+Bitte ändern Sie in Magellan unter Verzeichnisse > Postleitzahlen > Gemeinden (bitte oben rechts Rheinland-Pfalz wählen) in der Spalte "VG" den Wert für "Cochem, Stadt" von "00" auf "01".
 
 | Schluessel | Bezeichnung  | VG |
 |------------|--------------|----|
@@ -444,7 +444,7 @@ Bitte ändern Sie in MAGELLAN unter Verzeichnisse > Postleitzahlen > Gemeinden (
 
 Die Bezeichnungen der Schlüssel werden aus Gründen der Eindeutigkeit von Schlüsseln nicht geändert. Von Zeit zu Zeit erhalten bestehende Schlüssel neue Bedeutungen und es wird lediglich die Bezeichnung verändert. Solche Schlüssel müssen von Ihnen manuell verändert werden.
 
-In MAGELLAN ist unter  "Klassen > Daten > Beruf" bei einer Klasse der Berufsschule immer ein Beruf einzutragen (bei BVJ optional), um eine korrekte Fehlererkennung zu gewährleisten. 
+In Magellan ist unter  "Klassen > Daten > Beruf" bei einer Klasse der Berufsschule immer ein Beruf einzutragen (bei BVJ optional), um eine korrekte Fehlererkennung zu gewährleisten. 
 
 !!! info "Hinweis"
 
@@ -466,8 +466,8 @@ In MAGELLAN ist unter  "Klassen > Daten > Beruf" bei einer Klasse der Berufsschu
 |------------------------------------------|------------------------------------------|----------------------|
 | Klasse > G8GTS      | bitte markieren Sie die G8-Klassen mit „Ja“ oder Nein unter Klassen > Merkmale > Merkmal B3. | SchuelerAbsNeuanlage |
 | Schueler > ABS2BBS  | LMZ-Projekt wird automatisch  anhand des Grundschuleintrittes [1997-2001] in die Datei übernommen. | SchuelerAbsNeuanlage |
-| Klasse > Schueler > FremdSprachen > FremdSprache > StatusFach | Für die Erfassung dieses Wertes wurden ab der Version 5.2.22 in MAGELLAN neue Felder angelgelegt, die auch per Sammelzuweisung befüllt werden können. Sie finden die neuen Felder unter Schüler > Daten3 > Fremdsprachenfolge > Zusatz.  Sie können aus einer vorgegebenen Werteliste auswählen, diese Werte werden von automatisch als entsprechender Schlüsselwert in die Statistikdatei übertragen.  Unter Bearbeiten > Sammelzuweisung haben Sie die Möglichkeit die Werte auch für mehrere Schüler gleichzeitig zu vergeben. | SchuelerAbsNeuanlage |
-| Klasse > Schueler > LaufbahnEmpfehlung   | Es wurde die Bedeutung eines bereits bestehenden Schlüssels verändert. Bitte ändern Sie nach dem Einlesen der Schlüssel unter MAGELLAN > Verzeichnisse > weitere Schlüsselverzeichnisse > Empfehlungen folgendes ab: Der Schlüssel sollte nicht entfernt werden, da die Verwendung in der Vergangenheit korrekt war. Bitte ergänzen Sie stattdessen das GueltigBis-Datum (01.08.2008) und ändern den Wert in der Spalte Schluessel auf „alt“. | SchuelerAbsBewegung  |
+| Klasse > Schueler > FremdSprachen > FremdSprache > StatusFach | Für die Erfassung dieses Wertes wurden ab der Version 5.2.22 in Magellan neue Felder angelgelegt, die auch per Sammelzuweisung befüllt werden können. Sie finden die neuen Felder unter Schüler > Daten3 > Fremdsprachenfolge > Zusatz.  Sie können aus einer vorgegebenen Werteliste auswählen, diese Werte werden von automatisch als entsprechender Schlüsselwert in die Statistikdatei übertragen.  Unter Bearbeiten > Sammelzuweisung haben Sie die Möglichkeit die Werte auch für mehrere Schüler gleichzeitig zu vergeben. | SchuelerAbsNeuanlage |
+| Klasse > Schueler > LaufbahnEmpfehlung   | Es wurde die Bedeutung eines bereits bestehenden Schlüssels verändert. Bitte ändern Sie nach dem Einlesen der Schlüssel unter Magellan > Verzeichnisse > weitere Schlüsselverzeichnisse > Empfehlungen folgendes ab: Der Schlüssel sollte nicht entfernt werden, da die Verwendung in der Vergangenheit korrekt war. Bitte ergänzen Sie stattdessen das GueltigBis-Datum (01.08.2008) und ändern den Wert in der Spalte Schluessel auf „alt“. | SchuelerAbsBewegung  |
 | Klasse > Schueler > NichtVersetzt        | Bitte kontrollieren Sie zusätzlich das Verzeichnis „Versetzungsarten“. Hier wurde im letzten Jahr die Bedeutung des Schlüssels mit dem Schlüsselwert 5 verändert. Bitte achten Sie darauf, dass folgende Eintragungen vorgenommen worden sind: Kürzel und Schlüssel erhalten den Wert 5, die Bezeichnung ist "Schüler/-in wurde nicht versetzt". | SchuelerAbsBewegung  |
 
 ##### BBS
@@ -481,9 +481,9 @@ In MAGELLAN ist unter  "Klassen > Daten > Beruf" bei einer Klasse der Berufsschu
 
 Anpassung der Schlüsseltabellen an das Statistische Landesamt:
 
-Das StaLa verwendet zum Teil andere Bezeichnungen für Schlüsseltabellen (auch mit anderen Bedeutungen),  als es in MAGELLAN der Fall war. 
+Das StaLa verwendet zum Teil andere Bezeichnungen für Schlüsseltabellen (auch mit anderen Bedeutungen),  als es in Magellan der Fall war. 
 
-Wenn das StaLa von Schularten sprach, war in MAGELLAN von Schulformen die Rede. In MAGELLAN befanden sich im Verzeichnis Schularten statistische Daten für die LehrerNeuanlage. Wir haben dies jetzt an das StaLa angepasst, damit es in Zukunft nicht mehr zu Verwirrungen kommt. 
+Wenn das StaLa von Schularten sprach, war in Magellan von Schulformen die Rede. In Magellan befanden sich im Verzeichnis Schularten statistische Daten für die LehrerNeuanlage. Wir haben dies jetzt an das StaLa angepasst, damit es in Zukunft nicht mehr zu Verwirrungen kommt. 
 
 Dies bedeutet für Sie:
 

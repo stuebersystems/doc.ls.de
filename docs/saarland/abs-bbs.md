@@ -4,8 +4,8 @@ Dieses Kapitel beschreibt für Allgemeinbildende und Berufsbildenden Schulen im 
 
 ## Lizenz
 
-Bitte beachten Sie, seit MAGELLAN 7 haben wir unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
-**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von MAGELLAN verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
+Bitte beachten Sie, seit Magellan 7 haben wir unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der Magellan Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den Magellan Support- und Softwarepflegevertrag ersetzen.
+**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von Magellan verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
 
 !!! info "Hinweis"
 
@@ -14,7 +14,7 @@ Bitte beachten Sie, seit MAGELLAN 7 haben wir unser Angebot von der jährlich an
 
 ## Einführung
 
-Das statistische Landesamt fordert die elektronische Landesstatistik im CSV Dateiformat. Die statistischen Daten können in diesem Format aus MAGELLAN heraus erzeugt werden.
+Das statistische Landesamt fordert die elektronische Landesstatistik im CSV Dateiformat. Die statistischen Daten können in diesem Format aus Magellan heraus erzeugt werden.
 Für Sie als Schule bedeutet dies: Sie müssen die folgenden CSV-Dateien an das Statistikamt im Saarland verschicken (Schulbogen und Klassenbogen) und auf Basis der erzuegten CSV-Dateien für die Abiturstatistik und Religionsstatistik die entsprechenden Statistikbögen ausfüllen.
 
 | Statistiktyp       | Dateiname   | Inhalt
@@ -48,7 +48,7 @@ Für Sie als Schule bedeutet dies: Sie müssen die folgenden CSV-Dateien an das 
 ## Notwendige Schritte
 
 1. Schritt: Statistikschlüssel aktualisieren
-2. Schritt: Statistisch relevante Daten in MAGELLAN eingeben
+2. Schritt: Statistisch relevante Daten in Magellan eingeben
 3. Schritt: Statistikdaten erstellen.
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
@@ -57,8 +57,8 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
 
 |Nr.|So geht's|
 |--|--|
-|1.| Stellen Sie sicher, dass Sie die aktuellste Ausgabe von MAGELLAN 6 einsetzen!|
-|2.| Öffnen Sie das Modul MAGELLAN- Administrator und wählen die Ansicht `Datenimporte > Schlüsselverzeichnisse` importieren.|
+|1.| Stellen Sie sicher, dass Sie die aktuellste Ausgabe von Magellan 6 einsetzen!|
+|2.| Öffnen Sie das Modul Magellan- Administrator und wählen die Ansicht `Datenimporte > Schlüsselverzeichnisse` importieren.|
 |3.| Wählen Sie `Saarland`, Ihrer Schulart und Ihren Mandanten aus und importieren einen ausgewählten oder alle mitgelieferten Kataloge.|
 
 
@@ -68,7 +68,7 @@ Diese Schritte werden nachfolgend ausführlich erklärt.
     Durch diese eigenen Werte haben wir nicht die Möglichkeit beim Import der neuen Schlüssel diese mit Ihren Schlüsseln abzugleichen.
     Es muss mindestens beim ersten Statistikdurchlauf (ab dem nächsten Jahr können dann Schlüssel erkannt werden) ein manuelle Nacharbeit erfolgen. Bitte lesen Sie dazu den nächsten Abschnitt!
 
-### Manuelle Anpassung der Schlüsselverzeichnisse in MAGELLAN 6
+### Manuelle Anpassung der Schlüsselverzeichnisse in Magellan 6
 
 Beim Import der Schlüssel gibt es einen Ablauf, der gewähren soll, dass die Wahrscheinlichkeit einen inaktuellen oder verkehrten Schlüssel im Alltag zu verwenden, minimiert wird. 
 
@@ -77,7 +77,7 @@ Beim Import der Schlüssel gibt es einen Ablauf, der gewähren soll, dass die Wa
 |Nr.|Was passiert beim Einlesen?|
 |--|--|
 |1.|Alle noch nie verwendeten Schlüsselzeilen werden gelöscht.<br/>Übrig bleiben nur die Zeilen, die Sie bereits einmal verwendet haben.<br/>Diese Zeilen können jetzt für die Statistik richtig oder auch verkehrt sein.
-|2.|Alle übrigen Zeilen werden mit einer grauen Raute als inaktive Schlüssel gekennzeichnet.<br/><br/> Zur Erklärung: Jedes Verzeichnis hat die Spalten `von` und `bis`. In diesen Spalten kann man ein Datum eintragen, das wird bei der Anzeige mit dem ausgewählten Zeitraum in MAGELLAN verglichen und der Schlüssel wird demnach mit einer grauen oder einer blauen Raute in der Programmoberfläche gezeigt. Schlüssel mit einer grauen Raute werden zusätzlich ans Ende der Liste sortiert.
+|2.|Alle übrigen Zeilen werden mit einer grauen Raute als inaktive Schlüssel gekennzeichnet.<br/><br/> Zur Erklärung: Jedes Verzeichnis hat die Spalten `von` und `bis`. In diesen Spalten kann man ein Datum eintragen, das wird bei der Anzeige mit dem ausgewählten Zeitraum in Magellan verglichen und der Schlüssel wird demnach mit einer grauen oder einer blauen Raute in der Programmoberfläche gezeigt. Schlüssel mit einer grauen Raute werden zusätzlich ans Ende der Liste sortiert.
 |3.|Als nächstes wird ein Schlüssel aus dem Importkatalog anhand seines Schlüsselwerts (Inhalt der Spalte `Schlüssel`) mit den im Verzeichnis noch enthaltenen Schlüsseln verglichen. Werden Zeilen erkannt (gleicher Schlüsselwert), wird der Schlüssel (oder werden die Schlüssel, es dürfen auch mehrere Zeilen existieren) wieder aktiviert, das heißt der oder die Schlüsselzeilen werden als aktive Schlüssel mit einer blauen Raute dargestellt.<br/>Ist keine Zeile mit dem verglichenen Schlüssel im Verzeichnis vorhanden, wird die Schlüsselzeile im Verzeichnis mit angelegt - ist aber bislang nirgendwo im Programm mit einem Datensatz verbunden.|
 
 ### Ihre Schlüsselwerte an Vorgaben des Ministeriums anpassen
@@ -95,7 +95,7 @@ Um Ihre verwendeten Schlüsseldatensätze auf die Vorgaben des Ministeriums anzu
 
 ### Welche Importdateien stehen zur Verfügung?
 
-Importdatei|Zielverzeichnis in MAGELLAN
+Importdatei|Zielverzeichnis in Magellan
 --|--
 BS_Berufe.keys|`Verzeichnisse > Berufe`
 00_AbschluesseIntern.keys|`Verzeichnisse > Abschlüsse (Intern)`
@@ -112,9 +112,9 @@ BS_Berufe.keys|`Verzeichnisse > Berufe`
 00_Unterrichtsarten.keys|`Verzeichnisse > Weitere Schlüsselverzeichnisse > Unterrichtsarten`
 00_Versetzungsarten.keys|`Verzeichnisse > Weitere Schlüsselverzeichnisse > Versetzungsarten`
 
-## Statistisch relevante Daten in MAGELLAN eingeben
+## Statistisch relevante Daten in Magellan eingeben
 
-In den nachfolgenden Abschnitten wird pro Statistiktyp beschrieben, welche Daten in MAGELLAN wichtig sind, damit die entsprechenden CSV-Dateien gefüllt werden können.
+In den nachfolgenden Abschnitten wird pro Statistiktyp beschrieben, welche Daten in Magellan wichtig sind, damit die entsprechenden CSV-Dateien gefüllt werden können.
 
 !!! warning "Wichtig"
 
@@ -123,7 +123,7 @@ In den nachfolgenden Abschnitten wird pro Statistiktyp beschrieben, welche Daten
 
 ### Klassenbogen
 
-Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
+Datenfeld in Magellan                           |Beschreibung  Magellan:
 ------------------------------------------------|-------------------------------------------------------
 Klassen > Daten > **Statistikkürzel** |Es werden alle Schüler berücksichtigt, bei deren Klasse ein Statistikkürzel eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein. 
 Klassen > Zeiträume > **Fachtafel** |Der Klasse muss im aktuellen Zeitraum der Statistikerhebung eine Fachtafel zugeordnet sein. Dies ist nur für Fachtafeln der Klassenstufen 11-13 notwendig. Legen Sie die entsprechenden Fachtafeln unter `Verzeichnisse > Fachtafeln` an und weisen sie unter `Klassen > Zeiträume > Fachtafel` zu.
@@ -142,7 +142,7 @@ Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunft > **Schulform**. 
 
 Voraussetzung für die Auswertungsteile für das Abitur ist, dass die auszuwertenden Schüler im aktuellen Erhebungszeitraum in der Ansicht `Abitur` vorhanden sind.
 
-Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
+Datenfeld in Magellan                           |Beschreibung  Magellan:
 ------------------------------------------------|-------------------------------------------------------
 Klassen > Daten > **Statistikkürzel** |Es werden alle Schüler berücksichtigt, bei deren Klasse ein `Statistikkürzel` eingetragen wurde. Das Statistikkürzel sollte gleich dem Klassenkürzel sein.
 Klassen > Zeiträume > **Jahrgang** |Geben Sie hier den `Jahrgang` der Klasse an.
@@ -154,7 +154,7 @@ Abitur > Prüfung > **Prüfungsstatus** | Geben Sie hier den `Prüfungsstatus` a
 
 ### Religionsstatistik
 
-Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
+Datenfeld in Magellan                           |Beschreibung  Magellan:
 ------------------------------------------------|-------------------------------------------------------
 Klassen > Daten > **Statistikkürzel** |Es werden alle Schüler berücksichtigt, bei deren Klasse ein `Statistikkürzel` eingetragen wurde. Das `Statistikkürzel` sollte gleich dem Klassenkürzel sein. 
 Klassen > Zeiträume > **Fachtafel** |Der Klasse muss im aktuellen Zeitraum der Statistikerhebung eine `Fachtafel` zugeordnet sein. 
@@ -167,7 +167,7 @@ Lehrer > Daten > **Vorname**, **Nachname**|Hier muss jeder Lehrer definiert werd
 
 Voraussetzung für die Abiturstatistik ist, dass die auszuwertenden Schüler im aktuellen Erhebungszeitraum in der Ansicht `Abitur` vorhanden sind.
 
-Datenfeld in MAGELLAN                           |Beschreibung  MAGELLAN:
+Datenfeld in Magellan                           |Beschreibung  Magellan:
 ------------------------------------------------|-------------------------------------------------------
 Schüler >  Daten 1 > **Geschlecht**, **Geboren am**| Pro Schüler wird hier das Geschlecht und das Geburtsdatum angegeben
 Abitur > Prüfung > **Prüfungsfach 1-4** | Hier müssen die Prüfungsfächer 1- 4 angeben werden, in den die schriftliche Prüfung erfolgt
@@ -178,7 +178,7 @@ Abitur > Prüfung > **Durchschnitt** | Hier muss die Abiturnote eingetragen werd
 
 Zum Erstellen der Statistikdateien gehen Sie wie folgt vor:
 
-1. Starten Sie MAGELLAN.
+1. Starten Sie Magellan.
 2. Klicken Sie im Menü `Extras` auf `Statistik`.
 3. Wählen Sie als Bundesland ``Saarland``. Klicken Sie dann auf `Weiter`.
 4. Markieren Sie die Dateien, welche Sie erstellen möchten. Unter Statistikzeiträume auswählen müssen Sie den Erhebungszeitpunkt (Beispiel 02.11.2018), den aktuellen Zeitraum (1. Halbjahr 2018/2019) und die Zeiträume des Vorjahres (2. Halbjahr 2017/2018 und 1. Halbjahr 2017/2018) einstellen.

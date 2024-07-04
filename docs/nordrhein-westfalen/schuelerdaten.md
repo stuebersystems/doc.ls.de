@@ -4,15 +4,15 @@
 
 ## Daten in der SIM-Datei
 
-1. Die Ausgabe von Schülerdaten in die SIM.TXT kann gesteuert werden. Das heisst, damit Schüler überhaupt ausgespielt werden können, müssen gewisse Eingaben in MAGELLAN getätigt worden sein. Andererseits können Sie mit diesen Eingaben auch explizit Schüler aus der Datei ausschließen, sei es auf natürlichem Wege, z.B. da Gastschüler nicht statistisch erfasst werden dürfen, oder aus anderen Gründen, ein bestimmter Schülerdatensatz nicht exportiert werden soll.
+1. Die Ausgabe von Schülerdaten in die SIM.TXT kann gesteuert werden. Das heisst, damit Schüler überhaupt ausgespielt werden können, müssen gewisse Eingaben in Magellan getätigt worden sein. Andererseits können Sie mit diesen Eingaben auch explizit Schüler aus der Datei ausschließen, sei es auf natürlichem Wege, z.B. da Gastschüler nicht statistisch erfasst werden dürfen, oder aus anderen Gründen, ein bestimmter Schülerdatensatz nicht exportiert werden soll.
 
-2. In der Datei werden die zu exportierenden Schülerdaten in typisierte Datensätze eingeteilt. Damit ein Schüler einem Typus entspricht müssen auch hier bestimmte Eingaben in MAGELLAN getätigt sein, bzw. ergeben sich aufgrund der Laufbahn des Schülers. Schülerdatensätze können auch mehrfach in der Exportschnittstelle auftauchen, da sie ggf. mehreren Typen entsprechen.
+2. In der Datei werden die zu exportierenden Schülerdaten in typisierte Datensätze eingeteilt. Damit ein Schüler einem Typus entspricht müssen auch hier bestimmte Eingaben in Magellan getätigt sein, bzw. ergeben sich aufgrund der Laufbahn des Schülers. Schülerdatensätze können auch mehrfach in der Exportschnittstelle auftauchen, da sie ggf. mehreren Typen entsprechen.
 
 ### Allgemeine Voraussetzungen zum Export
 
 Allgemeine Angaben zum Export von Daten in die SIM.TXT.
 
-MAGELLAN                                          | Beschreibung
+Magellan                                          | Beschreibung
 ------------------------------------------------- | -------------
 `Klassen > Daten 1 > Statistikkürzel`             | Damit Schüler einer Klasse zum Export berücksichtigt werden, muss die Klasse ein Statistikkürzel eingetragen haben. Ist dieses Feld leer, wird die komplette Klasse ignoriert.
 `Schüler > Statistik > Merkmal S10`               | Wählen Sie im Schülermerkmal S10 ***Kein Export nach ASDPC*** aus, um Schüler explizit aus vom Export auszuschließen.
@@ -20,13 +20,13 @@ MAGELLAN                                          | Beschreibung
 
 ### Einteilung eines Datensatzes in den entsprechenden Schülertyp
 
-Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund der Laufbahn und gegebenen Datenmenge in MAGELLAN und in der folgenden Reihenfolge:
+Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund der Laufbahn und gegebenen Datenmenge in Magellan und in der folgenden Reihenfolge:
 
 #### Abgänger (ABG)
 
 - Schüler werden aus allen drei Schulhalbjahren ausgelesen
-- Der Schüler ist in MAGELLAN auf `Ausgeschult` gesetzt oder
-- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt und<br>
+- Der Schüler ist in Magellan auf `Ausgeschult` gesetzt oder
+- Der Schüler ist in Magellan auf `Eingeschult` gesetzt und<br>
   - `Schüler > Daten 2 > Abgang > Abgangsart` oder
   - `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist ein   Wert eingetragen
 
@@ -37,13 +37,13 @@ Die Einteilung eines Schülers in einen der vorgegebenen Typen erfolgt aufgrund 
     Diese Datensätze werden für die SIM.TXT nicht mehr ausgelesen. 
 
 - Schüler werden aus allen drei Schulhalbjahren ausgelesen
-- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt
+- Der Schüler ist in Magellan auf `Eingeschult` gesetzt
 - `Schüler > Laufbahn > Abschluss > Abschluss 1`  ist gefüllt und darf nicht auf den Wert ***0A*** gesetzt sein.
 
 #### Aktuell eingeschult (AKT), Neuzugang (NZG), Neuzugang an gleicher Schule (NGS)
 
 - Schüler werden nur aus dem aktuellen Schulhalbjahr ausgelesen
-- Der Schüler ist in MAGELLAN auf `Eingeschult` gesetzt
+- Der Schüler ist in Magellan auf `Eingeschult` gesetzt
 
 Nach dem Auslesen der Daten wird der Typus auf **Neuzugang** gesetzt und dann weitere Bedingungen geprüft:
 
@@ -77,13 +77,13 @@ Beschreibung     | `Exportmodul > Erhebungsjahr` (Alle)<br/>Geben Sie im Dialogf
 Feld             | **Status - Schülerstatus** (Alle)
 Beschreibung     | `Schüler > Laufbahn > Abschluss > Abschluss 1 [Abschlüsse (Intern)]`<br/>`Schüler > Daten2 > Abgang [Abgangsarten]`<br>Der Schülerstatus ergibt sich anhand des Schülertyps un dem angegebenen Abschluss bzw. Abgang des Schülers.<br/>Neuzugang, Neuzugang an gleicher Sxhule, Eingeschult = 2 (Aktiv)<br/>Bildungsgang abgeschlossen = 8 (Abschluss)<br/>Abgänger = 8 (Abgang mit Abschluss) oder wenn kein Abschluss bzw. Abschluss oder Abgang = 0A sind = 9 (Abgang ohne Abschluss)
 Feld             | **LfdNr** (Alle)
-Beschreibung     | `Wird beim Export berechnet.`<br>Laufende Nummer pro Schüler, die beim Export erzeugt und hochgezählt wird.<br/>***Achtung***: Es handelt sich hierbei nicht um die Schüler.ID aus MAGELLAN.
+Beschreibung     | `Wird beim Export berechnet.`<br>Laufende Nummer pro Schüler, die beim Export erzeugt und hochgezählt wird.<br/>***Achtung***: Es handelt sich hierbei nicht um die Schüler.ID aus Magellan.
 Feld             | **Klasse** (Alle)
 Beschreibung     | `Klassen > Daten > Statistikkürzel`<br>Bitte wiederholen Sie hier das Klassenkürzel, um die Klasse und dessen Schüler für die Statistik zu berücksichtigen. Das Statistikkürzel darf nicht mehr als 6 Zeichen betragen.<br/>**ABS** Max. 4 Stellen. Die ersten beiden Stellen werden als Jahrgang der Klasse übernommen. Die dritte und vierte Stelle werden als Parallelität übernommen. Ist das Feld Klasse nur zwei Zeichen lang, dann bleibt die Parallelität leer. <br>***Achtung***: Über das Statistikkürzel steuern Sie auch, ob eine Klasse für den Export berücksichtigt wird. Kein Statistikkürzel = Kein Export!
 Feld             | **Gliederung (Schulgliederung)** (Alle)
-Beschreibung     | `Klassen > Daten > Bildungsgang`<br/>`Schüler > Ausbildung > Aktuelle Ausbildung > Bildungsgang [Bildungsgänge]`<br/>`Schüler > Daten 3 > Verschiedenes > G8/G9`<br>***ABS***: Gymnasien geben hier im Feld "G8/G9" an, ob es sich um ein G8 oder G9 Bildungsgang handelt. Kein Wert bedeutet = G01 (Aufbaugymnasium).<br/><br/>***BBS***: Da die Schulgliederung von der Fachklasse abhängig ist, wird diese anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
+Beschreibung     | `Klassen > Daten > Bildungsgang`<br/>`Schüler > Ausbildung > Aktuelle Ausbildung > Bildungsgang [Bildungsgänge]`<br/>`Schüler > Daten 3 > Verschiedenes > G8/G9`<br>***ABS***: Gymnasien geben hier im Feld "G8/G9" an, ob es sich um ein G8 oder G9 Bildungsgang handelt. Kein Wert bedeutet = G01 (Aufbaugymnasium).<br/><br/>***BBS***: Da die Schulgliederung von der Fachklasse abhängig ist, wird diese anhand des Bildungsgangs in Magellan ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
 Feld             | **Fachklasse (Fachklassen)** (BK / ABG, AKT, BAG, NZG, NGS)
-Beschreibung     | `Klassen > Daten > Bildungsgang`<br/>`Schüler > Ausbildung >  Aktuelle Ausbildung > Bildungsgang [Bildungsgänge]`<br>Die Schulgliederung wird anhand des Bildungsgangs in MAGELLAN ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung, alles danach ergibt die Fachklasse. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
+Beschreibung     | `Klassen > Daten > Bildungsgang`<br/>`Schüler > Ausbildung >  Aktuelle Ausbildung > Bildungsgang [Bildungsgänge]`<br>Die Schulgliederung wird anhand des Bildungsgangs in Magellan ausgelesen. Die ersten drei Zeichen des Schlüssels ergeben die Gliederung, alles danach ergibt die Fachklasse. Wenn die gesamte Klasse für einen Bildungsgang bestimmt ist, dann tragen Sie den Bildungsgang bei der Klasse ein. In Klassen mit gemischten Bildungsgängen, müssen Sie den Bildungsgang beim Schüler erfassen. Es wird Schüler vor Klasse geprüft.
 Feld             | **Klassenart (Klassenarten)** (ABS / AKT, BAG, NZG, NGS)
 Beschreibung     | `Klassen > Merkmale > Merkmal S3 [Verzeichnisse > Merkmale > Klassen]`<br>Bitte erfassen Sie hier pro Klasse die Klassenart.
 Feld             | **OrgForm (Orgform)** (Alle / AKT, BAG, NZG, NGS)
@@ -139,7 +139,7 @@ Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Schulbesuch b
 Feld             | **LSJahrgang** (Alle / NZG)
 Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Letzte Klassenstufe [Klassenstufen]`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Wählen Sie für die Herkunfsschule die Letzte Klassenstufe aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **LSQual** (Alle / NZG, NZS)
-Beschreibung     | `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]`<br>Grundsätzlich berechnet ASDPC den Höchsten allgemeinbildenden Abschluss aus dem Statistikfeld LSQual und Zeugnis, wobei LSQual eigentlich den letzten höchsten ABS Abschluss darstellt, z.B. aus einer anderen Schule. In MAGELLAN tragen Sie den höchsten Abschluss ABS nur an einer Stelle ein, auch wenn dieser an Ihrer eigenen Schule erworben wurde.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen) ausgegeben.
+Beschreibung     | `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]`<br>Grundsätzlich berechnet ASDPC den Höchsten allgemeinbildenden Abschluss aus dem Statistikfeld LSQual und Zeugnis, wobei LSQual eigentlich den letzten höchsten ABS Abschluss darstellt, z.B. aus einer anderen Schule. In Magellan tragen Sie den höchsten Abschluss ABS nur an einer Stelle ein, auch wenn dieser an Ihrer eigenen Schule erworben wurde.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen) ausgegeben.
 Feld             | **LSVersetz** (Alle / NZG)
 Beschreibung     | `Schüler > Daten2 > Bereits besuchte Schulen > Unterlagen [ Herkunftsunterlagen]`<br/>`Schüler > Daten2 > Herkunftsschule`<br>Wählen Sie für die Herkunftsschule als Versetzungsart die Unterlagen aus.<br/>Für Abgänger wird dieser Wert nicht erneut (wurde bereits für den Schüler als Neuzugang oder Neuzugang an gleicher Schule übertragen)ausgegeben.
 Feld             | **VOklasse** (Alle / ABG, AKT, BAGn NZS)
@@ -201,7 +201,7 @@ Beschreibung     | `Klassen > Daten > Schwerpunkt1 und Schwerpunkt2 [Förderunge
 Feld             | **Berufsabschluss** (BK, SB, WB / Alle)
 Beschreibung     | `Schüler > Statistik > Merkmal S1 [Merkmale]`<br>Wählen Sie aus, ob bereits eine abgeschlossene Berufsausbildung vorliegt.
 Feld             | **Produktname** (Alle)
-Beschreibung     | Das Feld wird für den Import nach ASDPC nicht benötigt, soll aber beim Support helfen. Wir geben hier fest den Wert Ihrer eingesetzten MAGELLAN-Ausgabe entsprechend des Registryeintrages aus.
+Beschreibung     | Das Feld wird für den Import nach ASDPC nicht benötigt, soll aber beim Support helfen. Wir geben hier fest den Wert Ihrer eingesetzten Magellan-Ausgabe entsprechend des Registryeintrages aus.
 Feld             | **Produktversion** (Alle)
 Beschreibung     | Das Feld wird für für den Import nach ASDPC nicht benötigt, soll aber beim Support helfen. <br/>Wir geben hier die berechnete Datensatzart (z.B. Neuzugang, Eingeschult, etc.) für die Zeile aus.
 Feld             | **Adressenmerkmal**

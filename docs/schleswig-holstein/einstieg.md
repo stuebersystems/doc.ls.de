@@ -7,13 +7,13 @@ Dieses Kapitel beschreibt für Allgemeinbildende Schulen in Schleswig-Holstein d
 
 ## Lizenz
 
-Bitte beachten Sie, wir haben unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
-**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von MAGELLAN verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
+Bitte beachten Sie, wir haben unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der Magellan Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den Magellan Support- und Softwarepflegevertrag ersetzen.
+**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von Magellan verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
 
 ## Einführung
 
-Auf Basis der erfassten Daten in MAGELLAN und DAVINCI können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen. Voraussetzung dafür ist eine Lizenz für das jeweilige Statistikjahr.
-Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von MAGELLAN 8 unterstützt werden:
+Auf Basis der erfassten Daten in Magellan und DaVinci können Sie die Herbststatistik für das Statistikamt bzw. das Ministerium vollständig elektronisch erstellen. Voraussetzung dafür ist eine Lizenz für das jeweilige Statistikjahr.
+Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche von Magellan 8 unterstützt werden:
 
  Datei                  | Kürzel | Unterstützt   | Schulart  | Inhalt
  ---------------------- | ------ | ------------- | --------- | ------
@@ -36,10 +36,10 @@ Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das
 Notwendige Schritte:
 
 1. Schritt: [Statistikschlüssel bereinigen und aktualisieren](../schluesselverzeichnisse.md)
-2. Schritt: Statistisch relevante Daten in DAVINCI bzw. MAGELLAN eingeben
+2. Schritt: Statistisch relevante Daten in DaVinci bzw. Magellan eingeben
 3. Schritt: Kurswahlen (nur für Gymnasien/Gesamtschulen mit Oberstufe)
-4. Schritt: Lehrer (Soll-Ist-Berechnung) von DAVINCI nach MAGELLAN übertragen
-5. Schritt: [Statistikdaten aus DAVINCI exportieren](../dav.statistikdaten-exportieren.md)
+4. Schritt: Lehrer (Soll-Ist-Berechnung) von DaVinci nach Magellan übertragen
+5. Schritt: [Statistikdaten aus DaVinci exportieren](../dav.statistikdaten-exportieren.md)
 6. Schritt: [Datenprüfung](../datenpruefung.md)
 7. Schritt: [Statistikdateien erzeugen](../statistikdaten.erstellen.md)
 
@@ -52,49 +52,49 @@ Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdat
 !!! warning "Wichtig"
     **Statistikkürzel**: Voraussetzung für das Ausspielen der Daten in das Statistikformat ist die Angabe des Feldes ```Klassen > Daten 1 > Statistikkürzel```. Das Feld kann beliebig eingetragen werden und sollte eindeutig benannt sein. Üblicherweise wird hier einfach das Klassenkürzel wiederholt. Schüler, für deren Klasse kein Statistikkürzel eingetragen ist, werden statistisch nicht berücksichtigt.
 
-Statistikfeld | Datenfeld in MAGELLAN/DAVINCI  | Beschreibung
+Statistikfeld | Datenfeld in Magellan/DaVinci  | Beschreibung
 ------------- | ------------------------------ | ------------
---            | MAGELLAN:<br>`Klassen > Daten > Statistikkürzel` | Über das Statistikkürzel steuern Sie, ob diese Klasse und dessen Schüler statistisch relevant sind und in den Statistikdateien berücksichtigt werden sollen.
---            | MAGELLAN:<br>`Schüler > Daten 3 > Verschiedenes > Gastschüler` | Wenn Sie den Haken beim Gastschüler setzen, wird der Schüler nicht mit in der Statistik berücksichtigt.
+--            | Magellan:<br>`Klassen > Daten > Statistikkürzel` | Über das Statistikkürzel steuern Sie, ob diese Klasse und dessen Schüler statistisch relevant sind und in den Statistikdateien berücksichtigt werden sollen.
+--            | Magellan:<br>`Schüler > Daten 3 > Verschiedenes > Gastschüler` | Wenn Sie den Haken beim Gastschüler setzen, wird der Schüler nicht mit in der Statistik berücksichtigt.
 
-## Eingaben in DAVINCI
+## Eingaben in DaVinci
 
 !!! info "Hinweis"
-    Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DAVINCI vornehmen.
-    Genauere Informationen zu den Eingaben für DAVINCI finden Sie in der nachfolgenden tabellarischen Übersicht.
+    Sie müssen zusätzliche Eingaben im Kurs- und Stundenplanmodul von DaVinci vornehmen.
+    Genauere Informationen zu den Eingaben für DaVinci finden Sie in der nachfolgenden tabellarischen Übersicht.
 
-Überprüfen Sie in DAVINCI (bei Gymnasien/Gesamtschulen) bitte folgende Punkte:
+Überprüfen Sie in DaVinci (bei Gymnasien/Gesamtschulen) bitte folgende Punkte:
 
 Wo                                | Was
 --------------------------------- | ---
-Stammdaten > Klassen              | Bitte erfassen Sie in der Spalte ID für alle Oberstufen Klassen die MAGELLAN-ID.
+Stammdaten > Klassen              | Bitte erfassen Sie in der Spalte ID für alle Oberstufen Klassen die Magellan-ID.
 Stammdaten > Fächer               | Für alle Fächer muss in der Spalte „Schlüssel“ der vom Statistikamt vorgeschriebene Schlüssel erfasst werden, z.B. „014“ für das Fach Deutsch.
 Veranstaltungsübersicht > Klassen | Achten Sie darauf alle Leistungs- und Grundkurse eingetragen zu haben.
 
 Wir empfehlen Ihnen beim Abgleich der IDs der Schüler, Klassen, Lehrer und Fächer sicherheitshalber wie folgt vorzugehen:
 
-1. Öffnen Sie MAGELLAN und wechseln Sie in die entsprechende Ansicht „Schüler“, „Klassen“ oder „Lehrer“. Die Fächerliste finden unter „Verzeichnisse“, „Fächer“.
+1. Öffnen Sie Magellan und wechseln Sie in die entsprechende Ansicht „Schüler“, „Klassen“ oder „Lehrer“. Die Fächerliste finden unter „Verzeichnisse“, „Fächer“.
 2. Exportieren Sie die Auswahlliste nach Excel und drucken Sie diese zur Vorlage aus.
-3. Öffnen Sie DAVINCI und wechseln Sie in die entsprechende Ansicht.
-4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DAVINCI Ansicht und korrigieren Sie ggf. in DAVINCI.
+3. Öffnen Sie DaVinci und wechseln Sie in die entsprechende Ansicht.
+4. Vergleichen Sie die IDs und Kürzel Ihrer Vorlage mit den IDs und Kürzel in der DaVinci Ansicht und korrigieren Sie ggf. in DaVinci.
 
-## Kurswahldaten und Lehrerdaten von DAVINCI nach MAGELLAN übertragen
+## Kurswahldaten und Lehrerdaten von DaVinci nach Magellan übertragen
 
 ### Kurswahl
 
-Schulen mit Oberstufe müssen ihre Kurswahldaten für die Statistik in DAVINCI mit MAGELLAN abgleichen. Nachdem die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (Schülerkurswahl) übernehmen, wie im DAVINCI Handbuch im Kapitel „Spezielles“ unter „Datenaustausch mit MAGELLAN“, „Daten nach MAGELLAN übergeben“ beschrieben.
+Schulen mit Oberstufe müssen ihre Kurswahldaten für die Statistik in DaVinci mit Magellan abgleichen. Nachdem die IDs in beiden Programmen übereinstimmen, sollten sie die Kurswahldaten (Schülerkurswahl) übernehmen, wie im DaVinci Handbuch im Kapitel „Spezielles“ unter „Datenaustausch mit Magellan“, „Daten nach Magellan übergeben“ beschrieben.
 
 ### Lehrerdaten
 
-Nachdem in DAVINCI unter `Stammdaten > Lehrer` die Solländerungsgründe erfasst wurden, müssen diese Informationen von DAVINCI nach MAGELLAN abgeglichen werden. Der Übertrag erfolgt beim Abgleich des Punktes „Lehrer“.
+Nachdem in DaVinci unter `Stammdaten > Lehrer` die Solländerungsgründe erfasst wurden, müssen diese Informationen von DaVinci nach Magellan abgeglichen werden. Der Übertrag erfolgt beim Abgleich des Punktes „Lehrer“.
 
 !!! info "Hinweis"
-     Bitte beachten Sie, dass Sie nur mit Kopien der DAVINCI Datei und MAGELLAN Datenbank arbeiten!
+     Bitte beachten Sie, dass Sie nur mit Kopien der DaVinci Datei und Magellan Datenbank arbeiten!
 
-## Statistikdaten aus DAVINCI exportieren
+## Statistikdaten aus DaVinci exportieren
 
-Als Schule mit Oberstufe müssen Sie aus DAVINCI statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in MAGELLAN verwendet.
-So exportieren Sie Daten aus DAVINCI:
+Als Schule mit Oberstufe müssen Sie aus DaVinci statistikrelevante Daten exportieren. Diese exportierten Daten werden dann zur eigentlichen Statistikerstellung in Magellan verwendet.
+So exportieren Sie Daten aus DaVinci:
 
 1. Wählen Sie unter `Plan > Importieren und Exportieren > Statistikdaten exportieren` aus und dann mit `Statistik Schleswig-Holstein exportieren`
 2. Geben Sie eine Exportdatei an. Klicken Sie auf `OK`.
@@ -112,7 +112,7 @@ Es kann vorkommen, dass für den aktuellen Statistikzeitraum bestimmte Besonderh
 
 #### 15.06.2020
 
-Das Amt hat fälschlicherweise einen Schlüssel aus der Tabelle "GTB" für die Ganztagsbetreuung entfernt. Dieser fehlt ggf. auch in Ihrer MAGELLAN Installation im Schlüsselverzeichnis "Betreuungsformen" und müsste, sofern dieser für Sie relevant ist, manuell nachgetragen werden:
+Das Amt hat fälschlicherweise einen Schlüssel aus der Tabelle "GTB" für die Ganztagsbetreuung entfernt. Dieser fehlt ggf. auch in Ihrer Magellan Installation im Schlüsselverzeichnis "Betreuungsformen" und müsste, sofern dieser für Sie relevant ist, manuell nachgetragen werden:
 
 Kürzel     | Schlüssel | Bezeichnung                        | Gültig von
 ---------- | --------- | ---------------------------------- | ----------
@@ -132,7 +132,7 @@ JAHR              | Jahr des Stichtages. Berechnet sich aus dem angegeben Sticht
 
 ### Schuldaten
 
-Die Leitdatei enthält Daten zur Schule. Alle Daten der Datei kommen aus MAGELLAN.
+Die Leitdatei enthält Daten zur Schule. Alle Daten der Datei kommen aus Magellan.
 
 **Spalte**        | **Beschreibung**
 ----------------- | ----------------
@@ -198,28 +198,28 @@ Datenfeld         | Mandanten > Daten 1 > Internet
 Beschreibung      | Geben Sie die Internetpräsenz der Schule ein.
 **Statistikfeld** | **SVP**
 Datenfeld         | -
-Beschreibung      | Wir geben hier fest den Wert „MAGELLAN 7“ aus
+Beschreibung      | Wir geben hier fest den Wert „Magellan 7“ aus
 **Statistikfeld** | **VERSION**
 Datenfeld         | -
-Beschreibung      | Wir geben hier die aktuell installierte MAGELLAN 7 Version (Registry Wert) aus.
+Beschreibung      | Wir geben hier die aktuell installierte Magellan 7 Version (Registry Wert) aus.
 
 ### Schüler- und Klassendaten
 
-Folgende Statistikfelder können in mehreren Statistikdateien ausgegeben werden. Die Eingabe in MAGELLAN erfolgt aber stets an der gleichen Stelle, weshalb wir hier die Felder lediglich einmal erläutern und angeben in welchen Statistikdateien diese ausgespielt werden. Einige der Daten können aus der Stundenverwaltung DAVINCI stammen. Aus diesem Grunde unterscheiden wir in der Spalte `Datenfeld` zwischen MAGELLAN: und DAVINCI: Angaben.
+Folgende Statistikfelder können in mehreren Statistikdateien ausgegeben werden. Die Eingabe in Magellan erfolgt aber stets an der gleichen Stelle, weshalb wir hier die Felder lediglich einmal erläutern und angeben in welchen Statistikdateien diese ausgespielt werden. Einige der Daten können aus der Stundenverwaltung DaVinci stammen. Aus diesem Grunde unterscheiden wir in der Spalte `Datenfeld` zwischen Magellan: und DaVinci: Angaben.
 
 **Spalte**        | **Beschreibung**  
 ----------------- | ----------------
 **Statistikfeld** | **SNR - Schülernummer**
 Statistikdateien  | SA, EA, SB, EB
-Datenfeld         | MAGELLAN: Schüler > Liste der Schüler > ID
+Datenfeld         | Magellan: Schüler > Liste der Schüler > ID
 Beschreibung      | Die ID des Schülers wird beim Anlegen des Schülers automatisch erzeugt und ist eindeutig. Sie wird beim Erstellen der Statistikdateien automatisch gesetzt.
 **Statistikfeld** | **SART - Schulart (SART)**  
 Statistikdateien  | SA, EA, FB
-Datenfeld         | MAGELLAN: Klassen > Daten > Schulart (Verzeichnisse > Schularten)
+Datenfeld         | Magellan: Klassen > Daten > Schulart (Verzeichnisse > Schularten)
 Beschreibung      | Geben Sie hier die Schulart ein.
 **Statistikfeld** | **KLNM - Name der Klasse**
 Statistikdateien  | SA, SB
-Datenfeld         | MAGELLAN: Klassen > Daten > Statistikkürzel
+Datenfeld         | Magellan: Klassen > Daten > Statistikkürzel
 Beschreibung      | Geben Sie hier das Klassenkürzel ein, so wie es in der Statistik erscheinen soll. Sie können bestimmte Klassen von der Statistik ausnehmen, indem Sie das Feld leer lassen.
 **Statistikfeld** | **KLK - Klassentyp (Klasse, Lerngruppe, Kurs)**
 Statistikdateien  | SA
@@ -227,87 +227,87 @@ Datenfeld         | <span style="color:blue">Klassen > Zeiträume > Klassenstufe
 Beschreibung      | Der Statistikwert wird entweder direkt aus der Klassenstufe gelesen, oder berechnet sich anhand der Kombination aus Klassenstufe und Jahrgang.<br>Der Jahrgang wird für  Klassenstufenübergreifende Klassen in Primarstufe (Jahrgang 1-4), Sekundarstufe I (Jahrgang 5-9) und Sekundarstufe II (Jahrgang 10-13) in Kombination mit der Klassenstufe `ÜGR` genutzt.
 **Statistikfeld** | **GS - Geschlecht**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geschlecht  
+Datenfeld         | Magellan: Schüler > Daten 1 > Geschlecht  
 Beschreibung      | Geben Sie hier das Geschlecht des Schülers ein. Kein Eintrag ergibt Schlüssel 5 = Kein Eintrag ins Geburtsregister
 **Statistikfeld** | **GBDAT - Geburtsdatum**
 Statistikdateien  | SA, EA, SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geboren am  
+Datenfeld         | Magellan: Schüler > Daten 1 > Geboren am  
 Beschreibung      | Geben Sie hier das Geburtsdatum des Schülers ein.
 **Statistikfeld** | **STAAT - Staatsangehörigkeit (STAAT)**
 Statistikdateien  | SA, EA, SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Staatsangeh. 1 (Verzeichnisse > Staatsangehörigkeiten)
+Datenfeld         | Magellan: Schüler > Daten 2 > Staatsangeh. 1 (Verzeichnisse > Staatsangehörigkeiten)
 Beschreibung      | Geben Sie hier die Nationalität des Schülers ein.
 **Statistikfeld** | **DAZ - Deutsch als Zweitsprache**
 Statistikdateien  | SA, EA
-Datenfeld         | MAGELLAN: Schüler > Statistik > Merkmal S6 (Verzeichnisse > Merkmale (Schüler) - Bereich S6)  
+Datenfeld         | Magellan: Schüler > Statistik > Merkmal S6 (Verzeichnisse > Merkmale (Schüler) - Bereich S6)  
 Beschreibung      | Geben Sie die Teilnahme am Unterricht „Deutsch als Zweitsprache“ an.<br>Keine Eingabe = Leine Teilnahme am DaZ.
 **Statistikfeld** | **GEBLAND - Geburtsland (STAAT)**
 Statistikdateien  | SA, EA, SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Geburtsland (Verzeichnisse > Staatsangehörigkeiten)
+Datenfeld         | Magellan: Schüler > Daten 1 > Geburtsland (Verzeichnisse > Staatsangehörigkeiten)
 Beschreibung      | Geben Sie hier das Geburtsland des Schülers an.
 **Statistikfeld** | **ZUZD - Jahr des Zuzugs nach Deutschland**  
 Statistikdateien  | SA, EA, SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > In Deutschland seit
+Datenfeld         | Magellan: Schüler > Daten 2 > In Deutschland seit
 Beschreibung      | Geben Sie hier das das Zuzugsdatum nach Deutschland ein.
 **Statistikfeld** | **VERKSPR - Verkehrssprache (VERKSPR)**
 Statistikdateien  | SA, EA, SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Sprachgruppe (Verzeichnisse > Sprachgruppen)
+Datenfeld         | Magellan: Schüler > Daten 2 > Sprachgruppe (Verzeichnisse > Sprachgruppen)
 Beschreibung      | Geben Sie hier die überwiegend in der Familie gesprochene Sprache ein.
 **Statistikfeld** | **KONF Konfession (KONF)**
 Statistikdateien  | SA, EA
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Konfession (Verzeichnisse > Konfessionen)
+Datenfeld         | Magellan: Schüler > Daten 1 > Konfession (Verzeichnisse > Konfessionen)
 Beschreibung      | Geben Sie hier die Konfession des Schülers ein.
 **Statistikfeld** | **GTBU - Ganztagbetrieb**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Extras > Betreuung > Ganztagbetrieb<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Gebunden<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Offen
+Datenfeld         | Magellan: Schüler > Extras > Betreuung > Ganztagbetrieb<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Gebunden<br>Schüler > Extras > Betreuung > Ganztagbetrieb > Offen
 Beschreibung      | Geben Sie hier mit dem Haken bei `Ganztagbetrieb` an, ob ein Schüler grundsätzlich am Ganztagsbetrieb teilnimmt. Wenn ja, muss ein Wert im Feld `Gebunden` oder `Offen` ausgewählt werden. Die Art der Werte ist egal. Je nachdem welches Feld gefüllt ist, wird folgender Wert ausgespielt:<br>Gebunden = 1 voll gebundene Ganztagsschule<br>Offen = 2 offene Ganztagsschule mit Genehmigung
 **Statistikfeld** | **JGSTUF - Jahrgangsstufe (JGSTUF)**
 Statistikdateien  | SA, EA, SB, EB, FB, OA
-Datenfeld         | MAGELLAN: Klassen > Zeiträume > Klassenstufe (Verzeichnisse > Klassenstufen)
+Datenfeld         | Magellan: Klassen > Zeiträume > Klassenstufe (Verzeichnisse > Klassenstufen)
 Beschreibung      | Wählen Sie hier die Klassenstufe der Klasse aus.
 **Statistikfeld** | **SCHHERK (1 von 3) - Schulische Herkunft (SCHHERK)**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Bereits besuchte Schulen > Schulform (Verzeichnisse > Schulformen)<br>Schüler > Daten 2 > Bereits besuchte Schulen > Herkunftsschule
+Datenfeld         | Magellan: Schüler > Daten 2 > Bereits besuchte Schulen > Schulform (Verzeichnisse > Schulformen)<br>Schüler > Daten 2 > Bereits besuchte Schulen > Herkunftsschule
 Beschreibung      | Geben Sie für neu an die Schule gekommene Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus.<br>Beachten Sie bitte dass die „Schulform“ eingetragen sein muss.<br>Ein Schüler wird als Neuzugang erkannt, wenn unter `Schüler > Daten 2 > Zugang > Zugang am` ein Datum erfasst wurde, dass nach dem letzten und vor dem aktuellen Statistiktermin liegt.<br>Für Schüler mit der Klassenstufe 1 (Klassen > Zeiträume > Klassenstufe) geben wir automatisch den Wert für den Schlüssel „Neuaufnahme (in die 1. Jahrgangsstufe)“ aus.
 **Statistikfeld** | **SCHHERK (2 von 3) - Schulische Herkunft (SCHHERK)**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Wiederholer (Häckchen)<br>MAGELLAN > Schüler > Laufbahn > Wiederholungsart (Verzeichnisse > Wiederholungsarten)
+Datenfeld         | Magellan: Schüler > Laufbahn > Wiederholer (Häckchen)<br>Magellan > Schüler > Laufbahn > Wiederholungsart (Verzeichnisse > Wiederholungsarten)
 Beschreibung      | Setzen Sie bitte für die Schüler im aktuellen Zeitraum das Häkchen für Wiederholer.<br>Wählen Sie im Feld Wiederholungsart einen Wert aus.
 **Statistikfeld** | **SCHHERK (3 von 3) - Schulische Herkunft (SCHHERK)**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Allgemein > Überspringer (Häckchen)
+Datenfeld         | Magellan: Schüler > Laufbahn > Allgemein > Überspringer (Häckchen)
 Beschreibung      | Setzen Sie bitte für die Schüler im aktuellen Zeitraum das Häkchen für Überspringer.
 **Statistikfeld** | **HWS - Hauptwohnsitz (GKZ)**
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Land<br>Schüler > Daten 1 > Gemeinde
+Datenfeld         | Magellan: Schüler > Daten 1 > Land<br>Schüler > Daten 1 > Gemeinde
 Statistikdateien  | SA, EA, SB, EB
 Beschreibung      | Geben Sie im Feld `Land` (das Feld vor „PLZ“) die möglichen Länderkürzel ein. Möglich sind D für Deutschland (oder leer), oder DK für Dänemark.<br>Im Feld `Gemeinde` geben Sie die Gemeindekennziffer an. Der korrekte Schlüssel wird aus diesen Angaben berechnet.
 **Statistikfeld** | **G8**
 Statistikdateien  | SA, EA
-Datenfeld         | MAGELLAN: Klassen > Daten > Schulart<br>Schüler > Daten 3 > Verschiedenes > G8/G9
+Datenfeld         | Magellan: Klassen > Daten > Schulart<br>Schüler > Daten 3 > Verschiedenes > G8/G9
 Beschreibung      | Geben Sie hier die Teilnahme des Schülers am Schulversuch G8 ein.<br>G8 = JA<br>G9 = NEIN<br>Wenn dieses Feld bei Gymnasien nicht gefüllt wird, erhalten die Schüler automatisch den Eintrag „G9“ für Nein.<br>Nur für Gymnasien, wenn Teilnahme am Schulversuch G8. Dazu prüfen wir die Schulart der Klasse, die eingetragen werden muss.
 **Statistikfeld** | **FSWP - Förderschwerpunkt (FSWP)**
 Statistikdateien  | SA, EA  
-Datenfeld         | MAGELLAN: Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Position<br>Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Förderschwerpunkt 1 (Verzeichnisse > Förderschwerpunkte)
-Beschreibung      | In MAGELLAN können Sie eine Liste der Förderungen angeben. Für die Statistik wird ein Eintrag benötigt. Es wird der Datensatz mit der niedrigsten Position und eingetragenem Förderschwerpunkt 1 ausgewählt. Stellen Sie sicher, dass sich bei mehreren Listeneinträgen, die Werten im Feld Position voneinander unterscheiden.
+Datenfeld         | Magellan: Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Position<br>Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Förderschwerpunkt 1 (Verzeichnisse > Förderschwerpunkte)
+Beschreibung      | In Magellan können Sie eine Liste der Förderungen angeben. Für die Statistik wird ein Eintrag benötigt. Es wird der Datensatz mit der niedrigsten Position und eingetragenem Förderschwerpunkt 1 ausgewählt. Stellen Sie sicher, dass sich bei mehreren Listeneinträgen, die Werten im Feld Position voneinander unterscheiden.
 **Statistikfeld** | **IFÖZ - Zuständiges Förderzentrum (IFÖZ)**  
 Statistikdateien  | SA, SB
-Datenfeld         | MAGELLAN: Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Förderzentrum (Schulen)
+Datenfeld         | Magellan: Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Förderzentrum (Schulen)
 Beschreibung      | Geben Sie hier das zuständige Förderzentrum an.
 **Statistikfeld** | **JERST - Jahr der Ersteinschulung**  
 Statistikdateien  | SA, EA
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Grundschuleintritt
+Datenfeld         | Magellan: Schüler > Daten 2 > Grundschuleintritt
 Beschreibung      | Geben Sie hier das Datum der Ersteinschulung ein. Wichtig ist lediglich das Jahr.
 **Statistikfeld** | **FACH01-20**<br>**KURS (FACH/KURS)**
 Statistikdateien  | SA, FB
-Datenfeld         | MAGELLAN: Schüler > Zeugnis > Fächer > Fach (Verzeichnisse > Fächer)
+Datenfeld         | Magellan: Schüler > Zeugnis > Fächer > Fach (Verzeichnisse > Fächer)
 Beschreibung      | Geben Sie die Fächer des Schülers ein.
 **Statistikfeld** | **UART01-20 - Unterrichtsart (UART)**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN: Schüler > Zeugnis > Fächer > Fach (Verzeichnisse > Fächer)<br>Schüler > Zeugnis > Fächer > Unterrichtsart (Verzeichnisse > Unterrichtsarten)<br>Schüler > Zeugnis > Fächer > Fachstatus (Verzeichnisse > Fachstati)
+Datenfeld         | Magellan: Schüler > Zeugnis > Fächer > Fach (Verzeichnisse > Fächer)<br>Schüler > Zeugnis > Fächer > Unterrichtsart (Verzeichnisse > Unterrichtsarten)<br>Schüler > Zeugnis > Fächer > Fachstatus (Verzeichnisse > Fachstati)
 Beschreibung      | Geben Sie die Fächer des Schülers ein.<br>Für die Statistik werden einige besondere Fächer mit deren Fachstatus und der Schüleranzahl erfasst.<br><br>Unterrichtsfach ABS:<br>Fremdsprache, Fach wg. Nichtteilnahme am Religionsunterricht und Wahlpflichtfächer.<br><br>Aufgrund bereits erfasster Unterrichtsarten für Zeugnisse und Abiturskript werden die verwendeten Schlüssel der Unterrichtsarten, teilweise auch der Fachstatus, in statistische Schlüssel wie nachstehend beschrieben übergeben (kein Eintrag ergibt `P`):<br/><br>**Unterrichtsarten** <br/>(Kürzel und Schlüssel) =  (Bedeutung):<br/>---<br/>AG = F (Freiwilliger Unterricht (AGs))<br>BL = P (Besondere Lernleistung - Pflicht)<br>FOE = U (Förderunterricht)<br>KF = K (Kernfach)<br>PF - P (Pflicht)<br>PeF - P (Pflicht)<br>WPU = W (Wahlpflichtunterricht/angebot)<br>E = K (Fach mit erhöhtem Anforderungsniveau/Kernfach)<br>P = G (Profilgebend)<br>E = H (Kernfach, erhöhtes Niveau)<br/><br/>**Fachstatus**<br/>(Kürzel und Schlüssel) =  (Bedeutung):<br/>---<br/>WahlPF = W (Wahlpflichtangebot)<br>Freiw = F (Freiwilliger Unterricht)<br/>Wahlb = A (Wahlfach aus Kontingentstundentafel)<br/><br/><br/>**Fachstatus oder Unterrichtsart**<br/>(Kürzel und Schlüssel) =  (Bedeutung):<br/>---<br/>M = M (Kernfach, grundlegendes Niveau)<br/>O = O (Online-Kurs).|
 **Statistikfeld** | **USPR01-20 - Unterrichtssprache (FACH)**
 Statistikdateien  | SA
-Datenfeld         | MAGELLAN:Schüler > Zeugnis > Fächer > Sprache (Verzeichnisse Kurssprachen)
+Datenfeld         | Magellan:Schüler > Zeugnis > Fächer > Sprache (Verzeichnisse Kurssprachen)
 Beschreibung      | Geben Sie die mündl. und schriftl. Unterrichtssprache für ein genehmigtes bilinguales Bildungsangebot für fremdsprachlichen Fachunterricht ein.
 **Statistikfeld** | **KSNM01-20 - Kursname**
 Statistikdateien  | SA
@@ -316,62 +316,62 @@ Beschreibung      | Dieser Wert setzt sich aus den Feldern:<br>FachKuerzel<br>Fa
 **Statistikfeld** | **STD01-20STD - WochenStunden**
 Statistikdateien  | SA, FB
 Datenfeld         | -
-Beschreibung      | Anzahl der Wochen-Ist-Stunden (pro Fach) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird. Dieser Statistikwert wird aus der Exportdatei [D6, Klassenist] berechnet. Voraussetzung dafür sind identische Einträge in MAGELLAN und DAVINC.<br>Bitte überprüfen Sie in MAGELLAN und DAVINCI:<br>- die Fachkürzel und Fachschlüssel<br>- das Kürzel der verwendeten Unterrichtsart (muss gefüllt sein!)<br>- das Klassenkürzel und die KlassenID
+Beschreibung      | Anzahl der Wochen-Ist-Stunden (pro Fach) ergibt sich aus der Unterrichtstafel, die von DaVinci zur Verfügung gestellt wird. Dieser Statistikwert wird aus der Exportdatei [D6, Klassenist] berechnet. Voraussetzung dafür sind identische Einträge in Magellan und DAVINC.<br>Bitte überprüfen Sie in Magellan und DaVinci:<br>- die Fachkürzel und Fachschlüssel<br>- das Kürzel der verwendeten Unterrichtsart (muss gefüllt sein!)<br>- das Klassenkürzel und die KlassenID
 **Statistikfeld** | **MASS - Bildungsgang (MASS)**
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Klassen > Daten > Bildungsgang (Verzeichnisse > Bildungsgänge)
+Datenfeld         | Magellan: Klassen > Daten > Bildungsgang (Verzeichnisse > Bildungsgänge)
 Beschreibung      | Geben Sie hier die Maßnahme/Bildungsgang ein.
 **Statistikfeld** | **UFBL - Organisationsform (UFBL)**
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Klassen > Daten > Organisation (Verzeichnisse > Organisationen)
+Datenfeld         | Magellan: Klassen > Daten > Organisation (Verzeichnisse > Organisationen)
 Beschreibung      | Geben Sie hier Unterrichtsform/Blockunterricht ein.
 **Statistikfeld** | **NSCH - Nichtschüler**  
 Statistikdateien  | EA, EB
-Datenfeld         | MAGELLAN: Schüler > Statistik > Merkmal S1 (Verzeichnisse > Merkmale (Schüler) - Bereich S1)
+Datenfeld         | Magellan: Schüler > Statistik > Merkmal S1 (Verzeichnisse > Merkmale (Schüler) - Bereich S1)
 Beschreibung      | Geben Sie hier ein, ob der Schüler ein Nichtschüler ist.<br>Kein Eintrag bedeutet „Nein“.
 **Statistikfeld** | **ABSF - Abgebende Schulform (ABSF)**
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Bereits besuchte Schulen > Schulform (Verzeichnisse > Schulformen (Herkunft))<br>Schüler > Daten 2 > Herkunftsschule  
+Datenfeld         | Magellan: Schüler > Daten 2 > Bereits besuchte Schulen > Schulform (Verzeichnisse > Schulformen (Herkunft))<br>Schüler > Daten 2 > Herkunftsschule  
 Beschreibung      | Geben Sie für den Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus. Beachten Sie bitte, dass die „Schulform“ eingetragen sein muss.
 **Statistikfeld** | **LKLST - Letzte Jahrgangsstufe (JGSTUF)**  
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Bereits besuchte Schulen > Letzte Klassenstufe (Verzeichnisse > Klassenstufen)<br>Schüler > Daten 2 > Herkunftsschule
+Datenfeld         | Magellan: Schüler > Daten 2 > Bereits besuchte Schulen > Letzte Klassenstufe (Verzeichnisse > Klassenstufen)<br>Schüler > Daten 2 > Herkunftsschule
 Beschreibung      | Geben Sie für den Schüler die zuletzt besuchte Schule ein und wählen Sie diese im Feld „Herkunftsschule“ aus. Beachten Sie bitte, dass die „Letzte Klassenstufe“ eingetragen sein muss.
 **Statistikfeld** | **AABS - Letzter Abschluss ABS**  
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss (Verzeichnisse > Abschlüsse (Extern))
+Datenfeld         | Magellan: Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss (Verzeichnisse > Abschlüsse (Extern))
 Beschreibung      | Geben Sie hier den höchsten erreichten Abschluss an einer Allgemeinbildenden Schule ein.
 **Statistikfeld** | **LABS - Letzter Abschluss BBS**
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss (Verzeichnisse > Abschlüsse (Extern))
+Datenfeld         | Magellan: Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss (Verzeichnisse > Abschlüsse (Extern))
 Beschreibung      | Geben Sie hier den höchsten erreichten berufsbezogenen Abschluss ein.
 **Statistikfeld** | **WIEDH - Wiederholer**
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Allgemein > Wiederholer<br> Schüler > Laufbahn > Allgemein > Wiederholungsart
+Datenfeld         | Magellan: Schüler > Laufbahn > Allgemein > Wiederholer<br> Schüler > Laufbahn > Allgemein > Wiederholungsart
 Beschreibung      | Haken Sie das Feld „Wiederholer“ an, wenn der Schüler ein Wiederholer ist. **2022/22-NEU: Geben Sie eine "Freiwillige Wiederholung aufgrund der Coronapandemie" in der Wiederholungsart an.
 **Statistikfeld** | **ZUSKURS - Zusatzkurs (ZUSKURS)**
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Schüler > Statistik > Merkmal S2 (Verzeichnisse > Merkmale (Schüler) - Bereich S2)
+Datenfeld         | Magellan: Schüler > Statistik > Merkmal S2 (Verzeichnisse > Merkmale (Schüler) - Bereich S2)
 Beschreibung      | Geben Sie an, ob der Schüler Zusatzkurse für weitere Abschlüsse absolviert.
 **Statistikfeld** | **BFKLBS - Bezirksfachklasse / Landesberufsschule**
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Klasse > Merkmale > Merkmal S3 (Verzeichnisse > Merkmale (Klasse) - Bereich S3)<br>Schueler > Statistik > Merkmal S3 (Verzeichnisse > Merkmale (Schüler) - Bereich S3)
+Datenfeld         | Magellan: Klasse > Merkmale > Merkmal S3 (Verzeichnisse > Merkmale (Klasse) - Bereich S3)<br>Schueler > Statistik > Merkmal S3 (Verzeichnisse > Merkmale (Schüler) - Bereich S3)
 Beschreibung      | Geben Sie an, ob sich der Schüler oder alle/viele Schüler der Klasse in einer Bezirksfach- oder Landesklasse befinden. Die Angabe beim Schülermerkmal hat vorrang zur Angabe des Klassenmerkmals, wenn beide eingetragen wurden.
 **Statistikfeld** | **ENTL -Endgültiges verlassen des allgemeinbildenden Schulsystems**
 Statistikdateien  | EA
-Datenfeld         | MAGELLAN: Schüler > Statistik > Merkmal S4 (Verzeichnisse > Merkmale (Schüler) - Bereich S4)
+Datenfeld         | Magellan: Schüler > Statistik > Merkmal S4 (Verzeichnisse > Merkmale (Schüler) - Bereich S4)
 Beschreibung      | Tragen Sie hier bitte für Abgänger ein, ob der Schüler das allgemeinbildende Schulsystem verlässt oder nicht. Achtung: Wenn der Schüler in einer Klasse < Jahrgang 9 ist, geben wir automatisch den Wert für „Nein, Schüler verbleibt im allgemeinbildenden Schulsystem“ aus. Abiturienten mit Abschluss hingegen erhalten automatisch den Wert "Ja, Schüler verlässt das allgemeinbildende Schulsystem".
 **Statistikfeld** | **ABSCHL - Abschluss (ABSCHL)**
 Statistikdateien  | EA, EB
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Abschluss > Abschluss 1 Abschluss (Verzeichnisse > Abschlüsse (Intern))
+Datenfeld         | Magellan: Schüler > Laufbahn > Abschluss > Abschluss 1 Abschluss (Verzeichnisse > Abschlüsse (Intern))
 Beschreibung      | Der Statistikwert errechnet sich anhand des Eintrags im Feld „Abschluss 1“ aus dem vorangegangenen Schuljahr. Hinweis: Für alle Abgänger (inaktive Schüler mit Abgangsdatum zwischen dem aktuellen und dem vergangenen Statistiktermin unter `Daten 2 > AbgangAm`), die noch nicht die Schulpflicht erfüllt haben, wird automatisch der Schlüssel für „ohne Abschluss“ in die Statistikdatei übernommen. Schulbesuchsjahre werden am aktuellen Datum und dem Grundschuleintritt errechnet.
 **Statistikfeld** | **ABSCHLBS - neu erworbeneder berufsbezogener Abschluss (ABSCHLBS)**
 Statistikdateien  | EB
-Datenfeld         | MAGELLAN: Schüler > Laufbahn > Abschluss 2 > Abschlussart (Verzeichnisse > Abschlussarten)
+Datenfeld         | Magellan: Schüler > Laufbahn > Abschluss 2 > Abschlussart (Verzeichnisse > Abschlussarten)
 Beschreibung      | Geben Sie hier den Erfolg des Bildungsgangs ein.
 **Statistikfeld** | **ABINOTE - Abiturnote**
 Statistikdateien  | EA, EB
-Datenfeld         | MAGELLAN: Schüler > Abschluss > Abschluss 1 > Abschlussnote
+Datenfeld         | Magellan: Schüler > Abschluss > Abschluss 1 > Abschlussnote
 Beschreibung      | Geben Sie bei bestandenem Abitur hier die Abiturnote mit genau einer Nachkommastelle ein. Nutzer des Abiturmoduls müssen hier keinen Eintrag machen, wenn im Abiturmodul eine Abiturnote vorhanden ist.
 **Statistikfeld** | **INSG - Anzahl der Schüler**
 Statistikdateien  | FB
@@ -383,7 +383,7 @@ Datenfeld         | -
 Beschreibung      | Anzahl der weiblichen Schüler bestimmter Fächer, siehe UART.Statistikwert wird berechnet.
 **Statistikfeld** | **PROFIL**
 Statistikdateien  | OB
-Datenfeld         | MAGELLAN: Schueler > Daten 3 > ProfilSchueler > Zeugnis > Faecher > Unterrichtsart  
+Datenfeld         | Magellan: Schueler > Daten 3 > ProfilSchueler > Zeugnis > Faecher > Unterrichtsart  
 Beschreibung      | Tragen Sie das Profil des Schülers ein. Anhand der Eingabe und des gewählten 3. Prüfungsfach berechnet sich beim entsprechenden Fach der Profilschlüssel.
 **Statistikfeld** | **SCHINSG - Anzahl der Schüler**
 Statistikdateien  | OB
@@ -395,36 +395,36 @@ Datenfeld         | -
 Beschreibung      | Anzahl der weiblichen Schüler (pro Kurs).Statistikwert wird berechnet.  
 **Statistikfeld** | **SCHANDS - Anzahl Schüler anderer Schulen**
 Statistikdateien  | FB, OB
-Datenfeld         | MAGELLAN: Schüler > Statistik > Merkmal T3
+Datenfeld         | Magellan: Schüler > Statistik > Merkmal T3
 Beschreibung      | Geben Sie im Feld „Merkmal T3“ ein „J“ ein, wenn der Schüler einer anderen Schule den Unterricht besucht. Es wird die Anzahl der Schüler (pro Kurs), die von einer anderen Schule kommen automatisch berechnet.
 **Statistikfeld** | **SCHSTD - WochenStunden**
 Statistikdateien  | SB
 Datenfeld         | -
-Beschreibung      | Anzahl der Wochen-Ist-Stunden (pro Schüler) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird. Statistikwert wird berechnet.
+Beschreibung      | Anzahl der Wochen-Ist-Stunden (pro Schüler) ergibt sich aus der Unterrichtstafel, die von DaVinci zur Verfügung gestellt wird. Statistikwert wird berechnet.
 **Statistikfeld** | **WOSTD - WochenStunden**
 Statistikdateien  | OB
 Datenfeld         | -
-Beschreibung      | Anzahl der Wochen-Ist-Stunden (pro Kurs) ergibt sich aus der Unterrichtstafel, die von DAVINCI zur Verfügung gestellt wird. Statistikwert wird berechnet.
+Beschreibung      | Anzahl der Wochen-Ist-Stunden (pro Kurs) ergibt sich aus der Unterrichtstafel, die von DaVinci zur Verfügung gestellt wird. Statistikwert wird berechnet.
 **Statistikfeld** | **BERUF - Ausbildungsberuf (BERUF)**
 Statistikdateien  | SB, EB
-Datenfeld         | MAGELLAN: Schüler > Ausbildung > Beruf (Verzeichnisse > Berufe)
+Datenfeld         | Magellan: Schüler > Ausbildung > Beruf (Verzeichnisse > Berufe)
 Beschreibung      | Geben Sie hier den Ausbildungsberuf des Schülers ein.
 **Statistikfeld** | **UMSCH - Umschulung**
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Daten 2 > Umschulung > Umschulung (Verzeichnisse > Umschulungsmerkmale)
+Datenfeld         | Magellan: Schüler > Daten 2 > Umschulung > Umschulung (Verzeichnisse > Umschulungsmerkmale)
 Beschreibung      | Bitte erfassen Sie, ob der Schüler ein Umschüler ist.
 **Statistikfeld** | **ABSKREIS - Ausbildungsstätte in Kreis**
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Gemeinde
+Datenfeld         | Magellan: Schüler > Daten 1 > Gemeinde
 Beschreibung      | Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein. Der Statistikwert wird automatisch daraus errechnet.
 **Statistikfeld** | **ABSLAND - Ausbildungsstätte in Bundesland**
 Statistikdateien  | SB
-Datenfeld         | MAGELLAN: Schüler > Daten 1 > Gemeinde
+Datenfeld         | Magellan: Schüler > Daten 1 > Gemeinde
 Beschreibung      | Geben Sie im Feld „Gemeinde“, die Wohngemeinde des Schülers ein. Der Statistikwert wird automatisch daraus errechnet.
 
 ### Lehrerdaten
 
-Einige der Daten können aus der Stundenverwaltung DAVINCI stammen. Aus diesem Grunde unterscheiden wir in der Spalte `Datenfeld` zwischen MAGELLAN: und DAVINCI: Angaben.
+Einige der Daten können aus der Stundenverwaltung DaVinci stammen. Aus diesem Grunde unterscheiden wir in der Spalte `Datenfeld` zwischen Magellan: und DaVinci: Angaben.
 
 **Spalte**        | **Beschreibung**  
 ----------------- | ----------------
@@ -432,79 +432,79 @@ Einige der Daten können aus der Stundenverwaltung DAVINCI stammen. Aus diesem G
 Datenfeld         |Mandanten > Daten 1 > Schulnummer.
 Beschreibung      |Geben Sie die vom Land vergebene Schulnummer an.
 **Statistikfeld** | **LENR Lehrernummer**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 2 > StatistikNr.
+Datenfeld         | Magellan: Lehrer > Daten 2 > StatistikNr.
 Beschreibung      | Geben Sie hier die 7 stellige Statistik Nr. ein.
 **Statistikfeld** | **ZUGANG Neuzugang**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Zugang am
+Datenfeld         | Magellan: Lehrer > Daten 2 > Zugang am
 Beschreibung      | Geben Sie hier das Datum des Zugangs des Lehrer an Ihre Schule an. Ein Lehrer wird als Neuzugang erkannt, wenn unter Lehrer > Daten 2 > Zugang am ein Datum erfasst wurde, dass nach dem letzten und vor dem aktuellen Statistiktermin liegt.
 **Statistikfeld** | **NAME Familienname**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Nachname
+Datenfeld         | Magellan: Lehrer > Daten 1 > Nachname
 Beschreibung      | Geben Sie hier den Nachnamen des Lehrers ein.
 **Statistikfeld** | **VNAME Vorname**  
-Datenfeld         |  MAGELLAN: Lehrer > Daten 1 > Vorname
+Datenfeld         |  Magellan: Lehrer > Daten 1 > Vorname
 Beschreibung      | Geben Sie hier den Vornamen des Lehrers ein.
 **Statistikfeld** | **GNAME Geburtsname**  
-Datenfeld         |  MAGELLAN: Lehrer > Daten 1 > Geburtsname
+Datenfeld         |  Magellan: Lehrer > Daten 1 > Geburtsname
 Beschreibung      | Geben Sie hier den Geburtsnamen des Lehrers ein.
 **Statistikfeld** | **GS Geschlecht**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Geschlecht
+Datenfeld         | Magellan: Lehrer > Daten 1 > Geschlecht
 Beschreibung      | Wählen Sie hier das Geschlecht des Lehrers aus. Schlüssel 5 = Kein Eintrag ins Geburtsregister
 **Statistikfeld** | **GGBDAT Geburtsdatum**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Geboren am
+Datenfeld         | Magellan: Lehrer > Daten 1 > Geboren am
 Beschreibung      | Geben Sie hier das Geburtsdatum des Lehrers ein.
 **Statistikfeld** | **STAAT Staatsangehörigkeit**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 1 > Staatsangeh. 1 (Verzeichnisse > Staatsangehörigkeiten)
+Datenfeld         | Magellan: Lehrer > Daten 1 > Staatsangeh. 1 (Verzeichnisse > Staatsangehörigkeiten)
 Beschreibung      | Geben Sie hier die Nationalität des Lehrers ein.
 **Statistikfeld** | **BSCHU Beschäftigungsumfang**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Beschäftigungsverhältnis (Verzeichnisse > Beschäftigungsverhältnis)
+Datenfeld         | Magellan: Lehrer > Daten 2 > Beschäftigungsverhältnis (Verzeichnisse > Beschäftigungsverhältnis)
 Beschreibung      |  Geben Sie hier das Beschäftigungsverhältnis des Lehrers ein.
 **Statistikfeld** | **BGRZ Grund Zugang**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Zugangsart(Verzeichnisse > Zugangsarten (Lehrer))
+Datenfeld         | Magellan: Lehrer > Daten 2 > Zugangsart(Verzeichnisse > Zugangsarten (Lehrer))
 Beschreibung      | Geben Sie hier die Zugangsart des Lehrers ein.
 **Statistikfeld** | **BGRA Grund Abgang**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 2 > Abgangsart (Verzeichnisse > Abgangsarten (Lehrer))
+Datenfeld         | Magellan: Lehrer > Daten 2 > Abgangsart (Verzeichnisse > Abgangsarten (Lehrer))
 Beschreibung      | Geben Sie hier die Abgangsart des Lehrers ein.
 **Statistikfeld** | **DIST Dienstverhältnis**  
-Datenfeld         |  MAGELLAN: Lehrer > Daten 2 > Dienstverhältnis (Verzeichnisse > Dienstverhältnisse)
+Datenfeld         |  Magellan: Lehrer > Daten 2 > Dienstverhältnis (Verzeichnisse > Dienstverhältnisse)
 Beschreibung      |  Geben Sie hier das Dienstverhältnis des Lehrers ein.
 **Statistikfeld** | **LAUFB Lehrerlaufbahn**  
-Datenfeld         |  MAGELLAN: Lehrer > Daten 3 > Lehramt Typ Lehramt
+Datenfeld         |  Magellan: Lehrer > Daten 3 > Lehramt Typ Lehramt
 Beschreibung      | Wählen Sie hier den Lehramtstyp des Lehrers aus.
 **Statistikfeld** | **LEBF1-4 Lehrbefähigung 1-4**  
-Datenfeld         | MAGELLAN: Lehrer > Daten 3 > Lehramt Typ Lehrbefähigung
+Datenfeld         | Magellan: Lehrer > Daten 3 > Lehramt Typ Lehrbefähigung
 Beschreibung      | Wählen Sie hier die Lehrbefähigung des Lehrers aus.
 **Statistikfeld** | **SOLL Regelstundenmaß**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | Geben Sie die Sollstunden für jeden Lehrer in seiner Soll-Berechnung an.
 **Statistikfeld** | **MEHR genehmigte Mehrarbeit**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | Geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **SABBAT Sabbatjahrt**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **ALTERTZ Altersteilzeit**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **STG1 Grund1-6 - Ausgl. + Erm.Stunden**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **STS1-6 Stunden1-6 - Ausgl. + Erm.Stunden**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **UEBSTD Überstunden**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **UNTSTD Unterstunden**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **IST erteilte Stunden insgesamt**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **MASS1-15 Einrichtung/Maßnahme1-15**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 **Statistikfeld** | **ISS1-15 erteilte Stunden SA1 - SA15**  
-Datenfeld         | DAVINCI: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
+Datenfeld         | DaVinci: Stammdaten > Lehrer > Zeitkonto > Schlüssel[Lehrer-Soll-Schluessel]Stunden
 Beschreibung      | geben Sie die Mehr- oder Minderstunden für jeden Lehrer in seiner Soll-Berechnung
 
 ### Weggefallene Statistikangaben

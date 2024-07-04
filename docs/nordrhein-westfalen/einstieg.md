@@ -2,27 +2,27 @@
 
 Das Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen fordert mehrmals im Jahr eine statistische Erhebung von den Schulen.
 Zur Erstellung der Statistik wird das Programm ASDPC des Schulministerium benötigt. ASDPC verfügt über eine Importschnittstelle zum Einlesen von Daten aus Schulverwaltungsprogrammen.
-Mit der `Schnittstelle zu ASDPC`, die über unser Schnittstellen-Modul lizensiert wird, können Sie die benötigten Schnittstellendateien direkt aus MAGELLAN und DAVINCI erzeugen.
+Mit der `Schnittstelle zu ASDPC`, die über unser Schnittstellen-Modul lizensiert wird, können Sie die benötigten Schnittstellendateien direkt aus Magellan und DaVinci erzeugen.
 
 ## Lizenz
 
-Bitte beachten Sie, wir haben unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der MAGELLAN Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den MAGELLAN Support- und Softwarepflegevertrag ersetzen.
-**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von MAGELLAN verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
+Bitte beachten Sie, wir haben unser Angebot von der jährlich angebotenen Lizenz (bisher veröffentlicht "LANDESSTATISTIK") auf einen Nutzungsvertrag um. Dieser Vertrag beinhaltet die Nutzung, Pflege, Weiterentwicklung und den Support der Magellan Schnittstelle zu verschiedenen Anbietern. Bitte beachten Sie, dass diese Nutzungsverträge nicht den Magellan Support- und Softwarepflegevertrag ersetzen.
+**Die jährlich neue Lizenz kann mit der jeweils neuesten Ausgabe von Magellan verwendet werden, wir weisen darauf per Newsletter hin. Wenn Sie einen Nutzungsvertrag abgeschlossen haben, senden wir Ihnen die neue Lizenz und weitere Informationen per Mail zu.**
 
 !!! info "Hinweis"
 
-    Eine DAVINCI-Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, da diese Stundenplandaten enthalten. Jede Datei kann einzeln erzeugt werden, somit benötigen Sie z.B. kein DAVINCI wenn Sie lediglich die SIM.TXT oder die ABI.TXT erzeugen möchten.
+    Eine DaVinci-Lizenz wird nur für die EXTERN.DAT und die LEHRER.TXT benötigt, da diese Stundenplandaten enthalten. Jede Datei kann einzeln erzeugt werden, somit benötigen Sie z.B. kein DaVinci wenn Sie lediglich die SIM.TXT oder die ABI.TXT erzeugen möchten.
 
 ## Einführung
 
-Die Schnittstellendateien werden anhand der erfassten Daten in MAGELLAN und DAVINCI erstellt. Hier erhalten Sie eine Übersicht über die Schnittstellendateien:
+Die Schnittstellendateien werden anhand der erfassten Daten in Magellan und DaVinci erstellt. Hier erhalten Sie eine Übersicht über die Schnittstellendateien:
 
 Dateiname  | Abkürzung | Kapitel                           | Inhalt
 ---------- | --------- | --------------------------------- | ------
-SIM.TXT    | SIM       | [SIM.TXT](schuelerdaten.md)       | Nur MAGELLAN-Daten
-LEHRER.TXT | LEHRER    | [LEHRER.TXT](lehrerdaten.md)      | MAGELLAN-Daten und aus DAVINCI der „Allgemeine Statistikexport“
-ABI.TXT    | ABI       | [ABI.TXT](abiturdaten.md)         | Nur MAGELLAN-Daten
-EXTERN.DAT | EXTERN    | [EXTERN.DAT](stundenplandaten.md) | Nur DAVINCI-Daten aus dem Export für „ASDPC/EXTERN.DAT“
+SIM.TXT    | SIM       | [SIM.TXT](schuelerdaten.md)       | Nur Magellan-Daten
+LEHRER.TXT | LEHRER    | [LEHRER.TXT](lehrerdaten.md)      | Magellan-Daten und aus DaVinci der „Allgemeine Statistikexport“
+ABI.TXT    | ABI       | [ABI.TXT](abiturdaten.md)         | Nur Magellan-Daten
+EXTERN.DAT | EXTERN    | [EXTERN.DAT](stundenplandaten.md) | Nur DaVinci-Daten aus dem Export für „ASDPC/EXTERN.DAT“
 
 !!! warning "Wichtig"
 
@@ -31,7 +31,7 @@ EXTERN.DAT | EXTERN    | [EXTERN.DAT](stundenplandaten.md) | Nur DAVINCI-Daten a
 
 ### Zeitraumbedingte Daten
 
-Viele Schüler- und Klassendaten in MAGELLAN werden zeitraumbezogen pro Schulhalbjahr abgelegt. Je nach Statistkdatei und Datensatz müssen die Daten entsprechend der Vorgaben aus der Schnittstelle aus den unterschiedlichen Halbjahren ausgelesen und ausgewertet werden.
+Viele Schüler- und Klassendaten in Magellan werden zeitraumbezogen pro Schulhalbjahr abgelegt. Je nach Statistkdatei und Datensatz müssen die Daten entsprechend der Vorgaben aus der Schnittstelle aus den unterschiedlichen Halbjahren ausgelesen und ausgewertet werden.
 
 Dateiname  | Ausgelesene Halbjahre
 ---------- | ---------------------
@@ -57,40 +57,40 @@ Verlinkte Schritte werden in den jeweiligen Kapiteln beschrieben. Klicken Sie da
 
 ## 2. Dateneingabe
 
-Sie erhalten eine Übersicht der Felder in den Dateien und wie diese in MAGELLAN bzw. DAVINCI einzupflegen sind.
+Sie erhalten eine Übersicht der Felder in den Dateien und wie diese in Magellan bzw. DaVinci einzupflegen sind.
 Jede Schnittstellendatei wird in einem einzelnen Kapitel behandelt, die Links zu den Kapiteln finden Sie in der obersten Tabelle in der Spalte "Kapitel".
 
 ### Voraussetzungen für alle Daten
 
-Damit die Dateien korrekt erstellt und gefüllt werden können, müssen in MAGELLAN bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
+Damit die Dateien korrekt erstellt und gefüllt werden können, müssen in Magellan bestimmte Datenfelder immer gefüllt werden. Ist einer der Felder nicht gefüllt erhalten Sie entsprechende Meldungen und der Export wird nicht durchgeführt.
 
-| Datei | Datenfeld in MAGELLAN/DAVINCI | Beschreibung
+| Datei | Datenfeld in Magellan/DaVinci | Beschreibung
 | ----- | ----------------------------- | ------------
-| ALLE  | MAGELLAN: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule. <br/>Bei Berufskollegs = BK. <br/>**NEU:**<br/>MAGELLAN benötigt jeweils die Hauptschulform, für die Ihre Statistik gelten soll. Diese Schulform sollte als erste erscheinen. MAGELLAN beinhaltet die Möglichkeit die Mandanten-Schulformen anhand des neuen Feldes "Position", diese komfortabel für Sie einzustellen.
-| ALLE  | MAGELLAN: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
-|ALLE| `MAGELLAN > Klassen > Daten > Statistikkürzel`| Bitte übernehmen Sie in dieses Feld bitte den Eintrag aus dem Feld Kürzel. Für die Statistik werden nur Schüler berücksichtigt, die in einer Klasse sind, die diesen Eintrag hat. Bitte kontrollieren Sie, dass auch für die Klassen der vorangegangenen relevanten Zeiträume dieser Wert gefüllt ist.
+| ALLE  | Magellan: `Mandanten > Daten 2 > Schulformen` | Hauptschulform Ihrer Schule. <br/>Bei Berufskollegs = BK. <br/>**NEU:**<br/>Magellan benötigt jeweils die Hauptschulform, für die Ihre Statistik gelten soll. Diese Schulform sollte als erste erscheinen. Magellan beinhaltet die Möglichkeit die Mandanten-Schulformen anhand des neuen Feldes "Position", diese komfortabel für Sie einzustellen.
+| ALLE  | Magellan: `Mandanten > Daten 1 > Schulnummer` | Die Schulnummer Ihrer Schule.
+|ALLE| `Magellan > Klassen > Daten > Statistikkürzel`| Bitte übernehmen Sie in dieses Feld bitte den Eintrag aus dem Feld Kürzel. Für die Statistik werden nur Schüler berücksichtigt, die in einer Klasse sind, die diesen Eintrag hat. Bitte kontrollieren Sie, dass auch für die Klassen der vorangegangenen relevanten Zeiträume dieser Wert gefüllt ist.
 
 ## 4. Daten erstellen
 
 !!! info "Hinweis"
-     Bitte achten Sie darauf, dass Sie für das Erstellen der Daten in MAGELLAN den aktuellsten Zeitraum geöffnet haben.
+     Bitte achten Sie darauf, dass Sie für das Erstellen der Daten in Magellan den aktuellsten Zeitraum geöffnet haben.
 
 Die Daten erstellen Sie wie folgt:
 
 1. Klicken Sie im Menü Extras auf `Exporte > Export`.
-2. Wenn Sie im MAGELLAN Adminstrator Ihr Bundesland `Nordrhein-Westfalen` hinterlegt haben, steht Ihnen bei der Auswahl der Exportschnittstelle `Landesstatistik Nordrhein-Westfalen` zur Auswahl.
+2. Wenn Sie im Magellan Adminstrator Ihr Bundesland `Nordrhein-Westfalen` hinterlegt haben, steht Ihnen bei der Auswahl der Exportschnittstelle `Landesstatistik Nordrhein-Westfalen` zur Auswahl.
 3. Unter Exportdateien wählen Sie die zu erzeugenden Exportdateien aus.
 4. Unter Export-Zeiträume stellen Sie den aktuellen Zeitraum ein und die beiden vorangegangenen Halbjahre. Diese sollten bereits nach oben vorsortiert sein.
-5. Wenn Sie die LEHRER.TXT für den Export ausgewählt haben, müssen Sie hier Ihre DAVINCI Exportdatei hinterlegen.
+5. Wenn Sie die LEHRER.TXT für den Export ausgewählt haben, müssen Sie hier Ihre DaVinci Exportdatei hinterlegen.
 6. Klicken Sie auf `Weiter`, um fortzufahren.
 
 ### Besonderheiten
 
 #### 2021/2022
 
-Mit MAGELLAN Version 8.0.13 werden keine Datensätze `Bildungsgang abgeschlossen` mehr ausgespielt. Bildungsgangwechsler werden als `Neuzugang an gleicher Schule` erkannt und es werden zusätzliche VO- und LS- Felder gefüllt. ASDPC erkennt den veränderten Bildungsgang und damit den Bildungsgangwechsel.
+Mit Magellan Version 8.0.13 werden keine Datensätze `Bildungsgang abgeschlossen` mehr ausgespielt. Bildungsgangwechsler werden als `Neuzugang an gleicher Schule` erkannt und es werden zusätzliche VO- und LS- Felder gefüllt. ASDPC erkennt den veränderten Bildungsgang und damit den Bildungsgangwechsel.
 
 #### 2020/2021
 
-`Schüler > Daten 1 > Geschlecht` - Ab diesem Jahr möchte das Statistikamt zwei zusätzliche Merkmale zum Geschlecht, sofern diese auftreten. Wie im letzten Jahr bereits berücksichtigt, da MAGELLAN dies schon umgesetzt hatte, den Schlüssel 5 = DIVERS und ab diesem Jahr neu Schlüssel 6 = Nicht eingetragen (im Geburtenregister).
-Divers ist als Geschlecht in MAGELLAN auswählbar. Schlüssel 6 wird automatisch erzeugt, wenn kein Geschlecht angegeben wurde.
+`Schüler > Daten 1 > Geschlecht` - Ab diesem Jahr möchte das Statistikamt zwei zusätzliche Merkmale zum Geschlecht, sofern diese auftreten. Wie im letzten Jahr bereits berücksichtigt, da Magellan dies schon umgesetzt hatte, den Schlüssel 5 = DIVERS und ab diesem Jahr neu Schlüssel 6 = Nicht eingetragen (im Geburtenregister).
+Divers ist als Geschlecht in Magellan auswählbar. Schlüssel 6 wird automatisch erzeugt, wenn kein Geschlecht angegeben wurde.

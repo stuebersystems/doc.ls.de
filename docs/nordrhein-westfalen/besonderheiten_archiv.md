@@ -63,13 +63,13 @@ Bitte ändern Sie folgende Schlüssel manuell um, da das Statistikamt die Bedeut
 
 Der 2. Förderschwerpunkt wurde in der Vergangenheit mangels passender Felder im Feld „Behinderung“ abgefragt. Dies ändert sich dieses Jahr. Sie müssen den 2. Förderschwerpunkt im neuen Feld „Schwerpunkt 2“ eintragen.
 
-Wenn Sie bereits eingetragenen Werte im Feld „Behinderung“ haben, führen Sie bitte im MAGELLAN-Administrator den Punkt  `Datenbankpflege > Datenbank überprüfen >  NRW: Förderschwerpunkte umkopieren` aus. Dieser kopiert den Wert aus „Behinderung“ nach „Schwerpunkt 2“ und entfernt den Wert dann aus „Behinderung“.
+Wenn Sie bereits eingetragenen Werte im Feld „Behinderung“ haben, führen Sie bitte im Magellan-Administrator den Punkt  `Datenbankpflege > Datenbank überprüfen >  NRW: Förderschwerpunkte umkopieren` aus. Dieser kopiert den Wert aus „Behinderung“ nach „Schwerpunkt 2“ und entfernt den Wert dann aus „Behinderung“.
 
 Achten Sie bitte darauf, dass dieser Vorgang erst nach dem Import der Schlüsselverzeichnisse durchgeführt werden darf.
 
 ## 2014/2015
 
-Die Abiturstatistik enthielt noch einige Ungereimtheiten die korrigiert wurden. Es müssen für dieses Jahr entweder das zusätzliche Schlüsselverzeichnis „Abschlussarten“ importiert werden, oder die drei Werte werden manuell in MAGELLAN nachgetragen. Die fehlenden Schlüssel lauten wie folgt:
+Die Abiturstatistik enthielt noch einige Ungereimtheiten die korrigiert wurden. Es müssen für dieses Jahr entweder das zusätzliche Schlüsselverzeichnis „Abschlussarten“ importiert werden, oder die drei Werte werden manuell in Magellan nachgetragen. Die fehlenden Schlüssel lauten wie folgt:
 
 ### 00_Abschlussarten
 

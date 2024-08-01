@@ -27,9 +27,9 @@ Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche vo
  XXX_DATOS_JJJJMMTT.TXT | OS     | -             | BBS       | Die Oberstufendatei enthält Daten zu den Kursen in der Oberstufe.
 
 !!! info "Hinweis"
-    Die Angabe `XXX` steht für die Schulnummer der Schule und `JJJJMMTT` für das Erstellungsdatum z.B. 20220904.
+    Die Angabe `XXX` steht für die Schulnummer der Schule und `JJJJMMTT` für das Erstellungsdatum z.B. 20240904.
 
-    Ist beispielsweise die Lehrerdatei am 05.09.2022 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20220905.TXT.
+    Ist beispielsweise die Lehrerdatei am 05.09.2024 von der Schule 12345 erstellt worden, so erhält sie den Dateinamen 12345_LE_20240905.TXT.
 
 Wie Sie diese Dateien an das Statistikamt versenden, wird Ihnen direkt durch das Statistikamt mitgeteilt.
 

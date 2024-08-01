@@ -33,8 +33,8 @@ Hier erhalten Sie eine Übersicht über die Schnittstellendateien, und welche vo
 
 Dateiname   | Abkürzung | Unterstützt | Kapitel                                                | Lizenz | Inhalt
 ----------- | --------- | ----------- | ------------------------------------------------------ | ------ | ------
-KLIMP.TXT   | KLIMP     | X           | [Datenpflege zum Export der KLIMP.TXT](https://doc.ls.stueber.de/niedersachsen/klimp/))   | 2024   | Daten der Klassen
-RELIMP.TXT* | RELIMP    | X           | [Datenpflege zum Export der RELIMP.XML](https://doc.ls.stueber.de/niedersachsen/relimp/) | 2024  | Religionsunterricht (Lerngruppen und Stunden), Informationen über die eingerichteten Lerngruppen und die erteilten Stunden Religionsunterricht bzw. Unterricht Werte und Normen
+KLIMP.TXT   | KLIMP     | X           | [Datenpflege zum Export der KLIMP.TXT](https://doc.ls.stueber.de/niedersachsen/klimp/))   | 2025   | Daten der Klassen
+RELIMP.TXT* | RELIMP    | X           | [Datenpflege zum Export der RELIMP.XML](https://doc.ls.stueber.de/niedersachsen/relimp/) | 2025 | Religionsunterricht (Lerngruppen und Stunden), Informationen über die eingerichteten Lerngruppen und die erteilten Stunden Religionsunterricht bzw. Unterricht Werte und Normen
 SEK2IMP     | SEK2IMP   | -           | -                                                      | -      | Daten der gymnasialen Oberstufe
 LVIMP       | LVIMP     | -           | -                                                      | -      | Informationen über die Unterrichtseinsätze der Lehrkräfte. Die Erfahrungen der Schulen bei den letzten Erhebungen haben gezeigt, dass es günstiger ist, das Lehrkräfteverzeichnis vollständig in izn-Stabil zu bearbeiten.
 

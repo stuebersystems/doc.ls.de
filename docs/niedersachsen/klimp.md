@@ -133,7 +133,7 @@ Titel            | Inhalt
 ---------------- | ------
 **Feld**         | **1-3 - ZJG = Konstante**
 **Beschreibung** | Ausgabe des festen Wertes "ZJG"
-- | **Ergänzung zu Wechsel auf andere Schulformen seit dem letzten Stichtag:**
+- |**Ergänzung zu Wechsel auf andere Schulformen seit dem letzten Stichtag:**
 **Feld**         | **4-7 - Abgänge auf OBS**
 **Beschreibung** | `Schüler > Daten 2 > Abgang > Abgangsart`, `Schüler > Daten 2 > Abgang > Abgang am`<br>Geben Sie die Abgangsart und das Datum des Abgangs von der Schule an. Es werden enstprechend die Schüler zusammengezählt und ausgegeben.
 **Feld**         | **8-11 - Zugänge von OBS**

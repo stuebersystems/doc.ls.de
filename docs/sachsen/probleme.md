@@ -4,13 +4,20 @@
 
 ### Allgemein
 
-Die Schüler-GUIDSs in Magellan, gehören nicht nur zum Schüler, sondern sollen den Schüler und seine Ausbildung kennzeichnen. Wechselt ein Schüler den Ausbildungsgang, soll eine neue GUID für den Schüler und seine Ausbildung erzeugt werden.
-Durch ein zwischenzeitlich behobenes Problem konnten in der Vergangenheit GUIDs mehrfach vergeben worden sein.
-Die in der Schülerauswahlliste einblendbaren GUIDs haben hiermit nichts zu tun, die relevanten GUIDs sieht man auf der Ausbildungskarte, wenn Sie in der Verbindung die Region auf Sachsen stellen.
+In Magellan werden zwei GUIDs für Schüler verwaltet:
+
+* **Schüler-GUID**, sichtbar in der Auswahlliste - **keine Relevanz für SaxSVS**
+* **Schüler-Ausbildung-GUID**, sichtbar auf der Ausbildungskarte wenn die Region Sachsen für die Verbindung gewählt wurde - **relevant für SaxSVS**
+
+Die Schüler-Ausbildung-GUIDs in Magellan, gehören nicht nur zum Schüler, sondern sollen den Schüler und seine Ausbildung kennzeichnen. Wechselt ein Schüler den Ausbildungsgang, soll eine neue GUID für den Schüler und seine Ausbildung erzeugt werden.
 
 ### Dopplungen?
 
-Welche und ob Datensätze es sind, kann man durch folgenden Bericht, der alle GUIDs zeigt, mehrfach auftauchenden GUIDs zusätzlich kennzeichnet. Wenn Sie den Bericht aufrufen, dauert es einen Moment die Daten entsprechend zu gruppieren. In der Vorschau können Sie durch die Seiten blättern, steht nur eine 1 am Ende, ist die Zeile unauffällig. Werden mehr als eine Schülerausbildung zur GUID gefunden, werden die Schüler und ihre Klasse ausgegeben.
+Durch ein zwischenzeitlich behobenes Problem konnten in der Vergangenheit GUIDs mehrfach vergeben worden sein.
+Die in der Schülerauswahlliste einblendbaren GUIDs haben hiermit nichts zu tun, die relevanten GUIDs sieht man auf der Ausbildungskarte, wenn Sie in der Verbindung die Region auf Sachsen stellen.
+Welche Datensätze es sind, kann man durch folgenden Bericht, der alle GUIDs zeigt, mehrfach auftauchenden GUIDs zusätzlich kennzeichnet. 
+Wenn Sie den Bericht aufrufen, dauert es einen Moment die Daten entsprechend zu gruppieren. In der Vorschau können Sie durch die Seiten blättern, steht nur eine 1 am Ende, ist die Zeile unauffällig. 
+Werden mehr als eine Schülerausbildung zur GUID gefunden, werden die Schüler und ihre Klasse ausgegeben.
 Den Bericht `Mandant (Prüfung der Schüler des aktuellen Halbjahres auf doppelte AusbildungsGUID).rpt` finden Sie im Menü `
 Mandanten`. Die Anleitung für diesen Bericht lesen Sie bitte [hier]([hier](https://doc.la.stueber.de/berichte/mandanten/Mandant%20%28Pr%C3%BCfung%20der%20Sch%C3%BCler%20des%20aktuellen%20Halbjahres%20auf%20doppelte%20AusbildungsGUID%29/)) nach.
 

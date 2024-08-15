@@ -9,7 +9,7 @@
 Beim Import wird eine zweistufige Prüfung durchgeführt.
 
 Stufe 1:
-Es wird geprüft, ob sich bereits ein Schüler mit gleicher GUID in Magellan befindet. Wenn dies der Fall ist, wird dieser Schüler  nicht erneut importiert.
+Es wird geprüft, ob sich bereits ein Schüler mit gleicher GUID in Magellan befindet. Wenn dies der Fall ist, wird dieser Schüler nicht erneut importiert.
 
 Stufe 2:
 Es wird zusätzlich geprüft, ob sich der zu importierende Schüler bereits in Magellan befindet, es aber keine Übereinstimmung mit der GUID gibt.
@@ -21,7 +21,10 @@ Dieser Fall wird anhand folgender Felder geprüft:
 * Geburtsdatum (muss identisch sein)
 * IDIntern (muss leer sein)
 
-Wird ein Schüler als bereits in Magellan vorhanden erkannt, wird er importiert, erhält aber zusätzlich einen Eintrag im Feld IDIntern mit der ID des gefundenen Stammschülers. Dieser Schüler wird anschließend genau wie ein Nebenschüler behandelt, wird er im selben Zeitraum wie der Stammschüler eingeschult, ergeben sich zwei Schüler, die über die IDIntern verbunden sind, damit gleiche Stammdaten haben. Wird der Nebenschüler in einem anderen Halbjahr eingeschult, als der Stammschüler gefunden wurde, werden Neben- und Stammschüler zusammengeführt.
+Wird ein Schüler als bereits in Magellan vorhanden erkannt, wird er importiert, erhält aber zusätzlich einen Eintrag im Feld IDIntern mit der ID des gefundenen Stammschülers. 
+Dieser Schüler wird anschließend genau wie ein Nebenschüler behandelt, wird er im selben Zeitraum wie der Stammschüler eingeschult, ergeben sich zwei Schüler, die über die IDIntern verbunden sind, damit gleiche Stammdaten haben, die eingelesene Ausbildung mit der neuen GUID wird als aktueller Ausbildungsdatensatz angelegt. 
+Wird der Nebenschüler in einem anderen Halbjahr eingeschult, als der Stammschüler gefunden wurde, werden Neben- und Stammschüler zusammengeführt, die eingelesene Ausbildung mit der neuen GUID wird als aktueller Ausbildungsdatensatz angelegt..
+
 
 !!! warning "Wichtig"
 

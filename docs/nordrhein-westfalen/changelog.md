@@ -6,6 +6,13 @@ Hier finden Sie die jeweils aktuellste Version zur ASDPC-Schnittstelle **inklusi
 
 Sollte die aktuelle Schnittstelle bereits in einem Serviceupdate veröffentlicht sein, dann zeigt der Link des Schnittstellenpakets auf unsere Downloadseite.
 
+### Änderung 2024-11-19
+
+* CHANGE: Ab Magellan 11.0.11 => Für Bildungsgänge, die mit `A12` beginnen, werden die nachfolgenden Felder nicht automatisch von uns vorbesetzt, sondern mit dem Wert, der im Feld `Laufbahn > Versetzungsart` gewählt wurde, gefüllt.
+  * Neuzugang
+  * Neuzugang an gleicher Schule
+
+
 ### Schnittstellenpaket - 08.09.2022
 
 [Downloadlink](https://my.hidrive.com/share/neqlm8tqnv)

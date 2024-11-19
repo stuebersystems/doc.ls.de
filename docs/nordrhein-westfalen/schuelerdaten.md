@@ -64,6 +64,10 @@ Nach dem Auslesen der Daten wird der Typus auf **Neuzugang** gesetzt und dann we
 
 An Berufsschulen wird in der Regel anders als an Allgemeinbildenden Schulen nicht zwischen den Jahrgangsstufen (1. Ausbildungsjahr, 2. Ausbildungsjahr usw.) versetzt, sondern es wird fortgeschrieben. Aus diesem Grund setzen wir den Wert `Versetzung` künstlich auf den Wert `0` (=versetzt). Eine Ausnahme bildet die Situation, dass der Schüler "Neuzugänger an gleicher Schule" (siehe Status-Berechung im vorstehenden Abschnitt) ist, in diesem Fall wird der Wert für `Versetzt` nicht gesetzt. 
 
+**Ausnahme:** Für Bildungsgänge, die mit `A12` beginnen, werden die nachfolgenden Felder nicht automatisch von uns vorbesetzt, sondern mit dem Wert, der im Feld `Laufbahn > Versetzungsart` gewählt wurde, gefüllt.
+  * Neuzugang
+  * Neuzugang an gleicher Schule
+
 ## Dateneingabe
 
 ***Erläuterung:*** In der nachfolgenden Tabelle finden Sie alle Schnittstellenfeder der SIM.TXT. Entsprechend der Schnittstellenbeschreibung, Ihrer Rückmeldungen und Erfahrungen der letzten Jahre werden nicht alle Felder immer gefüllt. Ob ein Feld gefüllt wird, hängt vom erkannten Schülertyp und der Haupt-Schulform Ihrer Schule ab. Es gibt Felder die lediglich für Berufskollegs oder z.B. nur für Gymnasien zu füllen sind und wiederum andere, die nur gefüllt werden, wenn es ich um den Schülertyp "Neuzugang" oder "Neuzugang an gleicher Schule" handelt.
